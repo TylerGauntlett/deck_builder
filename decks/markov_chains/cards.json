@@ -1,0 +1,4522 @@
+{
+  "deck": "markov_chains",
+  "source": "base.txt",
+  "stats": {
+    "cards": 100,
+    "distinct": 91,
+    "lands": 35,
+    "avg_mana_value_nonland": 2.85,
+    "type_counts": {
+      "Creature": 38,
+      "Land": 35,
+      "Instant": 10,
+      "Artifact": 8,
+      "Enchantment": 4,
+      "Sorcery": 4,
+      "Planeswalker": 1
+    },
+    "color_pips": {
+      "B": 63,
+      "W": 15,
+      "R": 5
+    },
+    "game_changers": [
+      "Teferi's Protection"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Akroma's Will",
+      "asked_as": "Akroma's Will",
+      "qty": 1,
+      "mana_cost": "{3}{W}",
+      "cmc": 4.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Akroma's Will",
+          "mana_cost": "{3}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Creatures you control gain flying, vigilance, and double strike until end of turn.\n• Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 189,
+      "price_usd": "14.62",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
+      "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
+    },
+    {
+      "name": "Anguished Unmaking",
+      "asked_as": "Anguished Unmaking",
+      "qty": 1,
+      "mana_cost": "{1}{W}{B}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Anguished Unmaking",
+          "mana_cost": "{1}{W}{B}",
+          "type_line": "Instant",
+          "oracle_text": "Exile target nonland permanent. You lose 3 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 156,
+      "price_usd": "1.48",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/293/anguished-unmaking?utm_source=api",
+      "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117"
+    },
+    {
+      "name": "Anowon, the Ruin Sage",
+      "asked_as": "Anowon, the Ruin Sage",
+      "qty": 1,
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "type_line": "Legendary Creature — Vampire Shaman",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "4",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Anowon, the Ruin Sage",
+          "mana_cost": "{3}{B}{B}",
+          "type_line": "Legendary Creature — Vampire Shaman",
+          "oracle_text": "At the beginning of your upkeep, each player sacrifices a non-Vampire creature of their choice.",
+          "power": "4",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "voc",
+      "set_name": "Crimson Vow Commander",
+      "released_at": "2021-11-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5143,
+      "price_usd": "2.66",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/voc/118/anowon-the-ruin-sage?utm_source=api",
+      "oracle_id": "0c201f79-9eca-48c8-88ba-a20fa6918a07"
+    },
+    {
+      "name": "Arcane Signet",
+      "asked_as": "Arcane Signet",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Arcane Signet",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3,
+      "price_usd": "0.53",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/191/arcane-signet?utm_source=api",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
+    },
+    {
+      "name": "Baron Bertram Graywater",
+      "asked_as": "Baron Bertram Graywater",
+      "qty": 1,
+      "mana_cost": "{2}{W}{B}",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Vampire Noble",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "3",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Baron Bertram Graywater",
+          "mana_cost": "{2}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Noble",
+          "oracle_text": "Whenever one or more tokens you control enter, create a 1/1 black Vampire Rogue creature token with lifelink. This ability triggers only once each turn.\n{1}{B}, Sacrifice another creature or artifact: Draw a card.",
+          "power": "3",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "otj",
+      "set_name": "Outlaws of Thunder Junction",
+      "released_at": "2024-04-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4345,
+      "price_usd": "0.34",
+      "all_parts": [
+        {
+          "name": "Vampire Rogue",
+          "component": "token",
+          "type_line": "Token Creature — Vampire Rogue"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/otj/195/baron-bertram-graywater?utm_source=api",
+      "oracle_id": "e25b516c-bf95-42bc-8b1e-04617a3d28df"
+    },
+    {
+      "name": "Bastion of Remembrance",
+      "asked_as": "Bastion of Remembrance",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bastion of Remembrance",
+          "mana_cost": "{2}{B}",
+          "type_line": "Enchantment",
+          "oracle_text": "When this enchantment enters, create a 1/1 white Human Soldier creature token.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "tle",
+      "set_name": "Avatar: The Last Airbender Eternal",
+      "released_at": "2025-11-21",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 333,
+      "price_usd": "0.35",
+      "all_parts": [
+        {
+          "name": "Human Soldier",
+          "component": "token",
+          "type_line": "Token Creature — Human Soldier"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/tle/160/bastion-of-remembrance?utm_source=api",
+      "oracle_id": "c7f33cea-2ec8-4081-9208-a5b1d86721b3"
+    },
+    {
+      "name": "Battlefield Forge",
+      "asked_as": "Battlefield Forge",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "C",
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Battlefield Forge",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 121,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/362/battlefield-forge?utm_source=api",
+      "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa"
+    },
+    {
+      "name": "Blade of the Bloodchief",
+      "asked_as": "Blade of the Bloodchief",
+      "qty": 1,
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "type_line": "Artifact — Equipment",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [
+        "Equip"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Blade of the Bloodchief",
+          "mana_cost": "{1}",
+          "type_line": "Artifact — Equipment",
+          "oracle_text": "Whenever a creature dies, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead.\nEquip {1}",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2444,
+      "price_usd": "7.61",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/300/blade-of-the-bloodchief?utm_source=api",
+      "oracle_id": "8985e545-07c3-45f9-9058-fe3c1f50de04"
+    },
+    {
+      "name": "Blood Artist",
+      "asked_as": "Blood Artist",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "0",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Blood Artist",
+          "mana_cost": "{1}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
+          "power": "0",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 138,
+      "price_usd": "3.85",
+      "all_parts": [
+        {
+          "name": "A-Blood Artist",
+          "component": "combo_piece",
+          "type_line": "Creature — Vampire"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/soc/209/blood-artist?utm_source=api",
+      "oracle_id": "310f141c-7f37-4729-aed6-dd9c09db448d"
+    },
+    {
+      "name": "Blood Crypt",
+      "asked_as": "Blood Crypt",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land — Swamp Mountain",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Blood Crypt",
+          "mana_cost": "",
+          "type_line": "Land — Swamp Mountain",
+          "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 68,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/278/blood-crypt?utm_source=api",
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633"
+    },
+    {
+      "name": "Bloodghast",
+      "asked_as": "Bloodghast",
+      "qty": 1,
+      "mana_cost": "{B}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire Spirit",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Landfall"
+      ],
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodghast",
+          "mana_cost": "{B}{B}",
+          "type_line": "Creature — Vampire Spirit",
+          "oracle_text": "This creature can't block.\nThis creature has haste as long as an opponent has 10 or less life.\nLandfall — Whenever a land you control enters, you may return this card from your graveyard to the battlefield.",
+          "power": "2",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1039,
+      "price_usd": "0.80",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/210/bloodghast?utm_source=api",
+      "oracle_id": "e97f9c2b-b41e-4f36-9245-77c0ac125647"
+    },
+    {
+      "name": "Bloodletter of Aclazotz",
+      "asked_as": "Bloodletter of Aclazotz",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}{B}",
+      "cmc": 4.0,
+      "type_line": "Creature — Vampire Demon",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodletter of Aclazotz",
+          "mana_cost": "{1}{B}{B}{B}",
+          "type_line": "Creature — Vampire Demon",
+          "oracle_text": "Flying\nIf an opponent would lose life during your turn, they lose twice that much life instead. (Damage causes loss of life.)",
+          "power": "2",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "lci",
+      "set_name": "The Lost Caverns of Ixalan",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 853,
+      "price_usd": "35.58",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lci/92/bloodletter-of-aclazotz?utm_source=api",
+      "oracle_id": "469956a2-7cd4-4695-b8f4-c841526f160d"
+    },
+    {
+      "name": "Bloodline Keeper // Lord of Lineage",
+      "asked_as": "Bloodline Keeper / Lord of Lineage",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 4.0,
+      "type_line": "Creature — Vampire // Creature — Vampire",
+      "layout": "transform",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Transform"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodline Keeper",
+          "mana_cost": "{2}{B}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Flying\n{T}: Create a 2/2 black Vampire creature token with flying.\n{B}: Transform this creature. Activate only if you control five or more Vampires.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        },
+        {
+          "name": "Lord of Lineage",
+          "mana_cost": "",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Flying\nOther Vampire creatures you control get +2/+2.\n{T}: Create a 2/2 black Vampire creature token with flying.",
+          "power": "5",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2532,
+      "price_usd": "8.18",
+      "all_parts": [
+        {
+          "name": "Vampire",
+          "component": "token",
+          "type_line": "Token Creature — Vampire"
+        },
+        {
+          "name": "Innistrad Checklist",
+          "component": "combo_piece",
+          "type_line": "Card"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/inr/98/bloodline-keeper-lord-of-lineage?utm_source=api",
+      "oracle_id": "434e82b5-abd4-41ac-a5b1-2dd01c667374"
+    },
+    {
+      "name": "Bloodthirsty Conqueror",
+      "asked_as": "Bloodthirsty Conqueror",
+      "qty": 1,
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "type_line": "Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Deathtouch",
+        "Flying"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodthirsty Conqueror",
+          "mana_cost": "{3}{B}{B}",
+          "type_line": "Creature — Vampire Knight",
+          "oracle_text": "Flying, deathtouch\nWhenever an opponent loses life, you gain that much life. (Damage causes loss of life.)",
+          "power": "5",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 865,
+      "price_usd": "38.09",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/58/bloodthirsty-conqueror?utm_source=api",
+      "oracle_id": "fd505c02-c59e-476d-8e88-35da862ddc23"
+    },
+    {
+      "name": "Bloodthrone Vampire",
+      "asked_as": "Bloodthrone Vampire",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodthrone Vampire",
+          "mana_cost": "{1}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Sacrifice a creature: This creature gets +2/+2 until end of turn.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "ddp",
+      "set_name": "Duel Decks: Zendikar vs. Eldrazi",
+      "released_at": "2015-08-28",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 8634,
+      "price_usd": "0.14",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
+      "oracle_id": "aa76cc50-5be0-4844-b3a4-fb33fca3cdd3"
+    },
+    {
+      "name": "Bojuka Bog",
+      "asked_as": "Bojuka Bog",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bojuka Bog",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 24,
+      "price_usd": "1.75",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/363/bojuka-bog?utm_source=api",
+      "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce"
+    },
+    {
+      "name": "Canyon Slough",
+      "asked_as": "Canyon Slough",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land — Swamp Mountain",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "R"
+      ],
+      "keywords": [
+        "Cycling"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Canyon Slough",
+          "mana_cost": "",
+          "type_line": "Land — Swamp Mountain",
+          "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 684,
+      "price_usd": "0.23",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/228/canyon-slough?utm_source=api",
+      "oracle_id": "2031b17c-0536-446f-a9aa-b46fe79b7ea7"
+    },
+    {
+      "name": "Captivating Vampire",
+      "asked_as": "Captivating Vampire",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Captivating Vampire",
+          "mana_cost": "{1}{B}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Other Vampire creatures you control get +1/+1.\nTap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2484,
+      "price_usd": "3.32",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/100/captivating-vampire?utm_source=api",
+      "oracle_id": "acd382ee-94fb-4a29-b14e-c2a3c6dde7e0"
+    },
+    {
+      "name": "Carrion Feeder",
+      "asked_as": "Carrion Feeder",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Zombie",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Carrion Feeder",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Zombie",
+          "oracle_text": "This creature can't block.\nSacrifice a creature: Put a +1/+1 counter on this creature.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "mh1",
+      "set_name": "Modern Horizons",
+      "released_at": "2019-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 614,
+      "price_usd": "4.58",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh1/81/carrion-feeder?utm_source=api",
+      "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425"
+    },
+    {
+      "name": "Caves of Koilos",
+      "asked_as": "Caves of Koilos",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "C",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Caves of Koilos",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 125,
+      "price_usd": "0.76",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/365/caves-of-koilos?utm_source=api",
+      "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80"
+    },
+    {
+      "name": "Charismatic Conqueror",
+      "asked_as": "Charismatic Conqueror",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire Soldier",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Vigilance"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Charismatic Conqueror",
+          "mana_cost": "{1}{W}",
+          "type_line": "Creature — Vampire Soldier",
+          "oracle_text": "Vigilance\nWhenever an artifact or creature an opponent controls enters untapped, they may tap that permanent. If they don't, you create a 1/1 white Vampire creature token with lifelink.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1044,
+      "price_usd": "23.84",
+      "all_parts": [
+        {
+          "name": "Vampire",
+          "component": "token",
+          "type_line": "Token Creature — Vampire"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lcc/70/charismatic-conqueror?utm_source=api",
+      "oracle_id": "3dcc35f3-74dc-46a8-8aa9-3411189f0547"
+    },
+    {
+      "name": "Clavileño, First of the Blessed",
+      "asked_as": "Clavileño, First of the Blessed",
+      "qty": 1,
+      "mana_cost": "{1}{W}{B}",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature — Vampire Cleric",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Clavileño, First of the Blessed",
+          "mana_cost": "{1}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Cleric",
+          "oracle_text": "Whenever you attack, target attacking Vampire that isn't a Demon becomes a Demon in addition to its other types. It gains \"When this creature dies, draw a card and create a tapped 4/3 white and black Vampire Demon creature token with flying.\"",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3513,
+      "price_usd": "0.75",
+      "all_parts": [
+        {
+          "name": "Vampire Demon",
+          "component": "token",
+          "type_line": "Token Creature — Vampire Demon"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lcc/2/clavile%C3%B1o-first-of-the-blessed?utm_source=api",
+      "oracle_id": "2b62a716-7831-4c76-8f2d-b99b04e33350"
+    },
+    {
+      "name": "Clever Concealment",
+      "asked_as": "Clever Concealment",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Convoke"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Clever Concealment",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nAny number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 582,
+      "price_usd": "4.70",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
+      "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
+    },
+    {
+      "name": "Clifftop Retreat",
+      "asked_as": "Clifftop Retreat",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Clifftop Retreat",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 81,
+      "price_usd": "0.32",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/231/clifftop-retreat?utm_source=api",
+      "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18"
+    },
+    {
+      "name": "Command Tower",
+      "asked_as": "Command Tower",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Command Tower",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2,
+      "price_usd": "0.33",
+      "all_parts": [
+        {
+          "name": "Tower Winder",
+          "component": "combo_piece",
+          "type_line": "Creature — Snake"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/msc/233/command-tower?utm_source=api",
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25"
+    },
+    {
+      "name": "Cordial Vampire",
+      "asked_as": "Cordial Vampire",
+      "qty": 1,
+      "mana_cost": "{B}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Cordial Vampire",
+          "mana_cost": "{B}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Whenever this creature or another creature dies, put a +1/+1 counter on each Vampire you control.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1859,
+      "price_usd": "1.92",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/189/cordial-vampire?utm_source=api",
+      "oracle_id": "d61fb9e8-d05a-481a-a90f-5def300c9abb"
+    },
+    {
+      "name": "Cruel Celebrant",
+      "asked_as": "Cruel Celebrant",
+      "qty": 1,
+      "mana_cost": "{W}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Cruel Celebrant",
+          "mana_cost": "{W}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Whenever this creature or another creature or planeswalker you control dies, each opponent loses 1 life and you gain 1 life.",
+          "power": "1",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 949,
+      "price_usd": "1.65",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/267/cruel-celebrant?utm_source=api",
+      "oracle_id": "3ee78cfc-0e9e-4737-a7e2-b42f94228040"
+    },
+    {
+      "name": "Dark Ritual",
+      "asked_as": "Dark Ritual",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Dark Ritual",
+          "mana_cost": "{B}",
+          "type_line": "Instant",
+          "oracle_text": "Add {B}{B}{B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 33,
+      "price_usd": "6.00",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api",
+      "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b"
+    },
+    {
+      "name": "Dragonskull Summit",
+      "asked_as": "Dragonskull Summit",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Dragonskull Summit",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 84,
+      "price_usd": "0.43",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/238/dragonskull-summit?utm_source=api",
+      "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0"
+    },
+    {
+      "name": "Edgar Markov",
+      "asked_as": "Edgar Markov",
+      "qty": 1,
+      "mana_cost": "{3}{R}{W}{B}",
+      "cmc": 6.0,
+      "type_line": "Legendary Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "R",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "First strike",
+        "Haste",
+        "Eminence"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Edgar Markov",
+          "mana_cost": "{3}{R}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Knight",
+          "oracle_text": "Eminence — Whenever you cast another Vampire spell, if Edgar is in the command zone or on the battlefield, create a 1/1 black Vampire creature token.\nFirst strike, haste\nWhenever Edgar attacks, put a +1/+1 counter on each Vampire you control.",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "R",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3147,
+      "price_usd": "42.28",
+      "all_parts": [
+        {
+          "name": "Vampire",
+          "component": "token",
+          "type_line": "Token Creature — Vampire"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/inr/234/edgar-markov?utm_source=api",
+      "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a"
+    },
+    {
+      "name": "Edgar, Charmed Groom // Edgar Markov's Coffin",
+      "asked_as": "Edgar, Charmed Groom / Edgar Markov's Coffin",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Vampire Noble // Legendary Artifact",
+      "layout": "transform",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Transform"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Edgar, Charmed Groom",
+          "mana_cost": "{2}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Noble",
+          "oracle_text": "Other Vampires you control get +1/+1.\nWhen Edgar dies, return it to the battlefield transformed under its owner's control.",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        },
+        {
+          "name": "Edgar Markov's Coffin",
+          "mana_cost": "",
+          "type_line": "Legendary Artifact",
+          "oracle_text": "At the beginning of your upkeep, create a 1/1 white and black Vampire creature token with lifelink and put a bloodline counter on Edgar Markov's Coffin. Then if there are three or more bloodline counters on it, remove those counters and transform it.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "vow",
+      "set_name": "Innistrad: Crimson Vow",
+      "released_at": "2021-11-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3569,
+      "price_usd": "3.71",
+      "all_parts": [
+        {
+          "name": "Vampire",
+          "component": "token",
+          "type_line": "Token Creature — Vampire"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/vow/236/edgar-charmed-groom-edgar-markovs-coffin?utm_source=api",
+      "oracle_id": "96cb97ca-4ce0-4d33-86fb-4db4ce1956be"
+    },
+    {
+      "name": "Elenda, the Dusk Rose",
+      "asked_as": "Elenda, the Dusk Rose",
+      "qty": 1,
+      "mana_cost": "{2}{W}{B}",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Lifelink"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Elenda, the Dusk Rose",
+          "mana_cost": "{2}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Knight",
+          "oracle_text": "Lifelink\nWhenever another creature dies, put a +1/+1 counter on Elenda.\nWhen Elenda dies, create X 1/1 white Vampire creature tokens with lifelink, where X is Elenda's power.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1248,
+      "price_usd": "5.75",
+      "all_parts": [
+        {
+          "name": "Vampire",
+          "component": "token",
+          "type_line": "Token Creature — Vampire"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lcc/268/elenda-the-dusk-rose?utm_source=api",
+      "oracle_id": "ce35f262-b93f-4409-8b33-26a7ed7abac8"
+    },
+    {
+      "name": "Exotic Orchard",
+      "asked_as": "Exotic Orchard",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Exotic Orchard",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "mbc",
+      "set_name": "Mystery Booster Commander Edition",
+      "released_at": "2026-11-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 9,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mbc/79/exotic-orchard?utm_source=api",
+      "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e"
+    },
+    {
+      "name": "Feed the Swarm",
+      "asked_as": "Feed the Swarm",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Feed the Swarm",
+          "mana_cost": "{1}{B}",
+          "type_line": "Sorcery",
+          "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "tle",
+      "set_name": "Avatar: The Last Airbender Eternal",
+      "released_at": "2025-11-21",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 89,
+      "price_usd": "0.18",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tle/257/feed-the-swarm?utm_source=api",
+      "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed"
+    },
+    {
+      "name": "Fetid Heath",
+      "asked_as": "Fetid Heath",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "C",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Fetid Heath",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 339,
+      "price_usd": "0.40",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/372/fetid-heath?utm_source=api",
+      "oracle_id": "42bf259d-4bb9-49c3-b4ec-223dca62f4d6"
+    },
+    {
+      "name": "Florian, Voldaren Scion",
+      "asked_as": "Florian, Voldaren Scion",
+      "qty": 1,
+      "mana_cost": "{1}{B}{R}",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature — Vampire Noble",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "First strike"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Florian, Voldaren Scion",
+          "mana_cost": "{1}{B}{R}",
+          "type_line": "Legendary Creature — Vampire Noble",
+          "oracle_text": "First strike\nAt the beginning of each of your postcombat main phases, look at the top X cards of your library, where X is the total amount of life your opponents lost this turn. Exile one of those cards and put the rest on the bottom of your library in a random order. You may play the exiled card this turn.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "R"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3510,
+      "price_usd": "0.36",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/217/florian-voldaren-scion?utm_source=api",
+      "oracle_id": "d74a2cbf-4d13-401d-9b3f-bfbde4942afd"
+    },
+    {
+      "name": "Forerunner of the Legion",
+      "asked_as": "Forerunner of the Legion",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Forerunner of the Legion",
+          "mana_cost": "{2}{W}",
+          "type_line": "Creature — Vampire Knight",
+          "oracle_text": "When this creature enters, you may search your library for a Vampire card, reveal it, then shuffle and put that card on top.\nWhenever another Vampire you control enters, target creature gets +1/+1 until end of turn.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "rix",
+      "set_name": "Rivals of Ixalan",
+      "released_at": "2018-01-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 6037,
+      "price_usd": "1.34",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
+      "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
+    },
+    {
+      "name": "Godless Shrine",
+      "asked_as": "Godless Shrine",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land — Plains Swamp",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Godless Shrine",
+          "mana_cost": "",
+          "type_line": "Land — Plains Swamp",
+          "oracle_text": "({T}: Add {W} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 61,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/285/godless-shrine?utm_source=api",
+      "oracle_id": "73864fcc-1bde-4bc0-831e-2b93e546e417"
+    },
+    {
+      "name": "Grave Pact",
+      "asked_as": "Grave Pact",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}{B}",
+      "cmc": 4.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Grave Pact",
+          "mana_cost": "{1}{B}{B}{B}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 579,
+      "price_usd": "32.27",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/165/grave-pact?utm_source=api",
+      "oracle_id": "6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2"
+    },
+    {
+      "name": "Haunted Ridge",
+      "asked_as": "Haunted Ridge",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Haunted Ridge",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 280,
+      "price_usd": "8.41",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/280/haunted-ridge?utm_source=api",
+      "oracle_id": "e2a37967-4212-4553-9f77-bcb613405807"
+    },
+    {
+      "name": "Henrika Domnathi // Henrika, Infernal Seer",
+      "asked_as": "Henrika Domnathi / Henrika, Infernal Seer",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Vampire // Legendary Creature — Vampire",
+      "layout": "transform",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Deathtouch",
+        "Flying",
+        "Lifelink",
+        "Transform"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Henrika Domnathi",
+          "mana_cost": "{2}{B}{B}",
+          "type_line": "Legendary Creature — Vampire",
+          "oracle_text": "Flying\nAt the beginning of combat on your turn, choose one that hasn't been chosen —\n• Each player sacrifices a creature of their choice.\n• You draw a card and you lose 1 life.\n• Transform Henrika.",
+          "power": "1",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        },
+        {
+          "name": "Henrika, Infernal Seer",
+          "mana_cost": "",
+          "type_line": "Legendary Creature — Vampire",
+          "oracle_text": "Flying, deathtouch, lifelink\n{1}{B}{B}: Each creature you control with flying, deathtouch, and/or lifelink gets +1/+0 until end of turn.",
+          "power": "3",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "vow",
+      "set_name": "Innistrad: Crimson Vow",
+      "released_at": "2021-11-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 7584,
+      "price_usd": "1.27",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/vow/119/henrika-domnathi-henrika-infernal-seer?utm_source=api",
+      "oracle_id": "0c0845c3-f4b5-444e-8f42-da0c7dbf2841"
+    },
+    {
+      "name": "Herald's Horn",
+      "asked_as": "Herald's Horn",
+      "qty": 1,
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Herald's Horn",
+          "mana_cost": "{3}",
+          "type_line": "Artifact",
+          "oracle_text": "As this artifact enters, choose a creature type.\nCreature spells you cast of the chosen type cost {1} less to cast.\nAt the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 149,
+      "price_usd": "5.33",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
+      "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
+    },
+    {
+      "name": "High-Society Hunter",
+      "asked_as": "High-Society Hunter",
+      "qty": 1,
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "type_line": "Creature — Vampire Noble",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "5",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "High-Society Hunter",
+          "mana_cost": "{3}{B}{B}",
+          "type_line": "Creature — Vampire Noble",
+          "oracle_text": "Flying\nWhenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature.\nWhenever another nontoken creature dies, draw a card.",
+          "power": "5",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4437,
+      "price_usd": "0.34",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/61/high-society-hunter?utm_source=api",
+      "oracle_id": "0dc158ba-7ec8-4558-91f5-0a87ef8380d4"
+    },
+    {
+      "name": "Impact Tremors",
+      "asked_as": "Impact Tremors",
+      "qty": 1,
+      "mana_cost": "{1}{R}",
+      "cmc": 2.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Impact Tremors",
+          "mana_cost": "{1}{R}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "R"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 193,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api",
+      "oracle_id": "9242cd3e-1a71-4700-8182-9c1005616033"
+    },
+    {
+      "name": "Indulgent Aristocrat",
+      "asked_as": "Indulgent Aristocrat",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Vampire Noble",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Lifelink"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Indulgent Aristocrat",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Vampire Noble",
+          "oracle_text": "Lifelink\n{2}, Sacrifice a creature: Put a +1/+1 counter on each Vampire you control.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2548,
+      "price_usd": "0.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/118/indulgent-aristocrat?utm_source=api",
+      "oracle_id": "c7054a2d-2e7b-4487-8fc3-f6a47a716fd3"
+    },
+    {
+      "name": "Isolated Chapel",
+      "asked_as": "Isolated Chapel",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Isolated Chapel",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 94,
+      "price_usd": "0.38",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/382/isolated-chapel?utm_source=api",
+      "oracle_id": "7e5d9efe-48a9-434b-bb09-056e0e09cc9a"
+    },
+    {
+      "name": "Legion Lieutenant",
+      "asked_as": "Legion Lieutenant",
+      "qty": 1,
+      "mana_cost": "{W}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Legion Lieutenant",
+          "mana_cost": "{W}{B}",
+          "type_line": "Creature — Vampire Knight",
+          "oracle_text": "Other Vampires you control get +1/+1.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3036,
+      "price_usd": "0.34",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/275/legion-lieutenant?utm_source=api",
+      "oracle_id": "5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e"
+    },
+    {
+      "name": "Lightning Bolt",
+      "asked_as": "Lightning Bolt",
+      "qty": 1,
+      "mana_cost": "{R}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Lightning Bolt",
+          "mana_cost": "{R}",
+          "type_line": "Instant",
+          "oracle_text": "Lightning Bolt deals 3 damage to any target.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "R"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 159,
+      "price_usd": "0.68",
+      "all_parts": [
+        {
+          "name": "Toralf's Disciple",
+          "component": "combo_piece",
+          "type_line": "Creature — Human Warrior"
+        },
+        {
+          "name": "Thayan Evokers",
+          "component": "combo_piece",
+          "type_line": "Creature — Human Wizard"
+        },
+        {
+          "name": "Indris, the Hydrostatic Surge",
+          "component": "combo_piece",
+          "type_line": "Legendary Creature — Otter Incarnation"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/msc/806/lightning-bolt?utm_source=api",
+      "oracle_id": "4457ed35-7c10-48c8-9776-456485fdf070"
+    },
+    {
+      "name": "Malakir Bloodwitch",
+      "asked_as": "Malakir Bloodwitch",
+      "qty": 1,
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "type_line": "Creature — Vampire Shaman",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Protection"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Malakir Bloodwitch",
+          "mana_cost": "{3}{B}{B}",
+          "type_line": "Creature — Vampire Shaman",
+          "oracle_text": "Flying, protection from white\nWhen this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "voc",
+      "set_name": "Crimson Vow Commander",
+      "released_at": "2021-11-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3526,
+      "price_usd": "4.72",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/voc/131/malakir-bloodwitch?utm_source=api",
+      "oracle_id": "870e199e-1d54-44ec-8e24-f24af93ae9c5"
+    },
+    {
+      "name": "Malakir Rebirth // Malakir Mire",
+      "asked_as": "Malakir Rebirth / Malakir Mire",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 1.0,
+      "type_line": "Instant // Land",
+      "layout": "modal_dfc",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Malakir Rebirth",
+          "mana_cost": "{B}",
+          "type_line": "Instant",
+          "oracle_text": "Choose target creature. You lose 2 life. Until end of turn, that creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        },
+        {
+          "name": "Malakir Mire",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\n{T}: Add {B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 241,
+      "price_usd": "14.36",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire?utm_source=api",
+      "oracle_id": "a731e87b-8d99-4b64-8ee3-8e540d652366"
+    },
+    {
+      "name": "Marauding Blight-Priest",
+      "asked_as": "Marauding Blight-Priest",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire Cleric",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "3",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Marauding Blight-Priest",
+          "mana_cost": "{2}{B}",
+          "type_line": "Creature — Vampire Cleric",
+          "oracle_text": "Whenever you gain life, each opponent loses 1 life.",
+          "power": "3",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1113,
+      "price_usd": "0.32",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/178/marauding-blight-priest?utm_source=api",
+      "oracle_id": "814b87fe-2a75-4ff2-8637-7e69e3fb285b"
+    },
+    {
+      "name": "Master of Dark Rites",
+      "asked_as": "Master of Dark Rites",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Vampire Cleric",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Master of Dark Rites",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Vampire Cleric",
+          "oracle_text": "{T}, Sacrifice another creature: Add {B}{B}{B}. Spend this mana only to cast Vampire, Cleric, and/or Demon spells.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2712,
+      "price_usd": "3.40",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/83/master-of-dark-rites?utm_source=api",
+      "oracle_id": "a65250f6-55e2-47ed-a355-d690047db6f2"
+    },
+    {
+      "name": "Mirkwood Bats",
+      "asked_as": "Mirkwood Bats",
+      "qty": 1,
+      "mana_cost": "{3}{B}",
+      "cmc": 4.0,
+      "type_line": "Creature — Bat",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Mirkwood Bats",
+          "mana_cost": "{3}{B}",
+          "type_line": "Creature — Bat",
+          "oracle_text": "Flying\nWhenever you create or sacrifice a token, each opponent loses 1 life.",
+          "power": "2",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "ltr",
+      "set_name": "The Lord of the Rings: Tales of Middle-earth",
+      "released_at": "2023-06-23",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 228,
+      "price_usd": "1.01",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ltr/95/mirkwood-bats?utm_source=api",
+      "oracle_id": "0636b6c3-0662-420a-b30d-f0a14e7c512d"
+    },
+    {
+      "name": "Mountain",
+      "asked_as": "Mountain",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Mountain",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R"
+      ],
+      "produced_mana": [
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Mountain",
+          "mana_cost": "",
+          "type_line": "Basic Land — Mountain",
+          "oracle_text": "({T}: Add {R}.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": null,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/323/mountain?utm_source=api",
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685"
+    },
+    {
+      "name": "Night's Whisper",
+      "asked_as": "Night's Whisper",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Night's Whisper",
+          "mana_cost": "{1}{B}",
+          "type_line": "Sorcery",
+          "oracle_text": "You draw two cards and lose 2 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "hoc",
+      "set_name": "The Hobbit Eternal",
+      "released_at": "2026-08-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 182,
+      "price_usd": "5.42",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/hoc/189/nights-whisper?utm_source=api",
+      "oracle_id": "7ffae8f8-3006-4969-a339-6d30678f87ea"
+    },
+    {
+      "name": "Nomad Outpost",
+      "asked_as": "Nomad Outpost",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Nomad Outpost",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\n{T}: Add {R}, {W}, or {B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "tdm",
+      "set_name": "Tarkir: Dragonstorm",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 371,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdm/263/nomad-outpost?utm_source=api",
+      "oracle_id": "4619de7e-3d6e-4c6b-8e6e-e24db324839d"
+    },
+    {
+      "name": "Olivia's Wrath",
+      "asked_as": "Olivia's Wrath",
+      "qty": 1,
+      "mana_cost": "{4}{B}",
+      "cmc": 5.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Olivia's Wrath",
+          "mana_cost": "{4}{B}",
+          "type_line": "Sorcery",
+          "oracle_text": "Each non-Vampire creature gets -X/-X until end of turn, where X is the number of Vampires you control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2827,
+      "price_usd": "0.41",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/205/olivias-wrath?utm_source=api",
+      "oracle_id": "9aebd891-c8c5-4309-a07b-6cab1b204172"
+    },
+    {
+      "name": "Oubliette",
+      "asked_as": "Oubliette",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Oubliette",
+          "mana_cost": "{1}{B}{B}",
+          "type_line": "Enchantment",
+          "oracle_text": "When this enchantment enters, target creature phases out until this enchantment leaves the battlefield. Tap that creature as it phases in this way. (Auras and Equipment phase out with it. While permanents are phased out, they're treated as though they don't exist.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "2xm",
+      "set_name": "Double Masters",
+      "released_at": "2020-08-07",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3969,
+      "price_usd": "2.59",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/2xm/100/oubliette?utm_source=api",
+      "oracle_id": "c753e9e3-9374-4e3c-8622-94576a8c1da3"
+    },
+    {
+      "name": "Painful Truths",
+      "asked_as": "Painful Truths",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Converge"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Painful Truths",
+          "mana_cost": "{2}{B}",
+          "type_line": "Sorcery",
+          "oracle_text": "Converge — You draw X cards and lose X life, where X is the number of colors of mana spent to cast this spell.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "ecc",
+      "set_name": "Lorwyn Eclipsed Commander",
+      "released_at": "2026-01-23",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1699,
+      "price_usd": "0.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ecc/82/painful-truths?utm_source=api",
+      "oracle_id": "58a2d15f-1b4b-4303-b524-8cc0d1b3e7d2"
+    },
+    {
+      "name": "Path of Ancestry",
+      "asked_as": "Path of Ancestry",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [
+        "Scry"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Path of Ancestry",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "mbc",
+      "set_name": "Mystery Booster Commander Edition",
+      "released_at": "2026-11-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 14,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mbc/80/path-of-ancestry?utm_source=api",
+      "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f"
+    },
+    {
+      "name": "Patron of the Vein",
+      "asked_as": "Patron of the Vein",
+      "qty": 1,
+      "mana_cost": "{4}{B}{B}",
+      "cmc": 6.0,
+      "type_line": "Creature — Vampire Shaman",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Patron of the Vein",
+          "mana_cost": "{4}{B}{B}",
+          "type_line": "Creature — Vampire Shaman",
+          "oracle_text": "Flying\nWhen this creature enters, destroy target creature an opponent controls.\nWhenever a creature an opponent controls dies, exile it and put a +1/+1 counter on each Vampire you control.",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3495,
+      "price_usd": "0.40",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/207/patron-of-the-vein?utm_source=api",
+      "oracle_id": "8dbc8fdb-36ce-4f30-b679-9c2029fcd9c6"
+    },
+    {
+      "name": "Plains",
+      "asked_as": "Plains",
+      "qty": 4,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Plains",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Plains",
+          "mana_cost": "",
+          "type_line": "Basic Land — Plains",
+          "oracle_text": "({T}: Add {W}.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": null,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/317/plains?utm_source=api",
+      "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99"
+    },
+    {
+      "name": "Qarsi Revenant",
+      "asked_as": "Qarsi Revenant",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Deathtouch",
+        "Flying",
+        "Lifelink",
+        "Renew"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Qarsi Revenant",
+          "mana_cost": "{1}{B}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Flying, deathtouch, lifelink\nRenew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "tdm",
+      "set_name": "Tarkir: Dragonstorm",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2432,
+      "price_usd": "2.44",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdm/86/qarsi-revenant?utm_source=api",
+      "oracle_id": "bbea79bc-71d4-4100-92f4-783c2c4b46da"
+    },
+    {
+      "name": "Sacred Foundry",
+      "asked_as": "Sacred Foundry",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land — Mountain Plains",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sacred Foundry",
+          "mana_cost": "",
+          "type_line": "Land — Mountain Plains",
+          "oracle_text": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 74,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/295/sacred-foundry?utm_source=api",
+      "oracle_id": "45181cb8-2090-4471-ba90-e5a8f04d525f"
+    },
+    {
+      "name": "Sanctum Seeker",
+      "asked_as": "Sanctum Seeker",
+      "qty": 1,
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4.0,
+      "type_line": "Creature — Vampire Knight",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "3",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sanctum Seeker",
+          "mana_cost": "{2}{B}{B}",
+          "type_line": "Creature — Vampire Knight",
+          "oracle_text": "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
+          "power": "3",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2320,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/209/sanctum-seeker?utm_source=api",
+      "oracle_id": "afb71560-0fc9-4ea5-9d52-d93c17d72519"
+    },
+    {
+      "name": "Shattered Sanctum",
+      "asked_as": "Shattered Sanctum",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Shattered Sanctum",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {W} or {B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "sos",
+      "set_name": "Secrets of Strixhaven",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 276,
+      "price_usd": "2.25",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/sos/260/shattered-sanctum?utm_source=api",
+      "oracle_id": "c854ecb0-cc60-4c48-a9aa-7f2348a7a8c6"
+    },
+    {
+      "name": "Skullclamp",
+      "asked_as": "Skullclamp",
+      "qty": 1,
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "type_line": "Artifact — Equipment",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [
+        "Equip"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Skullclamp",
+          "mana_cost": "{1}",
+          "type_line": "Artifact — Equipment",
+          "oracle_text": "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards.\nEquip {1}",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 40,
+      "price_usd": "5.99",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
+      "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a"
+    },
+    {
+      "name": "Smoldering Marsh",
+      "asked_as": "Smoldering Marsh",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land — Swamp Mountain",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Smoldering Marsh",
+          "mana_cost": "",
+          "type_line": "Land — Swamp Mountain",
+          "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 92,
+      "price_usd": "0.28",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/266/smoldering-marsh?utm_source=api",
+      "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf"
+    },
+    {
+      "name": "Sol Ring",
+      "asked_as": "Sol Ring",
+      "qty": 1,
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sol Ring",
+          "mana_cost": "{1}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}{C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1,
+      "price_usd": "1.59",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
+    },
+    {
+      "name": "Sorin, Imperious Bloodlord",
+      "asked_as": "Sorin, Imperious Bloodlord",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Legendary Planeswalker — Sorin",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": "4",
+      "faces": [
+        {
+          "name": "Sorin, Imperious Bloodlord",
+          "mana_cost": "{2}{B}",
+          "type_line": "Legendary Planeswalker — Sorin",
+          "oracle_text": "+1: Target creature you control gains deathtouch and lifelink until end of turn. If it's a Vampire, put a +1/+1 counter on it.\n+1: You may sacrifice a Vampire. When you do, Sorin deals 3 damage to any target and you gain 3 life.\n−3: You may put a Vampire creature card from your hand onto the battlefield.",
+          "power": null,
+          "toughness": null,
+          "loyalty": "4",
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4006,
+      "price_usd": "5.84",
+      "all_parts": [
+        {
+          "name": "A-Sorin, Imperious Bloodlord",
+          "component": "combo_piece",
+          "type_line": "Legendary Planeswalker — Sorin"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/inr/133/sorin-imperious-bloodlord?utm_source=api",
+      "oracle_id": "fee680c6-afe2-4321-9d8a-8f81a612a53b"
+    },
+    {
+      "name": "Soul Shatter",
+      "asked_as": "Soul Shatter",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Soul Shatter",
+          "mana_cost": "{2}{B}",
+          "type_line": "Instant",
+          "oracle_text": "Each opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1154,
+      "price_usd": "3.39",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/znr/127/soul-shatter?utm_source=api",
+      "oracle_id": "615927c2-3fb0-4e64-a1a7-55fb56de1423"
+    },
+    {
+      "name": "Stromkirk Captain",
+      "asked_as": "Stromkirk Captain",
+      "qty": 1,
+      "mana_cost": "{1}{B}{R}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire Soldier",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "First strike"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Stromkirk Captain",
+          "mana_cost": "{1}{B}{R}",
+          "type_line": "Creature — Vampire Soldier",
+          "oracle_text": "First strike\nOther Vampire creatures you control get +1/+1 and have first strike.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "R"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "voc",
+      "set_name": "Crimson Vow Commander",
+      "released_at": "2021-11-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3022,
+      "price_usd": "1.65",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/voc/157/stromkirk-captain?utm_source=api",
+      "oracle_id": "599c3fd6-3309-4b5d-adec-9c4062848ad5"
+    },
+    {
+      "name": "Sulfurous Springs",
+      "asked_as": "Sulfurous Springs",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "C",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sulfurous Springs",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "eoc",
+      "set_name": "Edge of Eternities Commander",
+      "released_at": "2025-08-01",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 153,
+      "price_usd": "1.16",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/eoc/185/sulfurous-springs?utm_source=api",
+      "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7"
+    },
+    {
+      "name": "Sundown Pass",
+      "asked_as": "Sundown Pass",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sundown Pass",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "sos",
+      "set_name": "Secrets of Strixhaven",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 264,
+      "price_usd": "2.69",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/sos/264/sundown-pass?utm_source=api",
+      "oracle_id": "5ad0b405-cca4-475e-985c-4d7e3599d87e"
+    },
+    {
+      "name": "Swamp",
+      "asked_as": "Swamp",
+      "qty": 7,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Swamp",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Swamp",
+          "mana_cost": "",
+          "type_line": "Basic Land — Swamp",
+          "oracle_text": "({T}: Add {B}.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": null,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trk/321/swamp?utm_source=api",
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68"
+    },
+    {
+      "name": "Swords to Plowshares",
+      "asked_as": "Swords to Plowshares",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Swords to Plowshares",
+          "mana_cost": "{W}",
+          "type_line": "Instant",
+          "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 11,
+      "price_usd": "1.45",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
+      "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
+    },
+    {
+      "name": "Talisman of Conviction",
+      "asked_as": "Talisman of Conviction",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "produced_mana": [
+        "C",
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Talisman of Conviction",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 152,
+      "price_usd": "0.70",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/217/talisman-of-conviction?utm_source=api",
+      "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46"
+    },
+    {
+      "name": "Talisman of Hierarchy",
+      "asked_as": "Talisman of Hierarchy",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "B",
+        "C",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Talisman of Hierarchy",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 135,
+      "price_usd": "0.48",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/358/talisman-of-hierarchy?utm_source=api",
+      "oracle_id": "b693c3de-2eaf-4850-b405-e79d00adefda"
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "asked_as": "Talisman of Indulgence",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "produced_mana": [
+        "B",
+        "C",
+        "R"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Talisman of Indulgence",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 129,
+      "price_usd": "1.88",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/220/talisman-of-indulgence?utm_source=api",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c"
+    },
+    {
+      "name": "Teferi's Protection",
+      "asked_as": "Teferi's Protection",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Teferi's Protection",
+          "mana_cost": "{2}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)\nExile Teferi's Protection.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "2x2",
+      "set_name": "Double Masters 2022",
+      "released_at": "2022-07-08",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 109,
+      "price_usd": "49.02",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
+      "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
+    },
+    {
+      "name": "Vampire Nocturnus",
+      "asked_as": "Vampire Nocturnus",
+      "qty": 1,
+      "mana_cost": "{1}{B}{B}{B}",
+      "cmc": 4.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vampire Nocturnus",
+          "mana_cost": "{1}{B}{B}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Play with the top card of your library revealed.\nAs long as the top card of your library is black, this creature and other Vampire creatures you control get +2/+1 and have flying.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "m13",
+      "set_name": "Magic 2013",
+      "released_at": "2012-07-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 8895,
+      "price_usd": "5.82",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/m13/113/vampire-nocturnus?utm_source=api",
+      "oracle_id": "2109c49e-dc81-4a10-8265-3cf8c90db523"
+    },
+    {
+      "name": "Vampire of the Dire Moon",
+      "asked_as": "Vampire of the Dire Moon",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Lifelink",
+        "Deathtouch"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vampire of the Dire Moon",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "m20",
+      "set_name": "Core Set 2020",
+      "released_at": "2019-07-12",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3317,
+      "price_usd": "0.82",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/m20/120/vampire-of-the-dire-moon?utm_source=api",
+      "oracle_id": "5a938371-8428-48e3-85ed-6a84a39b29c6"
+    },
+    {
+      "name": "Vault of the Archangel",
+      "asked_as": "Vault of the Archangel",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vault of the Archangel",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 464,
+      "price_usd": "0.77",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdc/410/vault-of-the-archangel?utm_source=api",
+      "oracle_id": "eeaac65a-3480-475a-bb28-e6375d53f487"
+    },
+    {
+      "name": "Vein Ripper",
+      "asked_as": "Vein Ripper",
+      "qty": 1,
+      "mana_cost": "{3}{B}{B}{B}",
+      "cmc": 6.0,
+      "type_line": "Creature — Vampire Assassin",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Ward"
+      ],
+      "power": "6",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vein Ripper",
+          "mana_cost": "{3}{B}{B}{B}",
+          "type_line": "Creature — Vampire Assassin",
+          "oracle_text": "Flying\nWard—Sacrifice a creature.\nWhenever a creature dies, target opponent loses 2 life and you gain 2 life.",
+          "power": "6",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "mkm",
+      "set_name": "Murders at Karlov Manor",
+      "released_at": "2024-02-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2678,
+      "price_usd": "6.72",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mkm/110/vein-ripper?utm_source=api",
+      "oracle_id": "f83a768c-162d-46f0-8ebd-d9c6b2c69322"
+    },
+    {
+      "name": "Village Rites",
+      "asked_as": "Village Rites",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Village Rites",
+          "mana_cost": "{B}",
+          "type_line": "Instant",
+          "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 200,
+      "price_usd": "0.39",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
+      "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f"
+    },
+    {
+      "name": "Viscera Seer",
+      "asked_as": "Viscera Seer",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Vampire Wizard",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Scry"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Viscera Seer",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Vampire Wizard",
+          "oracle_text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 255,
+      "price_usd": "0.43",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/229/viscera-seer?utm_source=api",
+      "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be"
+    },
+    {
+      "name": "Vito, Thorn of the Dusk Rose",
+      "asked_as": "Vito, Thorn of the Dusk Rose",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature — Vampire Cleric",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vito, Thorn of the Dusk Rose",
+          "mana_cost": "{2}{B}",
+          "type_line": "Legendary Creature — Vampire Cleric",
+          "oracle_text": "Whenever you gain life, target opponent loses that much life.\n{3}{B}{B}: Creatures you control gain lifelink until end of turn.",
+          "power": "1",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "m21",
+      "set_name": "Core Set 2021",
+      "released_at": "2020-07-03",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 494,
+      "price_usd": "11.73",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose?utm_source=api",
+      "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9"
+    },
+    {
+      "name": "Voldaren Estate",
+      "asked_as": "Voldaren Estate",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Voldaren Estate",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a Vampire spell.\n{5}, {T}: Create a Blood token. This ability costs {1} less to activate for each Vampire you control. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2475,
+      "price_usd": "0.62",
+      "all_parts": [
+        {
+          "name": "Blood",
+          "component": "token",
+          "type_line": "Token Artifact — Blood"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lcc/369/voldaren-estate?utm_source=api",
+      "oracle_id": "fb0c0426-f1a6-4e52-9242-627786d3119a"
+    },
+    {
+      "name": "War Room",
+      "asked_as": "War Room",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "War Room",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 141,
+      "price_usd": "5.57",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
+      "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"
+    },
+    {
+      "name": "Welcoming Vampire",
+      "asked_as": "Welcoming Vampire",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Welcoming Vampire",
+          "mana_cost": "{2}{W}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Flying\nWhenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn.",
+          "power": "2",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 424,
+      "price_usd": "4.13",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
+      "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822"
+    },
+    {
+      "name": "Zulaport Cutthroat",
+      "asked_as": "Zulaport Cutthroat",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Human Rogue Ally",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Zulaport Cutthroat",
+          "mana_cost": "{1}{B}",
+          "type_line": "Creature — Human Rogue Ally",
+          "oracle_text": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 234,
+      "price_usd": "1.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/233/zulaport-cutthroat?utm_source=api",
+      "oracle_id": "76b003e0-15af-4f22-bdf2-1ade5430964a"
+    }
+  ]
+}

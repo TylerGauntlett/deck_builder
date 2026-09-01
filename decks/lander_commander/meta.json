@@ -1,0 +1,22 @@
+{
+  "commander": [
+    "Aesi, Tyrant of Gyre Strait"
+  ],
+  "format": "commander",
+  "bracket": 3,
+  "budget": {
+    "per_card_max_usd": 40
+  },
+  "goals": "Simic ramp that abuses extra land drops to draw the deck off Aesi, then buries the table under landfall payoffs and giant sea monsters.",
+  "meta": "4-player casual pods",
+  "constraints": [
+    "No mass land denial (bracket 3).",
+    "No intentional early-game two-card infinite combos (bracket 3).",
+    "At most 3 Game Changers (bracket 3); currently 2: Cyclonic Rift, Rhystic Study."
+  ],
+  "preferences": [
+    "Prefer cards that either grant extra land drops, trigger on landfall, or convert lands into cards."
+  ],
+  "source": "https://moxfield.com/decks/brDuu9c6_0yuaoHLijLFHw",
+  "updated": "2026-09-01"
+}

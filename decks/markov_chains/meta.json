@@ -1,0 +1,21 @@
+{
+  "commander": [
+    "Edgar Markov"
+  ],
+  "format": "commander",
+  "bracket": 3,
+  "budget": {
+    "per_card_max_usd": 40
+  },
+  "goals": "Win with a string of individually useful cards rather than by assembling a named combo. Vampire aggro into aristocrats: go wide with tokens and lords, then convert the board into drain.",
+  "meta": "4-player casual pods",
+  "constraints": [
+    "No early infinite combos. The deck's existing infinite lines are late-game and that is fine -- the test is speed and tutor-dependence, not the presence of a loop.",
+    "No win line that depends on tutoring to assemble."
+  ],
+  "preferences": [
+    "Prefer on-theme Vampire cards, but a strong off-theme card is acceptable."
+  ],
+  "updated": "2026-08-31",
+  "source": "https://moxfield.com/decks/Sr3op2p6G0m0Msv1n_jLZw"
+}

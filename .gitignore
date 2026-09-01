@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Deck list backups written by the tooling
+*.bak-*

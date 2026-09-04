@@ -250,3 +250,51 @@ that would make me run it.
   scopes from `decks/markov_chains/cards.json`.
 
 `base.txt` was not modified.
+
+---
+
+## Addendum — 2026-09-03: re-asked on price, verdict unchanged
+
+Re-asked as *"is Drana worth including given the low cost?"* Price is the axis the
+original verdict explicitly excluded, so this is not a new axis — but three things
+had genuinely changed since 2026-08-31 and all three were re-checked rather than
+waved off.
+
+1. **Price re-fetched: $0.88** (2026-09-03 22:39 UTC), against $0.86 on 2026-08-31.
+   Unmoved, and the original verdict already stated the rejection survives at $0.
+
+2. **The role was recounted against the current 99** (which has churned: Vicious
+   Conquistador and Unexplained Absence out, Teferi's Protection and Clever
+   Concealment in). "Pump the attacking board" is now **11 cards, up from 10**:
+   - 7 static lords — Bloodline Keeper, Captivating Vampire, Edgar Charmed Groom,
+     Forerunner of the Legion, Legion Lieutenant, Stromkirk Captain, Vampire Nocturnus
+   - 4 board-wide counter granters — Cordial Vampire, Edgar Markov, Indulgent
+     Aristocrat, Patron of the Vein
+
+   The reason got **stronger**, not weaker. Stromkirk Captain still grants first
+   strike to every Vampire, still switching off Drana's one unique timing angle.
+
+3. **The pod premise changed** (2026-09-03 procession addendum: 2 fat-creature decks
+   + 1 token deck, replacing "both token swarms and big-creature builds"). Checked
+   deliberately, because a changed premise is the one thing that should reopen a
+   verdict. It gives Drana a real new point — a 2/3 flier connects more reliably
+   against fat ground blockers. It does not carry: against big blockers the rest of
+   the attacking team is stopped, so "a counter on each attacking creature" pays out
+   least in exactly that matchup, while Cordial Vampire triggers off *any* creature
+   dying with no combat requirement.
+
+**Verdict: NO, unchanged.**
+
+### The constraint that actually decides it today
+
+Asked during the $50-upgrade review (`2026-09-03-fifty-dollar-upgrades.md`), where
+the binding constraint was established to be **cut slots, not dollars**: exactly one
+defensible spell cut exists in the list (Lightning Bolt), and Anowon, Qarsi Revenant
+and Impact Tremors were each spared for a named reason. So $0.88 buys nothing —
+Drana would have to beat **Black Market Connections** for that single slot, and she
+does not: BMC is a repeating engine producing a body, a card and a Treasure each turn
+and serving both deck modes, against a 12th copy of a role that must connect first.
+
+**What would move it:** cutting two or three of the seven static lords. At that
+density the role stops being 11 deep and Drana becomes a reasonable rebuild of the
+package. At current density she is redundant at any price.

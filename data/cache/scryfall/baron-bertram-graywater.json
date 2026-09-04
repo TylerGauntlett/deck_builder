@@ -134,7 +134,7 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4348,
+  "edhrec_rank": 4351,
   "penny_rank": 15359,
   "preview": {
     "source": "Jack Torrance",
@@ -142,10 +142,10 @@
     "previewed_at": "2024-03-28"
   },
   "prices": {
-    "usd": "0.35",
-    "usd_foil": "0.42",
+    "usd": "0.36",
+    "usd_foil": "0.41",
     "usd_etched": null,
-    "eur": "0.21",
+    "eur": "0.23",
     "eur_foil": "0.27",
     "tix": "0.03"
   },

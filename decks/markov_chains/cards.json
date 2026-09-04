@@ -5,20 +5,20 @@
     "cards": 100,
     "distinct": 91,
     "lands": 35,
-    "avg_mana_value_nonland": 2.85,
+    "avg_mana_value_nonland": 2.88,
     "type_counts": {
       "Creature": 38,
       "Land": 35,
-      "Instant": 10,
+      "Instant": 9,
       "Artifact": 8,
-      "Enchantment": 4,
+      "Enchantment": 5,
       "Sorcery": 4,
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 63,
+      "B": 64,
       "W": 15,
-      "R": 5
+      "R": 4
     },
     "game_changers": [
       "Teferi's Protection"
@@ -163,8 +163,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 5143,
-      "price_usd": "2.66",
+      "edhrec_rank": 5153,
+      "price_usd": "2.67",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/118/anowon-the-ruin-sage?utm_source=api",
       "oracle_id": "0c201f79-9eca-48c8-88ba-a20fa6918a07"
@@ -260,8 +260,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4345,
-      "price_usd": "0.34",
+      "edhrec_rank": 4351,
+      "price_usd": "0.36",
       "all_parts": [
         {
           "name": "Vampire Rogue",
@@ -314,7 +314,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 333,
-      "price_usd": "0.35",
+      "price_usd": "0.33",
       "all_parts": [
         {
           "name": "Human Soldier",
@@ -368,10 +368,73 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 121,
-      "price_usd": "0.35",
+      "price_usd": "0.32",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/362/battlefield-forge?utm_source=api",
       "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa"
+    },
+    {
+      "name": "Black Market Connections",
+      "asked_as": "Black Market Connections",
+      "qty": 1,
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Hire a Mercenary",
+        "Treasure",
+        "Sell Contraband",
+        "Buy Information"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Black Market Connections",
+          "mana_cost": "{2}{B}",
+          "type_line": "Enchantment",
+          "oracle_text": "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 131,
+      "price_usd": "10.33",
+      "all_parts": [
+        {
+          "name": "Treasure",
+          "component": "token",
+          "type_line": "Token Artifact — Treasure"
+        },
+        {
+          "name": "Shapeshifter",
+          "component": "token",
+          "type_line": "Token Creature — Shapeshifter"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/msc/155/black-market-connections?utm_source=api",
+      "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c"
     },
     {
       "name": "Blade of the Bloodchief",
@@ -410,8 +473,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2444,
-      "price_usd": "7.61",
+      "edhrec_rank": 2448,
+      "price_usd": "7.70",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/300/blade-of-the-bloodchief?utm_source=api",
       "oracle_id": "8985e545-07c3-45f9-9058-fe3c1f50de04"
@@ -457,8 +520,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 138,
-      "price_usd": "3.85",
+      "edhrec_rank": 139,
+      "price_usd": "3.57",
       "all_parts": [
         {
           "name": "A-Blood Artist",
@@ -559,8 +622,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1039,
-      "price_usd": "0.80",
+      "edhrec_rank": 1036,
+      "price_usd": "0.75",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/210/bloodghast?utm_source=api",
       "oracle_id": "e97f9c2b-b41e-4f36-9245-77c0ac125647"
@@ -777,7 +840,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8634,
+      "edhrec_rank": 8643,
       "price_usd": "0.14",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
@@ -823,7 +886,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 24,
-      "price_usd": "1.75",
+      "price_usd": "1.20",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/363/bojuka-bog?utm_source=api",
       "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce"
@@ -918,8 +981,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2484,
-      "price_usd": "3.32",
+      "edhrec_rank": 2488,
+      "price_usd": "3.53",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/100/captivating-vampire?utm_source=api",
       "oracle_id": "acd382ee-94fb-4a29-b14e-c2a3c6dde7e0"
@@ -966,7 +1029,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 614,
-      "price_usd": "4.58",
+      "price_usd": "4.62",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh1/81/carrion-feeder?utm_source=api",
       "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425"
@@ -1118,8 +1181,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3513,
-      "price_usd": "0.75",
+      "edhrec_rank": 3518,
+      "price_usd": "0.73",
       "all_parts": [
         {
           "name": "Vampire Demon",
@@ -1173,58 +1236,11 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 582,
-      "price_usd": "4.70",
+      "edhrec_rank": 580,
+      "price_usd": "5.01",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
       "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
-    },
-    {
-      "name": "Clifftop Retreat",
-      "asked_as": "Clifftop Retreat",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "R",
-        "W"
-      ],
-      "produced_mana": [
-        "R",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Clifftop Retreat",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 81,
-      "price_usd": "0.32",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/231/clifftop-retreat?utm_source=api",
-      "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18"
     },
     {
       "name": "Command Tower",
@@ -1320,8 +1336,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1859,
-      "price_usd": "1.92",
+      "edhrec_rank": 1863,
+      "price_usd": "2.21",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/189/cordial-vampire?utm_source=api",
       "oracle_id": "d61fb9e8-d05a-481a-a90f-5def300c9abb"
@@ -1420,7 +1436,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 33,
-      "price_usd": "6.00",
+      "price_usd": "6.05",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api",
       "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b"
@@ -1467,7 +1483,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 84,
-      "price_usd": "0.43",
+      "price_usd": "0.46",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/238/dragonskull-summit?utm_source=api",
       "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0"
@@ -1523,8 +1539,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3147,
-      "price_usd": "42.28",
+      "edhrec_rank": 3153,
+      "price_usd": "41.87",
       "all_parts": [
         {
           "name": "Vampire",
@@ -1991,8 +2007,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 579,
-      "price_usd": "32.27",
+      "edhrec_rank": 578,
+      "price_usd": "32.51",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmm/165/grave-pact?utm_source=api",
       "oracle_id": "6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2"
@@ -2039,7 +2055,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 280,
-      "price_usd": "8.41",
+      "price_usd": "8.38",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/280/haunted-ridge?utm_source=api",
       "oracle_id": "e2a37967-4212-4553-9f77-bcb613405807"
@@ -2142,8 +2158,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 149,
-      "price_usd": "5.33",
+      "edhrec_rank": 150,
+      "price_usd": "5.86",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -2238,7 +2254,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 193,
+      "edhrec_rank": 196,
       "price_usd": null,
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api",
@@ -2287,8 +2303,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2548,
-      "price_usd": "0.30",
+      "edhrec_rank": 2555,
+      "price_usd": "0.34",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/118/indulgent-aristocrat?utm_source=api",
       "oracle_id": "c7054a2d-2e7b-4487-8fc3-f6a47a716fd3"
@@ -2384,74 +2400,11 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3036,
+      "edhrec_rank": 3043,
       "price_usd": "0.34",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/275/legion-lieutenant?utm_source=api",
       "oracle_id": "5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e"
-    },
-    {
-      "name": "Lightning Bolt",
-      "asked_as": "Lightning Bolt",
-      "qty": 1,
-      "mana_cost": "{R}",
-      "cmc": 1.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "R"
-      ],
-      "color_identity": [
-        "R"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Lightning Bolt",
-          "mana_cost": "{R}",
-          "type_line": "Instant",
-          "oracle_text": "Lightning Bolt deals 3 damage to any target.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "R"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 159,
-      "price_usd": "0.68",
-      "all_parts": [
-        {
-          "name": "Toralf's Disciple",
-          "component": "combo_piece",
-          "type_line": "Creature — Human Warrior"
-        },
-        {
-          "name": "Thayan Evokers",
-          "component": "combo_piece",
-          "type_line": "Creature — Human Wizard"
-        },
-        {
-          "name": "Indris, the Hydrostatic Surge",
-          "component": "combo_piece",
-          "type_line": "Legendary Creature — Otter Incarnation"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/msc/806/lightning-bolt?utm_source=api",
-      "oracle_id": "4457ed35-7c10-48c8-9776-456485fdf070"
     },
     {
       "name": "Malakir Bloodwitch",
@@ -2651,8 +2604,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2712,
-      "price_usd": "3.40",
+      "edhrec_rank": 2713,
+      "price_usd": "3.53",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/83/master-of-dark-rites?utm_source=api",
       "oracle_id": "a65250f6-55e2-47ed-a355-d690047db6f2"
@@ -2701,55 +2654,10 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 228,
-      "price_usd": "1.01",
+      "price_usd": "1.42",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ltr/95/mirkwood-bats?utm_source=api",
       "oracle_id": "0636b6c3-0662-420a-b30d-f0a14e7c512d"
-    },
-    {
-      "name": "Mountain",
-      "asked_as": "Mountain",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Basic Land — Mountain",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "R"
-      ],
-      "produced_mana": [
-        "R"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Mountain",
-          "mana_cost": "",
-          "type_line": "Basic Land — Mountain",
-          "oracle_text": "({T}: Add {R}.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "trk",
-      "set_name": "Star Trek",
-      "released_at": "2026-11-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": null,
-      "price_usd": null,
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/trk/323/mountain?utm_source=api",
-      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685"
     },
     {
       "name": "Night's Whisper",
@@ -2842,7 +2750,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 371,
-      "price_usd": "0.35",
+      "price_usd": "0.32",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdm/263/nomad-outpost?utm_source=api",
       "oracle_id": "4619de7e-3d6e-4c6b-8e6e-e24db324839d"
@@ -2888,8 +2796,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2827,
-      "price_usd": "0.41",
+      "edhrec_rank": 2834,
+      "price_usd": "0.40",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/205/olivias-wrath?utm_source=api",
       "oracle_id": "9aebd891-c8c5-4309-a07b-6cab1b204172"
@@ -3089,6 +2997,52 @@
       "oracle_id": "8dbc8fdb-36ce-4f30-b679-9c2029fcd9c6"
     },
     {
+      "name": "Phyrexian Tower",
+      "asked_as": "Phyrexian Tower",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B",
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Phyrexian Tower",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: Add {B}{B}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "mythic",
+      "set": "mh3",
+      "set_name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 198,
+      "price_usd": "28.15",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh3/303/phyrexian-tower?utm_source=api",
+      "oracle_id": "1861e642-21d5-4232-89f3-b5557f2946c1"
+    },
+    {
       "name": "Plains",
       "asked_as": "Plains",
       "qty": 4,
@@ -3179,8 +3133,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2432,
-      "price_usd": "2.44",
+      "edhrec_rank": 2423,
+      "price_usd": "2.69",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdm/86/qarsi-revenant?utm_source=api",
       "oracle_id": "bbea79bc-71d4-4100-92f4-783c2c4b46da"
@@ -3273,8 +3227,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2320,
-      "price_usd": "0.35",
+      "edhrec_rank": 2321,
+      "price_usd": "0.32",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/209/sanctum-seeker?utm_source=api",
       "oracle_id": "afb71560-0fc9-4ea5-9d52-d93c17d72519"
@@ -3364,7 +3318,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 40,
-      "price_usd": "5.99",
+      "price_usd": "6.04",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
       "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a"
@@ -3554,7 +3508,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1154,
-      "price_usd": "3.39",
+      "price_usd": "3.54",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/znr/127/soul-shatter?utm_source=api",
       "oracle_id": "615927c2-3fb0-4e64-a1a7-55fb56de1423"
@@ -3605,8 +3559,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3022,
-      "price_usd": "1.65",
+      "edhrec_rank": 3026,
+      "price_usd": "1.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/157/stromkirk-captain?utm_source=api",
       "oracle_id": "599c3fd6-3309-4b5d-adec-9c4062848ad5"
@@ -3700,8 +3654,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 264,
-      "price_usd": "2.69",
+      "edhrec_rank": 263,
+      "price_usd": "2.48",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/sos/264/sundown-pass?utm_source=api",
       "oracle_id": "5ad0b405-cca4-475e-985c-4d7e3599d87e"
@@ -3797,6 +3751,54 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
       "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "asked_as": "Takenuma, Abandoned Mire",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [
+        "B"
+      ],
+      "keywords": [
+        "Mill",
+        "Channel"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Takenuma, Abandoned Mire",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "neo",
+      "set_name": "Kamigawa: Neon Dynasty",
+      "released_at": "2022-02-18",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 245,
+      "price_usd": "11.17",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/neo/278/takenuma-abandoned-mire?utm_source=api",
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a"
     },
     {
       "name": "Talisman of Conviction",
@@ -4030,8 +4032,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8895,
-      "price_usd": "5.82",
+      "edhrec_rank": 8909,
+      "price_usd": "5.89",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m13/113/vampire-nocturnus?utm_source=api",
       "oracle_id": "2109c49e-dc81-4a10-8265-3cf8c90db523"
@@ -4127,7 +4129,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 464,
-      "price_usd": "0.77",
+      "price_usd": "0.83",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdc/410/vault-of-the-archangel?utm_source=api",
       "oracle_id": "eeaac65a-3480-475a-bb28-e6375d53f487"
@@ -4176,8 +4178,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2678,
-      "price_usd": "6.72",
+      "edhrec_rank": 2682,
+      "price_usd": "6.95",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mkm/110/vein-ripper?utm_source=api",
       "oracle_id": "f83a768c-162d-46f0-8ebd-d9c6b2c69322"
@@ -4223,8 +4225,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 200,
-      "price_usd": "0.39",
+      "edhrec_rank": 201,
+      "price_usd": "0.40",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
       "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f"
@@ -4273,7 +4275,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 255,
-      "price_usd": "0.43",
+      "price_usd": "0.36",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/229/viscera-seer?utm_source=api",
       "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be"
@@ -4320,7 +4322,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 494,
-      "price_usd": "11.73",
+      "price_usd": "12.14",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose?utm_source=api",
       "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9"

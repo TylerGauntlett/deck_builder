@@ -5,6 +5,7 @@
 1 Baron Bertram Graywater
 1 Bastion of Remembrance
 1 Battlefield Forge
+1 Black Market Connections
 1 Blade of the Bloodchief
 1 Blood Artist
 1 Blood Crypt
@@ -21,7 +22,6 @@
 1 Charismatic Conqueror
 1 Clavileño, First of the Blessed
 1 Clever Concealment
-1 Clifftop Retreat
 1 Command Tower
 1 Cordial Vampire
 1 Cruel Celebrant
@@ -45,13 +45,11 @@
 1 Indulgent Aristocrat
 1 Isolated Chapel
 1 Legion Lieutenant
-1 Lightning Bolt
 1 Malakir Bloodwitch
 1 Malakir Rebirth / Malakir Mire
 1 Marauding Blight-Priest
 1 Master of Dark Rites
 1 Mirkwood Bats
-1 Mountain
 1 Night's Whisper
 1 Nomad Outpost
 1 Olivia's Wrath
@@ -59,6 +57,7 @@
 1 Painful Truths
 1 Path of Ancestry
 1 Patron of the Vein
+1 Phyrexian Tower
 4 Plains
 1 Qarsi Revenant
 1 Sacred Foundry
@@ -74,6 +73,7 @@
 1 Sundown Pass
 7 Swamp
 1 Swords to Plowshares
+1 Takenuma, Abandoned Mire
 1 Talisman of Conviction
 1 Talisman of Hierarchy
 1 Talisman of Indulgence

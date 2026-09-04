@@ -1,6 +1,6 @@
 # lander_commander - card details
 
-Generated 2026-09-01 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 

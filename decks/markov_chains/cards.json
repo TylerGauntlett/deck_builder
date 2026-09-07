@@ -5,22 +5,23 @@
     "cards": 100,
     "distinct": 91,
     "lands": 35,
-    "avg_mana_value_nonland": 2.88,
+    "avg_mana_value_nonland": 2.92,
     "type_counts": {
       "Creature": 38,
       "Land": 35,
       "Instant": 9,
       "Artifact": 8,
-      "Enchantment": 5,
-      "Sorcery": 4,
+      "Enchantment": 7,
+      "Sorcery": 2,
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 64,
+      "B": 66,
       "W": 15,
-      "R": 4
+      "R": 5
     },
     "game_changers": [
+      "Necropotence",
       "Teferi's Protection"
     ]
   },
@@ -163,8 +164,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 5153,
-      "price_usd": "2.67",
+      "edhrec_rank": 5169,
+      "price_usd": "2.72",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/118/anowon-the-ruin-sage?utm_source=api",
       "oracle_id": "0c201f79-9eca-48c8-88ba-a20fa6918a07"
@@ -260,8 +261,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4351,
-      "price_usd": "0.36",
+      "edhrec_rank": 4355,
+      "price_usd": "0.35",
       "all_parts": [
         {
           "name": "Vampire Rogue",
@@ -420,7 +421,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 131,
-      "price_usd": "10.33",
+      "price_usd": "8.36",
       "all_parts": [
         {
           "name": "Treasure",
@@ -473,8 +474,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2448,
-      "price_usd": "7.70",
+      "edhrec_rank": 2450,
+      "price_usd": "7.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/300/blade-of-the-bloodchief?utm_source=api",
       "oracle_id": "8985e545-07c3-45f9-9058-fe3c1f50de04"
@@ -521,7 +522,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 139,
-      "price_usd": "3.57",
+      "price_usd": "3.45",
       "all_parts": [
         {
           "name": "A-Blood Artist",
@@ -622,8 +623,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1036,
-      "price_usd": "0.75",
+      "edhrec_rank": 1030,
+      "price_usd": "0.84",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/210/bloodghast?utm_source=api",
       "oracle_id": "e97f9c2b-b41e-4f36-9245-77c0ac125647"
@@ -671,8 +672,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 853,
-      "price_usd": "35.58",
+      "edhrec_rank": 852,
+      "price_usd": "36.66",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lci/92/bloodletter-of-aclazotz?utm_source=api",
       "oracle_id": "469956a2-7cd4-4695-b8f4-c841526f160d"
@@ -793,8 +794,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 865,
-      "price_usd": "38.09",
+      "edhrec_rank": 854,
+      "price_usd": "34.83",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/58/bloodthirsty-conqueror?utm_source=api",
       "oracle_id": "fd505c02-c59e-476d-8e88-35da862ddc23"
@@ -982,7 +983,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 2488,
-      "price_usd": "3.53",
+      "price_usd": "3.42",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/100/captivating-vampire?utm_source=api",
       "oracle_id": "acd382ee-94fb-4a29-b14e-c2a3c6dde7e0"
@@ -1029,7 +1030,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 614,
-      "price_usd": "4.62",
+      "price_usd": "4.44",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh1/81/carrion-feeder?utm_source=api",
       "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425"
@@ -1125,8 +1126,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1044,
-      "price_usd": "23.84",
+      "edhrec_rank": 1045,
+      "price_usd": "23.20",
       "all_parts": [
         {
           "name": "Vampire",
@@ -1181,7 +1182,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3518,
+      "edhrec_rank": 3517,
       "price_usd": "0.73",
       "all_parts": [
         {
@@ -1236,8 +1237,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 580,
-      "price_usd": "5.01",
+      "edhrec_rank": 578,
+      "price_usd": "5.46",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
       "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
@@ -1337,7 +1338,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1863,
-      "price_usd": "2.21",
+      "price_usd": "2.16",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/189/cordial-vampire?utm_source=api",
       "oracle_id": "d61fb9e8-d05a-481a-a90f-5def300c9abb"
@@ -1386,8 +1387,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 949,
-      "price_usd": "1.65",
+      "edhrec_rank": 950,
+      "price_usd": "1.83",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/267/cruel-celebrant?utm_source=api",
       "oracle_id": "3ee78cfc-0e9e-4737-a7e2-b42f94228040"
@@ -1436,7 +1437,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 33,
-      "price_usd": "6.05",
+      "price_usd": "6.10",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api",
       "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b"
@@ -1539,8 +1540,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3153,
-      "price_usd": "41.87",
+      "edhrec_rank": 3154,
+      "price_usd": "40.69",
       "all_parts": [
         {
           "name": "Vampire",
@@ -1726,53 +1727,6 @@
       "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e"
     },
     {
-      "name": "Feed the Swarm",
-      "asked_as": "Feed the Swarm",
-      "qty": 1,
-      "mana_cost": "{1}{B}",
-      "cmc": 2.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Feed the Swarm",
-          "mana_cost": "{1}{B}",
-          "type_line": "Sorcery",
-          "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "tle",
-      "set_name": "Avatar: The Last Airbender Eternal",
-      "released_at": "2025-11-21",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 89,
-      "price_usd": "0.18",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/tle/257/feed-the-swarm?utm_source=api",
-      "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed"
-    },
-    {
       "name": "Fetid Heath",
       "asked_as": "Fetid Heath",
       "qty": 1,
@@ -1866,8 +1820,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3510,
-      "price_usd": "0.36",
+      "edhrec_rank": 3518,
+      "price_usd": "0.71",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/dsc/217/florian-voldaren-scion?utm_source=api",
       "oracle_id": "d74a2cbf-4d13-401d-9b3f-bfbde4942afd"
@@ -1913,8 +1867,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6037,
-      "price_usd": "1.34",
+      "edhrec_rank": 6051,
+      "price_usd": "1.40",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
@@ -2159,7 +2113,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 150,
-      "price_usd": "5.86",
+      "price_usd": "4.93",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -2207,8 +2161,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4437,
-      "price_usd": "0.34",
+      "edhrec_rank": 4426,
+      "price_usd": "0.33",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/61/high-society-hunter?utm_source=api",
       "oracle_id": "0dc158ba-7ec8-4558-91f5-0a87ef8380d4"
@@ -2254,7 +2208,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 196,
+      "edhrec_rank": 197,
       "price_usd": null,
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api",
@@ -2303,8 +2257,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2555,
-      "price_usd": "0.34",
+      "edhrec_rank": 2554,
+      "price_usd": "0.35",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/118/indulgent-aristocrat?utm_source=api",
       "oracle_id": "c7054a2d-2e7b-4487-8fc3-f6a47a716fd3"
@@ -2400,7 +2354,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3043,
+      "edhrec_rank": 3045,
       "price_usd": "0.34",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/275/legion-lieutenant?utm_source=api",
@@ -2450,8 +2404,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3526,
-      "price_usd": "4.72",
+      "edhrec_rank": 3528,
+      "price_usd": "4.73",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/131/malakir-bloodwitch?utm_source=api",
       "oracle_id": "870e199e-1d54-44ec-8e24-f24af93ae9c5"
@@ -2555,8 +2509,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1113,
-      "price_usd": "0.32",
+      "edhrec_rank": 1115,
+      "price_usd": "0.31",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/178/marauding-blight-priest?utm_source=api",
       "oracle_id": "814b87fe-2a75-4ff2-8637-7e69e3fb285b"
@@ -2604,8 +2558,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2713,
-      "price_usd": "3.53",
+      "edhrec_rank": 2718,
+      "price_usd": "5.51",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/83/master-of-dark-rites?utm_source=api",
       "oracle_id": "a65250f6-55e2-47ed-a355-d690047db6f2"
@@ -2654,17 +2608,64 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 228,
-      "price_usd": "1.42",
+      "price_usd": "1.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ltr/95/mirkwood-bats?utm_source=api",
       "oracle_id": "0636b6c3-0662-420a-b30d-f0a14e7c512d"
     },
     {
-      "name": "Night's Whisper",
-      "asked_as": "Night's Whisper",
+      "name": "Necropotence",
+      "asked_as": "Necropotence",
       "qty": 1,
-      "mana_cost": "{1}{B}",
-      "cmc": 2.0,
+      "mana_cost": "{B}{B}{B}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Necropotence",
+          "mana_cost": "{B}{B}{B}",
+          "type_line": "Enchantment",
+          "oracle_text": "Skip your draw step.\nWhenever you discard a card, exile that card from your graveyard.\nPay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "ima",
+      "set_name": "Iconic Masters",
+      "released_at": "2017-11-17",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 508,
+      "price_usd": "36.97",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ima/98/necropotence?utm_source=api",
+      "oracle_id": "94a844d2-0574-45a7-b347-e0e329767c42"
+    },
+    {
+      "name": "New Blood",
+      "asked_as": "New Blood",
+      "qty": 1,
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4.0,
       "type_line": "Sorcery",
       "layout": "normal",
       "colors": [
@@ -2680,10 +2681,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Night's Whisper",
-          "mana_cost": "{1}{B}",
+          "name": "New Blood",
+          "mana_cost": "{2}{B}{B}",
           "type_line": "Sorcery",
-          "oracle_text": "You draw two cards and lose 2 life.",
+          "oracle_text": "As an additional cost to cast this spell, tap an untapped Vampire you control.\nGain control of target creature. Change the text of that creature by replacing all instances of one creature type with Vampire.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2693,18 +2694,18 @@
           ]
         }
       ],
-      "rarity": "common",
-      "set": "hoc",
-      "set_name": "The Hobbit Eternal",
-      "released_at": "2026-08-14",
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 182,
-      "price_usd": "5.42",
+      "edhrec_rank": 4418,
+      "price_usd": "0.34",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/hoc/189/nights-whisper?utm_source=api",
-      "oracle_id": "7ffae8f8-3006-4969-a339-6d30678f87ea"
+      "scryfall_uri": "https://scryfall.com/card/lcc/202/new-blood?utm_source=api",
+      "oracle_id": "021d654e-b731-40d0-a18e-eaff43f9fdb9"
     },
     {
       "name": "Nomad Outpost",
@@ -2796,8 +2797,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2834,
-      "price_usd": "0.40",
+      "edhrec_rank": 2835,
+      "price_usd": "0.44",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/205/olivias-wrath?utm_source=api",
       "oracle_id": "9aebd891-c8c5-4309-a07b-6cab1b204172"
@@ -2843,60 +2844,11 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3969,
-      "price_usd": "2.59",
+      "edhrec_rank": 3978,
+      "price_usd": "2.54",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2xm/100/oubliette?utm_source=api",
       "oracle_id": "c753e9e3-9374-4e3c-8622-94576a8c1da3"
-    },
-    {
-      "name": "Painful Truths",
-      "asked_as": "Painful Truths",
-      "qty": 1,
-      "mana_cost": "{2}{B}",
-      "cmc": 3.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Converge"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Painful Truths",
-          "mana_cost": "{2}{B}",
-          "type_line": "Sorcery",
-          "oracle_text": "Converge — You draw X cards and lose X life, where X is the number of colors of mana spent to cast this spell.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "ecc",
-      "set_name": "Lorwyn Eclipsed Commander",
-      "released_at": "2026-01-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1699,
-      "price_usd": "0.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/ecc/82/painful-truths?utm_source=api",
-      "oracle_id": "58a2d15f-1b4b-4303-b524-8cc0d1b3e7d2"
     },
     {
       "name": "Path of Ancestry",
@@ -2990,8 +2942,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3495,
-      "price_usd": "0.40",
+      "edhrec_rank": 3511,
+      "price_usd": "0.32",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/207/patron-of-the-vein?utm_source=api",
       "oracle_id": "8dbc8fdb-36ce-4f30-b679-9c2029fcd9c6"
@@ -3037,7 +2989,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 198,
-      "price_usd": "28.15",
+      "price_usd": "27.60",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh3/303/phyrexian-tower?utm_source=api",
       "oracle_id": "1861e642-21d5-4232-89f3-b5557f2946c1"
@@ -3133,8 +3085,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2423,
-      "price_usd": "2.69",
+      "edhrec_rank": 2417,
+      "price_usd": "3.04",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdm/86/qarsi-revenant?utm_source=api",
       "oracle_id": "bbea79bc-71d4-4100-92f4-783c2c4b46da"
@@ -3227,11 +3179,58 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2321,
+      "edhrec_rank": 2319,
       "price_usd": "0.32",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/209/sanctum-seeker?utm_source=api",
       "oracle_id": "afb71560-0fc9-4ea5-9d52-d93c17d72519"
+    },
+    {
+      "name": "Shared Animosity",
+      "asked_as": "Shared Animosity",
+      "qty": 1,
+      "mana_cost": "{2}{R}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Shared Animosity",
+          "mana_cost": "{2}{R}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever a creature you control attacks, it gets +1/+0 until end of turn for each other attacking creature that shares a creature type with it.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "R"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 679,
+      "price_usd": "4.11",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/231/shared-animosity?utm_source=api",
+      "oracle_id": "a27445db-33f2-4571-98b5-83206b797484"
     },
     {
       "name": "Shattered Sanctum",
@@ -3318,7 +3317,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 40,
-      "price_usd": "6.04",
+      "price_usd": "6.45",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
       "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a"
@@ -3454,8 +3453,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4006,
-      "price_usd": "5.84",
+      "edhrec_rank": 4008,
+      "price_usd": "6.00",
       "all_parts": [
         {
           "name": "A-Sorin, Imperious Bloodlord",
@@ -3507,8 +3506,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1154,
-      "price_usd": "3.54",
+      "edhrec_rank": 1156,
+      "price_usd": "3.61",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/znr/127/soul-shatter?utm_source=api",
       "oracle_id": "615927c2-3fb0-4e64-a1a7-55fb56de1423"
@@ -3559,8 +3558,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3026,
-      "price_usd": "1.63",
+      "edhrec_rank": 3030,
+      "price_usd": "1.62",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/157/stromkirk-captain?utm_source=api",
       "oracle_id": "599c3fd6-3309-4b5d-adec-9c4062848ad5"
@@ -3986,7 +3985,7 @@
       "game_changer": true,
       "commander_legal": "legal",
       "edhrec_rank": 109,
-      "price_usd": "49.02",
+      "price_usd": "48.11",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
@@ -4032,8 +4031,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8909,
-      "price_usd": "5.89",
+      "edhrec_rank": 8921,
+      "price_usd": "5.95",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m13/113/vampire-nocturnus?utm_source=api",
       "oracle_id": "2109c49e-dc81-4a10-8265-3cf8c90db523"
@@ -4082,8 +4081,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3317,
-      "price_usd": "0.82",
+      "edhrec_rank": 3319,
+      "price_usd": "1.22",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m20/120/vampire-of-the-dire-moon?utm_source=api",
       "oracle_id": "5a938371-8428-48e3-85ed-6a84a39b29c6"
@@ -4178,7 +4177,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2682,
+      "edhrec_rank": 2694,
       "price_usd": "6.95",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mkm/110/vein-ripper?utm_source=api",
@@ -4225,8 +4224,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 201,
-      "price_usd": "0.40",
+      "edhrec_rank": 202,
+      "price_usd": "0.41",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
       "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f"
@@ -4321,8 +4320,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 494,
-      "price_usd": "12.14",
+      "edhrec_rank": 497,
+      "price_usd": "11.36",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose?utm_source=api",
       "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9"
@@ -4369,8 +4368,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2475,
-      "price_usd": "0.62",
+      "edhrec_rank": 2484,
+      "price_usd": "0.27",
       "all_parts": [
         {
           "name": "Blood",
@@ -4419,7 +4418,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 141,
-      "price_usd": "5.57",
+      "price_usd": "5.36",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
       "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"
@@ -4468,7 +4467,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 424,
-      "price_usd": "4.13",
+      "price_usd": "3.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
       "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822"
@@ -4514,8 +4513,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 234,
-      "price_usd": "1.35",
+      "edhrec_rank": 235,
+      "price_usd": "1.37",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/233/zulaport-cutthroat?utm_source=api",
       "oracle_id": "76b003e0-15af-4f22-bdf2-1ade5430964a"

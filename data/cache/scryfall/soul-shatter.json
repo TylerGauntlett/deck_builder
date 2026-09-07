@@ -110,19 +110,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1154,
-  "penny_rank": 2603,
+  "edhrec_rank": 1156,
+  "penny_rank": 2606,
   "preview": {
     "source": "J-E Depraz",
     "source_uri": "https://twitter.com/JEDepraz/status/1301280566843760640",
     "previewed_at": "2020-09-02"
   },
   "prices": {
-    "usd": "3.54",
-    "usd_foil": "4.19",
+    "usd": "3.61",
+    "usd_foil": "4.24",
     "usd_etched": null,
-    "eur": "4.36",
-    "eur_foil": "5.01",
+    "eur": "4.35",
+    "eur_foil": "5.16",
     "tix": "0.02"
   },
   "related_uris": {

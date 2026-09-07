@@ -31,7 +31,6 @@
 1 Edgar, Charmed Groom / Edgar Markov's Coffin
 1 Elenda, the Dusk Rose
 1 Exotic Orchard
-1 Feed the Swarm
 1 Fetid Heath
 1 Florian, Voldaren Scion
 1 Forerunner of the Legion
@@ -50,11 +49,11 @@
 1 Marauding Blight-Priest
 1 Master of Dark Rites
 1 Mirkwood Bats
-1 Night's Whisper
+1 Necropotence
+1 New Blood
 1 Nomad Outpost
 1 Olivia's Wrath
 1 Oubliette
-1 Painful Truths
 1 Path of Ancestry
 1 Patron of the Vein
 1 Phyrexian Tower
@@ -62,6 +61,7 @@
 1 Qarsi Revenant
 1 Sacred Foundry
 1 Sanctum Seeker
+1 Shared Animosity
 1 Shattered Sanctum
 1 Skullclamp
 1 Smoldering Marsh

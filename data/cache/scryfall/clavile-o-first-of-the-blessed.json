@@ -134,7 +134,7 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 3518,
+  "edhrec_rank": 3517,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://www.youtube.com/watch?v=Szm0yzSUUm0",
@@ -142,10 +142,10 @@
   },
   "prices": {
     "usd": "0.73",
-    "usd_foil": "0.48",
+    "usd_foil": "0.43",
     "usd_etched": null,
-    "eur": "0.89",
-    "eur_foil": "1.03",
+    "eur": "0.92",
+    "eur_foil": "1.04",
     "tix": null
   },
   "related_uris": {

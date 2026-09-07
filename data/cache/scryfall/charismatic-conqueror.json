@@ -129,19 +129,19 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 1044,
+  "edhrec_rank": 1045,
   "preview": {
     "source": "The Command Zone",
     "source_uri": "https://www.youtube.com/watch?v=MTbT-2xYfAU",
     "previewed_at": "2023-11-01"
   },
   "prices": {
-    "usd": "23.84",
+    "usd": "23.20",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "20.32",
+    "eur": "20.05",
     "eur_foil": null,
-    "tix": "12.97"
+    "tix": "12.31"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=640030&printed=false",

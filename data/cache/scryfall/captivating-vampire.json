@@ -117,11 +117,11 @@
     "previewed_at": "2025-01-07"
   },
   "prices": {
-    "usd": "3.53",
-    "usd_foil": "3.97",
+    "usd": "3.42",
+    "usd_foil": "4.12",
     "usd_etched": null,
-    "eur": "2.40",
-    "eur_foil": "2.14",
+    "eur": "2.24",
+    "eur_foil": "2.26",
     "tix": "0.03"
   },
   "related_uris": {

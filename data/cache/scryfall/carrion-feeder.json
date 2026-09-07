@@ -110,19 +110,19 @@
   "booster": true,
   "story_spotlight": false,
   "edhrec_rank": 614,
-  "penny_rank": 485,
+  "penny_rank": 483,
   "preview": {
     "source": "TopDeck.ru",
     "source_uri": "https://topdeck.ru/forums/topic/158908-mtgmh1-mh1-exclusive-preview-card/",
     "previewed_at": "2019-05-29"
   },
   "prices": {
-    "usd": "4.62",
-    "usd_foil": "8.33",
+    "usd": "4.44",
+    "usd_foil": "8.50",
     "usd_etched": null,
-    "eur": "3.06",
+    "eur": "3.09",
     "eur_foil": "7.43",
-    "tix": "0.05"
+    "tix": "0.03"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=464030&printed=false",

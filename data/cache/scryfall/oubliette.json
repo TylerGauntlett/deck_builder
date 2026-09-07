@@ -106,18 +106,18 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3969,
+  "edhrec_rank": 3978,
   "preview": {
     "source": "Tolarian Community College",
     "source_uri": "https://www.youtube.com/watch?v=ruEzqA8gqf0",
     "previewed_at": "2020-07-28"
   },
   "prices": {
-    "usd": "2.59",
-    "usd_foil": "3.35",
+    "usd": "2.54",
+    "usd_foil": "3.40",
     "usd_etched": null,
-    "eur": "1.27",
-    "eur_foil": "2.13",
+    "eur": "1.21",
+    "eur_foil": "2.36",
     "tix": "0.09"
   },
   "related_uris": {

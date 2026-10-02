@@ -1,0 +1,24 @@
+{
+  "commander": [
+    "Giada, Font of Hope"
+  ],
+  "format": "commander",
+  "bracket": 3,
+  "budget": {
+    "per_card_max_usd": 40,
+    "total_upgrade_usd": 300
+  },
+  "goals": "Upgrade the Calling All Angels precon to upper bracket 3. Mono-white Angel tribal: Giada makes every Angel enter bigger and ramps into Angels; win through the air with a board of evasive, growing Angels backed by anthems and lifegain payoffs.",
+  "meta": "4-player casual pods. The same 3 opponents rotate between 10+ different decks game to game, so cards are judged on general usefulness across unknown decks -- NOT tuned against specific opponents. Do not carry forward any fixed description of what the pod plays. Pod tendency reported by the user 2026-10-02: the majority of wins come through ground (non-flying) attacks.",
+  "constraints": [
+    "No early infinite combos. Late-game infinite lines are fine -- the test is speed and tutor-dependence, not the presence of a loop.",
+    "No win line that depends on tutoring to assemble.",
+    "At most 3 Game Changers (bracket 3).",
+    "Total upgrade spend about $300; no single card over $40."
+  ],
+  "preferences": [
+    "Prefer on-theme Angel cards, but a strong off-theme card is acceptable."
+  ],
+  "updated": "2026-10-02",
+  "source": "https://moxfield.com/decks/28szhD1-rUyWMW5dTmryaA"
+}

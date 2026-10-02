@@ -109,14 +109,14 @@
     "surgefoil",
     "universesbeyond"
   ],
-  "edhrec_rank": 40,
+  "edhrec_rank": 41,
   "prices": {
-    "usd": "6.45",
+    "usd": "5.38",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "5.47",
+    "eur": "5.68",
     "eur_foil": null,
-    "tix": "0.93"
+    "tix": "0.81"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DSkullclamp",

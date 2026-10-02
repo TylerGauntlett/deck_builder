@@ -15,7 +15,6 @@
 1 Bloodthirsty Conqueror
 1 Bloodthrone Vampire
 1 Bojuka Bog
-1 Canyon Slough
 1 Captivating Vampire
 1 Carrion Feeder
 1 Caves of Koilos
@@ -28,12 +27,14 @@
 1 Dark Ritual
 1 Dragonskull Summit
 1 Edgar Markov
+1 Edgar, Ancient Bloodlord
 1 Edgar, Charmed Groom / Edgar Markov's Coffin
 1 Elenda, the Dusk Rose
 1 Exotic Orchard
 1 Fetid Heath
 1 Florian, Voldaren Scion
 1 Forerunner of the Legion
+1 Ghostly Prison
 1 Godless Shrine
 1 Grave Pact
 1 Haunted Ridge
@@ -88,4 +89,3 @@
 1 Voldaren Estate
 1 War Room
 1 Welcoming Vampire
-1 Zulaport Cutthroat

@@ -4,20 +4,20 @@
   "stats": {
     "cards": 100,
     "distinct": 91,
-    "lands": 35,
+    "lands": 34,
     "avg_mana_value_nonland": 2.92,
     "type_counts": {
       "Creature": 38,
-      "Land": 35,
+      "Land": 34,
       "Instant": 9,
       "Artifact": 8,
-      "Enchantment": 7,
+      "Enchantment": 8,
       "Sorcery": 2,
       "Planeswalker": 1
     },
     "color_pips": {
       "B": 66,
-      "W": 15,
+      "W": 17,
       "R": 5
     },
     "game_changers": [
@@ -67,8 +67,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 189,
-      "price_usd": "14.62",
+      "edhrec_rank": 188,
+      "price_usd": "15.64",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
       "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
@@ -893,55 +893,6 @@
       "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce"
     },
     {
-      "name": "Canyon Slough",
-      "asked_as": "Canyon Slough",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land — Swamp Mountain",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "B",
-        "R"
-      ],
-      "produced_mana": [
-        "B",
-        "R"
-      ],
-      "keywords": [
-        "Cycling"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Canyon Slough",
-          "mana_cost": "",
-          "type_line": "Land — Swamp Mountain",
-          "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 684,
-      "price_usd": "0.23",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/228/canyon-slough?utm_source=api",
-      "oracle_id": "2031b17c-0536-446f-a9aa-b46fe79b7ea7"
-    },
-    {
       "name": "Captivating Vampire",
       "asked_as": "Captivating Vampire",
       "qty": 1,
@@ -1237,8 +1188,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 578,
-      "price_usd": "5.46",
+      "edhrec_rank": 562,
+      "price_usd": "3.67",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
       "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
@@ -1551,6 +1502,56 @@
       ],
       "scryfall_uri": "https://scryfall.com/card/inr/234/edgar-markov?utm_source=api",
       "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a"
+    },
+    {
+      "name": "Edgar, Ancient Bloodlord",
+      "asked_as": "Edgar, Ancient Bloodlord",
+      "qty": 1,
+      "mana_cost": "{W}{B}",
+      "cmc": 2.0,
+      "type_line": "Legendary Creature — Vampire Noble",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Edgar, Ancient Bloodlord",
+          "mana_cost": "{W}{B}",
+          "type_line": "Legendary Creature — Vampire Noble",
+          "oracle_text": "Whenever another creature or planeswalker you control dies, you gain 1 life.\n{2}, Sacrifice another creature or planeswalker: Put a +1/+1 counter on Edgar. He gains menace until end of turn. (He can't be blocked except by two or more creatures.)",
+          "power": "2",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "fra",
+      "set_name": "Reality Fracture",
+      "released_at": "2026-10-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 26584,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fra/270/edgar-ancient-bloodlord?utm_source=api",
+      "oracle_id": "cab2bc93-f38b-4301-ac42-05765615586b"
     },
     {
       "name": "Edgar, Charmed Groom // Edgar Markov's Coffin",
@@ -1874,6 +1875,53 @@
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
     },
     {
+      "name": "Ghostly Prison",
+      "asked_as": "Ghostly Prison",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Ghostly Prison",
+          "mana_cost": "{2}{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 161,
+      "price_usd": "5.87",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
+      "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
+    },
+    {
       "name": "Godless Shrine",
       "asked_as": "Godless Shrine",
       "qty": 1,
@@ -2112,8 +2160,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 150,
-      "price_usd": "4.93",
+      "edhrec_rank": 152,
+      "price_usd": "5.89",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -3316,8 +3364,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 40,
-      "price_usd": "6.45",
+      "edhrec_rank": 41,
+      "price_usd": "5.38",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
       "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a"
@@ -3985,7 +4033,7 @@
       "game_changer": true,
       "commander_legal": "legal",
       "edhrec_rank": 109,
-      "price_usd": "48.11",
+      "price_usd": "47.45",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
@@ -4471,53 +4519,6 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
       "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822"
-    },
-    {
-      "name": "Zulaport Cutthroat",
-      "asked_as": "Zulaport Cutthroat",
-      "qty": 1,
-      "mana_cost": "{1}{B}",
-      "cmc": 2.0,
-      "type_line": "Creature — Human Rogue Ally",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "1",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Zulaport Cutthroat",
-          "mana_cost": "{1}{B}",
-          "type_line": "Creature — Human Rogue Ally",
-          "oracle_text": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
-          "power": "1",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 235,
-      "price_usd": "1.37",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/233/zulaport-cutthroat?utm_source=api",
-      "oracle_id": "76b003e0-15af-4f22-bdf2-1ade5430964a"
     }
   ]
 }

@@ -1,13 +1,13 @@
 # markov_chains - card details
 
-Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
-- 100 cards (91 distinct), 35 lands
+- 100 cards (91 distinct), 34 lands
 - Average mana value of non-lands: 2.92
-- Types: Creature 38, Land 35, Instant 9, Artifact 8, Enchantment 7, Sorcery 2, Planeswalker 1
-- Colored pips: B 66, W 15, R 5
+- Types: Creature 38, Land 34, Instant 9, Artifact 8, Enchantment 8, Sorcery 2, Planeswalker 1
+- Colored pips: B 66, W 17, R 5
 - Game Changers: Necropotence, Teferi's Protection
 
 ## Spells and permanents
@@ -20,7 +20,7 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Creatures you control gain flying, vigilance, and double strike until end of turn.
   • Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
 
-- Color identity: W | EDHREC rank: 189 | ~$14.62
+- Color identity: W | EDHREC rank: 188 | ~$15.64
 
 ### Anguished Unmaking
 
@@ -203,7 +203,7 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Any number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)
 
-- Color identity: W | Keywords: Convoke | EDHREC rank: 578 | ~$5.46
+- Color identity: W | Keywords: Convoke | EDHREC rank: 562 | ~$3.67
 
 ### Cordial Vampire
 
@@ -241,6 +241,16 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 4/4
 
 - Color identity: BRW | Keywords: First strike, Haste, Eminence | EDHREC rank: 3154 | ~$40.69 | Related: Vampire
+
+### Edgar, Ancient Bloodlord
+
+- Cost: {W}{B}  |  Mana value: 2.0
+- Type: Legendary Creature — Vampire Noble
+- Text: Whenever another creature or planeswalker you control dies, you gain 1 life.
+  {2}, Sacrifice another creature or planeswalker: Put a +1/+1 counter on Edgar. He gains menace until end of turn. (He can't be blocked except by two or more creatures.)
+- P/T: 2/3
+
+- Color identity: BW | EDHREC rank: 26584 | ~$0.35
 
 ### Edgar, Charmed Groom // Edgar Markov's Coffin
 
@@ -291,6 +301,14 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | EDHREC rank: 6051 | ~$1.40
 
+### Ghostly Prison
+
+- Cost: {2}{W}  |  Mana value: 3.0
+- Type: Enchantment
+- Text: Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
+
+- Color identity: W | EDHREC rank: 161 | ~$5.87
+
 ### Grave Pact
 
 - Cost: {1}{B}{B}{B}  |  Mana value: 4.0
@@ -330,7 +348,7 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creature spells you cast of the chosen type cost {1} less to cast.
   At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
 
-- Color identity: C | EDHREC rank: 150 | ~$4.93
+- Color identity: C | EDHREC rank: 152 | ~$5.89
 
 ### High-Society Hunter
 
@@ -506,7 +524,7 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever equipped creature dies, draw two cards.
   Equip {1}
 
-- Color identity: C | Keywords: Equip | EDHREC rank: 40 | ~$6.45
+- Color identity: C | Keywords: Equip | EDHREC rank: 41 | ~$5.38
 
 ### Sol Ring
 
@@ -587,7 +605,7 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)
   Exile Teferi's Protection.
 
-- Color identity: W | EDHREC rank: 109 | ~$48.11 | **Game Changer**
+- Color identity: W | EDHREC rank: 109 | ~$47.45 | **Game Changer**
 
 ### Vampire Nocturnus
 
@@ -658,15 +676,6 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | Keywords: Flying | EDHREC rank: 424 | ~$3.63
 
-### Zulaport Cutthroat
-
-- Cost: {1}{B}  |  Mana value: 2.0
-- Type: Creature — Human Rogue Ally
-- Text: Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.
-- P/T: 1/1
-
-- Color identity: B | EDHREC rank: 235 | ~$1.37
-
 ## Lands
 
 ### Battlefield Forge
@@ -696,16 +705,6 @@ Generated 2026-09-07 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {T}: Add {B}.
 
 - Color identity: B | Produces: B | EDHREC rank: 24 | ~$1.20
-
-### Canyon Slough
-
-- Cost: -  |  Mana value: 0.0
-- Type: Land — Swamp Mountain
-- Text: ({T}: Add {B} or {R}.)
-  This land enters tapped.
-  Cycling {2} ({2}, Discard this card: Draw a card.)
-
-- Color identity: BR | Keywords: Cycling | Produces: BR | EDHREC rank: 684 | ~$0.23
 
 ### Caves of Koilos
 

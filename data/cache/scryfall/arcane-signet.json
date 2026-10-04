@@ -1,32 +1,33 @@
 {
   "object": "card",
-  "id": "1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd",
+  "id": "c6b6117c-faab-4bbb-b851-07bd8061ef03",
   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
   "multiverse_ids": [],
-  "mtgo_id": 150851,
-  "tcgplayer_id": 697413,
-  "cardmarket_id": 891686,
+  "resource_id": "D2DFCEAA62342B3FBC38AD97E940D069C600B9136E5C3A8F7754E79422C49B0D",
+  "mtgo_id": 156436,
+  "tcgplayer_id": 717785,
+  "cardmarket_id": 909813,
   "name": "Arcane Signet",
   "lang": "en",
-  "released_at": "2026-06-26",
-  "uri": "https://api.scryfall.com/cards/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd",
-  "scryfall_uri": "https://scryfall.com/card/msc/191/arcane-signet?utm_source=api",
+  "released_at": "2026-10-02",
+  "uri": "https://api.scryfall.com/cards/c6b6117c-faab-4bbb-b851-07bd8061ef03",
+  "scryfall_uri": "https://scryfall.com/card/frc/20/arcane-signet?utm_source=api",
   "layout": "normal",
   "highres_image": true,
   "image_status": "highres_scan",
-  "image_updated_at": "2026-07-13T00:40:22Z",
+  "image_updated_at": "2026-09-17T11:27:15Z",
   "image_uris": {
-    "small": "https://cards.scryfall.io/small/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
-    "normal": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
-    "large": "https://cards.scryfall.io/large/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
-    "png": "https://cards.scryfall.io/png/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.png?1783903222",
-    "art_crop": "https://cards.scryfall.io/art_crop/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
-    "border_crop": "https://cards.scryfall.io/border_crop/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
-    "thumb": "https://cards.scryfall.io/thumb/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.webp?1783903222",
-    "grid": "https://cards.scryfall.io/grid/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.webp?1783903222",
-    "display": "https://cards.scryfall.io/display/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.webp?1783903222",
-    "art": "https://cards.scryfall.io/art/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.webp?1783903222",
-    "crop": "https://cards.scryfall.io/crop/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.webp?1783903222"
+    "small": "https://cards.scryfall.io/small/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.jpg?1789644435",
+    "normal": "https://cards.scryfall.io/normal/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.jpg?1789644435",
+    "large": "https://cards.scryfall.io/large/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.jpg?1789644435",
+    "png": "https://cards.scryfall.io/png/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.png?1789644435",
+    "art_crop": "https://cards.scryfall.io/art_crop/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.jpg?1789644435",
+    "border_crop": "https://cards.scryfall.io/border_crop/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.jpg?1789644435",
+    "thumb": "https://cards.scryfall.io/thumb/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.webp?1789644435",
+    "grid": "https://cards.scryfall.io/grid/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.webp?1789644435",
+    "display": "https://cards.scryfall.io/display/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.webp?1789644435",
+    "art": "https://cards.scryfall.io/art/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.webp?1789644435",
+    "crop": "https://cards.scryfall.io/crop/front/c/6/c6b6117c-faab-4bbb-b851-07bd8061ef03.webp?1789644435"
   },
   "mana_cost": "{2}",
   "cmc": 2.0,
@@ -69,57 +70,58 @@
   },
   "games": [
     "paper",
-    "mtgo"
+    "mtgo",
+    "arena"
   ],
   "reserved": false,
   "game_changer": false,
-  "foil": true,
+  "foil": false,
   "nonfoil": true,
   "finishes": [
-    "nonfoil",
-    "foil"
+    "nonfoil"
   ],
   "oversized": false,
   "promo": false,
   "reprint": true,
   "variation": false,
-  "set_id": "9d739461-c5ac-43a1-af41-3d5a585b5c8d",
-  "set": "msc",
-  "set_name": "Marvel Super Heroes Commander",
+  "set_id": "cfd10490-7397-4143-bda7-d388b877636f",
+  "set": "frc",
+  "set_name": "Reality Fracture Commander",
   "set_type": "commander",
-  "set_uri": "https://api.scryfall.com/sets/9d739461-c5ac-43a1-af41-3d5a585b5c8d",
-  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Amsc&unique=prints",
-  "scryfall_set_uri": "https://scryfall.com/sets/msc?utm_source=api",
-  "rulings_uri": "https://api.scryfall.com/cards/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd/rulings",
+  "set_uri": "https://api.scryfall.com/sets/cfd10490-7397-4143-bda7-d388b877636f",
+  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Afrc&unique=prints",
+  "scryfall_set_uri": "https://scryfall.com/sets/frc?utm_source=api",
+  "rulings_uri": "https://api.scryfall.com/cards/c6b6117c-faab-4bbb-b851-07bd8061ef03/rulings",
   "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0bc7f093-bef0-4f1a-852c-4b75ebf54838&unique=prints",
-  "collector_number": "191",
+  "collector_number": "20",
   "digital": false,
   "rarity": "uncommon",
-  "flavor_text": "\"The new ID cards are amazing! Instant communication with any Avenger worldwide, top level security clearance in over a hundred countries, and ten percent off at the cafe downstairs!\" -She-Hulk, Jennifer Walters",
+  "flavor_text": "\"Everything is in progress . . . just like us. May we always know exactly who we are.\"\n—Jace, to Tam",
   "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
-  "artist": "Jason Smith",
+  "artist": "Josu Solano",
   "artist_ids": [
-    "f51581c1-fab2-47f5-8c86-40ad1f52c369"
+    "fb7b61a8-13c5-4813-a749-9d3396801906"
   ],
-  "illustration_id": "b47dc6bb-f7f2-4726-b30a-cf11da375c3f",
+  "illustration_id": "da0f848c-8240-437d-984f-fc8209f91639",
   "border_color": "black",
   "frame": "2015",
   "full_art": false,
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "promo_types": [
-    "surgefoil",
-    "universesbeyond"
-  ],
   "edhrec_rank": 3,
+  "preview": {
+    "source": "Wizards of the Coast",
+    "source_uri": "https://youtu.be/mvTyHbTbfBo",
+    "previewed_at": "2026-09-16"
+  },
   "prices": {
-    "usd": "0.53",
+    "usd": "0.47",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.47",
+    "eur": "0.29",
     "eur_foil": null,
-    "tix": "0.06"
+    "tix": "0.02"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DArcane%2BSignet",
@@ -127,8 +129,8 @@
     "edhrec": "https://edhrec.com/route/?cc=Arcane+Signet"
   },
   "purchase_uris": {
-    "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F697413%3Fpage%3D1",
-    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=891686&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-    "cardhoarder": "https://www.cardhoarder.com/cards/150851?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F717785%3Fpage%3D1",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=909813&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+    "cardhoarder": "https://www.cardhoarder.com/cards/156436?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
   }
 }

@@ -115,19 +115,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 378,
+  "edhrec_rank": 376,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://www.twitch.tv/videos/1285955562",
     "previewed_at": "2022-02-03"
   },
   "prices": {
-    "usd": "5.79",
+    "usd": "5.75",
     "usd_foil": "6.03",
     "usd_etched": null,
-    "eur": "6.48",
-    "eur_foil": "7.71",
-    "tix": "0.22"
+    "eur": "6.62",
+    "eur_foil": "7.63",
+    "tix": "0.21"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=548581&printed=false",

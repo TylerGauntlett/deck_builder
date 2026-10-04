@@ -112,19 +112,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 693,
+  "edhrec_rank": 694,
   "preview": {
     "source": "Magic Noobz",
     "source_uri": "https://www.youtube.com/watch?v=hXX5Ycmr0WQ",
     "previewed_at": "2022-05-20"
   },
   "prices": {
-    "usd": "6.30",
+    "usd": "6.40",
     "usd_foil": "7.89",
     "usd_etched": null,
-    "eur": "7.67",
-    "eur_foil": "9.98",
-    "tix": "11.01"
+    "eur": "7.58",
+    "eur_foil": "10.22",
+    "tix": "11.02"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=562887&printed=false",

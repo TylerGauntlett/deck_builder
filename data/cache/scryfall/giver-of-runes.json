@@ -117,12 +117,12 @@
     "previewed_at": "2019-05-21"
   },
   "prices": {
-    "usd": "9.60",
+    "usd": "9.51",
     "usd_foil": "14.22",
     "usd_etched": null,
-    "eur": "8.75",
+    "eur": "8.87",
     "eur_foil": "11.54",
-    "tix": "1.79"
+    "tix": "1.80"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=463962&printed=false",

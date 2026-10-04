@@ -106,19 +106,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3978,
+  "edhrec_rank": 4006,
   "preview": {
     "source": "Tolarian Community College",
     "source_uri": "https://www.youtube.com/watch?v=ruEzqA8gqf0",
     "previewed_at": "2020-07-28"
   },
   "prices": {
-    "usd": "2.54",
-    "usd_foil": "3.40",
+    "usd": "2.76",
+    "usd_foil": "3.29",
     "usd_etched": null,
-    "eur": "1.21",
-    "eur_foil": "2.36",
-    "tix": "0.09"
+    "eur": "1.74",
+    "eur_foil": "1.94",
+    "tix": "0.04"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=489773&printed=false",

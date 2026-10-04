@@ -135,7 +135,7 @@
   "promo_types": [
     "themepack"
   ],
-  "edhrec_rank": 2812,
+  "edhrec_rank": 2810,
   "penny_rank": 11578,
   "preview": {
     "source": "Wizards of the Coast",
@@ -143,10 +143,10 @@
     "previewed_at": "2020-12-16"
   },
   "prices": {
-    "usd": "6.96",
+    "usd": "7.11",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "3.06",
+    "eur": "3.03",
     "eur_foil": null,
     "tix": "0.02"
   },

@@ -107,7 +107,7 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 1463,
+  "edhrec_rank": 1465,
   "penny_rank": 429,
   "preview": {
     "source": "EDHijinks",
@@ -115,10 +115,10 @@
     "previewed_at": "2025-07-10"
   },
   "prices": {
-    "usd": "0.34",
+    "usd": "0.35",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.31",
+    "eur": "0.29",
     "eur_foil": null,
     "tix": "0.05"
   },

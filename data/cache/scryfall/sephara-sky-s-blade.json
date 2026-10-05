@@ -115,8 +115,8 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1373,
-  "penny_rank": 4770,
+  "edhrec_rank": 1372,
+  "penny_rank": 4773,
   "preview": {
     "source": "Drinks of Alara",
     "source_uri": "https://twitter.com/DrinksOfAlara/status/1679840125663035392",
@@ -124,9 +124,9 @@
   },
   "prices": {
     "usd": "3.63",
-    "usd_foil": "4.75",
+    "usd_foil": "4.71",
     "usd_etched": null,
-    "eur": "2.70",
+    "eur": "2.88",
     "eur_foil": "4.35",
     "tix": "0.08"
   },

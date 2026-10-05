@@ -20,7 +20,7 @@
 1 Three Tree City
 1 Farewell
 1 Drannith Magistrate
-1 Archivist of Oghma
+1 Lightning Greaves
 1 Castle Ardenvale
 1 Eiganjo, Seat of the Empire
 1 Metastatic Evangel

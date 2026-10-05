@@ -165,19 +165,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 2793,
+  "edhrec_rank": 2791,
   "preview": {
     "source": "Luis Salvatto",
     "source_uri": "https://twitter.com/LuisSalvatto/status/1301287364980023296",
     "previewed_at": "2020-09-02"
   },
   "prices": {
-    "usd": "3.58",
+    "usd": "3.94",
     "usd_foil": "5.04",
     "usd_etched": null,
-    "eur": "3.18",
-    "eur_foil": "3.90",
-    "tix": "0.39"
+    "eur": "3.24",
+    "eur_foil": "4.13",
+    "tix": "0.42"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=491633&printed=false",

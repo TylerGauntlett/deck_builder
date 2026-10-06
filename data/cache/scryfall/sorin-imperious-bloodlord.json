@@ -16,19 +16,19 @@
   "layout": "normal",
   "highres_image": true,
   "image_status": "highres_scan",
-  "image_updated_at": "2026-07-13T02:02:10Z",
+  "image_updated_at": "2026-09-26T20:58:28Z",
   "image_uris": {
-    "small": "https://cards.scryfall.io/small/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1783908130",
-    "normal": "https://cards.scryfall.io/normal/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1783908130",
-    "large": "https://cards.scryfall.io/large/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1783908130",
-    "png": "https://cards.scryfall.io/png/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.png?1783908130",
-    "art_crop": "https://cards.scryfall.io/art_crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1783908130",
-    "border_crop": "https://cards.scryfall.io/border_crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1783908130",
-    "thumb": "https://cards.scryfall.io/thumb/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1783908130",
-    "grid": "https://cards.scryfall.io/grid/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1783908130",
-    "display": "https://cards.scryfall.io/display/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1783908130",
-    "art": "https://cards.scryfall.io/art/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1783908130",
-    "crop": "https://cards.scryfall.io/crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1783908130"
+    "small": "https://cards.scryfall.io/small/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1790456308",
+    "normal": "https://cards.scryfall.io/normal/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1790456308",
+    "large": "https://cards.scryfall.io/large/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1790456308",
+    "png": "https://cards.scryfall.io/png/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.png?1790456308",
+    "art_crop": "https://cards.scryfall.io/art_crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1790456308",
+    "border_crop": "https://cards.scryfall.io/border_crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.jpg?1790456308",
+    "thumb": "https://cards.scryfall.io/thumb/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1790456308",
+    "grid": "https://cards.scryfall.io/grid/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1790456308",
+    "display": "https://cards.scryfall.io/display/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1790456308",
+    "art": "https://cards.scryfall.io/art/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1790456308",
+    "crop": "https://cards.scryfall.io/crop/front/2/1/219d3e48-e0b1-472d-ac45-11c14b292c9e.webp?1790456308"
   },
   "mana_cost": "{2}{B}",
   "cmc": 3.0,
@@ -42,28 +42,10 @@
     "B"
   ],
   "keywords": [],
-  "all_parts": [
-    {
-      "object": "related_card",
-      "id": "4926ede3-deb5-405f-b867-a0079bb9f4d7",
-      "component": "combo_piece",
-      "name": "A-Sorin, Imperious Bloodlord",
-      "type_line": "Legendary Planeswalker — Sorin",
-      "uri": "https://api.scryfall.com/cards/4926ede3-deb5-405f-b867-a0079bb9f4d7"
-    },
-    {
-      "object": "related_card",
-      "id": "e0c955a9-e853-44f7-b137-39f15117bb84",
-      "component": "combo_piece",
-      "name": "Sorin, Imperious Bloodlord",
-      "type_line": "Legendary Planeswalker — Sorin",
-      "uri": "https://api.scryfall.com/cards/e0c955a9-e853-44f7-b137-39f15117bb84"
-    }
-  ],
   "legalities": {
     "standard": "not_legal",
     "future": "not_legal",
-    "historic": "not_legal",
+    "historic": "banned",
     "timeless": "legal",
     "gladiator": "legal",
     "pioneer": "banned",
@@ -75,8 +57,8 @@
     "commander": "legal",
     "oathbreaker": "legal",
     "standardbrawl": "not_legal",
-    "brawl": "not_legal",
-    "competitivebrawl": "not_legal",
+    "brawl": "legal",
+    "competitivebrawl": "legal",
     "alchemy": "not_legal",
     "paupercommander": "not_legal",
     "duel": "legal",
@@ -126,19 +108,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4008,
+  "edhrec_rank": 3999,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "",
     "previewed_at": "2025-01-07"
   },
   "prices": {
-    "usd": "6.00",
-    "usd_foil": "6.49",
+    "usd": "6.40",
+    "usd_foil": "6.44",
     "usd_etched": null,
-    "eur": "5.01",
-    "eur_foil": "5.61",
-    "tix": "1.19"
+    "eur": "5.18",
+    "eur_foil": "5.05",
+    "tix": "1.35"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=685967&printed=false",

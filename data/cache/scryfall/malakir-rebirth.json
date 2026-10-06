@@ -146,19 +146,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 241,
-  "penny_rank": 652,
+  "edhrec_rank": 237,
+  "penny_rank": 644,
   "preview": {
     "source": "Rob Bubble",
     "source_uri": "https://twitter.com/RobBubble/status/1302533613356019714",
     "previewed_at": "2020-09-06"
   },
   "prices": {
-    "usd": "14.27",
-    "usd_foil": "15.27",
+    "usd": "15.14",
+    "usd_foil": "16.51",
     "usd_etched": null,
-    "eur": "10.83",
-    "eur_foil": "14.76",
+    "eur": "11.34",
+    "eur_foil": "14.38",
     "tix": "0.03"
   },
   "related_uris": {

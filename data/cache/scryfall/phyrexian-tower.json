@@ -116,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 198,
+  "edhrec_rank": 194,
   "preview": {
     "source": "Aspiringspike",
     "source_uri": "https://twitter.com/Aspiringspike/status/1794032831544614944",
     "previewed_at": "2024-05-24"
   },
   "prices": {
-    "usd": "27.60",
-    "usd_foil": "30.01",
+    "usd": "30.15",
+    "usd_foil": "30.27",
     "usd_etched": null,
-    "eur": "28.13",
-    "eur_foil": "31.91",
-    "tix": "0.25"
+    "eur": "28.63",
+    "eur_foil": "32.79",
+    "tix": "0.86"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=664082&printed=false",

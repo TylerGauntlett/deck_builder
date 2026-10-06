@@ -42,28 +42,10 @@
     "B"
   ],
   "keywords": [],
-  "all_parts": [
-    {
-      "object": "related_card",
-      "id": "ab76e956-5d6c-49b8-991c-c39d5b18b876",
-      "component": "combo_piece",
-      "name": "A-Blood Artist",
-      "type_line": "Creature — Vampire",
-      "uri": "https://api.scryfall.com/cards/ab76e956-5d6c-49b8-991c-c39d5b18b876"
-    },
-    {
-      "object": "related_card",
-      "id": "b5275d76-2947-4219-be21-614c7421614a",
-      "component": "combo_piece",
-      "name": "Blood Artist",
-      "type_line": "Creature — Vampire",
-      "uri": "https://api.scryfall.com/cards/b5275d76-2947-4219-be21-614c7421614a"
-    }
-  ],
   "legalities": {
     "standard": "not_legal",
     "future": "not_legal",
-    "historic": "not_legal",
+    "historic": "legal",
     "timeless": "legal",
     "gladiator": "legal",
     "pioneer": "not_legal",
@@ -75,8 +57,8 @@
     "commander": "legal",
     "oathbreaker": "legal",
     "standardbrawl": "not_legal",
-    "brawl": "not_legal",
-    "competitivebrawl": "not_legal",
+    "brawl": "legal",
+    "competitivebrawl": "legal",
     "alchemy": "not_legal",
     "paupercommander": "not_legal",
     "duel": "legal",
@@ -125,13 +107,13 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 139,
-  "penny_rank": 1241,
+  "edhrec_rank": 141,
+  "penny_rank": 1232,
   "prices": {
-    "usd": "3.45",
+    "usd": "3.88",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "2.52",
+    "eur": "2.84",
     "eur_foil": null,
     "tix": "0.06"
   },

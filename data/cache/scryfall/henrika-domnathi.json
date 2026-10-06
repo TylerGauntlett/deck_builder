@@ -161,19 +161,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 7611,
-  "penny_rank": 3552,
+  "edhrec_rank": 7676,
+  "penny_rank": 3619,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/articles/archive/card-preview/henrika-domnathi-2021-11-02",
     "previewed_at": "2021-11-02"
   },
   "prices": {
-    "usd": "1.28",
-    "usd_foil": "2.49",
+    "usd": "1.41",
+    "usd_foil": "3.15",
     "usd_etched": null,
-    "eur": "1.66",
-    "eur_foil": "2.22",
+    "eur": "1.46",
+    "eur_foil": "1.90",
     "tix": "0.02"
   },
   "related_uris": {

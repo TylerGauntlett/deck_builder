@@ -115,20 +115,20 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 497,
-  "penny_rank": 2708,
+  "edhrec_rank": 492,
+  "penny_rank": 2760,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://twitter.com/riptideprolab/status/1268903731430674433",
     "previewed_at": "2020-06-05"
   },
   "prices": {
-    "usd": "11.36",
-    "usd_foil": "11.96",
+    "usd": "11.41",
+    "usd_foil": "11.70",
     "usd_etched": null,
-    "eur": "8.34",
-    "eur_foil": "7.21",
-    "tix": "0.02"
+    "eur": "8.66",
+    "eur_foil": "8.97",
+    "tix": "0.03"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=485450&printed=false",

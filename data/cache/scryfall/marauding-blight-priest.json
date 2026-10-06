@@ -114,15 +114,15 @@
   "promo_types": [
     "startercollection"
   ],
-  "edhrec_rank": 1115,
-  "penny_rank": 5470,
+  "edhrec_rank": 1105,
+  "penny_rank": 5453,
   "prices": {
-    "usd": "0.31",
-    "usd_foil": "0.40",
+    "usd": "0.34",
+    "usd_foil": "0.45",
     "usd_etched": null,
-    "eur": "0.12",
-    "eur_foil": "0.28",
-    "tix": "0.03"
+    "eur": "0.13",
+    "eur_foil": "0.16",
+    "tix": "0.04"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=679920&printed=false",

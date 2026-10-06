@@ -134,8 +134,8 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4355,
-  "penny_rank": 15367,
+  "edhrec_rank": 4412,
+  "penny_rank": 15404,
   "preview": {
     "source": "Jack Torrance",
     "source_uri": "https://www.twitch.tv/jacktorrance90/videos",
@@ -143,10 +143,10 @@
   },
   "prices": {
     "usd": "0.35",
-    "usd_foil": "0.38",
+    "usd_foil": "0.40",
     "usd_etched": null,
-    "eur": "0.23",
-    "eur_foil": "0.27",
+    "eur": "0.19",
+    "eur_foil": "0.50",
     "tix": "0.03"
   },
   "related_uris": {

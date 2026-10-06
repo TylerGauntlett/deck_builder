@@ -178,19 +178,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3581,
-  "penny_rank": 5662,
+  "edhrec_rank": 3627,
+  "penny_rank": 5725,
   "preview": {
     "source": "TCGplayer",
     "source_uri": "https://infinite.tcgplayer.com/article/EXCLUSIVE-Innistrad-Crimson-Vow-Preview-Card/899f2fba-f70d-4e9d-9667-a2f29d0e345f",
     "previewed_at": "2021-11-04"
   },
   "prices": {
-    "usd": "3.52",
-    "usd_foil": "4.50",
+    "usd": "3.41",
+    "usd_foil": "4.30",
     "usd_etched": null,
-    "eur": "4.14",
-    "eur_foil": "4.74",
+    "eur": "4.22",
+    "eur_foil": "5.08",
     "tix": "0.02"
   },
   "related_uris": {

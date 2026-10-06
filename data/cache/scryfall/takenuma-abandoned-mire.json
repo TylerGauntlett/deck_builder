@@ -123,12 +123,12 @@
     "previewed_at": "2022-02-01"
   },
   "prices": {
-    "usd": "11.17",
-    "usd_foil": "12.82",
+    "usd": "10.60",
+    "usd_foil": "12.17",
     "usd_etched": null,
-    "eur": "9.73",
-    "eur_foil": "10.57",
-    "tix": "0.20"
+    "eur": "9.68",
+    "eur_foil": "12.01",
+    "tix": "0.15"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=548591&printed=false",

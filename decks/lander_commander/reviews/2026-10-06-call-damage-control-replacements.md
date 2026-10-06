@@ -174,3 +174,101 @@ CDC's edge is rate: two cards for two mana when a sacrificed fetch land and a de
 creature are both in the yard, which with 8 self-sacrificing lands is common. That
 is a real argument for keeping CDC; it is not an argument for any of the three
 cards above.
+
+---
+
+# Addendum, same day: Ghalta pushback and Verdant Kraken
+
+## Ghalta, Primal Hunger — cut withdrawn
+
+The user's point: Ghalta's cost is its *effective* cost, not the printed 12. That
+is a rate axis the section above under-weighted when it wrote "only cheap when
+the board is already winning". Checked against the 99 (script count):
+
+- Aesi is 5 power and is on the battlefield most games from turn 5–6.
+- **10 other creatures have printed power ≥ 5**: Terastodon 9, Nezahal 7, Kodama of
+  the East Tree 6, Koma 6, Rampaging Baloths 6, Ancient Greenwarden 5, Avenger of
+  Zendikar 5, Craterhoof 5, Jin-Gitaxias 5 (Arixmethes 12, but only once its slumber
+  counters are gone; as a land it is not a creature and contributes nothing).
+- **Greensleeves and Cultivator Colossus** have power equal to lands you control, so
+  either one at five lands is enough on its own.
+
+Aesi plus any one of those is 10+ power, and Ghalta costs `{G}{G}`. That is not a
+winning board; it is two creatures. A two-mana 12/12 trample also sets X = 12 for
+Overwhelming Stampede ("+X/+X where X is the greatest power among creatures you
+control"), which is the deck's second finisher. Ghalta is defended and comes off the
+cut list. The Jin-Gitaxias spare reason from above (its counter clause) still holds
+as a *reason it was ranked second*, and it now moves to first.
+
+## Verdant Kraken — ADD, cutting Jin-Gitaxias, Progress Tyrant
+
+**Verified text** (fetched 2026-10-06 02:21 UTC). `{4}{G}{G}{G}` 6/6 Plant Kraken.
+"At the beginning of **each player's** upkeep, you create a 3/3 green Forest
+Tentacle **land creature** token" with `{T}: Add {G}`. Ruling 2026-08-21: the token
+is not a basic land. Legal, in colour, not a Game Changer. `combos.py --add`: 0 new.
+
+**Honest best case.** Every token is a land entering under your control, so every
+upkeep at a four-player table is a landfall trigger for all eleven payoffs and the
+commander: **four landfall triggers per round, eight with Ancient Greenwarden**,
+without a land card ever leaving your hand. That is the audit's bottleneck (land
+drops limited by lands in hand) removed for as long as the Kraken lives. Each
+trigger also leaves a 3/3 body that taps for mana, raises Greensleeves and
+Cultivator Colossus by one, and adds 3 power toward Ghalta's discount.
+
+**Attacks, and what survived.**
+- *Redundancy.* Koma, Cosmos Serpent is the same shape: MV7, a 3/3 token at each
+  upkeep. Effect × frequency × duration match. The difference is that Koma's Coils
+  are not lands, so they fire none of the eleven payoffs; Kraken's do. Kraken is the
+  better Koma for this plan. Koma keeps "can't be countered" and the sacrifice
+  ability (tap a permanent and shut off its activated abilities, or indestructible),
+  which is resilience and a piece of interaction Kraken lacks. Running both is two
+  seven-mana upkeep engines; see the cut list.
+- *Engine vs one-shot, against Through the Forest Gate.* Forest Gate is ~9 triggers
+  once, at MV8, as a sorcery that only a counterspell stops. Kraken is 4 per round
+  for as long as a 6/6 survives, at MV7. After two rounds Kraken has matched the
+  burst and keeps going. The pod plays go-wide combat and aristocrats, so creature
+  removal is live; the deck's protection is Heroic Intervention and Swiftfoot Boots.
+  Per the rubric, an engine is not redundant with a one-shot in either direction;
+  both are adds if the cuts exist.
+- *Marginal impact.* It fixes stalled hands with Aesi out (draw on every upkeep,
+  including opponents'). It does nothing against a combo player, same as Forest Gate.
+- *Anti-synergy.* The tokens are creatures and lands at once, so an opponent's
+  creature sweeper also costs you mana. Decking: Aesi's draw is optional, Tatyova's
+  is not; Kraken + Tatyova is 4 forced draws per round, 8 with Greenwarden, on top of
+  Forest Gate's burst. With a mill deck in the pod this is now the second card making
+  Gaea's Blessing worth revisiting if a game is actually lost that way.
+- *Disagreement check.* Aesi commander page 11.8% (113/960 decks since release,
+  synergy +0.05); 26.9% of Arixmethes decks (80/297). Overall rank 15720, which
+  reflects a two-month-old narrow card, not a judgment. What this deck has that the
+  average does not is eleven landfall payoffs and a doubler.
+- Price $2.81 (2026-10-06). Owned. Not load-bearing.
+
+## Revised cut list (supersedes the one above)
+
+Two nonland adds (Verdant Kraken, Through the Forest Gate) need two nonland cuts.
+Ranked, with the spare reasons kept:
+
+1. **Jin-Gitaxias, Progress Tyrant** — MV7 `{5}{U}{U}`, no land text, no landfall.
+   Its once-per-turn counter clause was the reason it ranked behind Ghalta; it does
+   not beat a seven-drop that *is* the deck's plan. Cutting it loses the deck's only
+   repeatable anti-spell piece; the August audit's Krosan Grip and An Offer You
+   Can't Refuse swaps are the real fix for that, not Jin.
+2. **Call Damage Control** — the slot the user has decided to open. Rate argument
+   above stands; the decision is the user's.
+3. **Koma, Cosmos Serpent** — same role as Kraken. Spared because it is uncounterable
+   and its tap ability is interaction the deck is short on. Cut this instead of
+   Jin-Gitaxias only if you would rather keep the counter clause than the tap ability.
+4. **Goldvein Hydra** — weakest card in the 99 on its own (no landfall, no land text,
+   no ETB), but it is a flexible X-spell and the audit earmarked it for Reality Shift.
+   Swapping it for an eight-drop is the worst curve trade available.
+5. ~~Ghalta, Primal Hunger~~ — withdrawn, above.
+
+**Recommended pair: Verdant Kraken for Jin-Gitaxias, Through the Forest Gate for
+Call Damage Control.** If only one swap is wanted, Verdant Kraken takes Call Damage
+Control's slot: a turn cheaper than Forest Gate and an engine rather than a burst.
+
+**Aggregate delta for the pair:** MV6+ in the 99 goes 11 → 12 (Jin out, Kraken and
+Forest Gate in, CDC out). Pips U 21 → 19, G 59 → 64; 23 green sources plus seven
+fetches and Dryad cover that without a mana-base change. Nonland recursion 1 → 0.
+Repeatable anti-spell interaction 1 → 0. Landfall generators that need no land in
+hand 0 → 2 (one engine, one burst). Game Changers 2 → 2. Combos 6 → 6.

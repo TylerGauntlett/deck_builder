@@ -76,3 +76,16 @@ Why this Ajani is a different card from Goldmane in this deck:
 | Other walkers on Giada's page | Elspeth Resplendent 12.0%, Elspeth, Storm Slayer 6.9% ($43.30, over cap), Archangel Elspeth 5.2% |
 
 Prices fetched 2026-10-07 03:34–03:37 UTC. All combo checks via Commander Spellbook: 0 before and after each candidate.
+
+## Follow-up: why keep The Wandering Emperor at all? (2026-10-07)
+
+User pushback: 4 mana, limited value beyond removal, +1 hits one creature, the Samurai gets no Angel triggers, and EDHREC barely plays her in Giada.
+
+**Conceded.** The +1 is weak next to Thune and Lyra AoD. The Samurai has no Angel triggers and, correcting the pushback in the other direction, **no proliferate triggers either**: Metastatic Evangel reads "another **nontoken** creature," Norn's Choirmaster keys off the commander. The Samurai does trigger Cathars' Crusade and Dazzling Angel (1 life, so one Thune / Lyra AoD / Exemplar / Dawn of Hope / Ob Nixilis event). EDHREC: not in Giada's top-4 planeswalkers (<5.2% of 36,555); Giada not in her top-15 commanders.
+
+**The case, all on the −2 ("Exile target tapped creature. You gain 2 life"), at instant speed via flash:**
+1. Third instant-speed *exile* in the deck after Swords and Path, and the only one that leaves a permanent behind.
+2. **The only on-demand lifegain on an opponent's turn.** Ob Nixilis triggers at *each* end step "if you gained life this turn." On opponents' turns the deck's lifegain sources are lifelink blockers and the Emperor; Prison, Magus and Tithes make blocking rare, and Archivist of Oghma (listed as an opponents'-turn source in the mass-token review) was cut for Lightning Greaves. Emperor −2 on an opponent's turn = exile + 2 life + Thune/Lyra AoD round + an Ob Nixilis Angel at that end step.
+3. Repeatable every ~3 turns from 1 loyalty, if she survives there.
+
+**Conclusion.** A fine card in the deck's most open slot, not a strong keep on her own merits; she entered as the 15th interaction piece over Invoke the Divine, the weakest-justified add in the buildout. Goldmane and Elspeth Resplendent lost to her because they are worse, not because she is strong. Ajani, Strength of the Pride is the one candidate that beats her, conditional on the 55+ life premise. If she is cut for anything else, the role worth preserving is opponents'-turn lifegain for Ob Nixilis; the removal is the part the deck can spare.

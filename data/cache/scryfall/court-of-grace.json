@@ -149,11 +149,11 @@
     "previewed_at": "2020-10-29"
   },
   "prices": {
-    "usd": "3.21",
-    "usd_foil": "3.16",
+    "usd": "3.16",
+    "usd_foil": "3.19",
     "usd_etched": null,
-    "eur": "1.69",
-    "eur_foil": "2.46",
+    "eur": "1.59",
+    "eur_foil": "2.43",
     "tix": "3.97"
   },
   "related_uris": {

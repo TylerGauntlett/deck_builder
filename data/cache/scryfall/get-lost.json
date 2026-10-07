@@ -129,19 +129,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1815,
+  "edhrec_rank": 1816,
   "preview": {
     "source": "Cedric Phillips",
     "source_uri": "https://twitter.com/CedricAPhillips/status/1717571789423800662",
     "previewed_at": "2023-10-26"
   },
   "prices": {
-    "usd": "3.50",
+    "usd": "3.25",
     "usd_foil": "4.52",
     "usd_etched": null,
-    "eur": "4.18",
-    "eur_foil": "5.19",
-    "tix": "0.66"
+    "eur": "4.07",
+    "eur_foil": "5.22",
+    "tix": "0.54"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=636705&printed=false",

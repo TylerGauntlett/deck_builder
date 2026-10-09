@@ -1,6 +1,6 @@
-# angels - card details
+# choir_practice - card details
 
-Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
@@ -38,7 +38,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   This creature gets +2/+2 as long as you have 25 or more life.
 - P/T: 2/2
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 2049
+- Color identity: W | Keywords: Flying | EDHREC rank: 2046
 
 ### Angel of the Ruins
 
@@ -49,7 +49,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)
 - P/T: 5/7
 
-- Color identity: W | Keywords: Flying, Plainscycling, Landcycling, Typecycling, Cycling | EDHREC rank: 1049 | ~$0.25
+- Color identity: W | Keywords: Flying, Plainscycling, Landcycling, Typecycling, Cycling | EDHREC rank: 1047 | ~$0.25
 
 ### Angelic Destiny
 
@@ -69,7 +69,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Lieutenant — As long as you control your commander, this creature gets +2/+2 and creatures you control have vigilance.
 - P/T: 3/3
 
-- Color identity: W | Keywords: Flying, Lieutenant | EDHREC rank: 4440 | ~$2.42
+- Color identity: W | Keywords: Flying, Lieutenant | EDHREC rank: 4415 | ~$2.37
 
 ### Angelic Sleuth
 
@@ -87,7 +87,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add one mana of any color in your commander's color identity.
 
-- Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.53
+- Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.34
 
 ### Archangel of Tithes
 
@@ -98,7 +98,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   As long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures.
 - P/T: 3/5
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 2167 | ~$5.06
+- Color identity: W | Keywords: Flying | EDHREC rank: 2164 | ~$5.09
 
 ### Austere Command
 
@@ -110,7 +110,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Destroy all creatures with mana value 3 or less.
   • Destroy all creatures with mana value 4 or greater.
 
-- Color identity: W | EDHREC rank: 171 | ~$0.34
+- Color identity: W | EDHREC rank: 171 | ~$0.35
 
 ### Bishop of Wings
 
@@ -120,7 +120,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever an Angel you control dies, create a 1/1 white Spirit creature token with flying.
 - P/T: 1/4
 
-- Color identity: W | EDHREC rank: 3761 | ~$5.80 | Related: Spirit
+- Color identity: W | EDHREC rank: 3751 | ~$5.80 | Related: Spirit
 
 ### Cleansing Nova
 
@@ -148,7 +148,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: When this enchantment enters, you become the monarch.
   At the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead.
 
-- Color identity: W | EDHREC rank: 1655 | ~$3.21 | Related: Angel, The Monarch, Spirit
+- Color identity: W | EDHREC rank: 1657 | ~$3.21 | Related: Angel, The Monarch, Spirit
 
 ### Cut a Deal
 
@@ -174,7 +174,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever another creature you control enters, you gain 1 life.
 - P/T: 2/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 3002 | ~$0.33
+- Color identity: W | Keywords: Flying | EDHREC rank: 2994 | ~$0.33
 
 ### Defy Death
 
@@ -221,7 +221,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.
 - P/T: 3/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 1187 | ~$0.91
+- Color identity: W | Keywords: Flying | EDHREC rank: 1184 | ~$0.91
 
 ### Exorcise
 
@@ -237,7 +237,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Destroy target creature or planeswalker. Its controller investigates. (They create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
-- Color identity: W | Keywords: Investigate | EDHREC rank: 6051 | ~$0.40 | Related: Clue
+- Color identity: W | Keywords: Investigate | EDHREC rank: 6046 | ~$0.40 | Related: Clue
 
 ### Firemane Commando
 
@@ -259,7 +259,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {T}: Add {W}. Spend this mana only to cast an Angel spell.
 - P/T: 2/2
 
-- Color identity: W | Keywords: Flying, Vigilance | Produces: W | EDHREC rank: 1656 | ~$0.96
+- Color identity: W | Keywords: Flying, Vigilance | Produces: W | EDHREC rank: 1654 | ~$0.86
 
 ### Grasp of Fate
 
@@ -299,7 +299,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creatures you control of the chosen color get +1/+0.
   {T}: Add one mana of the chosen color.
 
-- Color identity: C | Produces: BGRUW | EDHREC rank: 856 | ~$0.46
+- Color identity: C | Produces: BGRUW | EDHREC rank: 853 | ~$0.35
 
 ### Inspiring Overseer
 
@@ -340,7 +340,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Other Angels you control get +1/+1 and have lifelink.
 - P/T: 5/5
 
-- Color identity: W | Keywords: Flying, Lifelink, First strike | EDHREC rank: 1795 | ~$0.46
+- Color identity: W | Keywords: Flying, Lifelink, First strike | EDHREC rank: 1792 | ~$0.46
 
 ### Marble Diamond
 
@@ -401,7 +401,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever a commander you control enters or attacks, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - P/T: 5/4
 
-- Color identity: W | Keywords: Flying, First strike, Proliferate | EDHREC rank: 3368 | ~$4.32
+- Color identity: W | Keywords: Flying, First strike, Proliferate | EDHREC rank: 3357 | ~$3.34
 
 ### Patchwork Banner
 
@@ -411,7 +411,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creatures you control of the chosen type get +1/+1.
   {T}: Add one mana of any color.
 
-- Color identity: C | Produces: BGRUW | EDHREC rank: 203 | ~$2.92
+- Color identity: C | Produces: BGRUW | EDHREC rank: 203 | ~$3.01
 
 ### Reya Dawnbringer
 
@@ -432,7 +432,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   As long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.
 - P/T: 2/4
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 2003 | ~$5.65
+- Color identity: W | Keywords: Flying | EDHREC rank: 1992 | ~$5.65
 
 ### Search the Premises
 
@@ -468,7 +468,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Other creatures you control with flying have indestructible. (Damage and effects that say "destroy" don't destroy them.)
 - P/T: 7/7
 
-- Color identity: W | Keywords: Flying, Lifelink | EDHREC rank: 1373 | ~$3.63
+- Color identity: W | Keywords: Flying, Lifelink | EDHREC rank: 1372 | ~$3.63
 
 ### Seraph of the Sword
 
@@ -496,7 +496,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add {C}{C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1 | ~$1.59
+- Color identity: C | Produces: C | EDHREC rank: 1 | ~$0.99
 
 ### Speaker of the Heavens
 
@@ -515,7 +515,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Angel spells you cast cost {2} less to cast.
 - P/T: 2/2
 
-- Color identity: W | EDHREC rank: 3086 | ~$9.37
+- Color identity: W | EDHREC rank: 3081 | ~$9.37
 
 ### Sunblast Angel
 
@@ -542,7 +542,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Exile target creature. Its controller gains life equal to its power.
 
-- Color identity: W | EDHREC rank: 11 | ~$1.45
+- Color identity: W | EDHREC rank: 11 | ~$0.75
 
 ### Thraben Watcher
 
@@ -552,7 +552,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Other nontoken creatures you control get +1/+1 and have vigilance.
 - P/T: 2/2
 
-- Color identity: W | Keywords: Flying, Vigilance | EDHREC rank: 4839 | ~$0.36
+- Color identity: W | Keywords: Flying, Vigilance | EDHREC rank: 4828 | ~$0.36
 
 ### Tome of Legends
 
@@ -562,7 +562,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever your commander enters or attacks, put a page counter on this artifact.
   {1}, {T}, Remove a page counter from this artifact: Draw a card.
 
-- Color identity: C | EDHREC rank: 2254 | ~$0.34
+- Color identity: C | EDHREC rank: 2243 | ~$0.34
 
 ### Valorous Stance
 
@@ -572,7 +572,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Target creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
   • Destroy target creature with toughness 4 or greater.
 
-- Color identity: W | EDHREC rank: 2618 | ~$0.24
+- Color identity: W | EDHREC rank: 2613 | ~$0.22
 
 ### Vanguard Seraph
 
@@ -592,7 +592,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creatures you control of the chosen type get +1/+1.
   Whenever you cast a creature spell of the chosen type, draw a card.
 
-- Color identity: C | EDHREC rank: 372 | ~$5.30
+- Color identity: C | EDHREC rank: 383 | ~$5.71
 
 ### Wojek Investigator
 
@@ -602,7 +602,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   At the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - P/T: 2/4
 
-- Color identity: W | Keywords: Flying, Investigate, Vigilance | EDHREC rank: 4758 | ~$0.31 | Related: Clue
+- Color identity: W | Keywords: Flying, Investigate, Vigilance | EDHREC rank: 4761 | ~$0.31 | Related: Clue
 
 ### Youthful Valkyrie
 
@@ -612,7 +612,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever another Angel you control enters, put a +1/+1 counter on this creature.
 - P/T: 1/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 2993 | ~$0.31
+- Color identity: W | Keywords: Flying | EDHREC rank: 2992 | ~$0.30
 
 ## Lands
 
@@ -640,7 +640,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: When this land enters, you gain 2 life.
   {T}: Add {C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1550 | ~$3.07
+- Color identity: C | Produces: C | EDHREC rank: 1542 | ~$3.07
 
 ### Secluded Steppe
 
@@ -650,7 +650,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {T}: Add {W}.
   Cycling {W} ({W}, Discard this card: Draw a card.)
 
-- Color identity: W | Keywords: Cycling | Produces: W | EDHREC rank: 1463 | ~$0.34
+- Color identity: W | Keywords: Cycling | Produces: W | EDHREC rank: 1465 | ~$0.35
 
 ### Seraph Sanctuary
 
@@ -660,7 +660,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever an Angel you control enters, you gain 1 life.
   {T}: Add {C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 2194 | ~$1.30
+- Color identity: C | Produces: C | EDHREC rank: 2192 | ~$1.30
 
 ### Temple of the False God
 
@@ -677,4 +677,4 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: {T}: Add {C}.
   {3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.
 
-- Color identity: C | Produces: C | EDHREC rank: 141 | ~$5.36
+- Color identity: C | Produces: C | EDHREC rank: 140 | ~$4.90

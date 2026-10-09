@@ -116,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 177,
-  "penny_rank": 1206,
+  "edhrec_rank": 178,
+  "penny_rank": 1209,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/products/bloomburrow/card-image-gallery",
     "previewed_at": "2024-07-09"
   },
   "prices": {
-    "usd": "30.11",
-    "usd_foil": "32.21",
+    "usd": "30.20",
+    "usd_foil": "33.97",
     "usd_etched": null,
-    "eur": "19.67",
-    "eur_foil": "22.92",
+    "eur": "19.85",
+    "eur_foil": "21.98",
     "tix": "0.02"
   },
   "related_uris": {

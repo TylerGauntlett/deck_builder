@@ -5,7 +5,7 @@
     "cards": 100,
     "distinct": 91,
     "lands": 34,
-    "avg_mana_value_nonland": 2.92,
+    "avg_mana_value_nonland": 2.94,
     "type_counts": {
       "Creature": 38,
       "Land": 34,
@@ -16,8 +16,8 @@
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 66,
-      "W": 17,
+      "B": 64,
+      "W": 18,
       "R": 5
     },
     "game_changers": [
@@ -67,8 +67,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 188,
-      "price_usd": "15.64",
+      "edhrec_rank": 187,
+      "price_usd": "16.22",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
       "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
@@ -205,16 +205,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 3,
-      "price_usd": "0.53",
+      "price_usd": "0.34",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/191/arcane-signet?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/frc/20/arcane-signet?utm_source=api",
       "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
     },
     {
@@ -841,7 +841,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8643,
+      "edhrec_rank": 8662,
       "price_usd": "0.14",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
@@ -938,6 +938,58 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/100/captivating-vampire?utm_source=api",
       "oracle_id": "acd382ee-94fb-4a29-b14e-c2a3c6dde7e0"
+    },
+    {
+      "name": "Carmen, Cruel Skymarcher",
+      "asked_as": "Carmen, Cruel Skymarcher",
+      "qty": 1,
+      "mana_cost": "{3}{W}{B}",
+      "cmc": 5.0,
+      "type_line": "Legendary Creature — Vampire Soldier",
+      "layout": "normal",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Carmen, Cruel Skymarcher",
+          "mana_cost": "{3}{W}{B}",
+          "type_line": "Legendary Creature — Vampire Soldier",
+          "oracle_text": "Flying\nWhenever a player sacrifices a permanent, put a +1/+1 counter on Carmen and you gain 1 life.\nWhenever Carmen attacks, return up to one target permanent card with mana value less than or equal to Carmen's power from your graveyard to the battlefield.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B",
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2848,
+      "price_usd": "7.47",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/5/carmen-cruel-skymarcher?utm_source=api",
+      "oracle_id": "84c24e62-26bd-4ca4-b6b9-d31e2065f13b"
     },
     {
       "name": "Carrion Feeder",
@@ -1188,8 +1240,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 562,
-      "price_usd": "3.67",
+      "edhrec_rank": 559,
+      "price_usd": "3.65",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
       "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
@@ -1868,8 +1920,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6051,
-      "price_usd": "1.40",
+      "edhrec_rank": 6109,
+      "price_usd": "1.26",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
@@ -1915,8 +1967,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 161,
-      "price_usd": "5.87",
+      "edhrec_rank": 160,
+      "price_usd": "5.96",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
       "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
@@ -2160,8 +2212,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 152,
-      "price_usd": "5.89",
+      "edhrec_rank": 151,
+      "price_usd": "5.75",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -2892,8 +2944,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3978,
-      "price_usd": "2.54",
+      "edhrec_rank": 4006,
+      "price_usd": "2.76",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2xm/100/oubliette?utm_source=api",
       "oracle_id": "c753e9e3-9374-4e3c-8622-94576a8c1da3"
@@ -3448,16 +3500,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1,
-      "price_usd": "1.59",
+      "price_usd": "0.99",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/frc/21/sol-ring?utm_source=api",
       "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
     },
     {
@@ -3787,16 +3839,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 11,
-      "price_usd": "1.45",
+      "price_usd": "0.75",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/frc/37/swords-to-plowshares?utm_source=api",
       "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
     },
     {
@@ -4037,53 +4089,6 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
-    },
-    {
-      "name": "Vampire Nocturnus",
-      "asked_as": "Vampire Nocturnus",
-      "qty": 1,
-      "mana_cost": "{1}{B}{B}{B}",
-      "cmc": 4.0,
-      "type_line": "Creature — Vampire",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Vampire Nocturnus",
-          "mana_cost": "{1}{B}{B}{B}",
-          "type_line": "Creature — Vampire",
-          "oracle_text": "Play with the top card of your library revealed.\nAs long as the top card of your library is black, this creature and other Vampire creatures you control get +2/+1 and have flying.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "m13",
-      "set_name": "Magic 2013",
-      "released_at": "2012-07-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 8921,
-      "price_usd": "5.95",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/m13/113/vampire-nocturnus?utm_source=api",
-      "oracle_id": "2109c49e-dc81-4a10-8265-3cf8c90db523"
     },
     {
       "name": "Vampire of the Dire Moon",
@@ -4465,8 +4470,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 141,
-      "price_usd": "5.36",
+      "edhrec_rank": 140,
+      "price_usd": "4.90",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
       "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"

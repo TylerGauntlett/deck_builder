@@ -114,14 +114,14 @@
   "promo_types": [
     "startercollection"
   ],
-  "edhrec_rank": 2046,
-  "penny_rank": 3839,
+  "edhrec_rank": 2037,
+  "penny_rank": 3832,
   "prices": {
     "usd": null,
-    "usd_foil": "0.29",
+    "usd_foil": "0.25",
     "usd_etched": null,
     "eur": null,
-    "eur_foil": "0.27",
+    "eur_foil": "0.26",
     "tix": "0.02"
   },
   "related_uris": {

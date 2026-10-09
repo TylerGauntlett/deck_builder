@@ -152,20 +152,20 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 2561,
-  "penny_rank": 1886,
+  "edhrec_rank": 2555,
+  "penny_rank": 1888,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/news/making-magic/the-ins-and-outs-of-innistrad-remastered",
     "previewed_at": "2025-01-06"
   },
   "prices": {
-    "usd": "23.04",
-    "usd_foil": "29.64",
+    "usd": "22.71",
+    "usd_foil": "30.26",
     "usd_etched": null,
-    "eur": "16.59",
-    "eur_foil": "20.03",
-    "tix": "0.08"
+    "eur": "16.01",
+    "eur_foil": "20.26",
+    "tix": "0.12"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=685840&printed=false",

@@ -114,19 +114,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 2937,
-  "penny_rank": 10004,
+  "edhrec_rank": 2939,
+  "penny_rank": 10005,
   "preview": {
     "source": "Corocoro",
     "source_uri": "https://corocoro.jp/129663/",
     "previewed_at": "2020-09-03"
   },
   "prices": {
-    "usd": "10.43",
-    "usd_foil": "9.12",
+    "usd": "9.61",
+    "usd_foil": "9.13",
     "usd_etched": null,
-    "eur": "7.96",
-    "eur_foil": "8.49",
+    "eur": "7.90",
+    "eur_foil": "8.28",
     "tix": "0.02"
   },
   "related_uris": {

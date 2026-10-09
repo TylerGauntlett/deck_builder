@@ -1,6 +1,7 @@
 # markov_chains — Bloodline Recollector (2026-10-09)
 
-**Verdict: ADD — cut Vampire Nocturnus.**
+**Verdict: ADD — cut Florian, Voldaren Scion.** (Revised; see Revision 1 at the
+end. The original cut, Vampire Nocturnus, had already left the deck.)
 
 Deck state: `base.txt` and `cards.md` both last changed 2026-10-02 (in sync). 100
 cards, 34 lands + Malakir Rebirth MDFC. Bracket 3, $40/card cap. None of the
@@ -195,3 +196,80 @@ rather have a guaranteed burst than a conditional engine.
 - `combos.py --add "Bloodline Recollector" --near`: baseline 2 assembled; 0 new, 0
   near.
 - Deck counts from `decks/markov_chains/cards.json` (oracle-text scan).
+
+---
+
+# Revision 1, 2026-10-09 — the list was stale; Nocturnus was already gone
+
+User: *"Carmen, Cruel Skymarcher recently replaced Nocturnus."* That's a new fact,
+and it removes the cut this review recommended. Moxfield returned 403 to a direct
+fetch, so the change was applied to `base.txt` by hand as reported (−Vampire
+Nocturnus, +Carmen, Cruel Skymarcher) and `cards.md` / `cards.json` were rebuilt.
+Nothing else was checked against Moxfield. If anything else changed, this review
+can't see it.
+
+After sync: 100 cards, 34 lands, avg non-land MV 2.94, curve 1:12 · 2:13 · 3:20 ·
+4:12 · 5:6 · 6:3, pips B 64 / W 18 / R 5. Commander Spellbook baseline is still 2
+assembled. Recollector still completes 0 new combos and puts 0 in reach.
+
+## Carmen and Recollector
+
+**Carmen, Cruel Skymarcher** `{3}{W}{B}` 2/2 flying (fetched 2026-10-09 16:22 UTC, $7.47):
+> Whenever **a player** sacrifices a permanent, put a +1/+1 counter on Carmen and
+> you gain 1 life.
+> Whenever Carmen attacks, return up to one target permanent card with mana value
+> less than or equal to Carmen's power from your graveyard to the battlefield.
+
+This strengthens Recollector's case slightly; it doesn't change the verdict:
+- The three sacrifices that prepare Recollector also put **+3 counters on Carmen**
+  and gain 3 life, which cancels Ancestral Craving's 3-life cost. Each gain is a
+  separate event, so each one triggers Vito ("Whenever you gain life, target
+  opponent loses that much life") and Marauding Blight-Priest. Grave Pact and
+  Anowon make *opponents* sacrifice, and "a player" counts those too.
+- Recollector is MV 2, and Carmen's base power is 2, so Carmen's attack can always
+  bring Recollector back from the graveyard.
+
+## The cut, re-run
+
+Nocturnus is gone, so the cut moves. I also changed my runner-up. Last time I
+named Malakir Bloodwitch without checking it against Vito. It doesn't survive
+that check:
+
+- **Malakir Bloodwitch: spared.** *"each opponent loses life equal to the number
+  of Vampires you control. You gain life equal to the life lost this way."* That
+  is one gain event worth 3× your Vampire count, and Vito turns it into the same
+  amount of life loss on one opponent. With 10 Vampires, that's 30 life to one
+  player. It's a finisher, not filler. Cutting it would also take the 5-slot from
+  6 to 5. That's fine for the curve, but not worth losing that line.
+
+New ranking:
+
+1. **Florian, Voldaren Scion: cut.** `{1}{B}{R}`: *"At the beginning of each of
+   your postcombat main phases, look at the top X cards … Exile one of those
+   cards … You may play the exiled card this turn."* It's the **same role** as
+   Recollector, turning drain into cards, so the role counts stay flat. Compare
+   them as effect × frequency × duration. Florian gives at most 1 card per *your*
+   turn, has to be played that turn, and needs opponents to have lost life. That
+   makes it a selection engine rather than card advantage when your mana is
+   already spent. Recollector gives 3 cards for `{B}`, at instant speed, on any
+   player's end step. Florian also sits in the crowded 3-slot (20 cards) and is
+   one of only 5 cards with a red pip. Cutting it eases red demand, and red is
+   already far over-supplied (the 09-03 land review counted 15 red sources). No
+   review has recorded a reason to keep it. $0.41 (2026-10-09 16:22 UTC).
+2. **Malakir Bloodwitch: spared** (above).
+3. **Forerunner of the Legion: spared.** The only tutor (2026-09-06/07).
+4. **Bloodthrone Vampire: spared.** One of the three free outlets that prepare
+   Recollector.
+
+**This is a closer call than Nocturnus was.** Nocturnus was a card that was off
+more often than on. Florian works: in a drain-heavy turn, best-of-ten off the top
+is real selection. What decides it is rate (3 cards vs 1) and cost (MV 2 vs 3).
+If Florian is a card you like, keeping it and passing on Recollector is a
+defensible outcome. The deck isn't short on draw.
+
+**Aggregate if taken:** curve 3:20→19, 2:13→14; pips R 5→4, B 64 (unchanged:
+`{1}{B}` replaces `{1}{B}{R}`); Vampire count unchanged; card-flow count
+unchanged (same-role swap); Game Changers 2/3 unchanged.
+
+The batch note still holds: if Twilight Prophet also comes in, two draw adds is
+the ceiling.

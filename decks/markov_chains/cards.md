@@ -1,13 +1,13 @@
 # markov_chains - card details
 
-Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
 - 100 cards (91 distinct), 34 lands
-- Average mana value of non-lands: 2.92
+- Average mana value of non-lands: 2.94
 - Types: Creature 38, Land 34, Instant 9, Artifact 8, Enchantment 8, Sorcery 2, Planeswalker 1
-- Colored pips: B 66, W 17, R 5
+- Colored pips: B 64, W 18, R 5
 - Game Changers: Necropotence, Teferi's Protection
 
 ## Spells and permanents
@@ -20,7 +20,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Creatures you control gain flying, vigilance, and double strike until end of turn.
   • Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
 
-- Color identity: W | EDHREC rank: 188 | ~$15.64
+- Color identity: W | EDHREC rank: 187 | ~$16.22
 
 ### Anguished Unmaking
 
@@ -45,7 +45,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add one mana of any color in your commander's color identity.
 
-- Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.53
+- Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.34
 
 ### Baron Bertram Graywater
 
@@ -155,7 +155,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Sacrifice a creature: This creature gets +2/+2 until end of turn.
 - P/T: 1/1
 
-- Color identity: B | EDHREC rank: 8643 | ~$0.14
+- Color identity: B | EDHREC rank: 8662 | ~$0.14
 
 ### Captivating Vampire
 
@@ -166,6 +166,17 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 2/2
 
 - Color identity: B | EDHREC rank: 2488 | ~$3.42
+
+### Carmen, Cruel Skymarcher
+
+- Cost: {3}{W}{B}  |  Mana value: 5.0
+- Type: Legendary Creature — Vampire Soldier
+- Text: Flying
+  Whenever a player sacrifices a permanent, put a +1/+1 counter on Carmen and you gain 1 life.
+  Whenever Carmen attacks, return up to one target permanent card with mana value less than or equal to Carmen's power from your graveyard to the battlefield.
+- P/T: 2/2
+
+- Color identity: BW | Keywords: Flying | EDHREC rank: 2848 | ~$7.47
 
 ### Carrion Feeder
 
@@ -203,7 +214,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Any number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)
 
-- Color identity: W | Keywords: Convoke | EDHREC rank: 562 | ~$3.67
+- Color identity: W | Keywords: Convoke | EDHREC rank: 559 | ~$3.65
 
 ### Cordial Vampire
 
@@ -299,7 +310,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever another Vampire you control enters, target creature gets +1/+1 until end of turn.
 - P/T: 2/2
 
-- Color identity: W | EDHREC rank: 6051 | ~$1.40
+- Color identity: W | EDHREC rank: 6109 | ~$1.26
 
 ### Ghostly Prison
 
@@ -307,7 +318,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Enchantment
 - Text: Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
 
-- Color identity: W | EDHREC rank: 161 | ~$5.87
+- Color identity: W | EDHREC rank: 160 | ~$5.96
 
 ### Grave Pact
 
@@ -348,7 +359,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creature spells you cast of the chosen type cost {1} less to cast.
   At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
 
-- Color identity: C | EDHREC rank: 152 | ~$5.89
+- Color identity: C | EDHREC rank: 151 | ~$5.75
 
 ### High-Society Hunter
 
@@ -476,7 +487,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Enchantment
 - Text: When this enchantment enters, target creature phases out until this enchantment leaves the battlefield. Tap that creature as it phases in this way. (Auras and Equipment phase out with it. While permanents are phased out, they're treated as though they don't exist.)
 
-- Color identity: B | EDHREC rank: 3978 | ~$2.54
+- Color identity: B | EDHREC rank: 4006 | ~$2.76
 
 ### Patron of the Vein
 
@@ -532,7 +543,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add {C}{C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1 | ~$1.59
+- Color identity: C | Produces: C | EDHREC rank: 1 | ~$0.99
 
 ### Sorin, Imperious Bloodlord
 
@@ -569,7 +580,7 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Exile target creature. Its controller gains life equal to its power.
 
-- Color identity: W | EDHREC rank: 11 | ~$1.45
+- Color identity: W | EDHREC rank: 11 | ~$0.75
 
 ### Talisman of Conviction
 
@@ -606,16 +617,6 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Exile Teferi's Protection.
 
 - Color identity: W | EDHREC rank: 109 | ~$47.45 | **Game Changer**
-
-### Vampire Nocturnus
-
-- Cost: {1}{B}{B}{B}  |  Mana value: 4.0
-- Type: Creature — Vampire
-- Text: Play with the top card of your library revealed.
-  As long as the top card of your library is black, this creature and other Vampire creatures you control get +2/+1 and have flying.
-- P/T: 3/3
-
-- Color identity: B | EDHREC rank: 8921 | ~$5.95
 
 ### Vampire of the Dire Moon
 
@@ -899,4 +900,4 @@ Generated 2026-10-02 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: {T}: Add {C}.
   {3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.
 
-- Color identity: C | Produces: C | EDHREC rank: 141 | ~$5.36
+- Color identity: C | Produces: C | EDHREC rank: 140 | ~$4.90

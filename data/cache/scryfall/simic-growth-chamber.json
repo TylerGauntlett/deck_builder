@@ -108,15 +108,15 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 308,
-  "penny_rank": 3901,
+  "edhrec_rank": 318,
+  "penny_rank": 3892,
   "prices": {
-    "usd": "0.34",
+    "usd": "0.37",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.37",
+    "eur": "0.32",
     "eur_foil": null,
-    "tix": "0.32"
+    "tix": "0.33"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=676171&printed=false",

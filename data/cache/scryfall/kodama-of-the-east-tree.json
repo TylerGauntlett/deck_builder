@@ -115,19 +115,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 974,
+  "edhrec_rank": 994,
   "preview": {
     "source": "Trader-Online.de",
     "source_uri": "https://www.youtube.com/watch?v=mWq7uZGarWI",
     "previewed_at": "2020-10-27"
   },
   "prices": {
-    "usd": "3.85",
-    "usd_foil": "6.32",
+    "usd": "3.81",
+    "usd_foil": "6.46",
     "usd_etched": null,
-    "eur": "3.69",
-    "eur_foil": "5.62",
-    "tix": "11.30"
+    "eur": "3.64",
+    "eur_foil": "5.75",
+    "tix": "11.33"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497759&printed=false",

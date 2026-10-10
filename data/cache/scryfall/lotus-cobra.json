@@ -122,18 +122,18 @@
   "booster": true,
   "story_spotlight": false,
   "edhrec_rank": 329,
-  "penny_rank": 2047,
+  "penny_rank": 2050,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "http://twitch.tv/videos/728086792",
     "previewed_at": "2020-09-01"
   },
   "prices": {
-    "usd": "6.06",
-    "usd_foil": "6.65",
+    "usd": "6.21",
+    "usd_foil": "7.03",
     "usd_etched": null,
-    "eur": "6.36",
-    "eur_foil": "6.22",
+    "eur": "6.44",
+    "eur_foil": "7.36",
     "tix": "0.02"
   },
   "related_uris": {

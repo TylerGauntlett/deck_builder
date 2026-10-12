@@ -5,6 +5,7 @@
   "multiverse_ids": [
     679920
   ],
+  "resource_id": "037C1EFB9063D900CBCD3B68C0DA03410B3A8C7A1D1F46399F84847A4B9DB004",
   "mtgo_id": 133382,
   "arena_id": 93891,
   "tcgplayer_id": 591730,
@@ -114,14 +115,14 @@
   "promo_types": [
     "startercollection"
   ],
-  "edhrec_rank": 1115,
-  "penny_rank": 5470,
+  "edhrec_rank": 1101,
+  "penny_rank": 5436,
   "prices": {
-    "usd": "0.31",
-    "usd_foil": "0.40",
+    "usd": "0.26",
+    "usd_foil": "0.41",
     "usd_etched": null,
     "eur": "0.12",
-    "eur_foil": "0.28",
+    "eur_foil": "0.18",
     "tix": "0.03"
   },
   "related_uris": {

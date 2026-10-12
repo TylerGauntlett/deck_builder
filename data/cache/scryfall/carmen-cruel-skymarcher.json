@@ -116,19 +116,19 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 2848,
-  "penny_rank": 10019,
+  "edhrec_rank": 2854,
+  "penny_rank": 10018,
   "preview": {
     "source": "The Command Zone",
     "source_uri": "https://www.youtube.com/watch?v=MTbT-2xYfAU",
     "previewed_at": "2023-11-01"
   },
   "prices": {
-    "usd": "7.47",
-    "usd_foil": "0.73",
+    "usd": "7.48",
+    "usd_foil": "0.75",
     "usd_etched": null,
-    "eur": "2.11",
-    "eur_foil": "1.60",
+    "eur": "1.76",
+    "eur_foil": "1.70",
     "tix": null
   },
   "related_uris": {

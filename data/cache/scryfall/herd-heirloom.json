@@ -116,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1150,
-  "penny_rank": 11150,
+  "edhrec_rank": 1091,
+  "penny_rank": 11430,
   "preview": {
     "source": "ModernSpike",
     "source_uri": "",
     "previewed_at": "2025-03-21"
   },
   "prices": {
-    "usd": "4.39",
-    "usd_foil": "4.36",
+    "usd": "4.33",
+    "usd_foil": "4.84",
     "usd_etched": null,
-    "eur": "3.47",
-    "eur_foil": "4.05",
+    "eur": "3.97",
+    "eur_foil": "4.11",
     "tix": "0.02"
   },
   "related_uris": {

@@ -114,14 +114,14 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 306,
+  "edhrec_rank": 296,
   "prices": {
-    "usd": "24.38",
-    "usd_foil": "23.92",
+    "usd": "25.59",
+    "usd_foil": "24.18",
     "usd_etched": null,
-    "eur": "18.38",
-    "eur_foil": "19.15",
-    "tix": "0.13"
+    "eur": "22.05",
+    "eur_foil": "23.43",
+    "tix": "0.09"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=693618&printed=false",

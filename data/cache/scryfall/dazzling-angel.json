@@ -3,6 +3,7 @@
   "id": "a0bdf4d1-576f-41b6-a077-8725be608331",
   "oracle_id": "7de464e3-fae3-44cc-8233-776fc727c00a",
   "multiverse_ids": [],
+  "resource_id": "A86BDFD3C9F06A54DB46585687DA75ADCD728E7AF98C10ED26FB73BB2EB7DCA9",
   "tcgplayer_id": 695516,
   "cardmarket_id": 904184,
   "name": "Dazzling Angel",
@@ -25,7 +26,8 @@
     "grid": "https://cards.scryfall.io/grid/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.webp?1787563157",
     "display": "https://cards.scryfall.io/display/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.webp?1787563157",
     "art": "https://cards.scryfall.io/art/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.webp?1787563157",
-    "crop": "https://cards.scryfall.io/crop/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.webp?1787563157"
+    "crop": "https://cards.scryfall.io/crop/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.webp?1787563157",
+    "jpeg": "https://cards.scryfall.io/normal/front/a/0/a0bdf4d1-576f-41b6-a077-8725be608331.jpg?1787563157"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -111,8 +113,8 @@
   "promo_types": [
     "setextension"
   ],
-  "edhrec_rank": 2994,
-  "penny_rank": 4637,
+  "edhrec_rank": 2918,
+  "penny_rank": 4647,
   "prices": {
     "usd": "0.33",
     "usd_foil": null,

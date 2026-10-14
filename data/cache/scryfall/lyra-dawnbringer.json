@@ -3,6 +3,7 @@
   "id": "f9fa30b6-3a33-46fd-8b32-ac1cfa41500d",
   "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
   "multiverse_ids": [],
+  "resource_id": "934265FFA6602C724CE44DF3BC78A129C4ACF7732343D845CA59A43744496227",
   "tcgplayer_id": 695522,
   "cardmarket_id": 904190,
   "name": "Lyra Dawnbringer",
@@ -25,7 +26,8 @@
     "grid": "https://cards.scryfall.io/grid/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.webp?1787563101",
     "display": "https://cards.scryfall.io/display/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.webp?1787563101",
     "art": "https://cards.scryfall.io/art/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.webp?1787563101",
-    "crop": "https://cards.scryfall.io/crop/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.webp?1787563101"
+    "crop": "https://cards.scryfall.io/crop/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.webp?1787563101",
+    "jpeg": "https://cards.scryfall.io/normal/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.jpg?1787563101"
   },
   "mana_cost": "{3}{W}{W}",
   "cmc": 5.0,
@@ -116,13 +118,13 @@
   "promo_types": [
     "setextension"
   ],
-  "edhrec_rank": 1792,
-  "penny_rank": 1262,
+  "edhrec_rank": 1763,
+  "penny_rank": 1265,
   "prices": {
     "usd": "0.46",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "4.43",
+    "eur": "4.41",
     "eur_foil": null,
     "tix": null
   },

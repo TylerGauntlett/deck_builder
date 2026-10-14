@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.webp?1783910782",
     "display": "https://cards.scryfall.io/display/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.webp?1783910782",
     "art": "https://cards.scryfall.io/art/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.webp?1783910782",
-    "crop": "https://cards.scryfall.io/crop/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.webp?1783910782"
+    "crop": "https://cards.scryfall.io/crop/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.webp?1783910782",
+    "jpeg": "https://cards.scryfall.io/normal/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.jpg?1783910782"
   },
   "mana_cost": "",
   "cmc": 0.0,
@@ -116,19 +117,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 177,
-  "penny_rank": 1206,
+  "edhrec_rank": 178,
+  "penny_rank": 1221,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/products/bloomburrow/card-image-gallery",
     "previewed_at": "2024-07-09"
   },
   "prices": {
-    "usd": "30.11",
-    "usd_foil": "32.21",
+    "usd": "28.67",
+    "usd_foil": "33.66",
     "usd_etched": null,
-    "eur": "19.67",
-    "eur_foil": "22.92",
+    "eur": "20.07",
+    "eur_foil": "21.26",
     "tix": "0.02"
   },
   "related_uris": {

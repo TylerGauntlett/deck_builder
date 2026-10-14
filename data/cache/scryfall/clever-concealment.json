@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.webp?1783903251",
     "display": "https://cards.scryfall.io/display/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.webp?1783903251",
     "art": "https://cards.scryfall.io/art/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.webp?1783903251",
-    "crop": "https://cards.scryfall.io/crop/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.webp?1783903251"
+    "crop": "https://cards.scryfall.io/crop/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.webp?1783903251",
+    "jpeg": "https://cards.scryfall.io/normal/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.jpg?1783903251"
   },
   "mana_cost": "{2}{W}{W}",
   "cmc": 4.0,
@@ -112,14 +113,14 @@
     "surgefoil",
     "universesbeyond"
   ],
-  "edhrec_rank": 559,
+  "edhrec_rank": 553,
   "prices": {
-    "usd": "3.65",
+    "usd": "3.60",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "4.66",
+    "eur": "4.63",
     "eur_foil": null,
-    "tix": "1.42"
+    "tix": "1.53"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DClever%2BConcealment",

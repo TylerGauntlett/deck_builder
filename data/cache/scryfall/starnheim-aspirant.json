@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.webp?1783928123",
     "display": "https://cards.scryfall.io/display/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.webp?1783928123",
     "art": "https://cards.scryfall.io/art/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.webp?1783928123",
-    "crop": "https://cards.scryfall.io/crop/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.webp?1783928123"
+    "crop": "https://cards.scryfall.io/crop/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.webp?1783928123",
+    "jpeg": "https://cards.scryfall.io/normal/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.jpg?1783928123"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -113,17 +114,17 @@
   "promo_types": [
     "themepack"
   ],
-  "edhrec_rank": 3081,
+  "edhrec_rank": 3010,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/articles/archive/card-preview/set-and-theme-booster-additional-cards-kaldheim-2020-12-16",
     "previewed_at": "2020-12-16"
   },
   "prices": {
-    "usd": "9.37",
+    "usd": "8.70",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "6.29",
+    "eur": "5.62",
     "eur_foil": null,
     "tix": "0.03"
   },

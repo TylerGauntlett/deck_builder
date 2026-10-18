@@ -5,6 +5,7 @@
   "multiverse_ids": [
     679964
   ],
+  "resource_id": "203681C266BB679103B06B3265BBD09B5692FDDF37EBD7E6314B844C724FD622",
   "mtgo_id": 133470,
   "arena_id": 93935,
   "tcgplayer_id": 591184,
@@ -29,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.webp?1783909058",
     "display": "https://cards.scryfall.io/display/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.webp?1783909058",
     "art": "https://cards.scryfall.io/art/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.webp?1783909058",
-    "crop": "https://cards.scryfall.io/crop/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.webp?1783909058"
+    "crop": "https://cards.scryfall.io/crop/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.webp?1783909058",
+    "jpeg": "https://cards.scryfall.io/normal/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1783909058"
   },
   "mana_cost": "{10}{G}{G}",
   "cmc": 12.0,
@@ -117,19 +119,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 462,
-  "penny_rank": 2297,
+  "edhrec_rank": 458,
+  "penny_rank": 2307,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "",
     "previewed_at": "2024-10-30"
   },
   "prices": {
-    "usd": "1.46",
-    "usd_foil": "1.88",
+    "usd": "1.17",
+    "usd_foil": "1.64",
     "usd_etched": null,
-    "eur": "0.84",
-    "eur_foil": "1.13",
+    "eur": "0.98",
+    "eur_foil": "1.30",
     "tix": "0.02"
   },
   "related_uris": {

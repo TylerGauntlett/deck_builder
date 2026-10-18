@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.webp?1783913915",
     "display": "https://cards.scryfall.io/display/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.webp?1783913915",
     "art": "https://cards.scryfall.io/art/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.webp?1783913915",
-    "crop": "https://cards.scryfall.io/crop/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.webp?1783913915"
+    "crop": "https://cards.scryfall.io/crop/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.webp?1783913915",
+    "jpeg": "https://cards.scryfall.io/normal/front/5/9/599c934d-bfff-43ce-a545-6e3cde124515.jpg?1783913915"
   },
   "mana_cost": "{1}{W}",
   "cmc": 2.0,
@@ -129,19 +130,19 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 1045,
+  "edhrec_rank": 1054,
   "preview": {
     "source": "The Command Zone",
     "source_uri": "https://www.youtube.com/watch?v=MTbT-2xYfAU",
     "previewed_at": "2023-11-01"
   },
   "prices": {
-    "usd": "23.20",
+    "usd": "25.59",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "20.05",
+    "eur": "21.70",
     "eur_foil": null,
-    "tix": "12.31"
+    "tix": "13.77"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=640030&printed=false",

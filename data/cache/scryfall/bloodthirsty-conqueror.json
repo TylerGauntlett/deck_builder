@@ -5,6 +5,7 @@
   "multiverse_ids": [
     679135
   ],
+  "resource_id": "8414B10169F1DA2C02A16E8AE6B913609C2F3F13E6F47BB5CFBFE7A41FEBF0C5",
   "mtgo_id": 133684,
   "arena_id": 93771,
   "tcgplayer_id": 589328,
@@ -29,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.webp?1783909112",
     "display": "https://cards.scryfall.io/display/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.webp?1783909112",
     "art": "https://cards.scryfall.io/art/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.webp?1783909112",
-    "crop": "https://cards.scryfall.io/crop/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.webp?1783909112"
+    "crop": "https://cards.scryfall.io/crop/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.webp?1783909112",
+    "jpeg": "https://cards.scryfall.io/normal/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.jpg?1783909112"
   },
   "mana_cost": "{3}{B}{B}",
   "cmc": 5.0,
@@ -115,15 +117,15 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 854,
-  "penny_rank": 1118,
+  "edhrec_rank": 814,
+  "penny_rank": 1154,
   "prices": {
-    "usd": "34.83",
-    "usd_foil": "39.00",
+    "usd": "36.02",
+    "usd_foil": "40.33",
     "usd_etched": null,
-    "eur": "30.20",
-    "eur_foil": "30.68",
-    "tix": "0.02"
+    "eur": "31.54",
+    "eur_foil": "33.11",
+    "tix": "0.03"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=679135&printed=false",

@@ -1,7 +1,11 @@
 # markov_chains — Authority of the Consuls (2026-10-18)
 
-**Verdict: NO.** It switches off the creature half of Charismatic Conqueror, and
-its drain upside rests on 2 cards in the 99.
+**Verdict (revised same day): ADD — cut Malakir Bloodwitch.** The original NO
+misread how long "enter tapped" lasts; see *Revision* at the end. The original
+analysis is kept below for the record.
+
+~~Original verdict: NO. It switches off the creature half of Charismatic
+Conqueror, and its drain upside rests on 2 cards in the 99.~~
 
 ## Deck context
 Edgar Markov · bracket 3 · $40/card cap · rotating 4-player casual pod (games run
@@ -74,3 +78,66 @@ Charismatic Conqueror and Ghostly Prison already fill them.
   card becomes a marginal NO on density rather than a firm one.
 - If the deck adds two or more further "whenever you gain life" payoffs, the drain
   clause becomes real — re-evaluate then.
+
+---
+
+## Revision (2026-10-18, after user pushback)
+
+**Pushback:** it's one card in the 99, not a curve play; shutting down blockers
+and drawing removal for 1 mana is what it's for.
+
+**Sorted as a new axis, and it holds.** The original read Authority's tap as "a
+one-turn delay per creature" that mostly catches flash blockers. That is wrong. A
+creature an opponent casts in their own main phase enters tapped and **stays tapped
+until that player's next untap step**, so it cannot block on any other player's
+turn, including ours. In practice: every creature an opponent adds to the board is
+unavailable to block our next attack. That serves the combat lane (anthems, Shared
+Animosity, Akroma's Will alpha) directly, every turn, at 1 mana, on a permanent
+that survives creature wraths.
+
+**The Charismatic Conqueror nonbo, re-measured.** Conqueror's trigger gives the
+opponent a choice: tap the new creature (the *same* blocker outcome Authority
+forces) or give us a 1/1 lifelink Vampire. With both on board, Authority turns
+that choice into a guaranteed tap, so we lose only the token branch, which the
+opponent was choosing anyway. And the overlap exists only while a 2/2 creature
+survives; Authority keeps working after it dies. The original overstated this as
+"replaces the version that pays you." It is a small tax that applies only
+sometimes.
+
+**Redundancy, re-measured.** Ghostly Prison taxes attacks *on us* (defence).
+Authority stops opponents' *new* creatures from blocking (offence), plus stops
+haste attacks at us. Different jobs; not redundant.
+
+**Unchanged from the original:** the lifegain clause is a bonus only. It has 2
+payoffs (Vito, Marauding Blight-Priest), and the verdict does not rest on it.
+**Not credited:** "draws removal." A 1-mana enchantment soaking an answer that
+would have hit a payoff is plausible but not something I can measure; it is
+not part of the case.
+
+**Limits, stated plainly:** it does nothing to creatures already on the board, so
+in a long game it matters more and more for the *new* blockers and less for the
+board already in place. It does not help against wraths (the deck's main way to
+lose).
+
+### The cut
+1. **Malakir Bloodwitch — cut.** `{3}{B}{B}`, one-shot ETB drain in the payoff tier
+   (12, flagged top-heavy on 10-02). Runner-up cut in both the 10-02 shape review and the
+   10-09 Recollector review; no review has recorded a reason to keep it since its
+   protection-from-white case retired with the pod premise on 09-07. Note what
+   leaves: its "you gain life equal to the life lost" does trigger Vito /
+   Blight-Priest, so the drain lane loses a 5-drop burst, and the 1-mana card
+   coming in carries a small lifegain trigger of its own.
+2. **Bloodthrone Vampire — spared.** Spared on 10-09 as one of the three free sac
+   outlets that switch on Bloodline Recollector; that reason holds while the
+   Recollector add is pending.
+3. **Forerunner of the Legion — spared.** The deck's only tutor (09-06/07 reviews);
+   unchanged.
+(Florian is already earmarked as the Recollector cut; not double-counted.)
+
+**Aggregate:** curve 5-drops −1, 1-drops +1; black pips −2, white pips +1; payoffs
+12→11; Vampire count −1 (Bloodwitch is a Vampire; Authority is not, so one less
+eminence trigger). Game Changers unchanged. Combos: 0 new (Spellbook, as above).
+
+### Price
+Authority of the Consuls $5.03 (fetched 2026-10-18 10:21 UTC). Malakir
+Bloodwitch $4.03 (fetched 2026-10-18 18:21 UTC). Not load-bearing either way.

@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.webp?1783903734",
     "display": "https://cards.scryfall.io/display/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.webp?1783903734",
     "art": "https://cards.scryfall.io/art/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.webp?1783903734",
-    "crop": "https://cards.scryfall.io/crop/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.webp?1783903734"
+    "crop": "https://cards.scryfall.io/crop/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.webp?1783903734",
+    "jpeg": "https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734"
   },
   "mana_cost": "",
   "cmc": 0.0,
@@ -107,12 +108,12 @@
   "story_spotlight": false,
   "edhrec_rank": 24,
   "prices": {
-    "usd": "1.20",
+    "usd": "1.53",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "1.56",
+    "eur": "2.07",
     "eur_foil": null,
-    "tix": "3.05"
+    "tix": "2.49"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DBojuka%2BBog",

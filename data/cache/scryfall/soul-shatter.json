@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.webp?1783929366",
     "display": "https://cards.scryfall.io/display/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.webp?1783929366",
     "art": "https://cards.scryfall.io/art/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.webp?1783929366",
-    "crop": "https://cards.scryfall.io/crop/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.webp?1783929366"
+    "crop": "https://cards.scryfall.io/crop/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.webp?1783929366",
+    "jpeg": "https://cards.scryfall.io/normal/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.jpg?1783929366"
   },
   "mana_cost": "{2}{B}",
   "cmc": 3.0,
@@ -110,19 +111,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1156,
-  "penny_rank": 2606,
+  "edhrec_rank": 1171,
+  "penny_rank": 2629,
   "preview": {
     "source": "J-E Depraz",
     "source_uri": "https://twitter.com/JEDepraz/status/1301280566843760640",
     "previewed_at": "2020-09-02"
   },
   "prices": {
-    "usd": "3.61",
-    "usd_foil": "4.24",
+    "usd": "4.07",
+    "usd_foil": "3.56",
     "usd_etched": null,
-    "eur": "4.35",
-    "eur_foil": "5.16",
+    "eur": "4.14",
+    "eur_foil": "4.77",
     "tix": "0.02"
   },
   "related_uris": {

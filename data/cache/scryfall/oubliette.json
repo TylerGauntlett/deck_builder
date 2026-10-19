@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.webp?1783930177",
     "display": "https://cards.scryfall.io/display/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.webp?1783930177",
     "art": "https://cards.scryfall.io/art/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.webp?1783930177",
-    "crop": "https://cards.scryfall.io/crop/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.webp?1783930177"
+    "crop": "https://cards.scryfall.io/crop/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.webp?1783930177",
+    "jpeg": "https://cards.scryfall.io/normal/front/d/4/d4800a7d-c229-4ced-97ff-0e58645d58d6.jpg?1783930177"
   },
   "mana_cost": "{1}{B}{B}",
   "cmc": 3.0,
@@ -106,19 +107,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4006,
+  "edhrec_rank": 3978,
   "preview": {
     "source": "Tolarian Community College",
     "source_uri": "https://www.youtube.com/watch?v=ruEzqA8gqf0",
     "previewed_at": "2020-07-28"
   },
   "prices": {
-    "usd": "2.76",
-    "usd_foil": "3.29",
+    "usd": "2.73",
+    "usd_foil": "3.37",
     "usd_etched": null,
-    "eur": "1.74",
-    "eur_foil": "1.94",
-    "tix": "0.04"
+    "eur": "2.31",
+    "eur_foil": "2.07",
+    "tix": "0.06"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=489773&printed=false",

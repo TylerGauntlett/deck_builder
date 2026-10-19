@@ -53,7 +53,8 @@
         "grid": "https://cards.scryfall.io/grid/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
         "display": "https://cards.scryfall.io/display/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
         "art": "https://cards.scryfall.io/art/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
-        "crop": "https://cards.scryfall.io/crop/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388"
+        "crop": "https://cards.scryfall.io/crop/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
+        "jpeg": "https://cards.scryfall.io/normal/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.jpg?1783929388"
       }
     },
     {
@@ -78,7 +79,8 @@
         "grid": "https://cards.scryfall.io/grid/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
         "display": "https://cards.scryfall.io/display/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
         "art": "https://cards.scryfall.io/art/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
-        "crop": "https://cards.scryfall.io/crop/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388"
+        "crop": "https://cards.scryfall.io/crop/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.webp?1783929388",
+        "jpeg": "https://cards.scryfall.io/normal/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.jpg?1783929388"
       }
     }
   ],
@@ -147,19 +149,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 956,
+  "edhrec_rank": 965,
   "preview": {
     "source": "Star City Games",
     "source_uri": "https://articles.starcitygames.com/news/black-gets-modal-double-faced-mythic-in-agadeems-awakening/",
     "previewed_at": "2020-09-08"
   },
   "prices": {
-    "usd": "27.07",
-    "usd_foil": "30.86",
+    "usd": "27.60",
+    "usd_foil": "30.89",
     "usd_etched": null,
-    "eur": "23.74",
-    "eur_foil": "25.10",
-    "tix": "1.52"
+    "eur": "25.40",
+    "eur_foil": "24.49",
+    "tix": "1.33"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=491723&printed=false",

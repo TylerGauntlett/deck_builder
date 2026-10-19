@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.webp?1783911207",
     "display": "https://cards.scryfall.io/display/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.webp?1783911207",
     "art": "https://cards.scryfall.io/art/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.webp?1783911207",
-    "crop": "https://cards.scryfall.io/crop/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.webp?1783911207"
+    "crop": "https://cards.scryfall.io/crop/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.webp?1783911207",
+    "jpeg": "https://cards.scryfall.io/normal/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.jpg?1783911207"
   },
   "mana_cost": "",
   "cmc": 0.0,
@@ -116,19 +117,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 198,
+  "edhrec_rank": 194,
   "preview": {
     "source": "Aspiringspike",
     "source_uri": "https://twitter.com/Aspiringspike/status/1794032831544614944",
     "previewed_at": "2024-05-24"
   },
   "prices": {
-    "usd": "27.60",
-    "usd_foil": "30.01",
+    "usd": "30.43",
+    "usd_foil": "32.56",
     "usd_etched": null,
-    "eur": "28.13",
-    "eur_foil": "31.91",
-    "tix": "0.25"
+    "eur": "29.65",
+    "eur_foil": "32.65",
+    "tix": "0.54"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=664082&printed=false",

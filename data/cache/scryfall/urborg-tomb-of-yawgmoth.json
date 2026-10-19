@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.webp?1783927747",
     "display": "https://cards.scryfall.io/display/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.webp?1783927747",
     "art": "https://cards.scryfall.io/art/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.webp?1783927747",
-    "crop": "https://cards.scryfall.io/crop/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.webp?1783927747"
+    "crop": "https://cards.scryfall.io/crop/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.webp?1783927747",
+    "jpeg": "https://cards.scryfall.io/normal/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.jpg?1783927747"
   },
   "mana_cost": "",
   "cmc": 0.0,
@@ -110,19 +111,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 73,
+  "edhrec_rank": 75,
   "preview": {
     "source": "Commander Rules Committee",
     "source_uri": "https://mtgcommander.net/index.php/2021/03/04/time-spiral-remastered-previews/",
     "previewed_at": "2021-03-04"
   },
   "prices": {
-    "usd": "55.92",
-    "usd_foil": "74.00",
+    "usd": "53.68",
+    "usd_foil": "79.68",
     "usd_etched": null,
-    "eur": "35.81",
-    "eur_foil": "48.35",
-    "tix": "0.49"
+    "eur": "40.05",
+    "eur_foil": "50.88",
+    "tix": "0.48"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509652&printed=false",

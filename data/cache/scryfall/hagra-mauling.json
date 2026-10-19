@@ -53,7 +53,8 @@
         "grid": "https://cards.scryfall.io/grid/front/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
         "display": "https://cards.scryfall.io/display/front/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
         "art": "https://cards.scryfall.io/art/front/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
-        "crop": "https://cards.scryfall.io/crop/front/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380"
+        "crop": "https://cards.scryfall.io/crop/front/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
+        "jpeg": "https://cards.scryfall.io/normal/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1783929380"
       }
     },
     {
@@ -78,7 +79,8 @@
         "grid": "https://cards.scryfall.io/grid/back/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
         "display": "https://cards.scryfall.io/display/back/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
         "art": "https://cards.scryfall.io/art/back/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
-        "crop": "https://cards.scryfall.io/crop/back/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380"
+        "crop": "https://cards.scryfall.io/crop/back/7/c/7c04c734-354d-4925-8161-7052110951df.webp?1783929380",
+        "jpeg": "https://cards.scryfall.io/normal/back/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1783929380"
       }
     }
   ],
@@ -147,19 +149,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 2076,
-  "penny_rank": 367,
+  "edhrec_rank": 2120,
+  "penny_rank": 358,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://www.facebook.com/MagicTheGathering.ct/photos/a.1580720992154464/3032431983650017/?type=3&theater",
     "previewed_at": "2020-09-04"
   },
   "prices": {
-    "usd": "1.72",
-    "usd_foil": "1.03",
+    "usd": "1.10",
+    "usd_foil": "1.04",
     "usd_etched": null,
-    "eur": "1.50",
-    "eur_foil": "2.21",
+    "eur": "1.32",
+    "eur_foil": "1.39",
     "tix": "0.02"
   },
   "related_uris": {

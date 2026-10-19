@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.webp?1783933032",
     "display": "https://cards.scryfall.io/display/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.webp?1783933032",
     "art": "https://cards.scryfall.io/art/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.webp?1783933032",
-    "crop": "https://cards.scryfall.io/crop/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.webp?1783933032"
+    "crop": "https://cards.scryfall.io/crop/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.webp?1783933032",
+    "jpeg": "https://cards.scryfall.io/normal/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.jpg?1783933032"
   },
   "mana_cost": "{W}{W}",
   "cmc": 2.0,
@@ -130,19 +131,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3751,
-  "penny_rank": 1459,
+  "edhrec_rank": 3637,
+  "penny_rank": 1451,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://m.weibo.cn/status/4384548156468250?",
     "previewed_at": "2019-06-18"
   },
   "prices": {
-    "usd": "5.80",
+    "usd": "6.21",
     "usd_foil": "8.31",
     "usd_etched": null,
-    "eur": "3.46",
-    "eur_foil": "6.44",
+    "eur": "3.62",
+    "eur_foil": "6.49",
     "tix": "0.02"
   },
   "related_uris": {

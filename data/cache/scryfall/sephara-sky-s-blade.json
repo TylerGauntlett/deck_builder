@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.webp?1783915714",
     "display": "https://cards.scryfall.io/display/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.webp?1783915714",
     "art": "https://cards.scryfall.io/art/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.webp?1783915714",
-    "crop": "https://cards.scryfall.io/crop/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.webp?1783915714"
+    "crop": "https://cards.scryfall.io/crop/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.webp?1783915714",
+    "jpeg": "https://cards.scryfall.io/normal/front/7/2/729ee848-6c27-4202-b2bc-605f45209468.jpg?1783915714"
   },
   "mana_cost": "{4}{W}{W}{W}",
   "cmc": 7.0,
@@ -115,18 +116,18 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1372,
-  "penny_rank": 4773,
+  "edhrec_rank": 1363,
+  "penny_rank": 4781,
   "preview": {
     "source": "Drinks of Alara",
     "source_uri": "https://twitter.com/DrinksOfAlara/status/1679840125663035392",
     "previewed_at": "2023-07-14"
   },
   "prices": {
-    "usd": "3.63",
-    "usd_foil": "4.71",
+    "usd": "3.70",
+    "usd_foil": "4.26",
     "usd_etched": null,
-    "eur": "2.88",
+    "eur": "2.51",
     "eur_foil": "4.35",
     "tix": "0.08"
   },

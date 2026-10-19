@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.webp?1789127693",
     "display": "https://cards.scryfall.io/display/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.webp?1789127693",
     "art": "https://cards.scryfall.io/art/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.webp?1789127693",
-    "crop": "https://cards.scryfall.io/crop/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.webp?1789127693"
+    "crop": "https://cards.scryfall.io/crop/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.webp?1789127693",
+    "jpeg": "https://cards.scryfall.io/normal/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg?1789127693"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -115,14 +116,14 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 19104,
+  "edhrec_rank": 15011,
   "prices": {
-    "usd": "1.29",
-    "usd_foil": "2.03",
+    "usd": "1.40",
+    "usd_foil": "1.78",
     "usd_etched": null,
-    "eur": "1.35",
-    "eur_foil": "2.16",
-    "tix": "0.11"
+    "eur": "0.80",
+    "eur_foil": "0.98",
+    "tix": "0.01"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DLyra%252C%2BArchangel%2Bof%2BDawn",

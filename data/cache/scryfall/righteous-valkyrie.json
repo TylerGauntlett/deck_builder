@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.webp?1783928279",
     "display": "https://cards.scryfall.io/display/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.webp?1783928279",
     "art": "https://cards.scryfall.io/art/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.webp?1783928279",
-    "crop": "https://cards.scryfall.io/crop/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.webp?1783928279"
+    "crop": "https://cards.scryfall.io/crop/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.webp?1783928279",
+    "jpeg": "https://cards.scryfall.io/normal/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.jpg?1783928279"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -113,19 +114,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1992,
-  "penny_rank": 773,
+  "edhrec_rank": 1952,
+  "penny_rank": 776,
   "preview": {
     "source": "Stephen Croke",
     "source_uri": "https://twitter.com/crokeyz/status/1351162595944902662",
     "previewed_at": "2021-01-18"
   },
   "prices": {
-    "usd": "5.65",
-    "usd_foil": "6.34",
+    "usd": "5.41",
+    "usd_foil": "6.24",
     "usd_etched": null,
-    "eur": "5.72",
-    "eur_foil": "6.43",
+    "eur": "5.05",
+    "eur_foil": "6.49",
     "tix": "0.02"
   },
   "related_uris": {

@@ -3,6 +3,7 @@
   "id": "b7393efb-da40-4b55-a6ff-ce774f0815f9",
   "oracle_id": "9ad730b5-8950-4215-9319-387e2970dd22",
   "multiverse_ids": [],
+  "resource_id": "9F7028B63170C74DE890C59616670AE0E916DD25248EFA40058E575AEEFC9D77",
   "tcgplayer_id": 695517,
   "cardmarket_id": 904185,
   "name": "Exemplar of Light",
@@ -25,7 +26,8 @@
     "grid": "https://cards.scryfall.io/grid/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.webp?1787563150",
     "display": "https://cards.scryfall.io/display/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.webp?1787563150",
     "art": "https://cards.scryfall.io/art/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.webp?1787563150",
-    "crop": "https://cards.scryfall.io/crop/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.webp?1787563150"
+    "crop": "https://cards.scryfall.io/crop/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.webp?1787563150",
+    "jpeg": "https://cards.scryfall.io/normal/front/b/7/b7393efb-da40-4b55-a6ff-ce774f0815f9.jpg?1787563150"
   },
   "mana_cost": "{2}{W}{W}",
   "cmc": 4.0,
@@ -111,13 +113,13 @@
   "promo_types": [
     "setextension"
   ],
-  "edhrec_rank": 1184,
-  "penny_rank": 1607,
+  "edhrec_rank": 1142,
+  "penny_rank": 1593,
   "prices": {
     "usd": "0.91",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "2.41",
+    "eur": "1.91",
     "eur_foil": null,
     "tix": null
   },

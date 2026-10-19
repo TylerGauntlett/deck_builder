@@ -5,6 +5,7 @@
   "multiverse_ids": [
     679996
   ],
+  "resource_id": "D78EC6F481815FAE9F46596ECA30E6B6B8CDAC6F3704DAA8649A1154CB0322FB",
   "mtgo_id": 133534,
   "arena_id": 93967,
   "tcgplayer_id": 591325,
@@ -29,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.webp?1783909053",
     "display": "https://cards.scryfall.io/display/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.webp?1783909053",
     "art": "https://cards.scryfall.io/art/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.webp?1783909053",
-    "crop": "https://cards.scryfall.io/crop/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.webp?1783909053"
+    "crop": "https://cards.scryfall.io/crop/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.webp?1783909053",
+    "jpeg": "https://cards.scryfall.io/normal/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.jpg?1783909053"
   },
   "mana_cost": "{3}",
   "cmc": 3.0,
@@ -114,14 +116,14 @@
   "promo_types": [
     "startercollection"
   ],
-  "edhrec_rank": 853,
-  "penny_rank": 6182,
+  "edhrec_rank": 849,
+  "penny_rank": 6190,
   "prices": {
-    "usd": "0.35",
-    "usd_foil": "0.48",
+    "usd": "0.34",
+    "usd_foil": "0.45",
     "usd_etched": null,
-    "eur": "0.19",
-    "eur_foil": "0.48",
+    "eur": "0.21",
+    "eur_foil": "0.53",
     "tix": "0.03"
   },
   "related_uris": {

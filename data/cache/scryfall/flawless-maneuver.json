@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.webp?1789599786",
     "display": "https://cards.scryfall.io/display/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.webp?1789599786",
     "art": "https://cards.scryfall.io/art/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.webp?1789599786",
-    "crop": "https://cards.scryfall.io/crop/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.webp?1789599786"
+    "crop": "https://cards.scryfall.io/crop/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.webp?1789599786",
+    "jpeg": "https://cards.scryfall.io/normal/front/3/f/3ffe82a4-584e-4ebd-9551-a745bed01e26.jpg?1789599786"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -106,14 +107,14 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 177,
+  "edhrec_rank": 173,
   "prices": {
-    "usd": "8.05",
+    "usd": "8.67",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "9.60",
+    "eur": "6.51",
     "eur_foil": null,
-    "tix": "2.80"
+    "tix": "2.99"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DFlawless%2BManeuver",

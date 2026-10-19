@@ -12,8 +12,8 @@
 1 Endless Atlas
 1 Exorcise
 1 Firemane Commando
-1 Herald of Eternal Dawn
 1 Herald of War
+1 Heraldic Banner
 1 Invoke the Divine
 1 Linvala, the Preserver
 1 Marble Diamond

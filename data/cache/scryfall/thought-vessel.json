@@ -4,9 +4,10 @@
   "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be",
   "multiverse_ids": [],
   "tcgplayer_id": 709826,
+  "cardmarket_id": 917936,
   "name": "Thought Vessel",
   "lang": "en",
-  "released_at": "2026-11-09",
+  "released_at": "2026-10-19",
   "uri": "https://api.scryfall.com/cards/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f",
   "scryfall_uri": "https://scryfall.com/card/mbc/78/thought-vessel?utm_source=api",
   "layout": "normal",
@@ -24,7 +25,8 @@
     "grid": "https://cards.scryfall.io/grid/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.webp?1785759392",
     "display": "https://cards.scryfall.io/display/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.webp?1785759392",
     "art": "https://cards.scryfall.io/art/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.webp?1785759392",
-    "crop": "https://cards.scryfall.io/crop/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.webp?1785759392"
+    "crop": "https://cards.scryfall.io/crop/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.webp?1785759392",
+    "jpeg": "https://cards.scryfall.io/normal/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.jpg?1785759392"
   },
   "mana_cost": "{2}",
   "cmc": 2.0,
@@ -102,7 +104,7 @@
   "booster": false,
   "story_spotlight": false,
   "edhrec_rank": 21,
-  "penny_rank": 810,
+  "penny_rank": 803,
   "prices": {
     "usd": null,
     "usd_foil": null,
@@ -118,7 +120,7 @@
   },
   "purchase_uris": {
     "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F709826%3Fpage%3D1",
-    "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Thought+Vessel&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=917936&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
     "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Thought+Vessel&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
   }
 }

@@ -30,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.webp?1783925550",
     "display": "https://cards.scryfall.io/display/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.webp?1783925550",
     "art": "https://cards.scryfall.io/art/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.webp?1783925550",
-    "crop": "https://cards.scryfall.io/crop/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.webp?1783925550"
+    "crop": "https://cards.scryfall.io/crop/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.webp?1783925550",
+    "jpeg": "https://cards.scryfall.io/normal/front/f/0/f07cbf04-2864-4407-800e-4d55c10d3426.jpg?1783925550"
   },
   "mana_cost": "{B}{R}",
   "cmc": 2.0,
@@ -115,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 5277,
-  "penny_rank": 4311,
+  "edhrec_rank": 5366,
+  "penny_rank": 4331,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://twitter.com/MagicEsports/status/1433872210599419905",
     "previewed_at": "2021-09-03"
   },
   "prices": {
-    "usd": "0.40",
-    "usd_foil": "0.72",
+    "usd": "0.32",
+    "usd_foil": "0.69",
     "usd_etched": null,
-    "eur": "0.31",
-    "eur_foil": "0.91",
+    "eur": "0.32",
+    "eur_foil": "0.50",
     "tix": "0.03"
   },
   "related_uris": {

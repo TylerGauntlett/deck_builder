@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.webp?1783921789",
     "display": "https://cards.scryfall.io/display/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.webp?1783921789",
     "art": "https://cards.scryfall.io/art/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.webp?1783921789",
-    "crop": "https://cards.scryfall.io/crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.webp?1783921789"
+    "crop": "https://cards.scryfall.io/crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.webp?1783921789",
+    "jpeg": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789"
   },
   "mana_cost": "{3}",
   "cmc": 3.0,
@@ -111,19 +112,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 310,
+  "edhrec_rank": 305,
   "preview": {
     "source": "The Command Zone",
     "source_uri": "https://twitter.com/commandcast/status/1537518095635402753",
     "previewed_at": "2022-06-16"
   },
   "prices": {
-    "usd": "56.76",
-    "usd_foil": "59.61",
+    "usd": "54.37",
+    "usd_foil": "60.11",
     "usd_etched": null,
-    "eur": "41.95",
-    "eur_foil": "42.84",
-    "tix": "6.89"
+    "eur": "43.15",
+    "eur_foil": "46.44",
+    "tix": "6.64"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571644&printed=false",

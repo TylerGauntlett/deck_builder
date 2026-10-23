@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.webp?1789470776",
     "display": "https://cards.scryfall.io/display/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.webp?1789470776",
     "art": "https://cards.scryfall.io/art/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.webp?1789470776",
-    "crop": "https://cards.scryfall.io/crop/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.webp?1789470776"
+    "crop": "https://cards.scryfall.io/crop/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.webp?1789470776",
+    "jpeg": "https://cards.scryfall.io/normal/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.jpg?1789470776"
   },
   "mana_cost": "{5}{W}{W}",
   "cmc": 7.0,
@@ -51,7 +52,7 @@
     "legacy": "legal",
     "pauper": "not_legal",
     "vintage": "legal",
-    "penny": "not_legal",
+    "penny": "legal",
     "commander": "legal",
     "oathbreaker": "legal",
     "standardbrawl": "legal",
@@ -108,14 +109,14 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 17864,
+  "edhrec_rank": 11284,
   "prices": {
-    "usd": "1.37",
-    "usd_foil": "4.38",
+    "usd": "1.50",
+    "usd_foil": "1.93",
     "usd_etched": null,
-    "eur": "1.05",
-    "eur_foil": "2.70",
-    "tix": "0.13"
+    "eur": "0.81",
+    "eur_foil": "1.37",
+    "tix": "0.01"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DKindred%2BJudgment",

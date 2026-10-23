@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.webp?1783932986",
     "display": "https://cards.scryfall.io/display/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.webp?1783932986",
     "art": "https://cards.scryfall.io/art/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.webp?1783932986",
-    "crop": "https://cards.scryfall.io/crop/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.webp?1783932986"
+    "crop": "https://cards.scryfall.io/crop/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.webp?1783932986",
+    "jpeg": "https://cards.scryfall.io/normal/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.jpg?1783932986"
   },
   "mana_cost": "{B}",
   "cmc": 1.0,
@@ -114,19 +115,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3319,
-  "penny_rank": 3389,
+  "edhrec_rank": 3313,
+  "penny_rank": 3400,
   "preview": {
     "source": "Magic Mics",
     "source_uri": "",
     "previewed_at": "2019-06-19"
   },
   "prices": {
-    "usd": "1.22",
-    "usd_foil": "9.03",
+    "usd": "0.79",
+    "usd_foil": "9.23",
     "usd_etched": null,
-    "eur": "0.79",
-    "eur_foil": "4.95",
+    "eur": "0.98",
+    "eur_foil": "5.44",
     "tix": "0.03"
   },
   "related_uris": {

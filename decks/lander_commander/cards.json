@@ -3,19 +3,19 @@
   "source": "base.txt",
   "stats": {
     "cards": 100,
-    "distinct": 76,
-    "lands": 44,
-    "avg_mana_value_nonland": 3.7,
+    "distinct": 78,
+    "lands": 43,
+    "avg_mana_value_nonland": 3.84,
     "type_counts": {
-      "Land": 44,
-      "Creature": 29,
+      "Land": 43,
+      "Creature": 30,
       "Instant": 8,
       "Sorcery": 8,
       "Enchantment": 6,
       "Artifact": 5
     },
     "color_pips": {
-      "G": 59,
+      "G": 61,
       "U": 21
     },
     "game_changers": [
@@ -168,8 +168,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 688,
-      "price_usd": "12.31",
+      "edhrec_rank": 701,
+      "price_usd": "13.04",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/otc/186/ancient-greenwarden?utm_source=api",
       "oracle_id": "3bcf090c-e890-4a9f-a8aa-6079e4ec9947"
@@ -515,8 +515,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1660,
-      "price_usd": "1.79",
+      "edhrec_rank": 1662,
+      "price_usd": "1.81",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/otj/267/botanical-sanctum?utm_source=api",
       "oracle_id": "88f8f683-738e-48f3-afff-c8f73f1033a2"
@@ -567,53 +567,6 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/c16/143/burgeoning?utm_source=api",
       "oracle_id": "88cf4c1a-5863-45fc-b76d-7ad33b175b2b"
-    },
-    {
-      "name": "Call Damage Control",
-      "asked_as": "Call Damage Control",
-      "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Call Damage Control",
-          "mana_cost": "{1}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Choose up to two. Return those cards from your graveyard to your hand.\n• Target artifact card.\n• Target creature card.\n• Target enchantment card.\n• Target land card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "msh",
-      "set_name": "Marvel Super Heroes",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 13882,
-      "price_usd": "0.24",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msh/162/call-damage-control?utm_source=api",
-      "oracle_id": "49a32f34-01a9-4f25-bf38-b4d46ca67b2d"
     },
     {
       "name": "Coiling Oracle",
@@ -1046,8 +999,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 177,
-      "price_usd": "0.96",
+      "edhrec_rank": 174,
+      "price_usd": "1.13",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/sos/254/dreamroot-cascade?utm_source=api",
       "oracle_id": "dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb"
@@ -1369,7 +1322,7 @@
     {
       "name": "Forest",
       "asked_as": "Forest",
-      "qty": 14,
+      "qty": 13,
       "mana_cost": "",
       "cmc": 0.0,
       "type_line": "Basic Land — Forest",
@@ -1460,8 +1413,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 462,
-      "price_usd": "1.46",
+      "edhrec_rank": 455,
+      "price_usd": "1.28",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/222/ghalta-primal-hunger?utm_source=api",
       "oracle_id": "b0b6be0c-41cf-4757-9f0e-87227b6ba6b3"
@@ -1555,8 +1508,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1450,
-      "price_usd": "3.08",
+      "edhrec_rank": 1429,
+      "price_usd": "3.46",
       "all_parts": [
         {
           "name": "Treasure",
@@ -1767,8 +1720,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 30,
-      "price_usd": "16.03",
+      "edhrec_rank": 28,
+      "price_usd": "15.99",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmm/295/heroic-intervention?utm_source=api",
       "oracle_id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27"
@@ -1865,8 +1818,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 761,
-      "price_usd": "0.31",
+      "edhrec_rank": 764,
+      "price_usd": "0.33",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/69/imprisoned-in-the-moon?utm_source=api",
       "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936"
@@ -1874,7 +1827,7 @@
     {
       "name": "Island",
       "asked_as": "Island",
-      "qty": 12,
+      "qty": 11,
       "mana_cost": "",
       "cmc": 0.0,
       "type_line": "Basic Land — Island",
@@ -1957,8 +1910,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1731,
-      "price_usd": "8.99",
+      "edhrec_rank": 1734,
+      "price_usd": "10.58",
       "all_parts": [
         {
           "name": "Copy",
@@ -2218,7 +2171,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 329,
-      "price_usd": "6.06",
+      "price_usd": "5.89",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/znr/193/lotus-cobra?utm_source=api",
       "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614"
@@ -2410,6 +2363,51 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmr/401/nezahal-primal-tide?utm_source=api",
       "oracle_id": "c45e96cb-2539-4e00-9fff-782a182c2f4b"
+    },
+    {
+      "name": "Oboro, Palace in the Clouds",
+      "asked_as": "Oboro, Palace in the Clouds",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Oboro, Palace in the Clouds",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "{T}: Add {U}.\n{1}: Return Oboro to its owner's hand.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "sok",
+      "set_name": "Saviors of Kamigawa",
+      "released_at": "2005-06-03",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4971,
+      "price_usd": "21.92",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/sok/164/oboro-palace-in-the-clouds?utm_source=api",
+      "oracle_id": "645fb11b-d684-4bec-8532-8fa97e8f7b28"
     },
     {
       "name": "Oracle of Mul Daya",
@@ -3132,16 +3130,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1,
-      "price_usd": "1.59",
+      "price_usd": "0.99",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/frc/21/sol-ring?utm_source=api",
       "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
     },
     {
@@ -3238,7 +3236,7 @@
       "rarity": "uncommon",
       "set": "mbc",
       "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-11-09",
+      "released_at": "2026-10-19",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
@@ -3294,8 +3292,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 470,
-      "price_usd": "0.25",
+      "edhrec_rank": 483,
+      "price_usd": "0.29",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/247/tatyova-benthic-druid?utm_source=api",
       "oracle_id": "0715e860-3b3b-4331-9718-207973e94fee"
@@ -3506,6 +3504,64 @@
       "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741"
     },
     {
+      "name": "Turntimber Symbiosis // Turntimber, Serpentine Wood",
+      "asked_as": "Turntimber Symbiosis",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 7.0,
+      "type_line": "Sorcery // Land",
+      "layout": "modal_dfc",
+      "colors": [],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [
+        "G"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Turntimber Symbiosis",
+          "mana_cost": "{4}{G}{G}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. If that card has mana value 3 or less, it enters with three additional +1/+1 counters on it. Put the rest on the bottom of your library in a random order.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        },
+        {
+          "name": "Turntimber, Serpentine Wood",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {G}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "mythic",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2335,
+      "price_usd": "4.50",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood?utm_source=api",
+      "oracle_id": "403b59f3-7ade-4bc2-a3e6-de0c3c700f18"
+    },
+    {
       "name": "Urban Evolution",
       "asked_as": "Urban Evolution",
       "qty": 1,
@@ -3554,6 +3610,61 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ncc/355/urban-evolution?utm_source=api",
       "oracle_id": "c715e525-fc3a-4cab-94a0-04e0a22a5013"
+    },
+    {
+      "name": "Verdant Kraken",
+      "asked_as": "Verdant Kraken",
+      "qty": 1,
+      "mana_cost": "{4}{G}{G}{G}",
+      "cmc": 7.0,
+      "type_line": "Creature — Plant Kraken",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [
+        "G"
+      ],
+      "keywords": [],
+      "power": "6",
+      "toughness": "6",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Verdant Kraken",
+          "mana_cost": "{4}{G}{G}{G}",
+          "type_line": "Creature — Plant Kraken",
+          "oracle_text": "At the beginning of each player's upkeep, you create a 3/3 green Forest Tentacle land creature token. (It has \"{T}: Add {G}.\" It's affected by summoning sickness until your next turn.)",
+          "power": "6",
+          "toughness": "6",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fra",
+      "set_name": "Reality Fracture",
+      "released_at": "2026-10-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 9708,
+      "price_usd": "2.68",
+      "all_parts": [
+        {
+          "name": "Forest Tentacle",
+          "component": "token",
+          "type_line": "Token Land Creature — Forest Tentacle"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/fra/118/verdant-kraken?utm_source=api",
+      "oracle_id": "83c61083-b357-4775-a855-5a9013cc2bdf"
     },
     {
       "name": "Waterlogged Grove",

@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.webp?1783929336",
     "display": "https://cards.scryfall.io/display/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.webp?1783929336",
     "art": "https://cards.scryfall.io/art/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.webp?1783929336",
-    "crop": "https://cards.scryfall.io/crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.webp?1783929336"
+    "crop": "https://cards.scryfall.io/crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.webp?1783929336",
+    "jpeg": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336"
   },
   "mana_cost": "{1}{G}",
   "cmc": 2.0,
@@ -122,18 +123,18 @@
   "booster": true,
   "story_spotlight": false,
   "edhrec_rank": 329,
-  "penny_rank": 2047,
+  "penny_rank": 2042,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "http://twitch.tv/videos/728086792",
     "previewed_at": "2020-09-01"
   },
   "prices": {
-    "usd": "6.06",
-    "usd_foil": "6.65",
+    "usd": "5.89",
+    "usd_foil": "7.08",
     "usd_etched": null,
     "eur": "6.36",
-    "eur_foil": "6.22",
+    "eur_foil": "7.01",
     "tix": "0.02"
   },
   "related_uris": {

@@ -1,13 +1,13 @@
 # lander_commander - card details
 
-Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
-- 100 cards (76 distinct), 44 lands
-- Average mana value of non-lands: 3.7
-- Types: Land 44, Creature 29, Instant 8, Sorcery 8, Enchantment 6, Artifact 5
-- Colored pips: G 59, U 21
+- 100 cards (78 distinct), 43 lands
+- Average mana value of non-lands: 3.84
+- Types: Land 43, Creature 30, Instant 8, Sorcery 8, Enchantment 6, Artifact 5
+- Colored pips: G 61, U 21
 - Game Changers: Cyclonic Rift, Rhystic Study
 
 ## Spells and permanents
@@ -41,7 +41,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
   If a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 - P/T: 5/7
 
-- Color identity: G | Keywords: Reach | EDHREC rank: 688 | ~$12.31
+- Color identity: G | Keywords: Reach | EDHREC rank: 701 | ~$13.04
 
 ### Arcane Denial
 
@@ -98,18 +98,6 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.
 
 - Color identity: G | EDHREC rank: 900 | ~$32.52
-
-### Call Damage Control
-
-- Cost: {1}{G}  |  Mana value: 2.0
-- Type: Sorcery
-- Text: Choose up to two. Return those cards from your graveyard to your hand.
-  • Target artifact card.
-  • Target creature card.
-  • Target enchantment card.
-  • Target land card.
-
-- Color identity: G | EDHREC rank: 13882 | ~$0.24
 
 ### Coiling Oracle
 
@@ -200,7 +188,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 - P/T: 12/12
 
-- Color identity: G | Keywords: Trample | EDHREC rank: 462 | ~$1.46
+- Color identity: G | Keywords: Trample | EDHREC rank: 455 | ~$1.28
 
 ### Goldvein Hydra
 
@@ -211,7 +199,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
   When this creature dies, create a number of tapped Treasure tokens equal to its power.
 - P/T: 0/0
 
-- Color identity: G | Keywords: Vigilance, Treasure, Haste, Trample | EDHREC rank: 1450 | ~$3.08 | Related: Treasure
+- Color identity: G | Keywords: Vigilance, Treasure, Haste, Trample | EDHREC rank: 1429 | ~$3.46 | Related: Treasure
 
 ### Greensleeves, Maro-Sorcerer
 
@@ -247,7 +235,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Permanents you control gain hexproof and indestructible until end of turn.
 
-- Color identity: G | EDHREC rank: 30 | ~$16.03
+- Color identity: G | EDHREC rank: 28 | ~$15.99
 
 ### Imprisoned in the Moon
 
@@ -256,7 +244,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Enchant creature, land, or planeswalker
   Enchanted permanent is a colorless land with "{T}: Add {C}" and loses all other card types and abilities.
 
-- Color identity: U | Keywords: Enchant | Produces: C | EDHREC rank: 761 | ~$0.31
+- Color identity: U | Keywords: Enchant | Produces: C | EDHREC rank: 764 | ~$0.33
 
 ### Jin-Gitaxias, Progress Tyrant
 
@@ -266,7 +254,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever an opponent casts an artifact, instant, or sorcery spell, counter that spell. This ability triggers only once each turn.
 - P/T: 5/5
 
-- Color identity: U | EDHREC rank: 1731 | ~$8.99 | Related: Copy
+- Color identity: U | EDHREC rank: 1734 | ~$10.58 | Related: Copy
 
 ### Kodama of the East Tree
 
@@ -307,7 +295,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Landfall — Whenever a land you control enters, add one mana of any color.
 - P/T: 2/1
 
-- Color identity: G | Keywords: Landfall | Produces: BGRUW | EDHREC rank: 329 | ~$6.06
+- Color identity: G | Keywords: Landfall | Produces: BGRUW | EDHREC rank: 329 | ~$5.89
 
 ### Mossborn Hydra
 
@@ -451,7 +439,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add {C}{C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1 | ~$1.59
+- Color identity: C | Produces: C | EDHREC rank: 1 | ~$0.99
 
 ### Springheart Nantuko
 
@@ -480,7 +468,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Landfall — Whenever a land you control enters, you gain 1 life and draw a card.
 - P/T: 3/3
 
-- Color identity: GU | Keywords: Landfall | EDHREC rank: 470 | ~$0.25
+- Color identity: GU | Keywords: Landfall | EDHREC rank: 483 | ~$0.29
 
 ### Terastodon
 
@@ -509,6 +497,23 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: G | Keywords: Treasure, Food, Landfall | Produces: BGRUW | EDHREC rank: 184 | ~$4.33 | Related: Treasure, Food
 
+### Turntimber Symbiosis // Turntimber, Serpentine Wood
+
+**Turntimber Symbiosis**
+
+- Cost: {4}{G}{G}{G}  |  Mana value: 7.0
+- Type: Sorcery
+- Text: Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. If that card has mana value 3 or less, it enters with three additional +1/+1 counters on it. Put the rest on the bottom of your library in a random order.
+
+**Turntimber, Serpentine Wood**
+
+- Cost: -  |  Mana value: 7.0
+- Type: Land
+- Text: As this land enters, you may pay 3 life. If you don't, it enters tapped.
+  {T}: Add {G}.
+
+- Color identity: G | Produces: G | EDHREC rank: 2335 | ~$4.50
+
 ### Urban Evolution
 
 - Cost: {3}{G}{U}  |  Mana value: 5.0
@@ -516,6 +521,15 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Draw three cards. You may play an additional land this turn.
 
 - Color identity: GU | EDHREC rank: 2338 | ~$0.37
+
+### Verdant Kraken
+
+- Cost: {4}{G}{G}{G}  |  Mana value: 7.0
+- Type: Creature — Plant Kraken
+- Text: At the beginning of each player's upkeep, you create a 3/3 green Forest Tentacle land creature token. (It has "{T}: Add {G}." It's affected by summoning sickness until your next turn.)
+- P/T: 6/6
+
+- Color identity: G | Produces: G | EDHREC rank: 9708 | ~$2.68 | Related: Forest Tentacle
 
 ### Yavimaya Elder
 
@@ -553,7 +567,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: This land enters tapped unless you control two or fewer other lands.
   {T}: Add {G} or {U}.
 
-- Color identity: GU | Produces: GU | EDHREC rank: 1660 | ~$1.79
+- Color identity: GU | Produces: GU | EDHREC rank: 1662 | ~$1.81
 
 ### Command Tower
 
@@ -580,7 +594,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: This land enters tapped unless you control two or more other lands.
   {T}: Add {G} or {U}.
 
-- Color identity: GU | Produces: GU | EDHREC rank: 177 | ~$0.96
+- Color identity: GU | Produces: GU | EDHREC rank: 174 | ~$1.13
 
 ### Evolving Wilds
 
@@ -616,7 +630,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: GU | Produces: CGU | EDHREC rank: 304 | ~$0.27
 
-### Forest (x14)
+### Forest (x13)
 
 - Cost: -  |  Mana value: 0.0
 - Type: Basic Land — Forest
@@ -642,7 +656,7 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: GU | Produces: GU | EDHREC rank: 98 | ~$0.30
 
-### Island (x12)
+### Island (x11)
 
 - Cost: -  |  Mana value: 0.0
 - Type: Basic Land — Island
@@ -669,6 +683,15 @@ Generated 2026-09-04 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.
 
 - Color identity: C | Produces: C | EDHREC rank: 31 | ~$0.28
+
+### Oboro, Palace in the Clouds
+
+- Cost: -  |  Mana value: 0.0
+- Type: Legendary Land
+- Text: {T}: Add {U}.
+  {1}: Return Oboro to its owner's hand.
+
+- Color identity: U | Produces: U | EDHREC rank: 4971 | ~$21.92
 
 ### Reliquary Tower
 

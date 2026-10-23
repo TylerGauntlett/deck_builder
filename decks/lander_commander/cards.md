@@ -5,9 +5,9 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 ## Deck at a glance
 
 - 100 cards (78 distinct), 43 lands
-- Average mana value of non-lands: 3.84
+- Average mana value of non-lands: 3.7
 - Types: Land 43, Creature 30, Instant 8, Sorcery 8, Enchantment 6, Artifact 5
-- Colored pips: G 61, U 21
+- Colored pips: G 60, U 21
 - Game Changers: Cyclonic Rift, Rhystic Study
 
 ## Spells and permanents
@@ -20,7 +20,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
   When this creature enters, destroy target artifact, enchantment, or land.
 - P/T: 2/2
 
-- Color identity: G | Keywords: Deathtouch | EDHREC rank: 1484 | ~$0.35
+- Color identity: G | Keywords: Deathtouch | EDHREC rank: 1524 | ~$0.25
 
 ### Aesi, Tyrant of Gyre Strait
 
@@ -89,7 +89,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Destroy target permanent. Its controller creates a 3/3 green Beast creature token.
 
-- Color identity: G | EDHREC rank: 25 | ~$0.61 | Related: Beast
+- Color identity: G | EDHREC rank: 25 | ~$0.70 | Related: Beast
 
 ### Burgeoning
 
@@ -124,7 +124,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
   When this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.
 - P/T: 5/5
 
-- Color identity: G | Keywords: Haste | EDHREC rank: 306 | ~$24.38
+- Color identity: G | Keywords: Haste | EDHREC rank: 295 | ~$23.74
 
 ### Cultivate
 
@@ -178,17 +178,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Sorcery
 - Text: Search your library and/or graveyard for a creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle. If X is 10 or more, creatures you control get +X/+X and gain haste until end of turn.
 
-- Color identity: G | EDHREC rank: 313 | ~$41.94
-
-### Ghalta, Primal Hunger
-
-- Cost: {10}{G}{G}  |  Mana value: 12.0
-- Type: Legendary Creature — Elder Dinosaur
-- Text: This spell costs {X} less to cast, where X is the total power of creatures you control.
-  Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
-- P/T: 12/12
-
-- Color identity: G | Keywords: Trample | EDHREC rank: 455 | ~$1.28
+- Color identity: G | EDHREC rank: 299 | ~$36.90
 
 ### Goldvein Hydra
 
@@ -326,7 +316,17 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Discard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.
 - P/T: 7/7
 
-- Color identity: U | EDHREC rank: 1095 | ~$8.30
+- Color identity: U | EDHREC rank: 1124 | ~$8.19
+
+### Nissa, Worldsoul Speaker
+
+- Cost: {3}{G}  |  Mana value: 4.0
+- Type: Legendary Creature — Elf Druid
+- Text: Landfall — Whenever a land you control enters, you get {E}{E} (two energy counters).
+  You may pay eight {E} rather than pay the mana cost for permanent spells you cast.
+- P/T: 3/3
+
+- Color identity: G | Keywords: Landfall | EDHREC rank: 7497 | ~$0.20 | Related: Energy Reserve
 
 ### Oracle of Mul Daya
 
@@ -345,7 +345,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Sorcery
 - Text: Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control.
 
-- Color identity: G | EDHREC rank: 534 | ~$1.09
+- Color identity: G | EDHREC rank: 524 | ~$1.36
 
 ### Pongify
 
@@ -388,7 +388,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: You may play lands from your graveyard.
 - P/T: 2/3
 
-- Color identity: G | EDHREC rank: 476 | ~$5.84
+- Color identity: G | EDHREC rank: 497 | ~$4.91
 
 ### Reclamation Sage
 
@@ -397,7 +397,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: When this creature enters, you may destroy target artifact or enchantment.
 - P/T: 2/1
 
-- Color identity: G | EDHREC rank: 327 | ~$0.35
+- Color identity: G | EDHREC rank: 333 | ~$0.37
 
 ### Rhystic Study
 
@@ -405,7 +405,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Enchantment
 - Text: Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.
 
-- Color identity: U | EDHREC rank: 44 | ~$70.58 | **Game Changer** | Related: Archival Whorl
+- Color identity: U | EDHREC rank: 46 | ~$67.83 | **Game Changer** | Related: Archival Whorl
 
 ### Scute Swarm
 
@@ -477,7 +477,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: When this creature enters, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.
 - P/T: 9/9
 
-- Color identity: G | EDHREC rank: 1394 | ~$0.37 | Related: Elephant
+- Color identity: G | EDHREC rank: 1438 | ~$0.40 | Related: Elephant
 
 ### Thought Vessel
 
@@ -700,7 +700,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: You have no maximum hand size.
   {T}: Add {C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 10 | ~$3.54
+- Color identity: C | Produces: C | EDHREC rank: 10 | ~$5.18
 
 ### Simic Growth Chamber
 

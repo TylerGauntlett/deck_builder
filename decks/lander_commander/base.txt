@@ -26,7 +26,6 @@
 1 Finale of Devastation
 1 Flooded Grove
 13 Forest
-1 Ghalta, Primal Hunger
 1 Ghost Quarter
 1 Goldvein Hydra
 1 Greensleeves, Maro-Sorcerer
@@ -46,6 +45,7 @@
 1 Myriad Landscape
 1 Negate
 1 Nezahal, Primal Tide
+1 Nissa, Worldsoul Speaker
 1 Oboro, Palace in the Clouds
 1 Oracle of Mul Daya
 1 Overwhelming Stampede

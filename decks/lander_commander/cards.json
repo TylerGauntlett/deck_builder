@@ -5,7 +5,7 @@
     "cards": 100,
     "distinct": 78,
     "lands": 43,
-    "avg_mana_value_nonland": 3.84,
+    "avg_mana_value_nonland": 3.7,
     "type_counts": {
       "Land": 43,
       "Creature": 30,
@@ -15,7 +15,7 @@
       "Artifact": 5
     },
     "color_pips": {
-      "G": 61,
+      "G": 60,
       "U": 21
     },
     "game_changers": [
@@ -67,8 +67,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1484,
-      "price_usd": "0.35",
+      "edhrec_rank": 1524,
+      "price_usd": "0.25",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmm/270/acidic-slime?utm_source=api",
       "oracle_id": "21f45043-5419-4019-8b6c-e5294bd5f549"
@@ -418,7 +418,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 25,
-      "price_usd": "0.61",
+      "price_usd": "0.70",
       "all_parts": [
         {
           "name": "Beast",
@@ -807,8 +807,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 306,
-      "price_usd": "24.38",
+      "edhrec_rank": 295,
+      "price_usd": "23.74",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdm/138/craterhoof-behemoth?utm_source=api",
       "oracle_id": "8c52bd39-0586-48ca-b263-17210cf9feb6"
@@ -1265,8 +1265,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 313,
-      "price_usd": "41.94",
+      "edhrec_rank": 299,
+      "price_usd": "36.90",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmm/289/finale-of-devastation?utm_source=api",
       "oracle_id": "69872a9a-fe54-4e58-940c-89395af71acd"
@@ -1369,55 +1369,6 @@
       ],
       "scryfall_uri": "https://scryfall.com/card/trk/325/forest?utm_source=api",
       "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6"
-    },
-    {
-      "name": "Ghalta, Primal Hunger",
-      "asked_as": "Ghalta, Primal Hunger",
-      "qty": 1,
-      "mana_cost": "{10}{G}{G}",
-      "cmc": 12.0,
-      "type_line": "Legendary Creature — Elder Dinosaur",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Trample"
-      ],
-      "power": "12",
-      "toughness": "12",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Ghalta, Primal Hunger",
-          "mana_cost": "{10}{G}{G}",
-          "type_line": "Legendary Creature — Elder Dinosaur",
-          "oracle_text": "This spell costs {X} less to cast, where X is the total power of creatures you control.\nTrample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
-          "power": "12",
-          "toughness": "12",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 455,
-      "price_usd": "1.28",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/222/ghalta-primal-hunger?utm_source=api",
-      "oracle_id": "b0b6be0c-41cf-4757-9f0e-87227b6ba6b3"
     },
     {
       "name": "Ghost Quarter",
@@ -2358,11 +2309,66 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1095,
-      "price_usd": "8.30",
+      "edhrec_rank": 1124,
+      "price_usd": "8.19",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmr/401/nezahal-primal-tide?utm_source=api",
       "oracle_id": "c45e96cb-2539-4e00-9fff-782a182c2f4b"
+    },
+    {
+      "name": "Nissa, Worldsoul Speaker",
+      "asked_as": "Nissa, Worldsoul Speaker",
+      "qty": 1,
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Elf Druid",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Landfall"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Nissa, Worldsoul Speaker",
+          "mana_cost": "{3}{G}",
+          "type_line": "Legendary Creature — Elf Druid",
+          "oracle_text": "Landfall — Whenever a land you control enters, you get {E}{E} (two energy counters).\nYou may pay eight {E} rather than pay the mana cost for permanent spells you cast.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "drc",
+      "set_name": "Aetherdrift Commander",
+      "released_at": "2025-02-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 7497,
+      "price_usd": "0.20",
+      "all_parts": [
+        {
+          "name": "Energy Reserve",
+          "component": "combo_piece",
+          "type_line": "Card"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/drc/13/nissa-worldsoul-speaker?utm_source=api",
+      "oracle_id": "00037840-6089-42ec-8c5c-281f9f474504"
     },
     {
       "name": "Oboro, Palace in the Clouds",
@@ -2497,8 +2503,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 534,
-      "price_usd": "1.09",
+      "edhrec_rank": 524,
+      "price_usd": "1.36",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/178/overwhelming-stampede?utm_source=api",
       "oracle_id": "e1e96802-fd0c-41f1-aa21-3287d75a0e88"
@@ -2747,8 +2753,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 476,
-      "price_usd": "5.84",
+      "edhrec_rank": 497,
+      "price_usd": "4.91",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/otc/202/ramunap-excavator?utm_source=api",
       "oracle_id": "4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5"
@@ -2794,8 +2800,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 327,
-      "price_usd": "0.35",
+      "edhrec_rank": 333,
+      "price_usd": "0.37",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/231/reclamation-sage?utm_source=api",
       "oracle_id": "032ec6e2-6cc3-4a97-9cc7-3233f5e11904"
@@ -2838,7 +2844,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 10,
-      "price_usd": "3.54",
+      "price_usd": "5.18",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
       "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f"
@@ -2884,8 +2890,8 @@
       "reserved": false,
       "game_changer": true,
       "commander_legal": "legal",
-      "edhrec_rank": 44,
-      "price_usd": "70.58",
+      "edhrec_rank": 46,
+      "price_usd": "67.83",
       "all_parts": [
         {
           "name": "Archival Whorl",
@@ -3339,8 +3345,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1394,
-      "price_usd": "0.37",
+      "edhrec_rank": 1438,
+      "price_usd": "0.40",
       "all_parts": [
         {
           "name": "Elephant",
@@ -3425,7 +3431,7 @@
       "rarity": "uncommon",
       "set": "mbc",
       "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-11-09",
+      "released_at": "2026-10-19",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",

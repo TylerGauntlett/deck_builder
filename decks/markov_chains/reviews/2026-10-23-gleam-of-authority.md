@@ -120,7 +120,7 @@ the card being free.
 ## Revision 1: Gleam on Edgar Markov (your pushback, same day)
 
 **Verdict moves: NO → ADD IF Edgar is regularly cast and attacking in your games.**
-I haven't named a cut, which is still open (below).
+Cut: Henrika Domnathi (Revision 2, below).
 
 You measured Gleam on an axis I didn't evaluate: **commander damage with Edgar as the
 host**. That holds, and it knocks out my main objection.
@@ -163,17 +163,43 @@ nothing else. The 2-for-1 objection was overstated.
 **No reason I gave earlier is reversed.** The Elenda interaction still stands. The
 eminence point (no token, because Gleam isn't a Vampire) is still a tiebreaker only.
 
-## The cut: still open
+## The cut (Revision 2, after you confirmed the list)
 
-The amplifier-tier cuts from earlier reviews have already been used or were spared
-for reasons that still hold:
-- **Bloodthrone Vampire**: spared on 2026-10-09 as one of three free, unlimited sac
-  outlets that switch on Bloodline Recollector.
-- **Forerunner of the Legion**: spared as the deck's only tutor.
-- **Malakir Bloodwitch**: spared on 2026-10-09 against Vito.
+**Correction:** Revision 1 listed Malakir Bloodwitch as spared. She left the deck before this
+review. Your list matches `base.txt` exactly (100 cards). That claim came from the
+2026-10-09 review, not from the current list, which is failure mode 4 in the rubric.
 
-I'm not going to drop those reasons to make room. If Gleam goes in, the cut needs a fresh
-look at the 2-drop and amplifier slots.
+Spells for a spell; lands untouched. Every amplifier/creature candidate has a recorded
+reason to stay, so this is ranked by whose reason is weakest **against the job Gleam
+brings** (a new commander-damage axis):
+
+1. **Henrika Domnathi: cut.** `{2}{B}{B}`, three one-shot modes, one per combat:
+   *"Each player sacrifices a creature of their choice"*, *"You draw a card and you lose 1
+   life"*, *"Transform Henrika"* (back face: 3/4 flying, deathtouch, lifelink). She was
+   spared on 2026-09-06 for the edict-into-Grave-Pact line and as a deathtouch/lifelink
+   body. Both still hold, but both are roles the deck already covers. Edicts: Grave Pact,
+   Soul Shatter, Anowon. Deathtouch/lifelink bodies: Qarsi Revenant, Vampire of the
+   Dire Moon, Bloodthirsty Conqueror, plus Sorin's +1 and Vault of the Archangel. The
+   2026-08-30 review called that category the deck's most redundant. Gleam is the only
+   card that turns the team's counters into commander damage. Swapping a redundant
+   role for an unfilled one is the trade the rubric's closing filter favours.
+2. **Forerunner of the Legion: spared.** The deck's only tutor (2026-09-06/07), and
+   nothing has changed that.
+3. **Bloodthrone Vampire: spared.** One of three free, unlimited sac outlets that switch on
+   Bloodline Recollector (2026-10-09).
+4. **Qarsi Revenant: spared, and its case is now *stronger*.** Its Renew is the deck's
+   only *permanent* evasion for a Gleam-enchanted Edgar.
+5. **Vampire of the Dire Moon, Anowon, Mirkwood Bats: spared** for the reasons
+   recorded on 2026-09-06 (turn-one lifelink body; repeating edict; token-to-damage
+   converter).
+
+**Honest caveat.** Henrika is a card I would defend in another context, which the rubric
+counts as evidence that this swap is close. This is an ADD IF, not a clear upgrade, and
+the condition is the deciding factor.
+
+**Aggregate if taken:** MV 4 slot −1, MV 2 slot +1; pips B −2, W +1; Vampire count −1
+(Gleam makes no eminence token, Henrika does). That last point is a tiebreaker against
+the swap. Game Changers unchanged (2/3).
 
 ## Price
 

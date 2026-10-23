@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.webp?1783927528",
     "display": "https://cards.scryfall.io/display/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.webp?1783927528",
     "art": "https://cards.scryfall.io/art/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.webp?1783927528",
-    "crop": "https://cards.scryfall.io/crop/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.webp?1783927528"
+    "crop": "https://cards.scryfall.io/crop/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.webp?1783927528",
+    "jpeg": "https://cards.scryfall.io/normal/front/6/3/63195796-197e-47ec-85f0-d4ec0065f6e6.jpg?1783927528"
   },
   "mana_cost": "{6}{G}{G}",
   "cmc": 8.0,
@@ -126,13 +127,13 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 1394,
-  "penny_rank": 1168,
+  "edhrec_rank": 1438,
+  "penny_rank": 1162,
   "prices": {
-    "usd": "0.37",
+    "usd": "0.40",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.29",
+    "eur": "0.27",
     "eur_foil": null,
     "tix": null
   },

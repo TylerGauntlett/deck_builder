@@ -9,7 +9,6 @@
 1 Blighted Woodland
 1 Botanical Sanctum
 1 Burgeoning
-1 Call Damage Control
 1 Coiling Oracle
 1 Command Tower
 1 Coral Atoll
@@ -26,7 +25,7 @@
 1 Field of Ruin
 1 Finale of Devastation
 1 Flooded Grove
-14 Forest
+13 Forest
 1 Ghalta, Primal Hunger
 1 Ghost Quarter
 1 Goldvein Hydra
@@ -36,7 +35,7 @@
 1 Heroic Intervention
 1 Hinterland Harbor
 1 Imprisoned in the Moon
-12 Island
+11 Island
 1 Jin-Gitaxias, Progress Tyrant
 1 Jungle Basin
 1 Kodama of the East Tree
@@ -47,6 +46,7 @@
 1 Myriad Landscape
 1 Negate
 1 Nezahal, Primal Tide
+1 Oboro, Palace in the Clouds
 1 Oracle of Mul Daya
 1 Overwhelming Stampede
 1 Pongify
@@ -69,7 +69,9 @@
 1 Terramorphic Expanse
 1 Thought Vessel
 1 Tireless Provisioner
+1 Turntimber Symbiosis
 1 Urban Evolution
+1 Verdant Kraken
 1 Waterlogged Grove
 1 Yavimaya Coast
 1 Yavimaya Elder

@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.webp?1783903228",
     "display": "https://cards.scryfall.io/display/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.webp?1783903228",
     "art": "https://cards.scryfall.io/art/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.webp?1783903228",
-    "crop": "https://cards.scryfall.io/crop/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.webp?1783903228"
+    "crop": "https://cards.scryfall.io/crop/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.webp?1783903228",
+    "jpeg": "https://cards.scryfall.io/normal/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.jpg?1783903228"
   },
   "mana_cost": "{3}{G}{G}",
   "cmc": 5.0,
@@ -111,15 +112,15 @@
     "surgefoil",
     "universesbeyond"
   ],
-  "edhrec_rank": 534,
-  "penny_rank": 4729,
+  "edhrec_rank": 524,
+  "penny_rank": 4761,
   "prices": {
-    "usd": "1.09",
+    "usd": "1.36",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "1.24",
+    "eur": "1.26",
     "eur_foil": null,
-    "tix": "0.05"
+    "tix": "0.19"
   },
   "related_uris": {
     "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DOverwhelming%2BStampede",

@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.webp?1783907345",
     "display": "https://cards.scryfall.io/display/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.webp?1783907345",
     "art": "https://cards.scryfall.io/art/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.webp?1783907345",
-    "crop": "https://cards.scryfall.io/crop/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.webp?1783907345"
+    "crop": "https://cards.scryfall.io/crop/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.webp?1783907345",
+    "jpeg": "https://cards.scryfall.io/normal/front/2/7/276f5cee-a501-4658-bd4d-7a044bf1ccbc.jpg?1783907345"
   },
   "mana_cost": "{5}{G}{G}{G}",
   "cmc": 8.0,
@@ -114,14 +115,14 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 306,
+  "edhrec_rank": 295,
   "prices": {
-    "usd": "24.38",
-    "usd_foil": "23.92",
+    "usd": "23.74",
+    "usd_foil": "24.56",
     "usd_etched": null,
-    "eur": "18.38",
-    "eur_foil": "19.15",
-    "tix": "0.13"
+    "eur": "22.62",
+    "eur_foil": "27.52",
+    "tix": "0.09"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=693618&printed=false",

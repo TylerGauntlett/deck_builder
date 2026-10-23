@@ -3,22 +3,22 @@
   "source": "base.txt",
   "stats": {
     "cards": 100,
-    "distinct": 91,
+    "distinct": 90,
     "lands": 34,
-    "avg_mana_value_nonland": 2.94,
+    "avg_mana_value_nonland": 2.86,
     "type_counts": {
-      "Creature": 38,
+      "Creature": 37,
       "Land": 34,
       "Instant": 9,
+      "Enchantment": 9,
       "Artifact": 8,
-      "Enchantment": 8,
       "Sorcery": 2,
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 64,
-      "W": 18,
-      "R": 5
+      "B": 63,
+      "W": 19,
+      "R": 4
     },
     "game_changers": [
       "Necropotence",
@@ -67,8 +67,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 187,
-      "price_usd": "16.22",
+      "edhrec_rank": 186,
+      "price_usd": "16.75",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
       "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
@@ -216,6 +216,53 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/frc/20/arcane-signet?utm_source=api",
       "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
+    },
+    {
+      "name": "Authority of the Consuls",
+      "asked_as": "Authority of the Consuls",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Authority of the Consuls",
+          "mana_cost": "{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Creatures your opponents control enter tapped.\nWhenever a creature an opponent controls enters, you gain 1 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 310,
+      "price_usd": "5.61",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/137/authority-of-the-consuls?utm_source=api",
+      "oracle_id": "55f3c721-e13a-406e-bc8e-d6cdc91ac477"
     },
     {
       "name": "Baron Bertram Graywater",
@@ -751,6 +798,68 @@
       "oracle_id": "434e82b5-abd4-41ac-a5b1-2dd01c667374"
     },
     {
+      "name": "Bloodline Recollector // Ancestral Craving",
+      "asked_as": "Bloodline Recollector",
+      "qty": 1,
+      "mana_cost": "{1}{B} // {B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire Warlock // Instant",
+      "layout": "prepare",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Prepared"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bloodline Recollector",
+          "mana_cost": "{1}{B}",
+          "type_line": "Creature — Vampire Warlock",
+          "oracle_text": "At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        },
+        {
+          "name": "Ancestral Craving",
+          "mana_cost": "{B}",
+          "type_line": "Instant",
+          "oracle_text": "Target player draws three cards and loses 3 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "fra",
+      "set_name": "Reality Fracture",
+      "released_at": "2026-10-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 12166,
+      "price_usd": "3.76",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api",
+      "oracle_id": "c8e9a7e1-28ae-40e3-8715-1bb0aa2057c7"
+    },
+    {
       "name": "Bloodthirsty Conqueror",
       "asked_as": "Bloodthirsty Conqueror",
       "qty": 1,
@@ -841,8 +950,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8662,
-      "price_usd": "0.14",
+      "edhrec_rank": 8681,
+      "price_usd": "0.15",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
       "oracle_id": "aa76cc50-5be0-4844-b3a4-fb33fca3cdd3"
@@ -1240,8 +1349,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 559,
-      "price_usd": "3.65",
+      "edhrec_rank": 553,
+      "price_usd": "3.60",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
       "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
@@ -1828,58 +1937,6 @@
       "oracle_id": "42bf259d-4bb9-49c3-b4ec-223dca62f4d6"
     },
     {
-      "name": "Florian, Voldaren Scion",
-      "asked_as": "Florian, Voldaren Scion",
-      "qty": 1,
-      "mana_cost": "{1}{B}{R}",
-      "cmc": 3.0,
-      "type_line": "Legendary Creature — Vampire Noble",
-      "layout": "normal",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "color_identity": [
-        "B",
-        "R"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "First strike"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Florian, Voldaren Scion",
-          "mana_cost": "{1}{B}{R}",
-          "type_line": "Legendary Creature — Vampire Noble",
-          "oracle_text": "First strike\nAt the beginning of each of your postcombat main phases, look at the top X cards of your library, where X is the total amount of life your opponents lost this turn. Exile one of those cards and put the rest on the bottom of your library in a random order. You may play the exiled card this turn.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B",
-            "R"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3518,
-      "price_usd": "0.71",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/217/florian-voldaren-scion?utm_source=api",
-      "oracle_id": "d74a2cbf-4d13-401d-9b3f-bfbde4942afd"
-    },
-    {
       "name": "Forerunner of the Legion",
       "asked_as": "Forerunner of the Legion",
       "qty": 1,
@@ -1968,7 +2025,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 160,
-      "price_usd": "5.96",
+      "price_usd": "6.69",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
       "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
@@ -2213,7 +2270,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 151,
-      "price_usd": "5.75",
+      "price_usd": "5.64",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -2459,56 +2516,6 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/275/legion-lieutenant?utm_source=api",
       "oracle_id": "5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e"
-    },
-    {
-      "name": "Malakir Bloodwitch",
-      "asked_as": "Malakir Bloodwitch",
-      "qty": 1,
-      "mana_cost": "{3}{B}{B}",
-      "cmc": 5.0,
-      "type_line": "Creature — Vampire Shaman",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Protection"
-      ],
-      "power": "4",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Malakir Bloodwitch",
-          "mana_cost": "{3}{B}{B}",
-          "type_line": "Creature — Vampire Shaman",
-          "oracle_text": "Flying, protection from white\nWhen this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.",
-          "power": "4",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "voc",
-      "set_name": "Crimson Vow Commander",
-      "released_at": "2021-11-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3528,
-      "price_usd": "4.73",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/voc/131/malakir-bloodwitch?utm_source=api",
-      "oracle_id": "870e199e-1d54-44ec-8e24-f24af93ae9c5"
     },
     {
       "name": "Malakir Rebirth // Malakir Mire",
@@ -3713,56 +3720,9 @@
       "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7"
     },
     {
-      "name": "Sundown Pass",
-      "asked_as": "Sundown Pass",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "R",
-        "W"
-      ],
-      "produced_mana": [
-        "R",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Sundown Pass",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "sos",
-      "set_name": "Secrets of Strixhaven",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 263,
-      "price_usd": "2.48",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/sos/264/sundown-pass?utm_source=api",
-      "oracle_id": "5ad0b405-cca4-475e-985c-4d7e3599d87e"
-    },
-    {
       "name": "Swamp",
       "asked_as": "Swamp",
-      "qty": 7,
+      "qty": 8,
       "mana_cost": "",
       "cmc": 0.0,
       "type_line": "Basic Land — Swamp",
@@ -4085,7 +4045,7 @@
       "game_changer": true,
       "commander_legal": "legal",
       "edhrec_rank": 109,
-      "price_usd": "47.45",
+      "price_usd": "45.36",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
@@ -4134,8 +4094,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3319,
-      "price_usd": "1.22",
+      "edhrec_rank": 3313,
+      "price_usd": "0.79",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m20/120/vampire-of-the-dire-moon?utm_source=api",
       "oracle_id": "5a938371-8428-48e3-85ed-6a84a39b29c6"

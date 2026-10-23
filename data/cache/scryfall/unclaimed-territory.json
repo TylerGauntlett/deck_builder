@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.webp?1783903190",
     "display": "https://cards.scryfall.io/display/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.webp?1783903190",
     "art": "https://cards.scryfall.io/art/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.webp?1783903190",
-    "crop": "https://cards.scryfall.io/crop/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.webp?1783903190"
+    "crop": "https://cards.scryfall.io/crop/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.webp?1783903190",
+    "jpeg": "https://cards.scryfall.io/normal/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.jpg?1783903190"
   },
   "mana_cost": "",
   "cmc": 0.0,
@@ -113,12 +114,12 @@
     "surgefoil",
     "universesbeyond"
   ],
-  "edhrec_rank": 246,
+  "edhrec_rank": 248,
   "prices": {
-    "usd": "0.29",
+    "usd": "0.34",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.24",
+    "eur": "0.25",
     "eur_foil": null,
     "tix": "0.04"
   },

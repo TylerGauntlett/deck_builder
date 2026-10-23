@@ -1,13 +1,13 @@
 # markov_chains - card details
 
-Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
-- 100 cards (91 distinct), 34 lands
-- Average mana value of non-lands: 2.94
-- Types: Creature 38, Land 34, Instant 9, Artifact 8, Enchantment 8, Sorcery 2, Planeswalker 1
-- Colored pips: B 64, W 18, R 5
+- 100 cards (90 distinct), 34 lands
+- Average mana value of non-lands: 2.86
+- Types: Creature 37, Land 34, Instant 9, Enchantment 9, Artifact 8, Sorcery 2, Planeswalker 1
+- Colored pips: B 63, W 19, R 4
 - Game Changers: Necropotence, Teferi's Protection
 
 ## Spells and permanents
@@ -20,7 +20,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Creatures you control gain flying, vigilance, and double strike until end of turn.
   • Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
 
-- Color identity: W | EDHREC rank: 187 | ~$16.22
+- Color identity: W | EDHREC rank: 186 | ~$16.75
 
 ### Anguished Unmaking
 
@@ -46,6 +46,15 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: {T}: Add one mana of any color in your commander's color identity.
 
 - Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.34
+
+### Authority of the Consuls
+
+- Cost: {W}  |  Mana value: 1.0
+- Type: Enchantment
+- Text: Creatures your opponents control enter tapped.
+  Whenever a creature an opponent controls enters, you gain 1 life.
+
+- Color identity: W | EDHREC rank: 310 | ~$5.61
 
 ### Baron Bertram Graywater
 
@@ -138,6 +147,23 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: B | Keywords: Flying, Transform | EDHREC rank: 2532 | ~$8.18 | Related: Vampire, Innistrad Checklist
 
+### Bloodline Recollector // Ancestral Craving
+
+**Bloodline Recollector**
+
+- Cost: {1}{B}  |  Mana value: 2.0
+- Type: Creature — Vampire Warlock
+- Text: At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
+- P/T: 2/2
+
+**Ancestral Craving**
+
+- Cost: {B}  |  Mana value: 2.0
+- Type: Instant
+- Text: Target player draws three cards and loses 3 life.
+
+- Color identity: B | Keywords: Prepared | EDHREC rank: 12166 | ~$3.76
+
 ### Bloodthirsty Conqueror
 
 - Cost: {3}{B}{B}  |  Mana value: 5.0
@@ -155,7 +181,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Sacrifice a creature: This creature gets +2/+2 until end of turn.
 - P/T: 1/1
 
-- Color identity: B | EDHREC rank: 8662 | ~$0.14
+- Color identity: B | EDHREC rank: 8681 | ~$0.15
 
 ### Captivating Vampire
 
@@ -214,7 +240,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Any number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)
 
-- Color identity: W | Keywords: Convoke | EDHREC rank: 559 | ~$3.65
+- Color identity: W | Keywords: Convoke | EDHREC rank: 553 | ~$3.60
 
 ### Cordial Vampire
 
@@ -292,16 +318,6 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: BW | Keywords: Lifelink | EDHREC rank: 1248 | ~$5.75 | Related: Vampire
 
-### Florian, Voldaren Scion
-
-- Cost: {1}{B}{R}  |  Mana value: 3.0
-- Type: Legendary Creature — Vampire Noble
-- Text: First strike
-  At the beginning of each of your postcombat main phases, look at the top X cards of your library, where X is the total amount of life your opponents lost this turn. Exile one of those cards and put the rest on the bottom of your library in a random order. You may play the exiled card this turn.
-- P/T: 3/3
-
-- Color identity: BR | Keywords: First strike | EDHREC rank: 3518 | ~$0.71
-
 ### Forerunner of the Legion
 
 - Cost: {2}{W}  |  Mana value: 3.0
@@ -318,7 +334,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Enchantment
 - Text: Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
 
-- Color identity: W | EDHREC rank: 160 | ~$5.96
+- Color identity: W | EDHREC rank: 160 | ~$6.69
 
 ### Grave Pact
 
@@ -359,7 +375,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creature spells you cast of the chosen type cost {1} less to cast.
   At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
 
-- Color identity: C | EDHREC rank: 151 | ~$5.75
+- Color identity: C | EDHREC rank: 151 | ~$5.64
 
 ### High-Society Hunter
 
@@ -398,16 +414,6 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 2/2
 
 - Color identity: BW | EDHREC rank: 3045 | ~$0.34
-
-### Malakir Bloodwitch
-
-- Cost: {3}{B}{B}  |  Mana value: 5.0
-- Type: Creature — Vampire Shaman
-- Text: Flying, protection from white
-  When this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.
-- P/T: 4/4
-
-- Color identity: B | Keywords: Flying, Protection | EDHREC rank: 3528 | ~$4.73
 
 ### Malakir Rebirth // Malakir Mire
 
@@ -616,7 +622,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)
   Exile Teferi's Protection.
 
-- Color identity: W | EDHREC rank: 109 | ~$47.45 | **Game Changer**
+- Color identity: W | EDHREC rank: 109 | ~$45.36 | **Game Changer**
 
 ### Vampire of the Dire Moon
 
@@ -626,7 +632,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 - P/T: 1/1
 
-- Color identity: B | Keywords: Lifelink, Deathtouch | EDHREC rank: 3319 | ~$1.22
+- Color identity: B | Keywords: Lifelink, Deathtouch | EDHREC rank: 3313 | ~$0.79
 
 ### Vein Ripper
 
@@ -848,16 +854,7 @@ Generated 2026-10-09 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: BR | Produces: BCR | EDHREC rank: 153 | ~$1.16
 
-### Sundown Pass
-
-- Cost: -  |  Mana value: 0.0
-- Type: Land
-- Text: This land enters tapped unless you control two or more other lands.
-  {T}: Add {R} or {W}.
-
-- Color identity: RW | Produces: RW | EDHREC rank: 263 | ~$2.48
-
-### Swamp (x7)
+### Swamp (x8)
 
 - Cost: -  |  Mana value: 0.0
 - Type: Basic Land — Swamp

@@ -2,6 +2,7 @@
 1 Anguished Unmaking
 1 Anowon, the Ruin Sage
 1 Arcane Signet
+1 Authority of the Consuls
 1 Baron Bertram Graywater
 1 Bastion of Remembrance
 1 Battlefield Forge
@@ -12,6 +13,7 @@
 1 Bloodghast
 1 Bloodletter of Aclazotz
 1 Bloodline Keeper / Lord of Lineage
+1 Bloodline Recollector
 1 Bloodthirsty Conqueror
 1 Bloodthrone Vampire
 1 Bojuka Bog
@@ -33,7 +35,6 @@
 1 Elenda, the Dusk Rose
 1 Exotic Orchard
 1 Fetid Heath
-1 Florian, Voldaren Scion
 1 Forerunner of the Legion
 1 Ghostly Prison
 1 Godless Shrine
@@ -46,7 +47,6 @@
 1 Indulgent Aristocrat
 1 Isolated Chapel
 1 Legion Lieutenant
-1 Malakir Bloodwitch
 1 Malakir Rebirth / Malakir Mire
 1 Marauding Blight-Priest
 1 Master of Dark Rites
@@ -72,8 +72,7 @@
 1 Soul Shatter
 1 Stromkirk Captain
 1 Sulfurous Springs
-1 Sundown Pass
-7 Swamp
+8 Swamp
 1 Swords to Plowshares
 1 Takenuma, Abandoned Mire
 1 Talisman of Conviction

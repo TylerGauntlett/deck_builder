@@ -349,3 +349,32 @@ It would also be the 21st 3-drop. **NO.**
   unchanged since).
 
 `base.txt` was not modified.
+
+---
+
+# Sync, 2026-10-23: list supplied by the user
+
+`base.txt` was replaced with the list you pasted. 100 cards, 34 lands, all legal, no
+colour-identity flags. `cards.md` / `cards.json` rebuilt.
+
+| | Card |
+|---|---|
+| **in** | Bloodline Recollector (this review's ADD #3 / 2026-10-09) |
+| **in** | Authority of the Consuls |
+| **in** | Swamp (7 → 8) |
+| **out** | Florian, Voldaren Scion (the cut named for Recollector) |
+| **out** | Malakir Bloodwitch (moved to the Moxfield sideboard; not tracked in `base.txt`, whose parser ignores section headers and would count it as a 101st card) |
+| **out** | Sundown Pass |
+
+After the sync: average non-land MV 2.86. Pips B 63 / W 19 / R 4. Creatures 37,
+enchantments 9. Game Changers 2/3 unchanged. **Not applied:** Ruthless Lawbringer and
+Bartolomé del Presidio. Vampire of the Dire Moon and Bloodthrone Vampire are still in,
+so ADDs #1 and #2 stand as written.
+
+**Flagged from verified text, not re-reviewed:**
+- **Authority of the Consuls vs Charismatic Conqueror.** Authority: *"Creatures your
+  opponents control enter tapped."* Conqueror triggers on *"an artifact or creature an
+  opponent controls **enters untapped**."* With both out, Conqueror stops seeing
+  opposing creatures and only works on artifacts.
+- **Malakir Bloodwitch.** This review spared it on 2026-10-09 as the Vito finisher. Its
+  cut was your call, and the 5-slot drops from 6 to 5.

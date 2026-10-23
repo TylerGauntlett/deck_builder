@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.webp?1783915629",
     "display": "https://cards.scryfall.io/display/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.webp?1783915629",
     "art": "https://cards.scryfall.io/art/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.webp?1783915629",
-    "crop": "https://cards.scryfall.io/crop/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.webp?1783915629"
+    "crop": "https://cards.scryfall.io/crop/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.webp?1783915629",
+    "jpeg": "https://cards.scryfall.io/normal/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.jpg?1783915629"
   },
   "mana_cost": "{1}{G}",
   "cmc": 2.0,
@@ -108,20 +109,20 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 30,
-  "penny_rank": 1685,
+  "edhrec_rank": 28,
+  "penny_rank": 1708,
   "preview": {
     "source": "Good Luck High Five",
     "source_uri": "https://www.youtube.com/watch?v=230Dzf6Cr28",
     "previewed_at": "2023-07-12"
   },
   "prices": {
-    "usd": "16.03",
-    "usd_foil": "16.88",
+    "usd": "15.99",
+    "usd_foil": "17.67",
     "usd_etched": null,
-    "eur": "13.34",
-    "eur_foil": "14.66",
-    "tix": "0.59"
+    "eur": "13.64",
+    "eur_foil": "15.92",
+    "tix": "0.39"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=627759&printed=false",

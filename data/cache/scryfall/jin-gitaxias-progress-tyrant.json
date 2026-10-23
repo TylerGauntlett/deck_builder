@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.webp?1783923901",
     "display": "https://cards.scryfall.io/display/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.webp?1783923901",
     "art": "https://cards.scryfall.io/art/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.webp?1783923901",
-    "crop": "https://cards.scryfall.io/crop/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.webp?1783923901"
+    "crop": "https://cards.scryfall.io/crop/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.webp?1783923901",
+    "jpeg": "https://cards.scryfall.io/normal/front/c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc.jpg?1783923901"
   },
   "mana_cost": "{5}{U}{U}",
   "cmc": 7.0,
@@ -47,11 +48,11 @@
   "all_parts": [
     {
       "object": "related_card",
-      "id": "f4e87a11-b3b1-47b2-bd73-f4c78d6fbe6c",
+      "id": "4b976756-e988-4211-95c2-0e3587118488",
       "component": "token",
       "name": "Copy",
       "type_line": "Token",
-      "uri": "https://api.scryfall.com/cards/f4e87a11-b3b1-47b2-bd73-f4c78d6fbe6c"
+      "uri": "https://api.scryfall.com/cards/4b976756-e988-4211-95c2-0e3587118488"
     },
     {
       "object": "related_card",
@@ -132,19 +133,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1731,
-  "penny_rank": 14080,
+  "edhrec_rank": 1734,
+  "penny_rank": 15049,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://www.twitch.tv/videos/1277767538",
     "previewed_at": "2022-01-27"
   },
   "prices": {
-    "usd": "8.99",
-    "usd_foil": "10.30",
+    "usd": "10.58",
+    "usd_foil": "10.98",
     "usd_etched": null,
-    "eur": "7.75",
-    "eur_foil": "8.54",
+    "eur": "8.13",
+    "eur_foil": "9.73",
     "tix": "0.02"
   },
   "related_uris": {

@@ -3,6 +3,7 @@
   "id": "79016cf3-6eea-4b21-9ff3-f187d606e19a",
   "oracle_id": "d646e42b-5635-4798-b633-29c093b66a55",
   "multiverse_ids": [],
+  "resource_id": "74C98F6296B27FD6B7CCDA52F63AB01C4EE1FF41F0750A1A2FA526D021F30690",
   "tcgplayer_id": 695520,
   "cardmarket_id": 904188,
   "name": "Inspiring Overseer",
@@ -25,7 +26,8 @@
     "grid": "https://cards.scryfall.io/grid/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.webp?1787563124",
     "display": "https://cards.scryfall.io/display/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.webp?1787563124",
     "art": "https://cards.scryfall.io/art/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.webp?1787563124",
-    "crop": "https://cards.scryfall.io/crop/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.webp?1787563124"
+    "crop": "https://cards.scryfall.io/crop/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.webp?1787563124",
+    "jpeg": "https://cards.scryfall.io/normal/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.jpg?1787563124"
   },
   "mana_cost": "{2}{W}",
   "cmc": 3.0,
@@ -111,13 +113,13 @@
   "promo_types": [
     "setextension"
   ],
-  "edhrec_rank": 1665,
-  "penny_rank": 2726,
+  "edhrec_rank": 1641,
+  "penny_rank": 2732,
   "prices": {
     "usd": "0.24",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": null,
+    "eur": "0.20",
     "eur_foil": null,
     "tix": null
   },

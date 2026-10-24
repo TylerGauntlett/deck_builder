@@ -111,19 +111,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1383,
+  "edhrec_rank": 1384,
   "preview": {
     "source": "Kotaku",
     "source_uri": "https://www.kotaku.com.au/2019/05/magic-the-gathering-modern-horizons-giver-of-runes-exclusive-reveal/",
     "previewed_at": "2019-05-21"
   },
   "prices": {
-    "usd": "9.54",
-    "usd_foil": "14.68",
+    "usd": "9.46",
+    "usd_foil": "14.89",
     "usd_etched": null,
-    "eur": "9.93",
-    "eur_foil": "11.00",
-    "tix": "1.78"
+    "eur": "10.04",
+    "eur_foil": "10.69",
+    "tix": "1.61"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=463962&printed=false",

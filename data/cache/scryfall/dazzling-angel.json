@@ -113,13 +113,13 @@
   "promo_types": [
     "setextension"
   ],
-  "edhrec_rank": 2918,
-  "penny_rank": 4647,
+  "edhrec_rank": 2866,
+  "penny_rank": 4667,
   "prices": {
     "usd": "0.33",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": null,
+    "eur": "2.00",
     "eur_foil": null,
     "tix": null
   },

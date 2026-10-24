@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.webp?1783928885",
     "display": "https://cards.scryfall.io/display/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.webp?1783928885",
     "art": "https://cards.scryfall.io/art/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.webp?1783928885",
-    "crop": "https://cards.scryfall.io/crop/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.webp?1783928885"
+    "crop": "https://cards.scryfall.io/crop/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.webp?1783928885",
+    "jpeg": "https://cards.scryfall.io/normal/front/0/2/02f0be1b-554e-4b61-b495-6e2a7369cdb1.jpg?1783928885"
   },
   "mana_cost": "{2}{W}{W}",
   "cmc": 4.0,
@@ -142,19 +143,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1657,
+  "edhrec_rank": 1638,
   "preview": {
     "source": "iYingdi",
     "source_uri": "https://www.iyingdi.com/web/bbspost/detail/2312853",
     "previewed_at": "2020-10-29"
   },
   "prices": {
-    "usd": "3.21",
-    "usd_foil": "3.16",
+    "usd": "2.92",
+    "usd_foil": "3.18",
     "usd_etched": null,
-    "eur": "1.69",
-    "eur_foil": "2.46",
-    "tix": "3.97"
+    "eur": "1.51",
+    "eur_foil": "2.35",
+    "tix": "4.14"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497536&printed=false",

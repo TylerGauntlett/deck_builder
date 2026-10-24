@@ -114,17 +114,17 @@
   "promo_types": [
     "themepack"
   ],
-  "edhrec_rank": 3010,
+  "edhrec_rank": 2979,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/articles/archive/card-preview/set-and-theme-booster-additional-cards-kaldheim-2020-12-16",
     "previewed_at": "2020-12-16"
   },
   "prices": {
-    "usd": "8.70",
+    "usd": "8.55",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "5.62",
+    "eur": "6.38",
     "eur_foil": null,
     "tix": "0.03"
   },

@@ -30,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.webp?1783925659",
     "display": "https://cards.scryfall.io/display/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.webp?1783925659",
     "art": "https://cards.scryfall.io/art/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.webp?1783925659",
-    "crop": "https://cards.scryfall.io/crop/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.webp?1783925659"
+    "crop": "https://cards.scryfall.io/crop/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.webp?1783925659",
+    "jpeg": "https://cards.scryfall.io/normal/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.jpg?1783925659"
   },
   "mana_cost": "{1}{W}",
   "cmc": 2.0,
@@ -131,20 +132,20 @@
   "textless": false,
   "booster": true,
   "story_spotlight": true,
-  "edhrec_rank": 6046,
-  "penny_rank": 427,
+  "edhrec_rank": 5855,
+  "penny_rank": 426,
   "preview": {
     "source": "ChannelFireball",
     "source_uri": "https://strategy.channelfireball.com/all-strategy/home/exclusive-innistrad-midnight-hunt-preview-card-fateful-absence/",
     "previewed_at": "2021-09-09"
   },
   "prices": {
-    "usd": "0.40",
+    "usd": "0.41",
     "usd_foil": "0.44",
     "usd_etched": null,
-    "eur": "0.45",
-    "eur_foil": "0.65",
-    "tix": "0.02"
+    "eur": "0.62",
+    "eur_foil": "0.64",
+    "tix": "0.03"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=534774&printed=false",

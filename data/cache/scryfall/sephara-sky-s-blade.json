@@ -116,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1363,
-  "penny_rank": 4781,
+  "edhrec_rank": 1358,
+  "penny_rank": 4815,
   "preview": {
     "source": "Drinks of Alara",
     "source_uri": "https://twitter.com/DrinksOfAlara/status/1679840125663035392",
     "previewed_at": "2023-07-14"
   },
   "prices": {
-    "usd": "3.70",
-    "usd_foil": "4.26",
+    "usd": "3.60",
+    "usd_foil": "4.35",
     "usd_etched": null,
-    "eur": "2.51",
-    "eur_foil": "4.35",
+    "eur": "2.36",
+    "eur_foil": "4.37",
     "tix": "0.08"
   },
   "related_uris": {

@@ -9,7 +9,7 @@ Prices: Scryfall, fetched 2026-10-24 06:34 UTC. EDHREC: Kindred Judgment card pa
 |---|---|
 | Kindred Judgment | **ADD, cut Austere Command.** |
 
-Not applied to any list. `base.txt`, `complete.txt` and `moxfield.txt` are unchanged.
+Applied 2026-10-24 after the user made the swap in Moxfield: `complete.txt`, `adds.txt` and `removal.txt` updated. `base.txt` is unchanged; `moxfield.txt` is the user's export and is untouched.
 
 ## Prior history
 

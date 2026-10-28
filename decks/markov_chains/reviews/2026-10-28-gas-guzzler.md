@@ -125,3 +125,47 @@ part in the verdict.
   Gourmand only draws on attack, and Spy only surveils.
 
 `base.txt` was not modified by this review.
+
+---
+
+## Follow-up: cut Clever Concealment instead? (2026-10-28)
+
+**New fact from you:** Clever Concealment usually stays in your hand after you
+draw it. **The new consideration:** cutting it instead of Forerunner gives the
+deck +1 Vampire (36→37 Vampire creatures), so one more eminence trigger, rather
+than a Vampire-for-Vampire swap.
+
+Clever Concealment, fetched 2026-10-28 15:09 UTC: `{2}{W}{W}` instant, convoke,
+*"Any number of target nonland permanents you control phase out."* $4.85.
+
+**Why it's in the deck.** The 2026-08-31 Teferi's Protection review made it
+"ADD IF you want a second wipe answer". The reason: it keeps your lands and mana,
+and its phase-out keeps tokens and +1/+1 counters, which blink effects don't.
+Once it's gone, Teferi's Protection is the deck's only answer to a full board
+wipe. Malakir Rebirth only saves one creature.
+
+**What "not casting it" actually shows.** That depends on why it's not being
+cast:
+
+- **No wipe arrives, so there's nothing to cast it into.** Then the condition it
+  was added under (wipes are frequent enough to want a second answer) is false in
+  your pod. The cut is right, and better than cutting Forerunner, because you
+  keep Forerunner's Vampire body and gain Guzzler's.
+- **A wipe arrives, and you can't or don't cast it.** That happens if you're
+  tapped out, the board is too small to convoke, or you're short on `{W}{W}`.
+  Then the card is failing at its own job, and the cut is also right.
+- **A wipe arrives, you cast it, and it saves the game.** You'd remember that.
+  If that happens, keep it.
+
+Two of those three cases point to cutting it. So the real question is simple:
+**when an opponent wipes the board, are you holding it, and does it save you?**
+
+**Verdict, revised:** **ADD Gas Guzzler, cut Clever Concealment**, provided its
+unused turns are "no wipe came" or "couldn't cast it into the wipe". Keep
+Forerunner, which stays the next cut in line. The cost is real: wipe protection
+drops to one card, Teferi's Protection. Eminence works from the command zone, so
+the deck rebuilds from a wipe better than most. That makes one protection piece
+more acceptable here than in most decks.
+
+Aggregate (−Clever Concealment, +Gas Guzzler): MV 4→1, W pips 19→17, B 63→64,
+Vampire creatures 36→37, instants 9→8, full-wipe protection 2→1.

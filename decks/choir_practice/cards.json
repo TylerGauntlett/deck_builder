@@ -1,25 +1,1491 @@
 {
-  "deck": "angels",
+  "deck": "choir_practice",
   "source": "base.txt",
   "stats": {
     "cards": 100,
-    "distinct": 69,
-    "lands": 38,
-    "avg_mana_value_nonland": 3.53,
+    "distinct": 74,
+    "lands": 37,
+    "avg_mana_value_nonland": 3.62,
     "type_counts": {
-      "Land": 38,
-      "Creature": 34,
+      "Land": 37,
+      "Creature": 32,
       "Artifact": 11,
-      "Sorcery": 7,
-      "Enchantment": 5,
-      "Instant": 5
+      "Instant": 9,
+      "Enchantment": 6,
+      "Sorcery": 3,
+      "Planeswalker": 2
     },
     "color_pips": {
-      "W": 80
+      "W": 83
     },
-    "game_changers": []
+    "game_changers": [
+      "Drannith Magistrate",
+      "Farewell"
+    ]
   },
   "cards": [
+    {
+      "name": "Akroma's Will",
+      "asked_as": "Akroma's Will",
+      "qty": 1,
+      "mana_cost": "{3}{W}",
+      "cmc": 4.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Akroma's Will",
+          "mana_cost": "{3}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Creatures you control gain flying, vigilance, and double strike until end of turn.\n• Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 185,
+      "price_usd": "18.68",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
+      "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
+    },
+    {
+      "name": "Angel of Destiny",
+      "asked_as": "Angel of Destiny",
+      "qty": 1,
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "type_line": "Creature — Angel Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Double strike"
+      ],
+      "power": "2",
+      "toughness": "6",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Angel of Destiny",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Creature — Angel Cleric",
+          "oracle_text": "Flying, double strike\nWhenever a creature you control deals combat damage to a player, you and that player each gain that much life.\nAt the beginning of your end step, if you have at least 15 life more than your starting life total, each player this creature attacked this turn loses the game.",
+          "power": "2",
+          "toughness": "6",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2945,
+      "price_usd": "9.47",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/znr/2/angel-of-destiny?utm_source=api",
+      "oracle_id": "02f46271-c90d-4318-9004-74e7bee64a89"
+    },
+    {
+      "name": "Angel of Invention",
+      "asked_as": "Angel of Invention",
+      "qty": 1,
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Lifelink",
+        "Vigilance",
+        "Fabricate"
+      ],
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Angel of Invention",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying, vigilance, lifelink\nFabricate 2 (When this creature enters, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)\nOther creatures you control get +1/+1.",
+          "power": "2",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4231,
+      "price_usd": "0.35",
+      "all_parts": [
+        {
+          "name": "Servo",
+          "component": "token",
+          "type_line": "Token Artifact Creature — Servo"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/tdc/109/angel-of-invention?utm_source=api",
+      "oracle_id": "28c7f2b6-ba67-4ccf-9e1b-99c89a9d1f72"
+    },
+    {
+      "name": "Angelic Field Marshal",
+      "asked_as": "Angelic Field Marshal",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Lieutenant"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Angelic Field Marshal",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nLieutenant — As long as you control your commander, this creature gets +2/+2 and creatures you control have vigilance.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4262,
+      "price_usd": "2.22",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/13/angelic-field-marshal?utm_source=api",
+      "oracle_id": "502575f4-7c56-44bc-a77f-ae28d66c8e1f"
+    },
+    {
+      "name": "Arcane Signet",
+      "asked_as": "Arcane Signet",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Arcane Signet",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/485/arcane-signet?utm_source=api",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
+    },
+    {
+      "name": "Archangel of Thune",
+      "asked_as": "Archangel of Thune",
+      "qty": 1,
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Lifelink"
+      ],
+      "power": "3",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Archangel of Thune",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhenever you gain life, put a +1/+1 counter on each creature you control.",
+          "power": "3",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "2xm",
+      "set_name": "Double Masters",
+      "released_at": "2020-08-07",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1273,
+      "price_usd": "51.26",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/2xm/5/archangel-of-thune?utm_source=api",
+      "oracle_id": "4f2d4538-dc1d-4c09-964b-b0d7c240fb7d"
+    },
+    {
+      "name": "Archangel of Tithes",
+      "asked_as": "Archangel of Tithes",
+      "qty": 1,
+      "mana_cost": "{1}{W}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "3",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Archangel of Tithes",
+          "mana_cost": "{1}{W}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nAs long as this creature is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures.",
+          "power": "3",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "otj",
+      "set_name": "Outlaws of Thunder Junction",
+      "released_at": "2024-04-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2087,
+      "price_usd": "4.13",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/otj/2/archangel-of-tithes?utm_source=api",
+      "oracle_id": "ff5caed4-0276-476d-8fae-edae2536df7f"
+    },
+    {
+      "name": "Avacyn, Angel of Hope",
+      "asked_as": "Avacyn, Angel of Hope",
+      "qty": 1,
+      "mana_cost": "{5}{W}{W}{W}",
+      "cmc": 8.0,
+      "type_line": "Legendary Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Indestructible",
+        "Vigilance"
+      ],
+      "power": "8",
+      "toughness": "8",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Avacyn, Angel of Hope",
+          "mana_cost": "{5}{W}{W}{W}",
+          "type_line": "Legendary Creature — Angel",
+          "oracle_text": "Flying, vigilance, indestructible\nOther permanents you control have indestructible.",
+          "power": "8",
+          "toughness": "8",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 736,
+      "price_usd": "38.11",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/477/avacyn-angel-of-hope?utm_source=api",
+      "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72"
+    },
+    {
+      "name": "Bishop of Wings",
+      "asked_as": "Bishop of Wings",
+      "qty": 1,
+      "mana_cost": "{W}{W}",
+      "cmc": 2.0,
+      "type_line": "Creature — Human Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bishop of Wings",
+          "mana_cost": "{W}{W}",
+          "type_line": "Creature — Human Cleric",
+          "oracle_text": "Whenever an Angel you control enters, you gain 4 life.\nWhenever an Angel you control dies, create a 1/1 white Spirit creature token with flying.",
+          "power": "1",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "m20",
+      "set_name": "Core Set 2020",
+      "released_at": "2019-07-12",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3546,
+      "price_usd": "4.90",
+      "all_parts": [
+        {
+          "name": "Spirit",
+          "component": "token",
+          "type_line": "Token Creature — Spirit"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/m20/8/bishop-of-wings?utm_source=api",
+      "oracle_id": "af4684cf-f109-44be-adfb-7c551a36635e"
+    },
+    {
+      "name": "Bonders' Enclave",
+      "asked_as": "Bonders' Enclave",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Bonders' Enclave",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{3}, {T}: Draw a card. Activate only if you control a creature with power 4 or greater.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "otc",
+      "set_name": "Outlaws of Thunder Junction Commander",
+      "released_at": "2024-04-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 535,
+      "price_usd": "0.86",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/otc/274/bonders-enclave?utm_source=api",
+      "oracle_id": "f33ce38a-34ec-4b65-a0fc-160484a02007"
+    },
+    {
+      "name": "Castle Ardenvale",
+      "asked_as": "Castle Ardenvale",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Castle Ardenvale",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 719,
+      "price_usd": "0.30",
+      "all_parts": [
+        {
+          "name": "Human",
+          "component": "token",
+          "type_line": "Token Creature — Human"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/tdc/346/castle-ardenvale?utm_source=api",
+      "oracle_id": "f8f4fc60-725d-46d8-8e8f-e68e00d20589"
+    },
+    {
+      "name": "Cathars' Crusade",
+      "asked_as": "Cathars' Crusade",
+      "qty": 1,
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Cathars' Crusade",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 558,
+      "price_usd": "8.53",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/17/cathars-crusade?utm_source=api",
+      "oracle_id": "cc65ac73-5bef-4ecb-ad8e-39199084c027"
+    },
+    {
+      "name": "Clever Concealment",
+      "asked_as": "Clever Concealment",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Convoke"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Clever Concealment",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nAny number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 546,
+      "price_usd": "4.85",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
+      "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
+    },
+    {
+      "name": "Court of Grace",
+      "asked_as": "Court of Grace",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Court of Grace",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmr",
+      "set_name": "Commander Legends",
+      "released_at": "2020-11-20",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1635,
+      "price_usd": "2.93",
+      "all_parts": [
+        {
+          "name": "Angel",
+          "component": "token",
+          "type_line": "Token Creature — Angel"
+        },
+        {
+          "name": "The Monarch",
+          "component": "combo_piece",
+          "type_line": "Card"
+        },
+        {
+          "name": "Spirit",
+          "component": "token",
+          "type_line": "Token Creature — Spirit"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/cmr/16/court-of-grace?utm_source=api",
+      "oracle_id": "f63c2438-27d4-449a-828f-f0a2ea86ff16"
+    },
+    {
+      "name": "Dawn of Hope",
+      "asked_as": "Dawn of Hope",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Dawn of Hope",
+          "mana_cost": "{1}{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever you gain life, you may pay {2}. If you do, draw a card.\n{3}{W}: Create a 1/1 white Soldier creature token with lifelink.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "grn",
+      "set_name": "Guilds of Ravnica",
+      "released_at": "2018-10-05",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2389,
+      "price_usd": "0.81",
+      "all_parts": [
+        {
+          "name": "Soldier",
+          "component": "token",
+          "type_line": "Token Creature — Soldier"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/grn/8/dawn-of-hope?utm_source=api",
+      "oracle_id": "d7a38484-2acc-49a6-b32d-d54dddb14d31"
+    },
+    {
+      "name": "Dazzling Angel",
+      "asked_as": "Dazzling Angel",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Dazzling Angel",
+          "mana_cost": "{2}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nWhenever another creature you control enters, you gain 1 life.",
+          "power": "2",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2841,
+      "price_usd": "0.33",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/732/dazzling-angel?utm_source=api",
+      "oracle_id": "7de464e3-fae3-44cc-8233-776fc727c00a"
+    },
+    {
+      "name": "Drannith Magistrate",
+      "asked_as": "Drannith Magistrate",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Creature — Human Wizard",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Drannith Magistrate",
+          "mana_cost": "{1}{W}",
+          "type_line": "Creature — Human Wizard",
+          "oracle_text": "Your opponents can't cast spells from anywhere other than their hands.",
+          "power": "1",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "iko",
+      "set_name": "Ikoria: Lair of Behemoths",
+      "released_at": "2020-04-24",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 768,
+      "price_usd": "11.77",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/iko/11/drannith-magistrate?utm_source=api",
+      "oracle_id": "aadd10d0-6dd0-4bdc-8d93-ff08e29a5863"
+    },
+    {
+      "name": "Eiganjo, Seat of the Empire",
+      "asked_as": "Eiganjo, Seat of the Empire",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [
+        "Channel"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Eiganjo, Seat of the Empire",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "{T}: Add {W}.\nChannel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "neo",
+      "set_name": "Kamigawa: Neon Dynasty",
+      "released_at": "2022-02-18",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 376,
+      "price_usd": "6.73",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire?utm_source=api",
+      "oracle_id": "7edb3d15-4f70-4ebe-8c5e-caf6a225076d"
+    },
+    {
+      "name": "Elesh Norn, Grand Cenobite",
+      "asked_as": "Elesh Norn, Grand Cenobite",
+      "qty": 1,
+      "mana_cost": "{5}{W}{W}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Phyrexian Praetor",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Vigilance"
+      ],
+      "power": "4",
+      "toughness": "7",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Elesh Norn, Grand Cenobite",
+          "mana_cost": "{5}{W}{W}",
+          "type_line": "Legendary Creature — Phyrexian Praetor",
+          "oracle_text": "Vigilance\nOther creatures you control get +2/+2.\nCreatures your opponents control get -2/-2.",
+          "power": "4",
+          "toughness": "7",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "ima",
+      "set_name": "Iconic Masters",
+      "released_at": "2017-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 857,
+      "price_usd": "21.03",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ima/18/elesh-norn-grand-cenobite?utm_source=api",
+      "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16"
+    },
+    {
+      "name": "Emeria's Call // Emeria, Shattered Skyclave",
+      "asked_as": "Emeria's Call",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 7.0,
+      "type_line": "Sorcery // Land",
+      "layout": "modal_dfc",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Emeria's Call",
+          "mana_cost": "{4}{W}{W}{W}",
+          "type_line": "Sorcery",
+          "oracle_text": "Create two 4/4 white Angel Warrior creature tokens with flying. Non-Angel creatures you control gain indestructible until your next turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        },
+        {
+          "name": "Emeria, Shattered Skyclave",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {W}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "mythic",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2762,
+      "price_usd": "4.61",
+      "all_parts": [
+        {
+          "name": "Angel Warrior",
+          "component": "token",
+          "type_line": "Token Creature — Angel Warrior"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/znr/12/emerias-call-emeria-shattered-skyclave?utm_source=api",
+      "oracle_id": "6ec2a242-9068-4ee2-8ac8-8341cc570f56"
+    },
+    {
+      "name": "Emeria, the Sky Ruin",
+      "asked_as": "Emeria, the Sky Ruin",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Emeria, the Sky Ruin",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\nAt the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield.\n{T}: Add {W}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 929,
+      "price_usd": "7.52",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/368/emeria-the-sky-ruin?utm_source=api",
+      "oracle_id": "cc999cf2-c99b-4911-8c52-6cc4a99fcc7b"
+    },
+    {
+      "name": "Exemplar of Light",
+      "asked_as": "Exemplar of Light",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Exemplar of Light",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nWhenever you gain life, put a +1/+1 counter on this creature.\nWhenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1110,
+      "price_usd": "0.92",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/733/exemplar-of-light?utm_source=api",
+      "oracle_id": "9ad730b5-8950-4215-9319-387e2970dd22"
+    },
+    {
+      "name": "Farewell",
+      "asked_as": "Farewell",
+      "qty": 1,
+      "mana_cost": "{4}{W}{W}",
+      "cmc": 6.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Farewell",
+          "mana_cost": "{4}{W}{W}",
+          "type_line": "Sorcery",
+          "oracle_text": "Choose one or more —\n• Exile all artifacts.\n• Exile all creatures.\n• Exile all enchantments.\n• Exile all graveyards.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "mkc",
+      "set_name": "Murders at Karlov Manor Commander",
+      "released_at": "2024-02-09",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 180,
+      "price_usd": "6.03",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mkc/64/farewell?utm_source=api",
+      "oracle_id": "4eb813fd-2d5a-4b02-8193-662681ef4e7d"
+    },
+    {
+      "name": "Fateful Absence",
+      "asked_as": "Fateful Absence",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Investigate"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Fateful Absence",
+          "mana_cost": "{1}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Destroy target creature or planeswalker. Its controller investigates. (They create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "mid",
+      "set_name": "Innistrad: Midnight Hunt",
+      "released_at": "2021-09-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5843,
+      "price_usd": "0.39",
+      "all_parts": [
+        {
+          "name": "Clue",
+          "component": "token",
+          "type_line": "Token Artifact — Clue"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/mid/18/fateful-absence?utm_source=api",
+      "oracle_id": "35bba442-1aec-4d33-b502-4c580d61644b"
+    },
+    {
+      "name": "Flawless Maneuver",
+      "asked_as": "Flawless Maneuver",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Flawless Maneuver",
+          "mana_cost": "{2}{W}",
+          "type_line": "Instant",
+          "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCreatures you control gain indestructible until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 167,
+      "price_usd": "7.59",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/frc/25/flawless-maneuver?utm_source=api",
+      "oracle_id": "4e183439-17d2-47ff-9d99-5e22821d91e3"
+    },
+    {
+      "name": "Folk Hero",
+      "asked_as": "Folk Hero",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Legendary Enchantment — Background",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Folk Hero",
+          "mana_cost": "{1}{W}",
+          "type_line": "Legendary Enchantment — Background",
+          "oracle_text": "Commander creatures you own have \"Whenever you cast a spell that shares a creature type with this creature, draw a card. This ability triggers only once each turn.\"",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3701,
+      "price_usd": "0.99",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/132/folk-hero?utm_source=api",
+      "oracle_id": "c5126d6e-969c-4034-98e3-f8653163346f"
+    },
+    {
+      "name": "Generous Gift",
+      "asked_as": "Generous Gift",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Generous Gift",
+          "mana_cost": "{2}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 63,
+      "price_usd": "1.84",
+      "all_parts": [
+        {
+          "name": "Elephant",
+          "component": "token",
+          "type_line": "Token Creature — Elephant"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/msc/133/generous-gift?utm_source=api",
+      "oracle_id": "fae37e28-e137-4177-b973-fa8b4dd8f409"
+    },
+    {
+      "name": "Get Lost",
+      "asked_as": "Get Lost",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Explore"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Get Lost",
+          "mana_cost": "{1}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "lci",
+      "set_name": "The Lost Caverns of Ixalan",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1825,
+      "price_usd": "3.47",
+      "all_parts": [
+        {
+          "name": "Map",
+          "component": "token",
+          "type_line": "Token Artifact — Map"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lci/14/get-lost?utm_source=api",
+      "oracle_id": "522dd417-364b-44ab-8ca9-fb55db5f26a6"
+    },
+    {
+      "name": "Ghostly Prison",
+      "asked_as": "Ghostly Prison",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Ghostly Prison",
+          "mana_cost": "{2}{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 159,
+      "price_usd": "5.97",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
+      "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
+    },
     {
       "name": "Giada, Font of Hope",
       "asked_as": "Giada, Font of Hope",
@@ -66,247 +1532,20 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1656,
-      "price_usd": "0.96",
+      "edhrec_rank": 1614,
+      "price_usd": "0.53",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/141/giada-font-of-hope?utm_source=api",
       "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02"
     },
     {
-      "name": "Plains",
-      "asked_as": "Plains",
-      "qty": 32,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Basic Land — Plains",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Plains",
-          "mana_cost": "",
-          "type_line": "Basic Land — Plains",
-          "oracle_text": "({T}: Add {W}.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "trk",
-      "set_name": "Star Trek",
-      "released_at": "2026-11-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": null,
-      "price_usd": null,
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/trk/317/plains?utm_source=api",
-      "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99"
-    },
-    {
-      "name": "Arcane Signet",
-      "asked_as": "Arcane Signet",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Arcane Signet",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3,
-      "price_usd": "0.53",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/191/arcane-signet?utm_source=api",
-      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
-    },
-    {
-      "name": "Heraldic Banner",
-      "asked_as": "Heraldic Banner",
-      "qty": 1,
-      "mana_cost": "{3}",
-      "cmc": 3.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Heraldic Banner",
-          "mana_cost": "{3}",
-          "type_line": "Artifact",
-          "oracle_text": "As this artifact enters, choose a color.\nCreatures you control of the chosen color get +1/+0.\n{T}: Add one mana of the chosen color.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 856,
-      "price_usd": "0.46",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/254/heraldic-banner?utm_source=api",
-      "oracle_id": "3525e263-e29a-49bf-a29f-fb3ce43bbd33"
-    },
-    {
-      "name": "Tome of Legends",
-      "asked_as": "Tome of Legends",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact — Book",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Tome of Legends",
-          "mana_cost": "{2}",
-          "type_line": "Artifact — Book",
-          "oracle_text": "This artifact enters with a page counter on it.\nWhenever your commander enters or attacks, put a page counter on this artifact.\n{1}, {T}, Remove a page counter from this artifact: Draw a card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2254,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/223/tome-of-legends?utm_source=api",
-      "oracle_id": "cada2a1c-5db2-4702-9a57-cbe7da1bf208"
-    },
-    {
-      "name": "Secluded Steppe",
-      "asked_as": "Secluded Steppe",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [
-        "W"
-      ],
-      "keywords": [
-        "Cycling"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Secluded Steppe",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "eoc",
-      "set_name": "Edge of Eternities Commander",
-      "released_at": "2025-08-01",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1463,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/eoc/177/secluded-steppe?utm_source=api",
-      "oracle_id": "8dec6fcf-1254-4b1b-ba23-7a3e492a7241"
-    },
-    {
-      "name": "Angelic Destiny",
-      "asked_as": "Angelic Destiny",
+      "name": "Gisela, the Broken Blade",
+      "asked_as": "Gisela, the Broken Blade",
       "qty": 1,
       "mana_cost": "{2}{W}{W}",
       "cmc": 4.0,
-      "type_line": "Enchantment — Aura",
-      "layout": "normal",
+      "type_line": "Legendary Creature — Angel Horror",
+      "layout": "meld",
       "colors": [
         "W"
       ],
@@ -315,19 +1554,22 @@
       ],
       "produced_mana": [],
       "keywords": [
-        "Enchant"
+        "Flying",
+        "Lifelink",
+        "First strike",
+        "Meld"
       ],
-      "power": null,
-      "toughness": null,
+      "power": "4",
+      "toughness": "3",
       "loyalty": null,
       "faces": [
         {
-          "name": "Angelic Destiny",
+          "name": "Gisela, the Broken Blade",
           "mana_cost": "{2}{W}{W}",
-          "type_line": "Enchantment — Aura",
-          "oracle_text": "Enchant creature\nEnchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.\nWhen enchanted creature dies, return this card to its owner's hand.",
-          "power": null,
-          "toughness": null,
+          "type_line": "Legendary Creature — Angel Horror",
+          "oracle_text": "Flying, first strike, lifelink\nAt the beginning of your end step, if you both own and control Gisela and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares.",
+          "power": "4",
+          "toughness": "3",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -336,17 +1578,80 @@
         }
       ],
       "rarity": "mythic",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2596,
-      "price_usd": "0.35",
+      "edhrec_rank": 2541,
+      "price_usd": "23.97",
+      "all_parts": [
+        {
+          "name": "Eldritch Moon Checklist",
+          "component": "combo_piece",
+          "type_line": "Card"
+        },
+        {
+          "name": "Brisela, Voice of Nightmares",
+          "component": "meld_result",
+          "type_line": "Legendary Creature — Eldrazi Angel"
+        },
+        {
+          "name": "Bruna, the Fading Light",
+          "component": "meld_part",
+          "type_line": "Legendary Creature — Angel Horror"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/inr/24/gisela-the-broken-blade?utm_source=api",
+      "oracle_id": "f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22"
+    },
+    {
+      "name": "Giver of Runes",
+      "asked_as": "Giver of Runes",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Creature — Kor Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Giver of Runes",
+          "mana_cost": "{W}",
+          "type_line": "Creature — Kor Cleric",
+          "oracle_text": "{T}: Another target creature you control gains protection from colorless or from the color of your choice until end of turn.",
+          "power": "1",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "mh1",
+      "set_name": "Modern Horizons",
+      "released_at": "2019-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1384,
+      "price_usd": "9.55",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/134/angelic-destiny?utm_source=api",
-      "oracle_id": "8ba36878-0816-44c7-b543-8ebfc28c2ecd"
+      "scryfall_uri": "https://scryfall.com/card/mh1/13/giver-of-runes?utm_source=api",
+      "oracle_id": "4ec85850-f274-4c0c-9a03-0488267caa14"
     },
     {
       "name": "Grasp of Fate",
@@ -389,238 +1694,19 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1151,
-      "price_usd": "0.71",
+      "edhrec_rank": 1155,
+      "price_usd": "0.69",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/cmm/823/grasp-of-fate?utm_source=api",
       "oracle_id": "1b26a54f-6c27-4940-b77e-2a66175c5eff"
     },
     {
-      "name": "Mind Stone",
-      "asked_as": "Mind Stone",
+      "name": "Herald of Eternal Dawn",
+      "asked_as": "Herald of Eternal Dawn",
       "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Mind Stone",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "mbc",
-      "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-11-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 32,
-      "price_usd": null,
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mbc/76/mind-stone?utm_source=api",
-      "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2"
-    },
-    {
-      "name": "Sol Ring",
-      "asked_as": "Sol Ring",
-      "qty": 1,
-      "mana_cost": "{1}",
-      "cmc": 1.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Sol Ring",
-          "mana_cost": "{1}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add {C}{C}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1,
-      "price_usd": "1.59",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
-      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
-    },
-    {
-      "name": "Swords to Plowshares",
-      "asked_as": "Swords to Plowshares",
-      "qty": 1,
-      "mana_cost": "{W}",
-      "cmc": 1.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Swords to Plowshares",
-          "mana_cost": "{W}",
-          "type_line": "Instant",
-          "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 11,
-      "price_usd": "1.45",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
-      "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
-    },
-    {
-      "name": "Temple of the False God",
-      "asked_as": "Temple of the False God",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Temple of the False God",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}{C}. Activate only if you control five or more lands.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 82,
-      "price_usd": "0.28",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/416/temple-of-the-false-god?utm_source=api",
-      "oracle_id": "cfdd5dc6-593e-495a-8cfe-3a56b3c4c7df"
-    },
-    {
-      "name": "Radiant Fountain",
-      "asked_as": "Radiant Fountain",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Radiant Fountain",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "When this land enters, you gain 2 life.\n{T}: Add {C}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "c21",
-      "set_name": "Commander 2021",
-      "released_at": "2021-04-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1550,
-      "price_usd": "3.07",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/c21/310/radiant-fountain?utm_source=api",
-      "oracle_id": "6db442e5-fbcc-4456-a4c5-bea1aee3fc8e"
-    },
-    {
-      "name": "Speaker of the Heavens",
-      "asked_as": "Speaker of the Heavens",
-      "qty": 1,
-      "mana_cost": "{W}",
-      "cmc": 1.0,
-      "type_line": "Creature — Human Cleric",
+      "mana_cost": "{4}{W}{W}{W}",
+      "cmc": 7.0,
+      "type_line": "Creature — Angel",
       "layout": "normal",
       "colors": [
         "W"
@@ -630,20 +1716,20 @@
       ],
       "produced_mana": [],
       "keywords": [
-        "Lifelink",
-        "Vigilance"
+        "Flying",
+        "Flash"
       ],
-      "power": "1",
-      "toughness": "1",
+      "power": "6",
+      "toughness": "6",
       "loyalty": null,
       "faces": [
         {
-          "name": "Speaker of the Heavens",
-          "mana_cost": "{W}",
-          "type_line": "Creature — Human Cleric",
-          "oracle_text": "Vigilance, lifelink (Attacking doesn't cause this creature to tap. Damage dealt by this creature also causes you to gain that much life.)\n{T}: Create a 4/4 white Angel creature token with flying. Activate only if you have at least 7 life more than your starting life total and only as a sorcery.",
-          "power": "1",
-          "toughness": "1",
+          "name": "Herald of Eternal Dawn",
+          "mana_cost": "{4}{W}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nYou can't lose the game and your opponents can't win the game.",
+          "power": "6",
+          "toughness": "6",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -651,32 +1737,124 @@
           ]
         }
       ],
-      "rarity": "rare",
-      "set": "m21",
-      "set_name": "Core Set 2021",
-      "released_at": "2020-07-03",
+      "rarity": "mythic",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3631,
-      "price_usd": "0.61",
-      "all_parts": [
-        {
-          "name": "Angel",
-          "component": "token",
-          "type_line": "Token Creature — Angel"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/m21/38/speaker-of-the-heavens?utm_source=api",
-      "oracle_id": "e4bacf1b-0a45-4c73-857d-dffadb7e6fa5"
+      "edhrec_rank": 3936,
+      "price_usd": "1.56",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/17/herald-of-eternal-dawn?utm_source=api",
+      "oracle_id": "4080f7e3-06d3-4d3d-9929-4e826cb66713"
     },
     {
-      "name": "Angel of Vitality",
-      "asked_as": "Angel of Vitality",
+      "name": "Herald of the Host",
+      "asked_as": "Herald of the Host",
+      "qty": 1,
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Myriad",
+        "Flying",
+        "Vigilance"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Herald of the Host",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying, vigilance\nMyriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 8204,
+      "price_usd": "0.39",
+      "all_parts": [
+        {
+          "name": "Copy",
+          "component": "token",
+          "type_line": "Token"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/cmm/30/herald-of-the-host?utm_source=api",
+      "oracle_id": "4371d5bc-1760-477b-822e-6d4999fb0a6b"
+    },
+    {
+      "name": "Herald's Horn",
+      "asked_as": "Herald's Horn",
+      "qty": 1,
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Herald's Horn",
+          "mana_cost": "{3}",
+          "type_line": "Artifact",
+          "oracle_text": "As this artifact enters, choose a creature type.\nCreature spells you cast of the chosen type cost {1} less to cast.\nAt the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 151,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/493/heralds-horn?utm_source=api",
+      "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
+    },
+    {
+      "name": "Inspiring Overseer",
+      "asked_as": "Inspiring Overseer",
       "qty": 1,
       "mana_cost": "{2}{W}",
       "cmc": 3.0,
-      "type_line": "Creature — Angel",
+      "type_line": "Creature — Angel Cleric",
       "layout": "normal",
       "colors": [
         "W"
@@ -689,16 +1867,16 @@
         "Flying"
       ],
       "power": "2",
-      "toughness": "2",
+      "toughness": "1",
       "loyalty": null,
       "faces": [
         {
-          "name": "Angel of Vitality",
+          "name": "Inspiring Overseer",
           "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nIf you would gain life, you gain that much life plus 1 instead.\nThis creature gets +2/+2 as long as you have 25 or more life.",
+          "type_line": "Creature — Angel Cleric",
+          "oracle_text": "Flying\nWhen this creature enters, you gain 1 life and draw a card.",
           "power": "2",
-          "toughness": "2",
+          "toughness": "1",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -706,79 +1884,26 @@
           ]
         }
       ],
-      "rarity": "uncommon",
+      "rarity": "common",
       "set": "fdn",
       "set_name": "Foundations",
-      "released_at": "2024-11-15",
+      "released_at": "2026-04-24",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2049,
-      "price_usd": null,
+      "edhrec_rank": 1638,
+      "price_usd": "0.24",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/706/angel-of-vitality?utm_source=api",
-      "oracle_id": "635fe908-6f58-4c9e-ac55-0775a7c6f278"
+      "scryfall_uri": "https://scryfall.com/card/fdn/736/inspiring-overseer?utm_source=api",
+      "oracle_id": "d646e42b-5635-4798-b633-29c093b66a55"
     },
     {
-      "name": "Bishop of Wings",
-      "asked_as": "Bishop of Wings",
+      "name": "Kindred Judgment",
+      "asked_as": "Kindred Judgment",
       "qty": 1,
-      "mana_cost": "{W}{W}",
-      "cmc": 2.0,
-      "type_line": "Creature — Human Cleric",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "1",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Bishop of Wings",
-          "mana_cost": "{W}{W}",
-          "type_line": "Creature — Human Cleric",
-          "oracle_text": "Whenever an Angel you control enters, you gain 4 life.\nWhenever an Angel you control dies, create a 1/1 white Spirit creature token with flying.",
-          "power": "1",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "m20",
-      "set_name": "Core Set 2020",
-      "released_at": "2019-07-12",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3761,
-      "price_usd": "5.80",
-      "all_parts": [
-        {
-          "name": "Spirit",
-          "component": "token",
-          "type_line": "Token Creature — Spirit"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/m20/8/bishop-of-wings?utm_source=api",
-      "oracle_id": "af4684cf-f109-44be-adfb-7c551a36635e"
-    },
-    {
-      "name": "Sephara, Sky's Blade",
-      "asked_as": "Sephara, Sky's Blade",
-      "qty": 1,
-      "mana_cost": "{4}{W}{W}{W}",
+      "mana_cost": "{5}{W}{W}",
       "cmc": 7.0,
-      "type_line": "Legendary Creature — Angel",
+      "type_line": "Sorcery",
       "layout": "normal",
       "colors": [
         "W"
@@ -787,91 +1912,41 @@
         "W"
       ],
       "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Lifelink"
-      ],
-      "power": "7",
-      "toughness": "7",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Sephara, Sky's Blade",
-          "mana_cost": "{4}{W}{W}{W}",
-          "type_line": "Legendary Creature — Angel",
-          "oracle_text": "You may pay {W} and tap four untapped creatures you control with flying rather than pay this spell's mana cost.\nFlying, lifelink\nOther creatures you control with flying have indestructible. (Damage and effects that say \"destroy\" don't destroy them.)",
-          "power": "7",
-          "toughness": "7",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1373,
-      "price_usd": "3.63",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/54/sephara-skys-blade?utm_source=api",
-      "oracle_id": "ac8952c9-bd30-48cd-b964-7e6271f9cbc8"
-    },
-    {
-      "name": "Commander's Sphere",
-      "asked_as": "Commander's Sphere",
-      "qty": 1,
-      "mana_cost": "{3}",
-      "cmc": 3.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
       "keywords": [],
       "power": null,
       "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Commander's Sphere",
-          "mana_cost": "{3}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+          "name": "Kindred Judgment",
+          "mana_cost": "{5}{W}{W}",
+          "type_line": "Sorcery",
+          "oracle_text": "Choose a creature type. Destroy all creatures that aren't of the chosen type.",
           "power": null,
           "toughness": null,
           "loyalty": null,
           "defense": null,
-          "colors": []
+          "colors": [
+            "W"
+          ]
         }
       ],
-      "rarity": "common",
-      "set": "ecc",
-      "set_name": "Lorwyn Eclipsed Commander",
-      "released_at": "2026-01-23",
+      "rarity": "rare",
+      "set": "fra",
+      "set_name": "Reality Fracture",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 53,
-      "price_usd": "0.37",
+      "edhrec_rank": 10493,
+      "price_usd": "1.05",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/ecc/139/commanders-sphere?utm_source=api",
-      "oracle_id": "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b"
+      "scryfall_uri": "https://scryfall.com/card/fra/13/kindred-judgment?utm_source=api",
+      "oracle_id": "b5dce42a-a769-4d7d-b29e-8722f79d4092"
     },
     {
-      "name": "Swiftfoot Boots",
-      "asked_as": "Swiftfoot Boots",
+      "name": "Lightning Greaves",
+      "asked_as": "Lightning Greaves",
       "qty": 1,
       "mana_cost": "{2}",
       "cmc": 2.0,
@@ -888,10 +1963,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Swiftfoot Boots",
+          "name": "Lightning Greaves",
           "mana_cost": "{2}",
           "type_line": "Artifact — Equipment",
-          "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+          "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -900,1061 +1975,17 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "mbc",
-      "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-11-09",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 12,
+      "edhrec_rank": 13,
       "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mbc/77/swiftfoot-boots?utm_source=api",
-      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391"
-    },
-    {
-      "name": "Endless Atlas",
-      "asked_as": "Endless Atlas",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Endless Atlas",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "{2}, {T}: Draw a card. Activate only if you control three or more lands with the same name.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2493,
-      "price_usd": "2.57",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/947/endless-atlas?utm_source=api",
-      "oracle_id": "cb923c4d-1d2e-4039-90bb-72d1981b9738"
-    },
-    {
-      "name": "Reya Dawnbringer",
-      "asked_as": "Reya Dawnbringer",
-      "qty": 1,
-      "mana_cost": "{6}{W}{W}{W}",
-      "cmc": 9.0,
-      "type_line": "Legendary Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "4",
-      "toughness": "6",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Reya Dawnbringer",
-          "mana_cost": "{6}{W}{W}{W}",
-          "type_line": "Legendary Creature — Angel",
-          "oracle_text": "Flying\nAt the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.",
-          "power": "4",
-          "toughness": "6",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "uma",
-      "set_name": "Ultimate Masters",
-      "released_at": "2018-12-07",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3857,
-      "price_usd": "4.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/uma/32/reya-dawnbringer?utm_source=api",
-      "oracle_id": "08d1a5d1-141d-48e3-ac22-c2529191cb13"
-    },
-    {
-      "name": "Marble Diamond",
-      "asked_as": "Marble Diamond",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Marble Diamond",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "This artifact enters tapped.\n{T}: Add {W}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "clb",
-      "set_name": "Commander Legends: Battle for Baldur's Gate",
-      "released_at": "2022-06-10",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1122,
-      "price_usd": "0.28",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/clb/320/marble-diamond?utm_source=api",
-      "oracle_id": "910488bf-66ab-415e-973b-1262b2ab7454"
-    },
-    {
-      "name": "Day of Judgment",
-      "asked_as": "Day of Judgment",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Day of Judgment",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Destroy all creatures.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1931,
-      "price_usd": "0.94",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/140/day-of-judgment?utm_source=api",
-      "oracle_id": "d057289d-5e28-43d5-8ff3-4a1bc723477d"
-    },
-    {
-      "name": "Angel of Finality",
-      "asked_as": "Angel of Finality",
-      "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Angel of Finality",
-          "mana_cost": "{3}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhen this creature enters, exile target player's graveyard.",
-          "power": "3",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 4248,
-      "price_usd": "0.33",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/136/angel-of-finality?utm_source=api",
-      "oracle_id": "48d14b5c-711a-4f8a-9de5-55415cb7a79a"
-    },
-    {
-      "name": "Emeria Shepherd",
-      "asked_as": "Emeria Shepherd",
-      "qty": 1,
-      "mana_cost": "{5}{W}{W}",
-      "cmc": 7.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Landfall",
-        "Flying"
-      ],
-      "power": "4",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Emeria Shepherd",
-          "mana_cost": "{5}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nLandfall — Whenever a land you control enters, you may return target nonland permanent card from your graveyard to your hand. If that land is a Plains, you may return that nonland permanent card to the battlefield instead.",
-          "power": "4",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "znc",
-      "set_name": "Zendikar Rising Commander",
-      "released_at": "2020-09-25",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2114,
-      "price_usd": "2.76",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/znc/16/emeria-shepherd?utm_source=api",
-      "oracle_id": "473da1b6-232b-4428-a66d-30262246b47a"
-    },
-    {
-      "name": "Always Watching",
-      "asked_as": "Always Watching",
-      "qty": 1,
-      "mana_cost": "{1}{W}{W}",
-      "cmc": 3.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Always Watching",
-          "mana_cost": "{1}{W}{W}",
-          "type_line": "Enchantment",
-          "oracle_text": "Nontoken creatures you control get +1/+1 and have vigilance.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "gnt",
-      "set_name": "Game Night",
-      "released_at": "2018-11-16",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 6508,
-      "price_usd": "1.08",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/gnt/7/always-watching?utm_source=api",
-      "oracle_id": "c2153115-bc12-458d-baeb-538ec61e1242"
-    },
-    {
-      "name": "Metallic Mimic",
-      "asked_as": "Metallic Mimic",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact Creature — Shapeshifter",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "2",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Metallic Mimic",
-          "mana_cost": "{2}",
-          "type_line": "Artifact Creature — Shapeshifter",
-          "oracle_text": "As this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nEach other creature you control of the chosen type enters with an additional +1/+1 counter on it.",
-          "power": "2",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 961,
-      "price_usd": "1.40",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/203/metallic-mimic?utm_source=api",
-      "oracle_id": "1f91297a-ec2b-4ea8-9198-aa1daac20ff8"
-    },
-    {
-      "name": "Sunblast Angel",
-      "asked_as": "Sunblast Angel",
-      "qty": 1,
-      "mana_cost": "{4}{W}{W}",
-      "cmc": 6.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "4",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Sunblast Angel",
-          "mana_cost": "{4}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhen this creature enters, destroy all tapped creatures.",
-          "power": "4",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "afc",
-      "set_name": "Forgotten Realms Commander",
-      "released_at": "2021-07-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3892,
-      "price_usd": "0.54",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/afc/74/sunblast-angel?utm_source=api",
-      "oracle_id": "8b34d1df-4024-497d-bd28-a7caa8c3fa24"
-    },
-    {
-      "name": "Segovian Angel",
-      "asked_as": "Segovian Angel",
-      "qty": 1,
-      "mana_cost": "{W}",
-      "cmc": 1.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Vigilance"
-      ],
-      "power": "1",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Segovian Angel",
-          "mana_cost": "{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying, vigilance",
-          "power": "1",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "mh1",
-      "set_name": "Modern Horizons",
-      "released_at": "2019-06-14",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 5831,
-      "price_usd": "0.37",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mh1/25/segovian-angel?utm_source=api",
-      "oracle_id": "50372c54-359c-4ee6-9e21-1e40ba53652d"
-    },
-    {
-      "name": "Cleansing Nova",
-      "asked_as": "Cleansing Nova",
-      "qty": 1,
-      "mana_cost": "{3}{W}{W}",
-      "cmc": 5.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Cleansing Nova",
-          "mana_cost": "{3}{W}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Choose one —\n• Destroy all creatures.\n• Destroy all artifacts and enchantments.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1273,
-      "price_usd": "0.32",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/124/cleansing-nova?utm_source=api",
-      "oracle_id": "aff34f28-f707-4458-8af3-1bd5b13a6b10"
-    },
-    {
-      "name": "Austere Command",
-      "asked_as": "Austere Command",
-      "qty": 1,
-      "mana_cost": "{4}{W}{W}",
-      "cmc": 6.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Austere Command",
-          "mana_cost": "{4}{W}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Choose two —\n• Destroy all artifacts.\n• Destroy all enchantments.\n• Destroy all creatures with mana value 3 or less.\n• Destroy all creatures with mana value 4 or greater.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 171,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/121/austere-command?utm_source=api",
-      "oracle_id": "09cc8709-fe10-472a-b05c-e89f3523018d"
-    },
-    {
-      "name": "Valorous Stance",
-      "asked_as": "Valorous Stance",
-      "qty": 1,
-      "mana_cost": "{1}{W}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Valorous Stance",
-          "mana_cost": "{1}{W}",
-          "type_line": "Instant",
-          "oracle_text": "Choose one —\n• Target creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n• Destroy target creature with toughness 4 or greater.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2618,
-      "price_usd": "0.24",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/145/valorous-stance?utm_source=api",
-      "oracle_id": "1f938353-9081-4dc1-b8e7-d18ece038bd4"
-    },
-    {
-      "name": "Serra Avenger",
-      "asked_as": "Serra Avenger",
-      "qty": 1,
-      "mana_cost": "{W}{W}",
-      "cmc": 2.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Vigilance"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Serra Avenger",
-          "mana_cost": "{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "You can't cast Serra Avenger during your first, second, or third turns of the game.\nFlying, vigilance",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "tsr",
-      "set_name": "Time Spiral Remastered",
-      "released_at": "2021-03-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 11878,
-      "price_usd": "0.54",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/tsr/41/serra-avenger?utm_source=api",
-      "oracle_id": "b91b65b3-b35c-460e-a49b-333000a9a519"
-    },
-    {
-      "name": "Bonders' Enclave",
-      "asked_as": "Bonders' Enclave",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Bonders' Enclave",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{3}, {T}: Draw a card. Activate only if you control a creature with power 4 or greater.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "otc",
-      "set_name": "Outlaws of Thunder Junction Commander",
-      "released_at": "2024-04-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 547,
-      "price_usd": "0.92",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/otc/274/bonders-enclave?utm_source=api",
-      "oracle_id": "f33ce38a-34ec-4b65-a0fc-160484a02007"
-    },
-    {
-      "name": "Defy Death",
-      "asked_as": "Defy Death",
-      "qty": 1,
-      "mana_cost": "{3}{W}{W}",
-      "cmc": 5.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Defy Death",
-          "mana_cost": "{3}{W}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Return target creature card from your graveyard to the battlefield. If it's an Angel, put two +1/+1 counters on it.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "avr",
-      "set_name": "Avacyn Restored",
-      "released_at": "2012-05-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 12292,
-      "price_usd": "0.33",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/avr/16/defy-death?utm_source=api",
-      "oracle_id": "dbf9c3e8-35dd-4b80-bd23-f43e21cfd991"
-    },
-    {
-      "name": "Herald of War",
-      "asked_as": "Herald of War",
-      "qty": 1,
-      "mana_cost": "{3}{W}{W}",
-      "cmc": 5.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Herald of War",
-          "mana_cost": "{3}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhenever this creature attacks, put a +1/+1 counter on it.\nAngel spells and Human spells you cast cost {1} less to cast for each +1/+1 counter on this creature.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "mic",
-      "set_name": "Midnight Hunt Commander",
-      "released_at": "2021-09-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3106,
-      "price_usd": "2.82",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mic/86/herald-of-war?utm_source=api",
-      "oracle_id": "1228bd6f-565d-4ad5-bd24-e5aa1ead5dee"
-    },
-    {
-      "name": "Seraph Sanctuary",
-      "asked_as": "Seraph Sanctuary",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Seraph Sanctuary",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "When this land enters, you gain 1 life.\nWhenever an Angel you control enters, you gain 1 life.\n{T}: Add {C}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "ddq",
-      "set_name": "Duel Decks: Blessed vs. Cursed",
-      "released_at": "2016-02-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2194,
-      "price_usd": "1.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/ddq/33/seraph-sanctuary?utm_source=api",
-      "oracle_id": "0b504dc6-61cc-4a72-907c-145fa4c72466"
-    },
-    {
-      "name": "Seraph of the Sword",
-      "asked_as": "Seraph of the Sword",
-      "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Seraph of the Sword",
-          "mana_cost": "{3}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nPrevent all combat damage that would be dealt to this creature.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "m14",
-      "set_name": "Magic 2014",
-      "released_at": "2013-07-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 17551,
-      "price_usd": "0.35",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/m14/31/seraph-of-the-sword?utm_source=api",
-      "oracle_id": "84ee74e9-b3e3-4f47-8b3c-5c1a70f5cad6"
-    },
-    {
-      "name": "Angelic Field Marshal",
-      "asked_as": "Angelic Field Marshal",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Lieutenant"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Angelic Field Marshal",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nLieutenant — As long as you control your commander, this creature gets +2/+2 and creatures you control have vigilance.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 4440,
-      "price_usd": "2.42",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/13/angelic-field-marshal?utm_source=api",
-      "oracle_id": "502575f4-7c56-44bc-a77f-ae28d66c8e1f"
-    },
-    {
-      "name": "Archangel of Tithes",
-      "asked_as": "Archangel of Tithes",
-      "qty": 1,
-      "mana_cost": "{1}{W}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Archangel of Tithes",
-          "mana_cost": "{1}{W}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nAs long as this creature is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures.",
-          "power": "3",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "otj",
-      "set_name": "Outlaws of Thunder Junction",
-      "released_at": "2024-04-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2167,
-      "price_usd": "5.06",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/otj/2/archangel-of-tithes?utm_source=api",
-      "oracle_id": "ff5caed4-0276-476d-8fae-edae2536df7f"
-    },
-    {
-      "name": "Linvala, the Preserver",
-      "asked_as": "Linvala, the Preserver",
-      "qty": 1,
-      "mana_cost": "{4}{W}{W}",
-      "cmc": 6.0,
-      "type_line": "Legendary Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "5",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Linvala, the Preserver",
-          "mana_cost": "{4}{W}{W}",
-          "type_line": "Legendary Creature — Angel",
-          "oracle_text": "Flying\nWhen Linvala enters, if an opponent has more life than you, you gain 5 life.\nWhen Linvala enters, if an opponent controls more creatures than you, create a 3/3 white Angel creature token with flying.",
-          "power": "5",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "ogw",
-      "set_name": "Oath of the Gatewatch",
-      "released_at": "2016-01-22",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 14871,
-      "price_usd": "1.10",
-      "all_parts": [
-        {
-          "name": "Angel",
-          "component": "token",
-          "type_line": "Token Creature — Angel"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/ogw/25/linvala-the-preserver?utm_source=api",
-      "oracle_id": "64f5689d-504d-40e9-bdb5-36dcefd257e2"
+      "scryfall_uri": "https://scryfall.com/card/trc/496/lightning-greaves?utm_source=api",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da"
     },
     {
       "name": "Lyra Dawnbringer",
@@ -2001,19 +2032,68 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1795,
-      "price_usd": "0.46",
+      "edhrec_rank": 1727,
+      "price_usd": "0.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/738/lyra-dawnbringer?utm_source=api",
       "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67"
     },
     {
-      "name": "Invoke the Divine",
-      "asked_as": "Invoke the Divine",
+      "name": "Lyra, Archangel of Dawn",
+      "asked_as": "Lyra, Archangel of Dawn",
       "qty": 1,
       "mana_cost": "{2}{W}",
       "cmc": 3.0,
-      "type_line": "Instant",
+      "type_line": "Legendary Creature — Angel Knight",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Lyra, Archangel of Dawn",
+          "mana_cost": "{2}{W}",
+          "type_line": "Legendary Creature — Angel Knight",
+          "oracle_text": "Flying\nWhenever you gain life, put a +1/+1 counter on each Angel you control.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fra",
+      "set_name": "Reality Fracture",
+      "released_at": "2026-10-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 12644,
+      "price_usd": "1.40",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fra/201/lyra-archangel-of-dawn?utm_source=api",
+      "oracle_id": "0fca3328-484f-4050-925e-91840710b5d6"
+    },
+    {
+      "name": "Magus of the Moat",
+      "asked_as": "Magus of the Moat",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Human Wizard",
       "layout": "normal",
       "colors": [
         "W"
@@ -2023,17 +2103,17 @@
       ],
       "produced_mana": [],
       "keywords": [],
-      "power": null,
-      "toughness": null,
+      "power": "0",
+      "toughness": "3",
       "loyalty": null,
       "faces": [
         {
-          "name": "Invoke the Divine",
-          "mana_cost": "{2}{W}",
-          "type_line": "Instant",
-          "oracle_text": "Destroy target artifact or enchantment. You gain 4 life.",
-          "power": null,
-          "toughness": null,
+          "name": "Magus of the Moat",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Creature — Human Wizard",
+          "oracle_text": "Creatures without flying can't attack.",
+          "power": "0",
+          "toughness": "3",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -2041,40 +2121,93 @@
           ]
         }
       ],
-      "rarity": "common",
-      "set": "khm",
-      "set_name": "Kaldheim",
-      "released_at": "2021-02-05",
+      "rarity": "rare",
+      "set": "fut",
+      "set_name": "Future Sight",
+      "released_at": "2007-05-04",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6510,
-      "price_usd": "0.28",
+      "edhrec_rank": 7619,
+      "price_usd": "8.04",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/khm/16/invoke-the-divine?utm_source=api",
-      "oracle_id": "87bd0fdb-c5b9-46ea-9858-1a870960351f"
+      "scryfall_uri": "https://scryfall.com/card/fut/12/magus-of-the-moat?utm_source=api",
+      "oracle_id": "a035f865-b4db-4b9f-bccc-8572acd2033c"
     },
     {
-      "name": "Vanquisher's Banner",
-      "asked_as": "Vanquisher's Banner",
+      "name": "Metastatic Evangel",
+      "asked_as": "Metastatic Evangel",
       "qty": 1,
-      "mana_cost": "{5}",
-      "cmc": 5.0,
-      "type_line": "Artifact",
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Creature — Phyrexian Human Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Proliferate"
+      ],
+      "power": "3",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Metastatic Evangel",
+          "mana_cost": "{1}{W}",
+          "type_line": "Creature — Phyrexian Human Cleric",
+          "oracle_text": "Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+          "power": "3",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "mh3",
+      "set_name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1516,
+      "price_usd": "0.37",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh3/35/metastatic-evangel?utm_source=api",
+      "oracle_id": "0a27bd77-ec13-4e8d-acad-9aa9c66b3b73"
+    },
+    {
+      "name": "Minas Tirith",
+      "asked_as": "Minas Tirith",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
       "layout": "normal",
       "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
       "keywords": [],
       "power": null,
       "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Vanquisher's Banner",
-          "mana_cost": "{5}",
-          "type_line": "Artifact",
-          "oracle_text": "As this artifact enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.",
+          "name": "Minas Tirith",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "Minas Tirith enters tapped unless you control a legendary creature.\n{T}: Add {W}.\n{1}{W}, {T}: Draw a card. Activate only if you attacked with two or more creatures this turn.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2083,88 +2216,25 @@
         }
       ],
       "rarity": "rare",
-      "set": "lcc",
-      "set_name": "The Lost Caverns of Ixalan Commander",
-      "released_at": "2023-11-17",
+      "set": "ltr",
+      "set_name": "The Lord of the Rings: Tales of Middle-earth",
+      "released_at": "2023-06-23",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 372,
-      "price_usd": "5.30",
+      "edhrec_rank": 417,
+      "price_usd": "6.67",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/lcc/316/vanquishers-banner?utm_source=api",
-      "oracle_id": "8cf38025-5821-45a0-9483-266353b7e82d"
+      "scryfall_uri": "https://scryfall.com/card/ltr/256/minas-tirith?utm_source=api",
+      "oracle_id": "7b0d7e62-0287-454a-8702-b0bfa7b41245"
     },
     {
-      "name": "Court of Grace",
-      "asked_as": "Court of Grace",
+      "name": "Mind Stone",
+      "asked_as": "Mind Stone",
       "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Court of Grace",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Enchantment",
-          "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmr",
-      "set_name": "Commander Legends",
-      "released_at": "2020-11-20",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1655,
-      "price_usd": "3.21",
-      "all_parts": [
-        {
-          "name": "Angel",
-          "component": "token",
-          "type_line": "Token Creature — Angel"
-        },
-        {
-          "name": "The Monarch",
-          "component": "combo_piece",
-          "type_line": "Card"
-        },
-        {
-          "name": "Spirit",
-          "component": "token",
-          "type_line": "Token Creature — Spirit"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/cmr/16/court-of-grace?utm_source=api",
-      "oracle_id": "f63c2438-27d4-449a-828f-f0a2ea86ff16"
-    },
-    {
-      "name": "War Room",
-      "asked_as": "War Room",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
       "layout": "normal",
       "colors": [],
       "color_identity": [],
@@ -2177,10 +2247,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "War Room",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
+          "name": "Mind Stone",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2188,622 +2258,24 @@
           "colors": []
         }
       ],
-      "rarity": "rare",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 141,
-      "price_usd": "5.36",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
-      "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"
-    },
-    {
-      "name": "Starnheim Aspirant",
-      "asked_as": "Starnheim Aspirant",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Creature — Human Cleric",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "2",
-      "toughness": "2",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Starnheim Aspirant",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Human Cleric",
-          "oracle_text": "Angel spells you cast cost {2} less to cast.",
-          "power": "2",
-          "toughness": "2",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
       "rarity": "uncommon",
-      "set": "khm",
-      "set_name": "Kaldheim",
-      "released_at": "2021-02-05",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3086,
-      "price_usd": "9.37",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/khm/380/starnheim-aspirant?utm_source=api",
-      "oracle_id": "e7b92789-47a9-430a-ad57-be7b6c3d63cb"
-    },
-    {
-      "name": "Youthful Valkyrie",
-      "asked_as": "Youthful Valkyrie",
-      "qty": 1,
-      "mana_cost": "{1}{W}",
-      "cmc": 2.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "1",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Youthful Valkyrie",
-          "mana_cost": "{1}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhenever another Angel you control enters, put a +1/+1 counter on this creature.",
-          "power": "1",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2993,
-      "price_usd": "0.31",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/149/youthful-valkyrie?utm_source=api",
-      "oracle_id": "6d37ba4b-ff56-4eec-9dc2-2d7f357dc9c9"
-    },
-    {
-      "name": "Righteous Valkyrie",
-      "asked_as": "Righteous Valkyrie",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Creature — Angel Cleric",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "2",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Righteous Valkyrie",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel Cleric",
-          "oracle_text": "Flying\nWhenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness.\nAs long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.",
-          "power": "2",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "khm",
-      "set_name": "Kaldheim",
-      "released_at": "2021-02-05",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2003,
-      "price_usd": "5.65",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/khm/24/righteous-valkyrie?utm_source=api",
-      "oracle_id": "891d2690-7144-4f87-b6ef-96f2469780a9"
-    },
-    {
-      "name": "Secret Rendezvous",
-      "asked_as": "Secret Rendezvous",
-      "qty": 1,
-      "mana_cost": "{1}{W}{W}",
-      "cmc": 3.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Secret Rendezvous",
-          "mana_cost": "{1}{W}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "You and target opponent each draw three cards.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1121,
-      "price_usd": "0.33",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/166/secret-rendezvous?utm_source=api",
-      "oracle_id": "34b90d3e-f48c-41ff-b3e4-5cab7a9cd597"
-    },
-    {
-      "name": "Angel of the Ruins",
-      "asked_as": "Angel of the Ruins",
-      "qty": 1,
-      "mana_cost": "{5}{W}{W}",
-      "cmc": 7.0,
-      "type_line": "Artifact Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Plainscycling",
-        "Landcycling",
-        "Typecycling",
-        "Cycling"
-      ],
-      "power": "5",
-      "toughness": "7",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Angel of the Ruins",
-          "mana_cost": "{5}{W}{W}",
-          "type_line": "Artifact Creature — Angel",
-          "oracle_text": "Flying\nWhen this creature enters, exile up to two target artifacts and/or enchantments.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
-          "power": "5",
-          "toughness": "7",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "eoc",
-      "set_name": "Edge of Eternities Commander",
-      "released_at": "2025-08-01",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1049,
-      "price_usd": "0.25",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/eoc/63/angel-of-the-ruins?utm_source=api",
-      "oracle_id": "14878a5f-7983-4133-a1a7-9d539531e092"
-    },
-    {
-      "name": "Thraben Watcher",
-      "asked_as": "Thraben Watcher",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Vigilance"
-      ],
-      "power": "2",
-      "toughness": "2",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Thraben Watcher",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying, vigilance\nOther nontoken creatures you control get +1/+1 and have vigilance.",
-          "power": "2",
-          "toughness": "2",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "mh2",
-      "set_name": "Modern Horizons 2",
-      "released_at": "2021-06-18",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 4839,
-      "price_usd": "0.36",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mh2/34/thraben-watcher?utm_source=api",
-      "oracle_id": "53cd9d9f-c1a7-404e-9934-4542415e3431"
-    },
-    {
-      "name": "Search the Premises",
-      "asked_as": "Search the Premises",
-      "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Investigate"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Search the Premises",
-          "mana_cost": "{3}{W}",
-          "type_line": "Enchantment",
-          "oracle_text": "Whenever a creature attacks you or a planeswalker you control, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "mkc",
-      "set_name": "Murders at Karlov Manor Commander",
-      "released_at": "2024-02-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 7410,
-      "price_usd": "0.37",
+      "edhrec_rank": 32,
+      "price_usd": null,
       "all_parts": [
         {
-          "name": "Clue",
-          "component": "token",
-          "type_line": "Token Artifact — Clue"
+          "name": "Boisterous Clique",
+          "component": "combo_piece",
+          "type_line": "Creature — Faerie Warlock"
         }
       ],
-      "scryfall_uri": "https://scryfall.com/card/mkc/81/search-the-premises?utm_source=api",
-      "oracle_id": "0232418d-1c52-4573-b488-c62345ca1c8d"
-    },
-    {
-      "name": "Fateful Absence",
-      "asked_as": "Fateful Absence",
-      "qty": 1,
-      "mana_cost": "{1}{W}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Investigate"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Fateful Absence",
-          "mana_cost": "{1}{W}",
-          "type_line": "Instant",
-          "oracle_text": "Destroy target creature or planeswalker. Its controller investigates. (They create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "mid",
-      "set_name": "Innistrad: Midnight Hunt",
-      "released_at": "2021-09-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 6051,
-      "price_usd": "0.40",
-      "all_parts": [
-        {
-          "name": "Clue",
-          "component": "token",
-          "type_line": "Token Artifact — Clue"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/mid/18/fateful-absence?utm_source=api",
-      "oracle_id": "35bba442-1aec-4d33-b502-4c580d61644b"
-    },
-    {
-      "name": "Inspiring Overseer",
-      "asked_as": "Inspiring Overseer",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Creature — Angel Cleric",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "2",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Inspiring Overseer",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel Cleric",
-          "oracle_text": "Flying\nWhen this creature enters, you gain 1 life and draw a card.",
-          "power": "2",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1665,
-      "price_usd": "0.24",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/736/inspiring-overseer?utm_source=api",
-      "oracle_id": "d646e42b-5635-4798-b633-29c093b66a55"
-    },
-    {
-      "name": "Angelic Sleuth",
-      "asked_as": "Angelic Sleuth",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Creature — Angel Advisor",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Investigate"
-      ],
-      "power": "2",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Angelic Sleuth",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel Advisor",
-          "oracle_text": "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
-          "power": "2",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "ncc",
-      "set_name": "New Capenna Commander",
-      "released_at": "2022-04-29",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 12376,
-      "price_usd": "0.49",
-      "all_parts": [
-        {
-          "name": "Clue",
-          "component": "token",
-          "type_line": "Token Artifact — Clue"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/ncc/12/angelic-sleuth?utm_source=api",
-      "oracle_id": "2579e9e0-b00f-4a1b-8fce-15d06bb7fe5a"
-    },
-    {
-      "name": "Cut a Deal",
-      "asked_as": "Cut a Deal",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Cut a Deal",
-          "mana_cost": "{2}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Each opponent draws a card, then you draw a card for each opponent who drew a card this way.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 978,
-      "price_usd": "0.37",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/127/cut-a-deal?utm_source=api",
-      "oracle_id": "8b5cffd5-5db3-4151-9275-d91387554412"
-    },
-    {
-      "name": "Destroy Evil",
-      "asked_as": "Destroy Evil",
-      "qty": 1,
-      "mana_cost": "{1}{W}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Destroy Evil",
-          "mana_cost": "{1}{W}",
-          "type_line": "Instant",
-          "oracle_text": "Choose one —\n• Destroy target creature with toughness 4 or greater.\n• Destroy target enchantment.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 4991,
-      "price_usd": "0.24",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/128/destroy-evil?utm_source=api",
-      "oracle_id": "b75e667a-1ceb-445a-acf4-ae1fd2dae9e7"
+      "scryfall_uri": "https://scryfall.com/card/trc/497/mind-stone?utm_source=api",
+      "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2"
     },
     {
       "name": "Norn's Choirmaster",
@@ -2850,19 +2322,19 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3368,
-      "price_usd": "4.32",
+      "edhrec_rank": 3256,
+      "price_usd": "2.62",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdc/41/norns-choirmaster?utm_source=api",
       "oracle_id": "bad6a5a9-7010-418d-b042-182926aa999d"
     },
     {
-      "name": "Firemane Commando",
-      "asked_as": "Firemane Commando",
+      "name": "Ob Nixilis, the Ascended",
+      "asked_as": "Ob Nixilis, the Ascended",
       "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel Soldier",
+      "mana_cost": "{5}{W}{W}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Angel",
       "layout": "normal",
       "colors": [
         "W"
@@ -2875,16 +2347,16 @@
         "Flying"
       ],
       "power": "4",
-      "toughness": "3",
+      "toughness": "4",
       "loyalty": null,
       "faces": [
         {
-          "name": "Firemane Commando",
-          "mana_cost": "{3}{W}",
-          "type_line": "Creature — Angel Soldier",
-          "oracle_text": "Flying\nWhenever you attack with two or more creatures, draw a card.\nWhenever another player attacks with two or more creatures, they draw a card if none of those creatures attacked you.",
+          "name": "Ob Nixilis, the Ascended",
+          "mana_cost": "{5}{W}{W}",
+          "type_line": "Legendary Creature — Angel",
+          "oracle_text": "Flying\nWhen Ob Nixilis enters, destroy all tapped creatures your opponents control. You gain 1 life for each creature destroyed this way.\nAt the beginning of each end step, if you gained life this turn, create a 4/4 white Angel creature token with flying.",
           "power": "4",
-          "toughness": "3",
+          "toughness": "4",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -2893,21 +2365,305 @@
         }
       ],
       "rarity": "rare",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1830,
-      "price_usd": "0.96",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/145/firemane-commando?utm_source=api",
-      "oracle_id": "ac675899-25bb-4f06-9c8c-bf188024495f"
+      "edhrec_rank": 8138,
+      "price_usd": "1.40",
+      "all_parts": [
+        {
+          "name": "Angel",
+          "component": "token",
+          "type_line": "Token Creature — Angel"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/frc/5/ob-nixilis-the-ascended?utm_source=api",
+      "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581"
     },
     {
-      "name": "Metropolis Reformer",
-      "asked_as": "Metropolis Reformer",
+      "name": "Patchwork Banner",
+      "asked_as": "Patchwork Banner",
+      "qty": 1,
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Patchwork Banner",
+          "mana_cost": "{3}",
+          "type_line": "Artifact",
+          "oracle_text": "As this artifact enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\n{T}: Add one mana of any color.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 200,
+      "price_usd": "2.69",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/207/patchwork-banner?utm_source=api",
+      "oracle_id": "4fb00dbe-1f82-4ba6-b18c-97e816d10d3a"
+    },
+    {
+      "name": "Path to Exile",
+      "asked_as": "Path to Exile",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Path to Exile",
+          "mana_cost": "{W}",
+          "type_line": "Instant",
+          "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 15,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/425/path-to-exile?utm_source=api",
+      "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b"
+    },
+    {
+      "name": "Pearl Medallion",
+      "asked_as": "Pearl Medallion",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Pearl Medallion",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "White spells you cast cost {1} less to cast.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "mh3",
+      "set_name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 428,
+      "price_usd": "9.56",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh3/294/pearl-medallion?utm_source=api",
+      "oracle_id": "19015380-1332-4960-8cc6-0732009525a2"
+    },
+    {
+      "name": "Plains",
+      "asked_as": "Plains",
+      "qty": 27,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Plains",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Plains",
+          "mana_cost": "",
+          "type_line": "Basic Land — Plains",
+          "oracle_text": "({T}: Add {W}.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "mdd",
+      "set_name": "Marvel: Darkhold Destiny",
+      "released_at": "2027-04-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": null,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mdd/292/plains?utm_source=api",
+      "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99"
+    },
+    {
+      "name": "Radiant Fountain",
+      "asked_as": "Radiant Fountain",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Radiant Fountain",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "When this land enters, you gain 2 life.\n{T}: Add {C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "c21",
+      "set_name": "Commander 2021",
+      "released_at": "2021-04-23",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1492,
+      "price_usd": "2.32",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/c21/310/radiant-fountain?utm_source=api",
+      "oracle_id": "6db442e5-fbcc-4456-a4c5-bea1aee3fc8e"
+    },
+    {
+      "name": "Resplendent Angel",
+      "asked_as": "Resplendent Angel",
+      "qty": 1,
+      "mana_cost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Resplendent Angel",
+          "mana_cost": "{1}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, this creature gets +2/+2 and gains lifelink.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "lci",
+      "set_name": "The Lost Caverns of Ixalan",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1917,
+      "price_usd": "8.67",
+      "all_parts": [
+        {
+          "name": "Angel",
+          "component": "token",
+          "type_line": "Token Creature — Angel"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/lci/32/resplendent-angel?utm_source=api",
+      "oracle_id": "2ac93092-1a57-4cf7-8f03-1dca86d5c476"
+    },
+    {
+      "name": "Righteous Valkyrie",
+      "asked_as": "Righteous Valkyrie",
       "qty": 1,
       "mana_cost": "{2}{W}",
       "cmc": 3.0,
@@ -2921,19 +2677,164 @@
       ],
       "produced_mana": [],
       "keywords": [
-        "Flying",
-        "Vigilance"
+        "Flying"
       ],
       "power": "2",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Righteous Valkyrie",
+          "mana_cost": "{2}{W}",
+          "type_line": "Creature — Angel Cleric",
+          "oracle_text": "Flying\nWhenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness.\nAs long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.",
+          "power": "2",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "khm",
+      "set_name": "Kaldheim",
+      "released_at": "2021-02-05",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1926,
+      "price_usd": "5.03",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/khm/24/righteous-valkyrie?utm_source=api",
+      "oracle_id": "891d2690-7144-4f87-b6ef-96f2469780a9"
+    },
+    {
+      "name": "Secluded Steppe",
+      "asked_as": "Secluded Steppe",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [
+        "W"
+      ],
+      "keywords": [
+        "Cycling"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Secluded Steppe",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "eoc",
+      "set_name": "Edge of Eternities Commander",
+      "released_at": "2025-08-01",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1455,
+      "price_usd": "0.31",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/eoc/177/secluded-steppe?utm_source=api",
+      "oracle_id": "8dec6fcf-1254-4b1b-ba23-7a3e492a7241"
+    },
+    {
+      "name": "Sephara, Sky's Blade",
+      "asked_as": "Sephara, Sky's Blade",
+      "qty": 1,
+      "mana_cost": "{4}{W}{W}{W}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Lifelink"
+      ],
+      "power": "7",
+      "toughness": "7",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sephara, Sky's Blade",
+          "mana_cost": "{4}{W}{W}{W}",
+          "type_line": "Legendary Creature — Angel",
+          "oracle_text": "You may pay {W} and tap four untapped creatures you control with flying rather than pay this spell's mana cost.\nFlying, lifelink\nOther creatures you control with flying have indestructible. (Damage and effects that say \"destroy\" don't destroy them.)",
+          "power": "7",
+          "toughness": "7",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1357,
+      "price_usd": "3.29",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/54/sephara-skys-blade?utm_source=api",
+      "oracle_id": "ac8952c9-bd30-48cd-b964-7e6271f9cbc8"
+    },
+    {
+      "name": "Seraph of the Sword",
+      "asked_as": "Seraph of the Sword",
+      "qty": 1,
+      "mana_cost": "{3}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying"
+      ],
+      "power": "3",
       "toughness": "3",
       "loyalty": null,
       "faces": [
         {
-          "name": "Metropolis Reformer",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel Cleric",
-          "oracle_text": "Flying, vigilance\nYou have hexproof.\nWhenever this creature is dealt damage, you gain that much life.",
-          "power": "2",
+          "name": "Seraph of the Sword",
+          "mana_cost": "{3}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nPrevent all combat damage that would be dealt to this creature.",
+          "power": "3",
           "toughness": "3",
           "loyalty": null,
           "defense": null,
@@ -2943,17 +2844,720 @@
         }
       ],
       "rarity": "rare",
-      "set": "mat",
-      "set_name": "March of the Machine: The Aftermath",
-      "released_at": "2023-05-12",
+      "set": "m14",
+      "set_name": "Magic 2014",
+      "released_at": "2013-07-19",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4661,
-      "price_usd": "2.75",
+      "edhrec_rank": 16194,
+      "price_usd": "0.35",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mat/4/metropolis-reformer?utm_source=api",
-      "oracle_id": "baec04a1-3bc9-4618-afab-e42013e36648"
+      "scryfall_uri": "https://scryfall.com/card/m14/31/seraph-of-the-sword?utm_source=api",
+      "oracle_id": "84ee74e9-b3e3-4f47-8b3c-5c1a70f5cad6"
+    },
+    {
+      "name": "Seraph Sanctuary",
+      "asked_as": "Seraph Sanctuary",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Seraph Sanctuary",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "When this land enters, you gain 1 life.\nWhenever an Angel you control enters, you gain 1 life.\n{T}: Add {C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "ddq",
+      "set_name": "Duel Decks: Blessed vs. Cursed",
+      "released_at": "2016-02-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2096,
+      "price_usd": "1.27",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ddq/33/seraph-sanctuary?utm_source=api",
+      "oracle_id": "0b504dc6-61cc-4a72-907c-145fa4c72466"
+    },
+    {
+      "name": "Serra the Benevolent",
+      "asked_as": "Serra the Benevolent",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Legendary Planeswalker — Serra",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": "4",
+      "faces": [
+        {
+          "name": "Serra the Benevolent",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Legendary Planeswalker — Serra",
+          "oracle_text": "+2: Creatures you control with flying get +1/+1 until end of turn.\n−3: Create a 4/4 white Angel creature token with flying and vigilance.\n−6: You get an emblem with \"If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.\"",
+          "power": null,
+          "toughness": null,
+          "loyalty": "4",
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "mh1",
+      "set_name": "Modern Horizons",
+      "released_at": "2019-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5717,
+      "price_usd": "6.97",
+      "all_parts": [
+        {
+          "name": "Angel",
+          "component": "token",
+          "type_line": "Token Creature — Angel"
+        },
+        {
+          "name": "Serra the Benevolent Emblem",
+          "component": "combo_piece",
+          "type_line": "Emblem — Serra"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/mh1/26/serra-the-benevolent?utm_source=api",
+      "oracle_id": "8b0e2382-dd91-42e6-aba3-5e8a15418a49"
+    },
+    {
+      "name": "Sol Ring",
+      "asked_as": "Sol Ring",
+      "qty": 1,
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sol Ring",
+          "mana_cost": "{1}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}{C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
+    },
+    {
+      "name": "Starnheim Aspirant",
+      "asked_as": "Starnheim Aspirant",
+      "qty": 1,
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Creature — Human Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Starnheim Aspirant",
+          "mana_cost": "{2}{W}",
+          "type_line": "Creature — Human Cleric",
+          "oracle_text": "Angel spells you cast cost {2} less to cast.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "khm",
+      "set_name": "Kaldheim",
+      "released_at": "2021-02-05",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2957,
+      "price_usd": "8.09",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/khm/380/starnheim-aspirant?utm_source=api",
+      "oracle_id": "e7b92789-47a9-430a-ad57-be7b6c3d63cb"
+    },
+    {
+      "name": "Swiftfoot Boots",
+      "asked_as": "Swiftfoot Boots",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact — Equipment",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [
+        "Equip"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Swiftfoot Boots",
+          "mana_cost": "{2}",
+          "type_line": "Artifact — Equipment",
+          "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 12,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/501/swiftfoot-boots?utm_source=api",
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391"
+    },
+    {
+      "name": "Swords to Plowshares",
+      "asked_as": "Swords to Plowshares",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Swords to Plowshares",
+          "mana_cost": "{W}",
+          "type_line": "Instant",
+          "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 11,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/429/swords-to-plowshares?utm_source=api",
+      "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
+    },
+    {
+      "name": "The Wandering Emperor",
+      "asked_as": "The Wandering Emperor",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Legendary Planeswalker",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flash"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": "3",
+      "faces": [
+        {
+          "name": "The Wandering Emperor",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Legendary Planeswalker",
+          "oracle_text": "Flash\nAs long as The Wandering Emperor entered this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": "3",
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "neo",
+      "set_name": "Kamigawa: Neon Dynasty",
+      "released_at": "2022-02-18",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5516,
+      "price_usd": "4.72",
+      "all_parts": [
+        {
+          "name": "Samurai",
+          "component": "token",
+          "type_line": "Token Creature — Samurai"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/neo/42/the-wandering-emperor?utm_source=api",
+      "oracle_id": "0c7f18d5-36cb-4bc6-a358-443b97666215"
+    },
+    {
+      "name": "Thraben Watcher",
+      "asked_as": "Thraben Watcher",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Vigilance"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Thraben Watcher",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying, vigilance\nOther nontoken creatures you control get +1/+1 and have vigilance.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "mh2",
+      "set_name": "Modern Horizons 2",
+      "released_at": "2021-06-18",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4622,
+      "price_usd": "0.33",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh2/34/thraben-watcher?utm_source=api",
+      "oracle_id": "53cd9d9f-c1a7-404e-9934-4542415e3431"
+    },
+    {
+      "name": "Three Tree City",
+      "asked_as": "Three Tree City",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Three Tree City",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "As Three Tree City enters, choose a creature type.\n{T}: Add {C}.\n{2}, {T}: Choose a color. Add an amount of mana of that color equal to the number of creatures you control of the chosen type.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "blb",
+      "set_name": "Bloomburrow",
+      "released_at": "2024-08-02",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 178,
+      "price_usd": "28.20",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/blb/260/three-tree-city?utm_source=api",
+      "oracle_id": "da3b17a2-e1e1-44e9-b9b1-ae54a92037db"
+    },
+    {
+      "name": "Tome of Legends",
+      "asked_as": "Tome of Legends",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact — Book",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Tome of Legends",
+          "mana_cost": "{2}",
+          "type_line": "Artifact — Book",
+          "oracle_text": "This artifact enters with a page counter on it.\nWhenever your commander enters or attacks, put a page counter on this artifact.\n{1}, {T}, Remove a page counter from this artifact: Draw a card.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2189,
+      "price_usd": "0.34",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/223/tome-of-legends?utm_source=api",
+      "oracle_id": "cada2a1c-5db2-4702-9a57-cbe7da1bf208"
+    },
+    {
+      "name": "Urza's Incubator",
+      "asked_as": "Urza's Incubator",
+      "qty": 1,
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Urza's Incubator",
+          "mana_cost": "{3}",
+          "type_line": "Artifact",
+          "oracle_text": "As this artifact enters, choose a creature type.\nCreature spells of the chosen type cost {2} less to cast.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "mh3",
+      "set_name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 312,
+      "price_usd": "20.15",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh3/297/urzas-incubator?utm_source=api",
+      "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72"
+    },
+    {
+      "name": "Valkyrie Harbinger",
+      "asked_as": "Valkyrie Harbinger",
+      "qty": 1,
+      "mana_cost": "{4}{W}{W}",
+      "cmc": 6.0,
+      "type_line": "Creature — Angel Cleric",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Flying",
+        "Lifelink"
+      ],
+      "power": "4",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Valkyrie Harbinger",
+          "mana_cost": "{4}{W}{W}",
+          "type_line": "Creature — Angel Cleric",
+          "oracle_text": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nAt the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.",
+          "power": "4",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "khm",
+      "set_name": "Kaldheim",
+      "released_at": "2021-02-05",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2774,
+      "price_usd": "6.08",
+      "all_parts": [
+        {
+          "name": "Angel",
+          "component": "token",
+          "type_line": "Token Creature — Angel"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/khm/374/valkyrie-harbinger?utm_source=api",
+      "oracle_id": "18a5e71e-eb75-4ac7-bedd-2220aaa24f78"
+    },
+    {
+      "name": "Valorous Stance",
+      "asked_as": "Valorous Stance",
+      "qty": 1,
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Valorous Stance",
+          "mana_cost": "{1}{W}",
+          "type_line": "Instant",
+          "oracle_text": "Choose one —\n• Target creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n• Destroy target creature with toughness 4 or greater.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2568,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/431/valorous-stance?utm_source=api",
+      "oracle_id": "1f938353-9081-4dc1-b8e7-d18ece038bd4"
+    },
+    {
+      "name": "Vanquisher's Banner",
+      "asked_as": "Vanquisher's Banner",
+      "qty": 1,
+      "mana_cost": "{5}",
+      "cmc": 5.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vanquisher's Banner",
+          "mana_cost": "{5}",
+          "type_line": "Artifact",
+          "oracle_text": "As this artifact enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 384,
+      "price_usd": "4.51",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/lcc/316/vanquishers-banner?utm_source=api",
+      "oracle_id": "8cf38025-5821-45a0-9483-266353b7e82d"
+    },
+    {
+      "name": "War Room",
+      "asked_as": "War Room",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "War Room",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 139,
+      "price_usd": "3.54",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
+      "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"
     },
     {
       "name": "Wojek Investigator",
@@ -3000,8 +3604,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4758,
-      "price_usd": "0.31",
+      "edhrec_rank": 4662,
+      "price_usd": "0.30",
       "all_parts": [
         {
           "name": "Clue",
@@ -3013,115 +3617,12 @@
       "oracle_id": "ab41243d-b178-4ebe-a7ac-bea37427be99"
     },
     {
-      "name": "Merchant of Truth",
-      "asked_as": "Merchant of Truth",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel Detective",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Investigate"
-      ],
-      "power": "2",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Merchant of Truth",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Creature — Angel Detective",
-          "oracle_text": "Flying\nWhenever a nontoken creature you control dies, investigate.\nClues you control have exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
-          "power": "2",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "mkc",
-      "set_name": "Murders at Karlov Manor Commander",
-      "released_at": "2024-02-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 6461,
-      "price_usd": "1.14",
-      "all_parts": [
-        {
-          "name": "Clue",
-          "component": "token",
-          "type_line": "Token Artifact — Clue"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/mkc/11/merchant-of-truth?utm_source=api",
-      "oracle_id": "84275aab-f718-4896-b61c-63bf49fb483b"
-    },
-    {
-      "name": "Patchwork Banner",
-      "asked_as": "Patchwork Banner",
-      "qty": 1,
-      "mana_cost": "{3}",
-      "cmc": 3.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Patchwork Banner",
-          "mana_cost": "{3}",
-          "type_line": "Artifact",
-          "oracle_text": "As this artifact enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\n{T}: Add one mana of any color.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 203,
-      "price_usd": "2.92",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/207/patchwork-banner?utm_source=api",
-      "oracle_id": "4fb00dbe-1f82-4ba6-b18c-97e816d10d3a"
-    },
-    {
-      "name": "Exorcise",
-      "asked_as": "Exorcise",
+      "name": "Youthful Valkyrie",
+      "asked_as": "Youthful Valkyrie",
       "qty": 1,
       "mana_cost": "{1}{W}",
       "cmc": 2.0,
-      "type_line": "Sorcery",
+      "type_line": "Creature — Angel",
       "layout": "normal",
       "colors": [
         "W"
@@ -3130,18 +3631,20 @@
         "W"
       ],
       "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
+      "keywords": [
+        "Flying"
+      ],
+      "power": "1",
+      "toughness": "3",
       "loyalty": null,
       "faces": [
         {
-          "name": "Exorcise",
+          "name": "Youthful Valkyrie",
           "mana_cost": "{1}{W}",
-          "type_line": "Sorcery",
-          "oracle_text": "Exile target artifact, enchantment, or creature with power 4 or greater.",
-          "power": null,
-          "toughness": null,
+          "type_line": "Creature — Angel",
+          "oracle_text": "Flying\nWhenever another Angel you control enters, put a +1/+1 counter on this creature.",
+          "power": "1",
+          "toughness": "3",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -3150,215 +3653,17 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "dsk",
-      "set_name": "Duskmourn: House of Horror",
-      "released_at": "2024-09-27",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 6034,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsk/8/exorcise?utm_source=api",
-      "oracle_id": "58916455-844c-4d97-908f-8205bdc117c0"
-    },
-    {
-      "name": "Herald of Eternal Dawn",
-      "asked_as": "Herald of Eternal Dawn",
-      "qty": 1,
-      "mana_cost": "{4}{W}{W}{W}",
-      "cmc": 7.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Flash"
-      ],
-      "power": "6",
-      "toughness": "6",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Herald of Eternal Dawn",
-          "mana_cost": "{4}{W}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nYou can't lose the game and your opponents can't win the game.",
-          "power": "6",
-          "toughness": "6",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "mythic",
       "set": "fdn",
       "set_name": "Foundations",
       "released_at": "2024-11-15",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4139,
-      "price_usd": "1.47",
+      "edhrec_rank": 2855,
+      "price_usd": "0.22",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/17/herald-of-eternal-dawn?utm_source=api",
-      "oracle_id": "4080f7e3-06d3-4d3d-9929-4e826cb66713"
-    },
-    {
-      "name": "Exemplar of Light",
-      "asked_as": "Exemplar of Light",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Exemplar of Light",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhenever you gain life, put a +1/+1 counter on this creature.\nWhenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1187,
-      "price_usd": "0.91",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/733/exemplar-of-light?utm_source=api",
-      "oracle_id": "9ad730b5-8950-4215-9319-387e2970dd22"
-    },
-    {
-      "name": "Vanguard Seraph",
-      "asked_as": "Vanguard Seraph",
-      "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel Warrior",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying",
-        "Surveil"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Vanguard Seraph",
-          "mana_cost": "{3}{W}",
-          "type_line": "Creature — Angel Warrior",
-          "oracle_text": "Flying\nWhenever you gain life for the first time each turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 10945,
-      "price_usd": "0.10",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/28/vanguard-seraph?utm_source=api",
-      "oracle_id": "3250466f-82a4-45e1-9722-ff247ddf8c15"
-    },
-    {
-      "name": "Dazzling Angel",
-      "asked_as": "Dazzling Angel",
-      "qty": 1,
-      "mana_cost": "{2}{W}",
-      "cmc": 3.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "2",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Dazzling Angel",
-          "mana_cost": "{2}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nWhenever another creature you control enters, you gain 1 life.",
-          "power": "2",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 3002,
-      "price_usd": "0.33",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/732/dazzling-angel?utm_source=api",
-      "oracle_id": "7de464e3-fae3-44cc-8233-776fc727c00a"
+      "scryfall_uri": "https://scryfall.com/card/fdn/149/youthful-valkyrie?utm_source=api",
+      "oracle_id": "6d37ba4b-ff56-4eec-9dc2-2d7f357dc9c9"
     }
   ]
 }

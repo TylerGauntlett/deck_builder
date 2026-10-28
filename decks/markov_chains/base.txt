@@ -23,7 +23,6 @@
 1 Caves of Koilos
 1 Charismatic Conqueror
 1 Clavileño, First of the Blessed
-1 Clever Concealment
 1 Command Tower
 1 Cordial Vampire
 1 Cruel Celebrant
@@ -36,6 +35,7 @@
 1 Exotic Orchard
 1 Fetid Heath
 1 Forerunner of the Legion
+1 Gas Guzzler
 1 Ghostly Prison
 1 Godless Shrine
 1 Grave Pact

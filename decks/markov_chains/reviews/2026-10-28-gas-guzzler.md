@@ -169,3 +169,18 @@ more acceptable here than in most decks.
 
 Aggregate (−Clever Concealment, +Gas Guzzler): MV 4→1, W pips 19→17, B 63→64,
 Vampire creatures in the 99 34→35, instants 9→8, full-wipe protection 2→1.
+
+### Settled (2026-10-28)
+
+You confirmed: wipes do come, you usually can't cast Concealment into them, and it
+has helped in only one game. That's the "can't cast it into the wipe" case, so
+the card isn't doing its job.
+
+**Final verdict: ADD Gas Guzzler, cut Clever Concealment.** Keep Forerunner of the
+Legion. It stays the next cut in line.
+
+Something to watch: Teferi's Protection, the deck's remaining wipe answer, also
+needs mana held up on opponents' turns (`{2}{W}`, a turn earlier and one pip
+lighter than Concealment's `{2}{W}{W}`). If the reason you couldn't cast
+Concealment was "I tap out on my own turn", the same thing will happen with
+Teferi's Protection. Note it the next time a wipe lands.

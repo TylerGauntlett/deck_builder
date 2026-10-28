@@ -59,3 +59,21 @@ Both rejections hold even if the cards are free, because price is not part of th
 ## Cut order if you want to move either 3-drop later
 
 Dazzling Angel is the more cuttable of the two. Angel of Vitality should stay. Any replacement for Dazzling should either add lifegain events or be a payoff that multiplies them. Neither Firemane Commando nor Herald of War does either.
+
+## Addendum (same day): the user is frequently targeted
+
+The user explained that the pod targets them a lot, and that they want Firemane Commando's draw clause as an incentive for opponents to attack someone else. This is a new way to judge the card: as politics, not as card advantage. Under that framing the original reason for cutting it reverses.
+
+- I cut Firemane because its second clause rewards opponents who attack players other than you. If the problem is being targeted, that reward is the reason to play the card.
+- It works together with the attack taxes the deck already runs. With Ghostly Prison out, attacking you with two creatures costs {4} and draws nothing. Attacking someone else costs nothing and draws a card. Archangel of Tithes adds {1} per creature to attacks on you. A tax alone can be paid by an opponent with spare mana, but this gives them a reason to go elsewhere.
+- Its first clause ("you attack with two or more creatures, draw a card") helps you rebuild after you've been focused.
+- Limits:
+  - It only affects combat. It does nothing against removal or wraths aimed at you.
+  - Magus of the Moat stops ground attacks for everyone, so while Magus is out, opponents' two-creature attacks on each other are rare and the reward seldom fires.
+  - It is a 4/3, so the first removal spell aimed at your board can take it.
+  - It gives the whole table extra cards.
+
+**Revised verdicts:**
+- **Firemane Commando: ADD IF the targeting is mainly combat damage.** It replaces Dazzling Angel, which was already the softer of the two cuts. If the targeting is mostly removal and spells, Firemane doesn't address it and the NO stands.
+- **Herald of War: still NO.** Being targeted makes a 5-mana, removal-vulnerable cost reducer worse, not better.
+- **Angel of Vitality: still stays.** It multiplies every life gain, and the extra life is also a defensive buffer.

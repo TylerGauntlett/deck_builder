@@ -113,19 +113,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 763,
+  "edhrec_rank": 768,
   "preview": {
     "source": "Christian Hauck",
     "source_uri": "https://twitter.com/ChrHauck/status/1246105482571517954",
     "previewed_at": "2020-04-03"
   },
   "prices": {
-    "usd": "12.22",
-    "usd_foil": "16.18",
+    "usd": "11.77",
+    "usd_foil": "16.05",
     "usd_etched": null,
-    "eur": "10.72",
-    "eur_foil": "14.97",
-    "tix": "0.26"
+    "eur": "10.66",
+    "eur_foil": "14.51",
+    "tix": "0.21"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479531&printed=false",

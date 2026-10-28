@@ -132,19 +132,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": true,
-  "edhrec_rank": 5855,
-  "penny_rank": 426,
+  "edhrec_rank": 5843,
+  "penny_rank": 421,
   "preview": {
     "source": "ChannelFireball",
     "source_uri": "https://strategy.channelfireball.com/all-strategy/home/exclusive-innistrad-midnight-hunt-preview-card-fateful-absence/",
     "previewed_at": "2021-09-09"
   },
   "prices": {
-    "usd": "0.41",
-    "usd_foil": "0.44",
+    "usd": "0.39",
+    "usd_foil": "0.43",
     "usd_etched": null,
-    "eur": "0.62",
-    "eur_foil": "0.64",
+    "eur": "0.51",
+    "eur_foil": "0.56",
     "tix": "0.03"
   },
   "related_uris": {

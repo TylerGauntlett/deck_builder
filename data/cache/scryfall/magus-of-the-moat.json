@@ -5,6 +5,7 @@
   "multiverse_ids": [
     136148
   ],
+  "resource_id": "084806F6F42CCEB6BF76DE5511E6FDC657FEA41A556B5ECF3EFD2D0B488D86F0",
   "mtgo_id": 26852,
   "mtgo_foil_id": 26853,
   "tcgplayer_id": 14934,
@@ -111,13 +112,13 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 7612,
-  "penny_rank": 5519,
+  "edhrec_rank": 7619,
+  "penny_rank": 5524,
   "prices": {
     "usd": "8.04",
     "usd_foil": "42.90",
     "usd_etched": null,
-    "eur": "2.74",
+    "eur": "3.07",
     "eur_foil": "19.50",
     "tix": "0.02"
   },

@@ -113,18 +113,18 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4646,
+  "edhrec_rank": 4622,
   "preview": {
     "source": "AspirantCCG",
     "source_uri": "https://www.twitch.tv/videos/1038655665",
     "previewed_at": "2021-05-28"
   },
   "prices": {
-    "usd": "0.30",
+    "usd": "0.33",
     "usd_foil": "0.45",
     "usd_etched": null,
     "eur": "0.14",
-    "eur_foil": "0.49",
+    "eur_foil": "0.47",
     "tix": "0.03"
   },
   "related_uris": {

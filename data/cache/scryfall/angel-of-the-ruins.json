@@ -114,18 +114,18 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 1006,
-  "penny_rank": 5953,
+  "edhrec_rank": 999,
+  "penny_rank": 5928,
   "preview": {
     "source": "EDHijinks",
     "source_uri": "https://www.youtube.com/watch?v=Swjj0JGhFco",
     "previewed_at": "2025-07-10"
   },
   "prices": {
-    "usd": "0.27",
+    "usd": "0.23",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "0.28",
+    "eur": "0.21",
     "eur_foil": null,
     "tix": "0.03"
   },

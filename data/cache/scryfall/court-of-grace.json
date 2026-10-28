@@ -143,19 +143,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1638,
+  "edhrec_rank": 1635,
   "preview": {
     "source": "iYingdi",
     "source_uri": "https://www.iyingdi.com/web/bbspost/detail/2312853",
     "previewed_at": "2020-10-29"
   },
   "prices": {
-    "usd": "2.92",
+    "usd": "2.93",
     "usd_foil": "3.18",
     "usd_etched": null,
-    "eur": "1.51",
-    "eur_foil": "2.35",
-    "tix": "4.14"
+    "eur": "1.60",
+    "eur_foil": "2.59",
+    "tix": "4.32"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497536&printed=false",

@@ -114,19 +114,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 2097,
-  "penny_rank": 6927,
+  "edhrec_rank": 2087,
+  "penny_rank": 6932,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://twitter.com/mtgjp/status/1772949378887557580",
     "previewed_at": "2024-03-27"
   },
   "prices": {
-    "usd": "4.15",
+    "usd": "4.13",
     "usd_foil": "5.08",
     "usd_etched": null,
-    "eur": "2.87",
-    "eur_foil": "3.73",
+    "eur": "3.28",
+    "eur_foil": "4.03",
     "tix": "0.02"
   },
   "related_uris": {

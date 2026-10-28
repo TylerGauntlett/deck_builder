@@ -1,32 +1,31 @@
 {
   "object": "card",
-  "id": "b30a8f92-ce42-4b27-a893-bcf97fde228d",
+  "id": "091600ae-6578-4353-8e0f-d170f555bcd0",
   "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
   "multiverse_ids": [],
-  "tcgplayer_id": 709824,
-  "cardmarket_id": 917934,
+  "tcgplayer_id": 726414,
   "name": "Mind Stone",
   "lang": "en",
-  "released_at": "2026-10-19",
-  "uri": "https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d",
-  "scryfall_uri": "https://scryfall.com/card/mbc/76/mind-stone?utm_source=api",
+  "released_at": "2026-11-13",
+  "uri": "https://api.scryfall.com/cards/091600ae-6578-4353-8e0f-d170f555bcd0",
+  "scryfall_uri": "https://scryfall.com/card/trc/497/mind-stone?utm_source=api",
   "layout": "normal",
   "highres_image": true,
   "image_status": "highres_scan",
-  "image_updated_at": "2026-08-03T12:16:15Z",
+  "image_updated_at": "2026-10-27T14:39:09Z",
   "image_uris": {
-    "small": "https://cards.scryfall.io/small/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
-    "normal": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
-    "large": "https://cards.scryfall.io/large/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
-    "png": "https://cards.scryfall.io/png/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.png?1785759375",
-    "art_crop": "https://cards.scryfall.io/art_crop/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
-    "border_crop": "https://cards.scryfall.io/border_crop/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
-    "thumb": "https://cards.scryfall.io/thumb/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.webp?1785759375",
-    "grid": "https://cards.scryfall.io/grid/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.webp?1785759375",
-    "display": "https://cards.scryfall.io/display/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.webp?1785759375",
-    "art": "https://cards.scryfall.io/art/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.webp?1785759375",
-    "crop": "https://cards.scryfall.io/crop/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.webp?1785759375",
-    "jpeg": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375"
+    "small": "https://cards.scryfall.io/small/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949",
+    "normal": "https://cards.scryfall.io/normal/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949",
+    "large": "https://cards.scryfall.io/large/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949",
+    "png": "https://cards.scryfall.io/png/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.png?1793111949",
+    "art_crop": "https://cards.scryfall.io/art_crop/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949",
+    "border_crop": "https://cards.scryfall.io/border_crop/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949",
+    "thumb": "https://cards.scryfall.io/thumb/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.webp?1793111949",
+    "grid": "https://cards.scryfall.io/grid/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.webp?1793111949",
+    "display": "https://cards.scryfall.io/display/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.webp?1793111949",
+    "art": "https://cards.scryfall.io/art/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.webp?1793111949",
+    "crop": "https://cards.scryfall.io/crop/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.webp?1793111949",
+    "jpeg": "https://cards.scryfall.io/normal/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793111949"
   },
   "mana_cost": "{2}",
   "cmc": 2.0,
@@ -41,11 +40,11 @@
   "all_parts": [
     {
       "object": "related_card",
-      "id": "b30a8f92-ce42-4b27-a893-bcf97fde228d",
+      "id": "091600ae-6578-4353-8e0f-d170f555bcd0",
       "component": "combo_piece",
       "name": "Mind Stone",
       "type_line": "Artifact",
-      "uri": "https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d"
+      "uri": "https://api.scryfall.com/cards/091600ae-6578-4353-8e0f-d170f555bcd0"
     },
     {
       "object": "related_card",
@@ -82,7 +81,8 @@
     "tlr": "legal"
   },
   "games": [
-    "paper"
+    "paper",
+    "mtgo"
   ],
   "reserved": false,
   "game_changer": false,
@@ -96,31 +96,34 @@
   "promo": false,
   "reprint": true,
   "variation": false,
-  "set_id": "a4135564-9f37-4aaf-963a-90666f843e0d",
-  "set": "mbc",
-  "set_name": "Mystery Booster Commander Edition",
-  "set_type": "draft_innovation",
-  "set_uri": "https://api.scryfall.com/sets/a4135564-9f37-4aaf-963a-90666f843e0d",
-  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ambc&unique=prints",
-  "scryfall_set_uri": "https://scryfall.com/sets/mbc?utm_source=api",
-  "rulings_uri": "https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d/rulings",
+  "set_id": "a38c10be-90b1-4bb9-bd74-46784a751ac3",
+  "set": "trc",
+  "set_name": "Star Trek Commander",
+  "set_type": "commander",
+  "set_uri": "https://api.scryfall.com/sets/a38c10be-90b1-4bb9-bd74-46784a751ac3",
+  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atrc&unique=prints",
+  "scryfall_set_uri": "https://scryfall.com/sets/trc?utm_source=api",
+  "rulings_uri": "https://api.scryfall.com/cards/091600ae-6578-4353-8e0f-d170f555bcd0/rulings",
   "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac97361b5-af16-4a7b-af85-a429dbaf4ad2&unique=prints",
-  "collector_number": "76",
+  "collector_number": "497",
   "digital": false,
   "rarity": "uncommon",
-  "flavor_text": "\"What is mana but possibility, an idea not yet given form?\"\n—Jhoira, master artificer",
+  "flavor_text": "The Eymorgs' underground complex on Sigma Draconis VI required a computer more advanced than anything they had ever built, a computer that only nature could craft.",
   "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
-  "artist": "Adam Rex",
+  "artist": "Racrufi",
   "artist_ids": [
-    "445bd2fb-4a70-4599-87a4-83cf5979fc56"
+    "7633403b-8eb3-4e02-9a81-bb5346552529"
   ],
-  "illustration_id": "12a6cfae-ed70-4406-97d3-9366fc138254",
+  "illustration_id": "324eb00e-c094-425e-a6ed-612c03d771f6",
   "border_color": "black",
-  "frame": "future",
+  "frame": "2015",
   "full_art": false,
   "textless": false,
   "booster": false,
   "story_spotlight": false,
+  "promo_types": [
+    "universesbeyond"
+  ],
   "edhrec_rank": 32,
   "prices": {
     "usd": null,
@@ -136,8 +139,8 @@
     "edhrec": "https://edhrec.com/route/?cc=Mind+Stone"
   },
   "purchase_uris": {
-    "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F709824%3Fpage%3D1",
-    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=917934&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+    "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F726414%3Fpage%3D1",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Mind+Stone&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
     "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Mind+Stone&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
   }
 }

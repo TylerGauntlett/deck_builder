@@ -114,19 +114,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1933,
-  "penny_rank": 779,
+  "edhrec_rank": 1926,
+  "penny_rank": 771,
   "preview": {
     "source": "Stephen Croke",
     "source_uri": "https://twitter.com/crokeyz/status/1351162595944902662",
     "previewed_at": "2021-01-18"
   },
   "prices": {
-    "usd": "5.36",
-    "usd_foil": "6.26",
+    "usd": "5.03",
+    "usd_foil": "6.20",
     "usd_etched": null,
-    "eur": "4.71",
-    "eur_foil": "6.44",
+    "eur": "4.37",
+    "eur_foil": "6.49",
     "tix": "0.02"
   },
   "related_uris": {

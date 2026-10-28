@@ -137,12 +137,12 @@
     "previewed_at": "2023-10-26"
   },
   "prices": {
-    "usd": "4.02",
-    "usd_foil": "4.20",
+    "usd": "3.47",
+    "usd_foil": "4.12",
     "usd_etched": null,
-    "eur": "3.90",
-    "eur_foil": "4.73",
-    "tix": "0.91"
+    "eur": "4.08",
+    "eur_foil": "4.67",
+    "tix": "0.86"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=636705&printed=false",

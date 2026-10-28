@@ -114,19 +114,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 1280,
-  "penny_rank": 5016,
+  "edhrec_rank": 1273,
+  "penny_rank": 5018,
   "preview": {
     "source": "Kotaku",
     "source_uri": "https://www.kotaku.com.au/2020/07/heres-two-exclusive-cards-from-magic-the-gatherings-double-masters-set/",
     "previewed_at": "2020-07-27"
   },
   "prices": {
-    "usd": "51.74",
+    "usd": "51.26",
     "usd_foil": "74.59",
     "usd_etched": null,
-    "eur": "38.71",
-    "eur_foil": "47.39",
+    "eur": "40.00",
+    "eur_foil": "47.25",
     "tix": "0.39"
   },
   "related_uris": {

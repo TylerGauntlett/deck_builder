@@ -132,7 +132,7 @@ part in the verdict.
 
 **New fact from you:** Clever Concealment usually stays in your hand after you
 draw it. **The new consideration:** cutting it instead of Forerunner gives the
-deck +1 Vampire (36→37 Vampire creatures), so one more eminence trigger, rather
+deck +1 Vampire (34→35 Vampire creatures in the 99, not counting Edgar himself), so one more eminence trigger, rather
 than a Vampire-for-Vampire swap.
 
 Clever Concealment, fetched 2026-10-28 15:09 UTC: `{2}{W}{W}` instant, convoke,
@@ -168,4 +168,4 @@ the deck rebuilds from a wipe better than most. That makes one protection piece
 more acceptable here than in most decks.
 
 Aggregate (−Clever Concealment, +Gas Guzzler): MV 4→1, W pips 19→17, B 63→64,
-Vampire creatures 36→37, instants 9→8, full-wipe protection 2→1.
+Vampire creatures in the 99 34→35, instants 9→8, full-wipe protection 2→1.

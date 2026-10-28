@@ -59,3 +59,13 @@ You also lose plainscycling. The 2026-10-14 Herald of Eternal Dawn review kept A
 - **Angel count:** unchanged.
 - **Lifegain engine:** −1 per-enter source (Dazzling Angel) and +1 repeating burst of Angels entering (Herald of the Host). Net stronger.
 - **Interaction:** −1 artifact/enchantment answer, which leaves artifact removal at its minimum.
+
+## Addendum: the user cuts Angel of Vitality instead of Dazzling Angel
+
+The user chose to keep Dazzling Angel and cut Angel of Vitality for Seraph of the Sword. **This is a reasonable call, and Herald of the Host is the reason it now holds up.**
+
+- **Thune and Lyra count events, not amounts.** Archangel of Thune, Lyra, Archangel of Dawn, Exemplar of Light and Dawn of Hope all trigger on *each* lifegain event. Angel of Vitality makes gains bigger but adds no events. Dazzling Angel adds an event for every creature entering. Each Herald of the Host attack now brings in two creatures, which is two more events, so two more rounds of counters on the team from Thune.
+- **Vitality's best trick matters less now.** Its key line was Bishop of Wings' 4 life becoming 5 to turn on Resplendent Angel. On a Herald turn, Bishop already gains 8.
+- **What you give up:** Vitality is a 4/4 flier for 3 whenever you're at 25 or more life, and Dazzling is a 2/3. Vitality also pushed toward Righteous Valkyrie's +7 and Angel of Destiny's +15. That's a real loss of body and reach, but it doesn't flip the call.
+
+Before Herald of the Host, Vitality was the stronger of the two. With Herald in the deck, Dazzling is at least even with it.

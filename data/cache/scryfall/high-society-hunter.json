@@ -5,6 +5,7 @@
   "multiverse_ids": [
     679138
   ],
+  "resource_id": "D61C0720D68F4968E412C3135508ED8874F686DF0E415FA7E11B0A3999813E06",
   "mtgo_id": 133690,
   "arena_id": 93774,
   "tcgplayer_id": 591179,
@@ -29,7 +30,8 @@
     "grid": "https://cards.scryfall.io/grid/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.webp?1783909112",
     "display": "https://cards.scryfall.io/display/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.webp?1783909112",
     "art": "https://cards.scryfall.io/art/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.webp?1783909112",
-    "crop": "https://cards.scryfall.io/crop/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.webp?1783909112"
+    "crop": "https://cards.scryfall.io/crop/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.webp?1783909112",
+    "jpeg": "https://cards.scryfall.io/normal/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.jpg?1783909112"
   },
   "mana_cost": "{3}{B}{B}",
   "cmc": 5.0,
@@ -114,18 +116,18 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4426,
+  "edhrec_rank": 4359,
   "preview": {
     "source": "Gamerbraves",
     "source_uri": "https://www.gamerbraves.com/high-society-hunter-and-micromancer-join-the-fray-in-mtg-foundations/",
     "previewed_at": "2024-10-29"
   },
   "prices": {
-    "usd": "0.33",
-    "usd_foil": "0.39",
+    "usd": "0.37",
+    "usd_foil": "0.36",
     "usd_etched": null,
-    "eur": "0.41",
-    "eur_foil": "0.65",
+    "eur": "0.38",
+    "eur_foil": "0.63",
     "tix": "0.02"
   },
   "related_uris": {

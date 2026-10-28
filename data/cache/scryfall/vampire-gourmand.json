@@ -120,11 +120,11 @@
     "previewed_at": "2024-10-28"
   },
   "prices": {
-    "usd": "0.29",
+    "usd": "0.26",
     "usd_foil": "0.31",
     "usd_etched": null,
-    "eur": "0.16",
-    "eur_foil": "0.18",
+    "eur": "0.18",
+    "eur_foil": "0.17",
     "tix": "0.03"
   },
   "related_uris": {

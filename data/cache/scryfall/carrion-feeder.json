@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.webp?1783933131",
     "display": "https://cards.scryfall.io/display/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.webp?1783933131",
     "art": "https://cards.scryfall.io/art/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.webp?1783933131",
-    "crop": "https://cards.scryfall.io/crop/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.webp?1783933131"
+    "crop": "https://cards.scryfall.io/crop/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.webp?1783933131",
+    "jpeg": "https://cards.scryfall.io/normal/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.jpg?1783933131"
   },
   "mana_cost": "{B}",
   "cmc": 1.0,
@@ -109,20 +110,20 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 614,
-  "penny_rank": 483,
+  "edhrec_rank": 608,
+  "penny_rank": 471,
   "preview": {
     "source": "TopDeck.ru",
     "source_uri": "https://topdeck.ru/forums/topic/158908-mtgmh1-mh1-exclusive-preview-card/",
     "previewed_at": "2019-05-29"
   },
   "prices": {
-    "usd": "4.44",
-    "usd_foil": "8.50",
+    "usd": "3.39",
+    "usd_foil": "8.69",
     "usd_etched": null,
-    "eur": "3.09",
-    "eur_foil": "7.43",
-    "tix": "0.03"
+    "eur": "2.92",
+    "eur_foil": "7.60",
+    "tix": "0.04"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=464030&printed=false",

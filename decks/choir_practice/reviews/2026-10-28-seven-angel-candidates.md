@@ -7,7 +7,7 @@ Prices: Scryfall, fetched 2026-10-28 21:56 UTC. EDHREC: each candidate's card pa
 
 | Card | Verdict |
 |---|---|
-| Herald of the Host | **ADD, cut Gisela, the Broken Blade.** |
+| Herald of the Host | **ADD, cut Angel of Vitality.** (Originally cut Gisela, the Broken Blade. Changed at the user's call; see "The cut".) |
 | Starnheim Unleashed | NO. A seventh Angel-token source, and as a sorcery it gets none of the deck's Angel discounts. |
 | Sanctuary Warden | NO. An eleventh card at MV 6+, buying card draw the deck already has. |
 | Moonsilver Spear | NO. Eight mana before the first Angel. Herald does the same job for 5. |
@@ -66,7 +66,13 @@ Giada: "Each other Angel you control enters with an additional +1/+1 counter on 
 - *Weaknesses:* no haste, so it needs a turn cycle to survive. Swiftfoot Boots and Lightning Greaves cover that. The copies are exiled, not killed, so Bishop of Wings' death trigger doesn't fire. Hitting all three opponents every turn draws attention. Against a single opponent, myriad does nothing (ruling), which matters late in the game.
 - *Disagreement check:* EDHREC has it in **13.8% of Giada decks (5,335 / 38,783), synergy +0.12**. That is low for an ADD. The deck-specific reason is countable: this list has seven Angel-entering triggers and 25 Angels, so each copy does more here than in an average Giada list.
 
-### The cut: Gisela, the Broken Blade
+### The cut: Angel of Vitality (revised)
+
+**Revised 2026-10-28 at the user's call.** The user disagreed with cutting Gisela, saying she is the stronger card and her price reflects it. Price was not part of the reasoning and doesn't change the Herald verdict. Angel of Vitality was already the named runner-up, so it becomes the cut. Angel of Vitality is a 3-mana 2/2 flier. Its text is "If you would gain life, you gain that much life plus 1 instead" and "+2/+2 as long as you have 25 or more life." Cutting it costs the extra life on each gain trigger, which helps the deck reach Harbinger's 4-life and Resplendent's 5-life thresholds. Gisela still gains life on her own every combat, so the lifegain plan keeps its unconditional source. Curve after the swap: 3-drops 15 → 14, 5-drops 7 → 8, average MV up by about 0.03. Angels stay at 25.
+
+The original analysis, which picked Gisela, follows for the record.
+
+#### Original pick: Gisela, the Broken Blade
 
 Same role. The shape review counts both as Angel "generators" with the note "hold (swap weakest)".
 
@@ -100,5 +106,5 @@ Herald of the Host $0.39 · Starnheim Unleashed $1.73 · Sanctuary Warden $1.52 
 ## What would change this
 
 - **Herald copies often run into a single remaining opponent** (late game, eliminations). Myriad does nothing then. Watch for it.
-- **None of the five lifegain-on-entry cards tends to be out when Herald attacks.** Then Gisela's built-in lifelink matters more, so swap the cut to Angel of Vitality and keep Gisela.
+- **The deck keeps falling just short of Harbinger's 4-life or Resplendent's 5-life threshold.** That is what Angel of Vitality's +1 was for. If it happens, revisit the cut.
 - **Hands run out of cards before mana:** reconsider Sanctuary Warden for Angel of the Ruins.

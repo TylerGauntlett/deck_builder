@@ -5,19 +5,19 @@
     "cards": 100,
     "distinct": 90,
     "lands": 34,
-    "avg_mana_value_nonland": 2.86,
+    "avg_mana_value_nonland": 2.82,
     "type_counts": {
-      "Creature": 37,
+      "Creature": 38,
       "Land": 34,
-      "Instant": 9,
       "Enchantment": 9,
+      "Instant": 8,
       "Artifact": 8,
       "Sorcery": 2,
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 63,
-      "W": 19,
+      "B": 64,
+      "W": 17,
       "R": 4
     },
     "game_changers": [
@@ -67,8 +67,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 186,
-      "price_usd": "16.75",
+      "edhrec_rank": 185,
+      "price_usd": "17.01",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
       "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
@@ -212,7 +212,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 3,
-      "price_usd": "0.34",
+      "price_usd": "0.58",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/frc/20/arcane-signet?utm_source=api",
       "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
@@ -853,8 +853,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 12166,
-      "price_usd": "3.76",
+      "edhrec_rank": 11691,
+      "price_usd": "3.59",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api",
       "oracle_id": "c8e9a7e1-28ae-40e3-8715-1bb0aa2057c7"
@@ -950,7 +950,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8681,
+      "edhrec_rank": 8694,
       "price_usd": "0.15",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
@@ -1141,8 +1141,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 614,
-      "price_usd": "4.44",
+      "edhrec_rank": 608,
+      "price_usd": "3.39",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh1/81/carrion-feeder?utm_source=api",
       "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425"
@@ -1305,55 +1305,6 @@
       ],
       "scryfall_uri": "https://scryfall.com/card/lcc/2/clavile%C3%B1o-first-of-the-blessed?utm_source=api",
       "oracle_id": "2b62a716-7831-4c76-8f2d-b99b04e33350"
-    },
-    {
-      "name": "Clever Concealment",
-      "asked_as": "Clever Concealment",
-      "qty": 1,
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Convoke"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Clever Concealment",
-          "mana_cost": "{2}{W}{W}",
-          "type_line": "Instant",
-          "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nAny number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 553,
-      "price_usd": "3.60",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
-      "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865"
     },
     {
       "name": "Command Tower",
@@ -1652,8 +1603,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3154,
-      "price_usd": "40.69",
+      "edhrec_rank": 3167,
+      "price_usd": "44.58",
       "all_parts": [
         {
           "name": "Vampire",
@@ -1708,8 +1659,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 26584,
-      "price_usd": "0.35",
+      "edhrec_rank": 20467,
+      "price_usd": "0.23",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fra/270/edgar-ancient-bloodlord?utm_source=api",
       "oracle_id": "cab2bc93-f38b-4301-ac42-05765615586b"
@@ -1977,11 +1928,67 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6109,
-      "price_usd": "1.26",
+      "edhrec_rank": 6122,
+      "price_usd": "1.31",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
+    },
+    {
+      "name": "Gas Guzzler",
+      "asked_as": "Gas Guzzler",
+      "qty": 1,
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "type_line": "Creature — Vampire Rogue",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Max speed",
+        "Start your engines!"
+      ],
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Gas Guzzler",
+          "mana_cost": "{B}",
+          "type_line": "Creature — Vampire Rogue",
+          "oracle_text": "Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)\nThis creature enters tapped.\nMax speed — {B}, Sacrifice another creature or Vehicle: Draw a card.",
+          "power": "2",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "dft",
+      "set_name": "Aetherdrift",
+      "released_at": "2025-02-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 10717,
+      "price_usd": "0.31",
+      "all_parts": [
+        {
+          "name": "Start Your Engines! // Max Speed",
+          "component": "combo_piece",
+          "type_line": "Card // Card"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/dft/85/gas-guzzler?utm_source=api",
+      "oracle_id": "7c98626b-ba97-4d1e-9be7-291480ae8d22"
     },
     {
       "name": "Ghostly Prison",
@@ -2024,8 +2031,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 160,
-      "price_usd": "6.69",
+      "edhrec_rank": 159,
+      "price_usd": "6.35",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
       "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
@@ -2270,7 +2277,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 151,
-      "price_usd": "5.64",
+      "price_usd": "5.58",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
@@ -2318,8 +2325,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4426,
-      "price_usd": "0.33",
+      "edhrec_rank": 4359,
+      "price_usd": "0.37",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/61/high-society-hunter?utm_source=api",
       "oracle_id": "0dc158ba-7ec8-4558-91f5-0a87ef8380d4"
@@ -3095,8 +3102,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 198,
-      "price_usd": "27.60",
+      "edhrec_rank": 194,
+      "price_usd": "31.05",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh3/303/phyrexian-tower?utm_source=api",
       "oracle_id": "1861e642-21d5-4232-89f3-b5557f2946c1"
@@ -3417,16 +3424,16 @@
         }
       ],
       "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 41,
-      "price_usd": "5.38",
+      "edhrec_rank": 39,
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/trc/354/skullclamp?utm_source=api",
       "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a"
     },
     {
@@ -3514,7 +3521,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1,
-      "price_usd": "0.99",
+      "price_usd": "1.87",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/frc/21/sol-ring?utm_source=api",
       "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
@@ -3806,7 +3813,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 11,
-      "price_usd": "0.75",
+      "price_usd": "1.41",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/frc/37/swords-to-plowshares?utm_source=api",
       "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
@@ -3991,16 +3998,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "frc",
+      "set_name": "Reality Fracture Commander",
+      "released_at": "2026-10-02",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 129,
-      "price_usd": "1.88",
+      "edhrec_rank": 127,
+      "price_usd": "0.52",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/220/talisman-of-indulgence?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/frc/63/talisman-of-indulgence?utm_source=api",
       "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c"
     },
     {
@@ -4045,7 +4052,7 @@
       "game_changer": true,
       "commander_legal": "legal",
       "edhrec_rank": 109,
-      "price_usd": "45.36",
+      "price_usd": "46.87",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
@@ -4238,7 +4245,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 202,
-      "price_usd": "0.41",
+      "price_usd": "0.59",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
       "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f"
@@ -4286,8 +4293,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 255,
-      "price_usd": "0.36",
+      "edhrec_rank": 257,
+      "price_usd": "0.57",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/229/viscera-seer?utm_source=api",
       "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be"
@@ -4430,8 +4437,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 140,
-      "price_usd": "4.90",
+      "edhrec_rank": 139,
+      "price_usd": "4.21",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
       "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"
@@ -4479,8 +4486,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 424,
-      "price_usd": "3.63",
+      "edhrec_rank": 430,
+      "price_usd": "2.63",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
       "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822"

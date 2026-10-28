@@ -1,0 +1,16 @@
+{
+  "commander": [
+    "Zhulodok, Void Gorger"
+  ],
+  "format": "commander",
+  "bracket": 3,
+  "budget": {
+    "per_card_max_usd": null
+  },
+  "goals": "Colorless big-mana artifact deck. Ramp on artifacts and Tron lands, cast 7+ mana value colorless spells from hand for Zhulodok's double cascade, and win with Eldrazi titans.",
+  "meta": "4-player casual pods. The same 3 opponents rotate between 10+ different decks game to game, so cards are judged on general usefulness across unknown decks -- NOT tuned against specific opponents. Do not carry forward any fixed description of what the pod plays.",
+  "constraints": [],
+  "preferences": [],
+  "updated": "2026-10-28",
+  "source": "https://moxfield.com/decks/N8_nqWZ4XUabD3tlhLbpww"
+}

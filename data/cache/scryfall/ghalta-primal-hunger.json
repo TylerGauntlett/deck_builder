@@ -119,7 +119,7 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 455,
+  "edhrec_rank": 456,
   "penny_rank": 2307,
   "preview": {
     "source": "Wizards of the Coast",
@@ -127,11 +127,11 @@
     "previewed_at": "2024-10-30"
   },
   "prices": {
-    "usd": "1.28",
-    "usd_foil": "1.45",
+    "usd": "1.25",
+    "usd_foil": "1.42",
     "usd_etched": null,
-    "eur": "0.91",
-    "eur_foil": "1.29",
+    "eur": "0.85",
+    "eur_foil": "1.28",
     "tix": "0.02"
   },
   "related_uris": {

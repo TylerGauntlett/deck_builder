@@ -1,6 +1,6 @@
 # lander_commander - card details
 
-Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
@@ -439,7 +439,7 @@ Generated 2026-10-23 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add {C}{C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1 | ~$0.99
+- Color identity: C | Produces: C | EDHREC rank: 1
 
 ### Springheart Nantuko
 

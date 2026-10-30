@@ -28,7 +28,8 @@
     "grid": "https://cards.scryfall.io/grid/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.webp?1783928789",
     "display": "https://cards.scryfall.io/display/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.webp?1783928789",
     "art": "https://cards.scryfall.io/art/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.webp?1783928789",
-    "crop": "https://cards.scryfall.io/crop/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.webp?1783928789"
+    "crop": "https://cards.scryfall.io/crop/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.webp?1783928789",
+    "jpeg": "https://cards.scryfall.io/normal/front/a/f/af5105ee-09e2-4344-ab39-00f0e9034c47.jpg?1783928789"
   },
   "mana_cost": "{4}{G}{G}",
   "cmc": 6.0,
@@ -115,19 +116,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 974,
+  "edhrec_rank": 1006,
   "preview": {
     "source": "Trader-Online.de",
     "source_uri": "https://www.youtube.com/watch?v=mWq7uZGarWI",
     "previewed_at": "2020-10-27"
   },
   "prices": {
-    "usd": "3.85",
-    "usd_foil": "6.32",
+    "usd": "3.91",
+    "usd_foil": "6.27",
     "usd_etched": null,
-    "eur": "3.69",
-    "eur_foil": "5.62",
-    "tix": "11.30"
+    "eur": "3.28",
+    "eur_foil": "5.60",
+    "tix": "11.28"
   },
   "related_uris": {
     "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497759&printed=false",

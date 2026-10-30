@@ -1,0 +1,154 @@
+{
+  "object": "card",
+  "id": "70ffc71f-328d-421d-926b-6f2e45ffb812",
+  "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+  "multiverse_ids": [],
+  "resource_id": "CE2429F8741822CA95AD3706756FE6C2251769A71B6B1125776B7EB339226EE8",
+  "mtgo_id": 150869,
+  "tcgplayer_id": 698213,
+  "cardmarket_id": 892720,
+  "name": "Helm of the Host",
+  "lang": "en",
+  "released_at": "2026-06-26",
+  "uri": "https://api.scryfall.com/cards/70ffc71f-328d-421d-926b-6f2e45ffb812",
+  "scryfall_uri": "https://scryfall.com/card/msc/200/helm-of-the-host?utm_source=api",
+  "layout": "normal",
+  "highres_image": true,
+  "image_status": "highres_scan",
+  "image_updated_at": "2026-07-13T00:40:18Z",
+  "image_uris": {
+    "small": "https://cards.scryfall.io/small/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+    "normal": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+    "large": "https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+    "png": "https://cards.scryfall.io/png/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.png?1783903218",
+    "art_crop": "https://cards.scryfall.io/art_crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+    "border_crop": "https://cards.scryfall.io/border_crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+    "thumb": "https://cards.scryfall.io/thumb/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.webp?1783903218",
+    "grid": "https://cards.scryfall.io/grid/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.webp?1783903218",
+    "display": "https://cards.scryfall.io/display/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.webp?1783903218",
+    "art": "https://cards.scryfall.io/art/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.webp?1783903218",
+    "crop": "https://cards.scryfall.io/crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.webp?1783903218",
+    "jpeg": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218"
+  },
+  "mana_cost": "{4}",
+  "cmc": 4.0,
+  "type_line": "Legendary Artifact — Equipment",
+  "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+  "colors": [],
+  "color_identity": [],
+  "keywords": [
+    "Equip"
+  ],
+  "all_parts": [
+    {
+      "object": "related_card",
+      "id": "95932b1b-f59b-4a42-a08f-3eeb783fdb8b",
+      "component": "combo_piece",
+      "name": "Helm of the Host",
+      "type_line": "Legendary Artifact — Equipment",
+      "uri": "https://api.scryfall.com/cards/95932b1b-f59b-4a42-a08f-3eeb783fdb8b"
+    },
+    {
+      "object": "related_card",
+      "id": "f4e87a11-b3b1-47b2-bd73-f4c78d6fbe6c",
+      "component": "token",
+      "name": "Copy",
+      "type_line": "Token",
+      "uri": "https://api.scryfall.com/cards/f4e87a11-b3b1-47b2-bd73-f4c78d6fbe6c"
+    }
+  ],
+  "legalities": {
+    "standard": "not_legal",
+    "future": "not_legal",
+    "historic": "legal",
+    "timeless": "legal",
+    "gladiator": "legal",
+    "pioneer": "legal",
+    "modern": "legal",
+    "legacy": "legal",
+    "pauper": "not_legal",
+    "vintage": "legal",
+    "penny": "legal",
+    "commander": "legal",
+    "oathbreaker": "legal",
+    "standardbrawl": "not_legal",
+    "brawl": "legal",
+    "competitivebrawl": "legal",
+    "alchemy": "not_legal",
+    "paupercommander": "not_legal",
+    "duel": "legal",
+    "oldschool": "not_legal",
+    "premodern": "not_legal",
+    "predh": "not_legal",
+    "tlr": "not_legal"
+  },
+  "games": [
+    "paper",
+    "mtgo"
+  ],
+  "reserved": false,
+  "game_changer": false,
+  "foil": true,
+  "nonfoil": true,
+  "finishes": [
+    "nonfoil",
+    "foil"
+  ],
+  "oversized": false,
+  "promo": false,
+  "reprint": true,
+  "variation": false,
+  "set_id": "9d739461-c5ac-43a1-af41-3d5a585b5c8d",
+  "set": "msc",
+  "set_name": "Marvel Super Heroes Commander",
+  "set_type": "commander",
+  "set_uri": "https://api.scryfall.com/sets/9d739461-c5ac-43a1-af41-3d5a585b5c8d",
+  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Amsc&unique=prints",
+  "scryfall_set_uri": "https://scryfall.com/sets/msc?utm_source=api",
+  "rulings_uri": "https://api.scryfall.com/cards/70ffc71f-328d-421d-926b-6f2e45ffb812/rulings",
+  "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A83b43aba-bf9c-4da2-967d-9daa632e97d2&unique=prints",
+  "collector_number": "200",
+  "digital": false,
+  "rarity": "rare",
+  "flavor_text": "T'Challa summoned the legions of Panthers past, and the dead rallied to their now and forever king.",
+  "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+  "artist": "Eli Minaya",
+  "artist_ids": [
+    "fee369ac-08b5-4a69-8ef8-f2b42b81e807"
+  ],
+  "illustration_id": "a06c8a52-4591-4485-9796-84f1de8db12b",
+  "border_color": "black",
+  "frame": "2015",
+  "frame_effects": [
+    "legendary"
+  ],
+  "security_stamp": "oval",
+  "full_art": false,
+  "textless": false,
+  "booster": false,
+  "story_spotlight": false,
+  "promo_types": [
+    "surgefoil",
+    "universesbeyond"
+  ],
+  "edhrec_rank": 393,
+  "penny_rank": 3885,
+  "prices": {
+    "usd": "5.16",
+    "usd_foil": null,
+    "usd_etched": null,
+    "eur": "3.86",
+    "eur_foil": null,
+    "tix": "0.26"
+  },
+  "related_uris": {
+    "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DHelm%2Bof%2Bthe%2BHost",
+    "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DHelm%2Bof%2Bthe%2BHost",
+    "edhrec": "https://edhrec.com/route/?cc=Helm+of+the+Host"
+  },
+  "purchase_uris": {
+    "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F698213%3Fpage%3D1",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=892720&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+    "cardhoarder": "https://www.cardhoarder.com/cards/150869?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+  }
+}

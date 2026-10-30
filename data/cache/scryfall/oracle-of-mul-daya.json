@@ -27,7 +27,8 @@
     "grid": "https://cards.scryfall.io/grid/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.webp?1783906033",
     "display": "https://cards.scryfall.io/display/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.webp?1783906033",
     "art": "https://cards.scryfall.io/art/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.webp?1783906033",
-    "crop": "https://cards.scryfall.io/crop/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.webp?1783906033"
+    "crop": "https://cards.scryfall.io/crop/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.webp?1783906033",
+    "jpeg": "https://cards.scryfall.io/normal/front/a/b/ab19808f-a5b8-4dfd-800e-2064cd6538c8.jpg?1783906033"
   },
   "mana_cost": "{3}{G}",
   "cmc": 4.0,
@@ -107,18 +108,18 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
-  "edhrec_rank": 503,
-  "penny_rank": 1741,
+  "edhrec_rank": 510,
+  "penny_rank": 1749,
   "preview": {
     "source": "The Command Zone",
     "source_uri": "https://www.youtube.com/watch?v=HxXLWC_JRdM",
     "previewed_at": "2025-07-09"
   },
   "prices": {
-    "usd": "2.30",
+    "usd": "2.63",
     "usd_foil": null,
     "usd_etched": null,
-    "eur": "2.78",
+    "eur": "2.95",
     "eur_foil": null,
     "tix": "0.02"
   },

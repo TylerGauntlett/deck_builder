@@ -123,19 +123,19 @@
   "promo_types": [
     "startercollection"
   ],
-  "edhrec_rank": 483,
-  "penny_rank": 2007,
+  "edhrec_rank": 484,
+  "penny_rank": 2013,
   "preview": {
     "source": "jellboi",
     "source_uri": "https://x.com/jellboi/status/1851296224852541563",
     "previewed_at": "2024-10-29"
   },
   "prices": {
-    "usd": "0.29",
+    "usd": "0.32",
     "usd_foil": "0.34",
     "usd_etched": null,
-    "eur": "0.10",
-    "eur_foil": "0.24",
+    "eur": "0.12",
+    "eur_foil": "0.20",
     "tix": "0.03"
   },
   "related_uris": {

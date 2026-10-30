@@ -115,19 +115,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 3313,
-  "penny_rank": 3400,
+  "edhrec_rank": 3312,
+  "penny_rank": 3407,
   "preview": {
     "source": "Magic Mics",
     "source_uri": "",
     "previewed_at": "2019-06-19"
   },
   "prices": {
-    "usd": "0.79",
-    "usd_foil": "9.23",
+    "usd": "0.76",
+    "usd_foil": "9.29",
     "usd_etched": null,
-    "eur": "0.98",
-    "eur_foil": "5.44",
+    "eur": "0.84",
+    "eur_foil": "5.37",
     "tix": "0.03"
   },
   "related_uris": {

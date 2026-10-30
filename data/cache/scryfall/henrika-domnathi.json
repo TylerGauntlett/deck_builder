@@ -56,7 +56,8 @@
         "grid": "https://cards.scryfall.io/grid/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
         "display": "https://cards.scryfall.io/display/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
         "art": "https://cards.scryfall.io/art/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
-        "crop": "https://cards.scryfall.io/crop/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867"
+        "crop": "https://cards.scryfall.io/crop/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
+        "jpeg": "https://cards.scryfall.io/normal/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg?1783924867"
       }
     },
     {
@@ -88,7 +89,8 @@
         "grid": "https://cards.scryfall.io/grid/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
         "display": "https://cards.scryfall.io/display/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
         "art": "https://cards.scryfall.io/art/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
-        "crop": "https://cards.scryfall.io/crop/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867"
+        "crop": "https://cards.scryfall.io/crop/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.webp?1783924867",
+        "jpeg": "https://cards.scryfall.io/normal/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg?1783924867"
       }
     }
   ],
@@ -161,19 +163,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 7611,
-  "penny_rank": 3552,
+  "edhrec_rank": 7714,
+  "penny_rank": 3696,
   "preview": {
     "source": "Wizards of the Coast",
     "source_uri": "https://magic.wizards.com/en/articles/archive/card-preview/henrika-domnathi-2021-11-02",
     "previewed_at": "2021-11-02"
   },
   "prices": {
-    "usd": "1.28",
-    "usd_foil": "2.49",
+    "usd": "1.24",
+    "usd_foil": "3.71",
     "usd_etched": null,
-    "eur": "1.66",
-    "eur_foil": "2.22",
+    "eur": "1.52",
+    "eur_foil": "1.94",
     "tix": "0.02"
   },
   "related_uris": {

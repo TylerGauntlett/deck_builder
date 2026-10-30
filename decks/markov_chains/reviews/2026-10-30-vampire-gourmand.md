@@ -116,3 +116,47 @@ part in the verdict, which holds if the card were free.
 - `combos.py markov_chains --add "Vampire Gourmand" --near`: 0 new, 0 near.
 
 `base.txt` was not modified by this review.
+
+---
+
+## Follow-up: "Forerunner is the only tutor and fixes my hand" (2026-10-30)
+
+**Checked:** it is the only tutor. `search your library` appears once in `cards.md`,
+on Forerunner. I had recorded that as "Tutors 1→0" without weighing it.
+
+**This is a new axis, not a new fact.** "Card-neutral" measured Forerunner on card
+*count*. Your point is about card *quality*: which card you draw next. That's a real
+job and I under-rated it. What it can and can't do, from its text ("search your
+library for a Vampire card … put that card on top"):
+
+- **It can find:** any Vampire. That covers the payoffs and engines: Vito, Bloodthirsty
+  Conqueror, Bloodletter, Blood Artist, Cruel Celebrant, Welcoming Vampire, Baron.
+- **It can't find:** removal, protection, Grave Pact, Skullclamp, Necropotence, or
+  lands. So it fixes "I need a threat or an engine" and not "I need an answer".
+- **It's slow:** the card arrives on your next draw, not now.
+
+**Does it change the verdict?** Gourmand still goes in. A free card every turn still
+beats a one-time, Vampires-only, next-turn selection. What changes is **which card
+leaves**. If you value the selection, the 09-06 review already named the next honest
+cut: *"If Forerunner is a card you like, Henrika is the next honest cut."*
+
+**Henrika Domnathi** `{2}{B}{B}` (fetched 2026-10-30 03:25 UTC). At the beginning of
+combat on your turn, choose one that hasn't been chosen: each player sacrifices a
+creature; you draw a card and lose 1 life; or transform her into a 3/4 flier with
+deathtouch and lifelink.
+- **The case for keeping her:** she's an edict that also triggers Grave Pact, plus a
+  card and a body, spread over three turns. That's a stronger card than Forerunner.
+- **The case for cutting her:** she's a one-shot package at 4 mana. Gourmand gives a
+  card every turn for 2 mana. Edicts aren't the last of their role here: Grave Pact,
+  Anowon, Olivia's Wrath, Swords to Plowshares and others remain. Her back face is
+  one more deathtouch/lifelink body in a category the 09-06 review called full.
+
+This is closer than the Forerunner swap, and I'd say so plainly.
+
+**Revised verdict:** **ADD Vampire Gourmand.**
+- **Cut Forerunner** if the tutor is a "nice to have".
+- **Cut Henrika Domnathi** if Forerunner really does change games for you.
+
+Both are Vampire-for-Vampire swaps, so the eminence count doesn't change.
+- With the Henrika cut: MV 4→2, B pips 64→63 (`{B}{B}` out, `{B}` in), W pips unchanged at 17, and 4-drops −1.
+- Bloodthrone Vampire is still spared, for the same Grave Pact reason as before.

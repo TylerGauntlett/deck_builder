@@ -29,7 +29,8 @@
     "grid": "https://cards.scryfall.io/grid/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.webp?1783911798",
     "display": "https://cards.scryfall.io/display/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.webp?1783911798",
     "art": "https://cards.scryfall.io/art/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.webp?1783911798",
-    "crop": "https://cards.scryfall.io/crop/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.webp?1783911798"
+    "crop": "https://cards.scryfall.io/crop/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.webp?1783911798",
+    "jpeg": "https://cards.scryfall.io/normal/front/e/9/e9da18b4-1efc-44b7-8001-a2cfd44c69bf.jpg?1783911798"
   },
   "mana_cost": "{2}{W}{B}",
   "cmc": 4.0,
@@ -134,19 +135,19 @@
   "textless": false,
   "booster": true,
   "story_spotlight": false,
-  "edhrec_rank": 4355,
-  "penny_rank": 15367,
+  "edhrec_rank": 4473,
+  "penny_rank": 15581,
   "preview": {
     "source": "Jack Torrance",
     "source_uri": "https://www.twitch.tv/jacktorrance90/videos",
     "previewed_at": "2024-03-28"
   },
   "prices": {
-    "usd": "0.35",
-    "usd_foil": "0.38",
+    "usd": "0.32",
+    "usd_foil": "0.40",
     "usd_etched": null,
-    "eur": "0.23",
-    "eur_foil": "0.27",
+    "eur": "0.14",
+    "eur_foil": "0.22",
     "tix": "0.03"
   },
   "related_uris": {

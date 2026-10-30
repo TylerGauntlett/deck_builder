@@ -103,6 +103,9 @@
   "textless": false,
   "booster": false,
   "story_spotlight": false,
+  "promo_types": [
+    "universesbeyond"
+  ],
   "edhrec_rank": 39,
   "prices": {
     "usd": null,

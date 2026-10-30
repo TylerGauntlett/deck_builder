@@ -1,11 +1,11 @@
 # markov_chains - card details
 
-Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
 - 100 cards (90 distinct), 34 lands
-- Average mana value of non-lands: 2.82
+- Average mana value of non-lands: 2.83
 - Types: Creature 38, Land 34, Enchantment 9, Instant 8, Artifact 8, Sorcery 2, Planeswalker 1
 - Colored pips: B 64, W 17, R 4
 - Game Changers: Necropotence, Teferi's Protection
@@ -20,7 +20,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Creatures you control gain flying, vigilance, and double strike until end of turn.
   • Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
 
-- Color identity: W | EDHREC rank: 185 | ~$17.01
+- Color identity: W | EDHREC rank: 185 | ~$18.68
 
 ### Anguished Unmaking
 
@@ -37,7 +37,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: At the beginning of your upkeep, each player sacrifices a non-Vampire creature of their choice.
 - P/T: 4/3
 
-- Color identity: B | EDHREC rank: 5169 | ~$2.72
+- Color identity: B | EDHREC rank: 5289 | ~$2.44
 
 ### Arcane Signet
 
@@ -45,7 +45,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add one mana of any color in your commander's color identity.
 
-- Color identity: C | Produces: BGRUW | EDHREC rank: 3 | ~$0.58
+- Color identity: C | Produces: BGRUW | EDHREC rank: 3
 
 ### Authority of the Consuls
 
@@ -64,7 +64,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {1}{B}, Sacrifice another creature or artifact: Draw a card.
 - P/T: 3/4
 
-- Color identity: BW | EDHREC rank: 4355 | ~$0.35 | Related: Vampire Rogue
+- Color identity: BW | EDHREC rank: 4473 | ~$0.32 | Related: Vampire Rogue
 
 ### Bastion of Remembrance
 
@@ -181,7 +181,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Sacrifice a creature: This creature gets +2/+2 until end of turn.
 - P/T: 1/1
 
-- Color identity: B | EDHREC rank: 8694 | ~$0.15
+- Color identity: B | EDHREC rank: 8695 | ~$0.16
 
 ### Captivating Vampire
 
@@ -317,18 +317,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever another Vampire you control enters, target creature gets +1/+1 until end of turn.
 - P/T: 2/2
 
-- Color identity: W | EDHREC rank: 6122 | ~$1.31
-
-### Gas Guzzler
-
-- Cost: {B}  |  Mana value: 1.0
-- Type: Creature — Vampire Rogue
-- Text: Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
-  This creature enters tapped.
-  Max speed — {B}, Sacrifice another creature or Vehicle: Draw a card.
-- P/T: 2/1
-
-- Color identity: B | Keywords: Max speed, Start your engines! | EDHREC rank: 10717 | ~$0.31 | Related: Start Your Engines! // Max Speed
+- Color identity: W | EDHREC rank: 6125 | ~$1.31
 
 ### Ghostly Prison
 
@@ -336,7 +325,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Enchantment
 - Text: Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
 
-- Color identity: W | EDHREC rank: 159 | ~$6.35
+- Color identity: W | EDHREC rank: 159 | ~$5.97
 
 ### Grave Pact
 
@@ -377,7 +366,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Creature spells you cast of the chosen type cost {1} less to cast.
   At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
 
-- Color identity: C | EDHREC rank: 151 | ~$5.58
+- Color identity: C | EDHREC rank: 151
 
 ### High-Society Hunter
 
@@ -460,7 +449,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever you create or sacrifice a token, each opponent loses 1 life.
 - P/T: 2/3
 
-- Color identity: B | Keywords: Flying | EDHREC rank: 228 | ~$1.63
+- Color identity: B | Keywords: Flying | EDHREC rank: 232 | ~$1.76
 
 ### Necropotence
 
@@ -516,7 +505,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Renew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.
 - P/T: 3/3
 
-- Color identity: B | Keywords: Deathtouch, Flying, Lifelink, Renew | EDHREC rank: 2417 | ~$3.04
+- Color identity: B | Keywords: Deathtouch, Flying, Lifelink, Renew | EDHREC rank: 2310 | ~$2.13
 
 ### Sanctum Seeker
 
@@ -551,7 +540,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Artifact
 - Text: {T}: Add {C}{C}.
 
-- Color identity: C | Produces: C | EDHREC rank: 1 | ~$1.87
+- Color identity: C | Produces: C | EDHREC rank: 1
 
 ### Sorin, Imperious Bloodlord
 
@@ -588,7 +577,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Type: Instant
 - Text: Exile target creature. Its controller gains life equal to its power.
 
-- Color identity: W | EDHREC rank: 11 | ~$1.41
+- Color identity: W | EDHREC rank: 11
 
 ### Talisman of Conviction
 
@@ -626,6 +615,15 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | EDHREC rank: 109 | ~$46.87 | **Game Changer**
 
+### Vampire Gourmand
+
+- Cost: {1}{B}  |  Mana value: 2.0
+- Type: Creature — Vampire
+- Text: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn.
+- P/T: 2/2
+
+- Color identity: B | EDHREC rank: 7781 | ~$0.26
+
 ### Vampire of the Dire Moon
 
 - Cost: {B}  |  Mana value: 1.0
@@ -634,7 +632,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 - P/T: 1/1
 
-- Color identity: B | Keywords: Lifelink, Deathtouch | EDHREC rank: 3313 | ~$0.79
+- Color identity: B | Keywords: Lifelink, Deathtouch | EDHREC rank: 3312 | ~$0.76
 
 ### Vein Ripper
 
@@ -899,4 +897,4 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: {T}: Add {C}.
   {3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.
 
-- Color identity: C | Produces: C | EDHREC rank: 139 | ~$4.21
+- Color identity: C | Produces: C | EDHREC rank: 139 | ~$3.54

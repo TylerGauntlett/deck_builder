@@ -5,7 +5,7 @@
     "cards": 100,
     "distinct": 90,
     "lands": 34,
-    "avg_mana_value_nonland": 2.82,
+    "avg_mana_value_nonland": 2.83,
     "type_counts": {
       "Creature": 38,
       "Land": 34,
@@ -68,7 +68,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 185,
-      "price_usd": "17.01",
+      "price_usd": "18.68",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
       "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55"
@@ -164,8 +164,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 5169,
-      "price_usd": "2.72",
+      "edhrec_rank": 5289,
+      "price_usd": "2.44",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/voc/118/anowon-the-ruin-sage?utm_source=api",
       "oracle_id": "0c201f79-9eca-48c8-88ba-a20fa6918a07"
@@ -205,16 +205,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "frc",
-      "set_name": "Reality Fracture Commander",
-      "released_at": "2026-10-02",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 3,
-      "price_usd": "0.58",
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/frc/20/arcane-signet?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/trc/485/arcane-signet?utm_source=api",
       "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
     },
     {
@@ -308,8 +308,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4355,
-      "price_usd": "0.35",
+      "edhrec_rank": 4473,
+      "price_usd": "0.32",
       "all_parts": [
         {
           "name": "Vampire Rogue",
@@ -950,8 +950,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8694,
-      "price_usd": "0.15",
+      "edhrec_rank": 8695,
+      "price_usd": "0.16",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ddp/46/bloodthrone-vampire?utm_source=api",
       "oracle_id": "aa76cc50-5be0-4844-b3a4-fb33fca3cdd3"
@@ -1928,67 +1928,11 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6122,
+      "edhrec_rank": 6125,
       "price_usd": "1.31",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
-    },
-    {
-      "name": "Gas Guzzler",
-      "asked_as": "Gas Guzzler",
-      "qty": 1,
-      "mana_cost": "{B}",
-      "cmc": 1.0,
-      "type_line": "Creature — Vampire Rogue",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Max speed",
-        "Start your engines!"
-      ],
-      "power": "2",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Gas Guzzler",
-          "mana_cost": "{B}",
-          "type_line": "Creature — Vampire Rogue",
-          "oracle_text": "Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)\nThis creature enters tapped.\nMax speed — {B}, Sacrifice another creature or Vehicle: Draw a card.",
-          "power": "2",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "dft",
-      "set_name": "Aetherdrift",
-      "released_at": "2025-02-14",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 10717,
-      "price_usd": "0.31",
-      "all_parts": [
-        {
-          "name": "Start Your Engines! // Max Speed",
-          "component": "combo_piece",
-          "type_line": "Card // Card"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/dft/85/gas-guzzler?utm_source=api",
-      "oracle_id": "7c98626b-ba97-4d1e-9be7-291480ae8d22"
     },
     {
       "name": "Ghostly Prison",
@@ -2032,7 +1976,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 159,
-      "price_usd": "6.35",
+      "price_usd": "5.97",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
       "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028"
@@ -2270,16 +2214,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "lcc",
-      "set_name": "The Lost Caverns of Ixalan Commander",
-      "released_at": "2023-11-17",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 151,
-      "price_usd": "5.58",
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/lcc/304/heralds-horn?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/trc/493/heralds-horn?utm_source=api",
       "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
     },
     {
@@ -2721,8 +2665,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 228,
-      "price_usd": "1.63",
+      "edhrec_rank": 232,
+      "price_usd": "1.76",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ltr/95/mirkwood-bats?utm_source=api",
       "oracle_id": "0636b6c3-0662-420a-b30d-f0a14e7c512d"
@@ -3141,16 +3085,16 @@
         }
       ],
       "rarity": "common",
-      "set": "trk",
-      "set_name": "Star Trek",
-      "released_at": "2026-11-13",
+      "set": "mdd",
+      "set_name": "Marvel: Darkhold Destiny",
+      "released_at": "2027-04-09",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": null,
       "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/trk/317/plains?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/mdd/292/plains?utm_source=api",
       "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99"
     },
     {
@@ -3199,8 +3143,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2417,
-      "price_usd": "3.04",
+      "edhrec_rank": 2310,
+      "price_usd": "2.13",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdm/86/qarsi-revenant?utm_source=api",
       "oracle_id": "bbea79bc-71d4-4100-92f4-783c2c4b46da"
@@ -3514,16 +3458,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "frc",
-      "set_name": "Reality Fracture Commander",
-      "released_at": "2026-10-02",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 1,
-      "price_usd": "1.87",
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/frc/21/sol-ring?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api",
       "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
     },
     {
@@ -3806,16 +3750,16 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "frc",
-      "set_name": "Reality Fracture Commander",
-      "released_at": "2026-10-02",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 11,
-      "price_usd": "1.41",
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/frc/37/swords-to-plowshares?utm_source=api",
+      "scryfall_uri": "https://scryfall.com/card/trc/429/swords-to-plowshares?utm_source=api",
       "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
     },
     {
@@ -4058,6 +4002,53 @@
       "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757"
     },
     {
+      "name": "Vampire Gourmand",
+      "asked_as": "Vampire Gourmand",
+      "qty": 1,
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "type_line": "Creature — Vampire",
+      "layout": "normal",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Vampire Gourmand",
+          "mana_cost": "{1}{B}",
+          "type_line": "Creature — Vampire",
+          "oracle_text": "Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "B"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 7781,
+      "price_usd": "0.26",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/74/vampire-gourmand?utm_source=api",
+      "oracle_id": "3386414c-32fa-40ae-9b30-dab976a158c1"
+    },
+    {
       "name": "Vampire of the Dire Moon",
       "asked_as": "Vampire of the Dire Moon",
       "qty": 1,
@@ -4101,8 +4092,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3313,
-      "price_usd": "0.79",
+      "edhrec_rank": 3312,
+      "price_usd": "0.76",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/m20/120/vampire-of-the-dire-moon?utm_source=api",
       "oracle_id": "5a938371-8428-48e3-85ed-6a84a39b29c6"
@@ -4438,7 +4429,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 139,
-      "price_usd": "4.21",
+      "price_usd": "3.54",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
       "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d"

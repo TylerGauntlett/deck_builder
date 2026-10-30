@@ -5,18 +5,18 @@
     "cards": 100,
     "distinct": 74,
     "lands": 37,
-    "avg_mana_value_nonland": 3.62,
+    "avg_mana_value_nonland": 3.63,
     "type_counts": {
       "Land": 37,
-      "Creature": 32,
-      "Artifact": 11,
+      "Creature": 33,
       "Instant": 9,
-      "Enchantment": 6,
+      "Artifact": 9,
+      "Enchantment": 7,
       "Sorcery": 3,
       "Planeswalker": 2
     },
     "color_pips": {
-      "W": 83
+      "W": 86
     },
     "game_changers": [
       "Drannith Magistrate",
@@ -427,6 +427,68 @@
       "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72"
     },
     {
+      "name": "Battle Angels of Tyr",
+      "asked_as": "Battle Angels of Tyr",
+      "qty": 1,
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "type_line": "Creature — Angel Knight",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Myriad",
+        "Flying",
+        "Treasure"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Battle Angels of Tyr",
+          "mana_cost": "{2}{W}{W}",
+          "type_line": "Creature — Angel Knight",
+          "oracle_text": "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.",
+          "power": "4",
+          "toughness": "4",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "clb",
+      "set_name": "Commander Legends: Battle for Baldur's Gate",
+      "released_at": "2022-06-10",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1790,
+      "price_usd": "31.26",
+      "all_parts": [
+        {
+          "name": "Treasure",
+          "component": "token",
+          "type_line": "Token Artifact — Treasure"
+        },
+        {
+          "name": "Copy",
+          "component": "token",
+          "type_line": "Token"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/clb/9/battle-angels-of-tyr?utm_source=api",
+      "oracle_id": "c2bd0c24-3973-48bc-a591-3779e3640c5d"
+    },
+    {
       "name": "Bishop of Wings",
       "asked_as": "Bishop of Wings",
       "qty": 1,
@@ -773,8 +835,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2389,
-      "price_usd": "0.81",
+      "edhrec_rank": 2388,
+      "price_usd": "0.76",
       "all_parts": [
         {
           "name": "Soldier",
@@ -1945,6 +2007,53 @@
       "oracle_id": "b5dce42a-a769-4d7d-b29e-8722f79d4092"
     },
     {
+      "name": "Land Tax",
+      "asked_as": "Land Tax",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Land Tax",
+          "mana_cost": "{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 355,
+      "price_usd": "16.74",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/153/land-tax?utm_source=api",
+      "oracle_id": "d2d9ecea-7925-420e-98b9-2f87f41f387c"
+    },
+    {
       "name": "Lightning Greaves",
       "asked_as": "Lightning Greaves",
       "qty": 1,
@@ -2227,55 +2336,6 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/ltr/256/minas-tirith?utm_source=api",
       "oracle_id": "7b0d7e62-0287-454a-8702-b0bfa7b41245"
-    },
-    {
-      "name": "Mind Stone",
-      "asked_as": "Mind Stone",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Mind Stone",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "trc",
-      "set_name": "Star Trek Commander",
-      "released_at": "2026-11-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 32,
-      "price_usd": null,
-      "all_parts": [
-        {
-          "name": "Boisterous Clique",
-          "component": "combo_piece",
-          "type_line": "Creature — Faerie Warlock"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/trc/497/mind-stone?utm_source=api",
-      "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2"
     },
     {
       "name": "Norn's Choirmaster",
@@ -3291,47 +3351,6 @@
       "oracle_id": "da3b17a2-e1e1-44e9-b9b1-ae54a92037db"
     },
     {
-      "name": "Tome of Legends",
-      "asked_as": "Tome of Legends",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact — Book",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Tome of Legends",
-          "mana_cost": "{2}",
-          "type_line": "Artifact — Book",
-          "oracle_text": "This artifact enters with a page counter on it.\nWhenever your commander enters or attacks, put a page counter on this artifact.\n{1}, {T}, Remove a page counter from this artifact: Draw a card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2189,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/223/tome-of-legends?utm_source=api",
-      "oracle_id": "cada2a1c-5db2-4702-9a57-cbe7da1bf208"
-    },
-    {
       "name": "Urza's Incubator",
       "asked_as": "Urza's Incubator",
       "qty": 1,
@@ -3604,7 +3623,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4662,
+      "edhrec_rank": 4659,
       "price_usd": "0.30",
       "all_parts": [
         {

@@ -1,13 +1,13 @@
 # choir_practice - card details
 
-Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
+Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerate rather than editing by hand.
 
 ## Deck at a glance
 
 - 100 cards (74 distinct), 37 lands
-- Average mana value of non-lands: 3.62
-- Types: Land 37, Creature 32, Artifact 11, Instant 9, Enchantment 6, Sorcery 3, Planeswalker 2
-- Colored pips: W 83
+- Average mana value of non-lands: 3.63
+- Types: Land 37, Creature 33, Instant 9, Artifact 9, Enchantment 7, Sorcery 3, Planeswalker 2
+- Colored pips: W 86
 - Game Changers: Drannith Magistrate, Farewell
 
 ## Spells and permanents
@@ -94,6 +94,16 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | Keywords: Flying, Indestructible, Vigilance | EDHREC rank: 736 | ~$38.11
 
+### Battle Angels of Tyr
+
+- Cost: {2}{W}{W}  |  Mana value: 4.0
+- Type: Creature — Angel Knight
+- Text: Flying, myriad
+  Whenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.
+- P/T: 4/4
+
+- Color identity: W | Keywords: Myriad, Flying, Treasure | EDHREC rank: 1790 | ~$31.26 | Related: Treasure, Copy
+
 ### Bishop of Wings
 
 - Cost: {W}{W}  |  Mana value: 2.0
@@ -137,7 +147,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Whenever you gain life, you may pay {2}. If you do, draw a card.
   {3}{W}: Create a 1/1 white Soldier creature token with lifelink.
 
-- Color identity: W | EDHREC rank: 2389 | ~$0.81 | Related: Soldier
+- Color identity: W | EDHREC rank: 2388 | ~$0.76 | Related: Soldier
 
 ### Dazzling Angel
 
@@ -345,6 +355,14 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | EDHREC rank: 10493 | ~$1.05
 
+### Land Tax
+
+- Cost: {W}  |  Mana value: 1.0
+- Type: Enchantment
+- Text: At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.
+
+- Color identity: W | EDHREC rank: 355 | ~$16.74
+
 ### Lightning Greaves
 
 - Cost: {2}  |  Mana value: 2.0
@@ -393,15 +411,6 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 3/1
 
 - Color identity: W | Keywords: Proliferate | EDHREC rank: 1516 | ~$0.37
-
-### Mind Stone
-
-- Cost: {2}  |  Mana value: 2.0
-- Type: Artifact
-- Text: {T}: Add {C}.
-  {1}, {T}, Sacrifice this artifact: Draw a card.
-
-- Color identity: C | Produces: C | EDHREC rank: 32 | Related: Boisterous Clique
 
 ### Norn's Choirmaster
 
@@ -561,16 +570,6 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | Keywords: Flying, Vigilance | EDHREC rank: 4622 | ~$0.33
 
-### Tome of Legends
-
-- Cost: {2}  |  Mana value: 2.0
-- Type: Artifact — Book
-- Text: This artifact enters with a page counter on it.
-  Whenever your commander enters or attacks, put a page counter on this artifact.
-  {1}, {T}, Remove a page counter from this artifact: Draw a card.
-
-- Color identity: C | EDHREC rank: 2189 | ~$0.34
-
 ### Urza's Incubator
 
 - Cost: {3}  |  Mana value: 3.0
@@ -619,7 +618,7 @@ Generated 2026-10-28 from Scryfall by `scripts/build_card_details.py`. Regenerat
   At the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - P/T: 2/4
 
-- Color identity: W | Keywords: Flying, Investigate, Vigilance | EDHREC rank: 4662 | ~$0.30 | Related: Clue
+- Color identity: W | Keywords: Flying, Investigate, Vigilance | EDHREC rank: 4659 | ~$0.30 | Related: Clue
 
 ### Youthful Valkyrie
 

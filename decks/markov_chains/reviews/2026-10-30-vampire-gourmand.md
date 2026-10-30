@@ -160,3 +160,44 @@ This is closer than the Forerunner swap, and I'd say so plainly.
 Both are Vampire-for-Vampire swaps, so the eminence count doesn't change.
 - With the Henrika cut: MV 4→2, B pips 64→63 (`{B}{B}` out, `{B}` in), W pips unchanged at 17, and 4-drops −1.
 - Bloodthrone Vampire is still spared, for the same Grave Pact reason as before.
+
+---
+
+## Follow-up: cut Gas Guzzler instead? (2026-10-30)
+
+**One correction first.** Gourmand's draw costs no mana. Only Guzzler's costs `{B}`.
+
+**Why this isn't contradicting 10-28.** On 10-28 I said Guzzler beats Forerunner.
+That judgement was made in a deck **without** Gourmand. Redundancy depends on what
+else is in the deck, and Gourmand changes that. Here are the four death-to-card
+engines with Gourmand in (verified text above):
+
+| Card | Cost per card | Frequency | Timing | Online |
+|---|---|---|---|---|
+| Baron Bertram Graywater | `{1}{B}` | unlimited | instant | when cast (4 MV) |
+| Skullclamp | equip `{1}` | per equip | sorcery (equip) | when cast; 2 cards |
+| Gas Guzzler | `{B}` | unlimited | instant | max speed: 3+ of your turns |
+| Vampire Gourmand | free | once per turn | on attack | next turn |
+
+**What only Guzzler does.** It can turn the whole board into cards at instant speed,
+for example in response to a wipe. **Baron** already does that, at one more mana per
+card and with no wait. So Guzzler is a cheaper Baron that shows up three turns late.
+
+**Its worst draw.** Guzzler is the deck's only "start your engines" card (grep of
+`cards.md`), so your speed only starts counting once it's on the battlefield. Drawn
+late on an empty board, it's a 2/1 that enters tapped and does nothing for three
+turns. Gourmand drawn the same way gives you a card the next turn.
+
+**Against the other two cuts:**
+- **Henrika:** an edict plus a card plus a body. That's three different jobs, none
+  of them a copy of something already in the deck.
+- **Forerunner:** the deck's only tutor, and you value it.
+- **Guzzler:** the most redundant card once Gourmand is in. It's the card that
+  overlaps most with the one coming in, so this is a same-role cut, which the rubric
+  prefers.
+
+**Final verdict: ADD Vampire Gourmand, cut Gas Guzzler.** Keep Forerunner and Henrika.
+
+Aggregate (−Guzzler, +Gourmand): MV 1→2, B pips unchanged at 64 (one `{B}` each),
+Vampire count unchanged, death-to-card engines stay at 3, and there are no more
+speed/max-speed cards. Bloodthrone Vampire is still spared for the Grave Pact reason.

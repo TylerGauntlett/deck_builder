@@ -5,9 +5,9 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 ## Deck at a glance
 
 - 100 cards (90 distinct), 34 lands
-- Average mana value of non-lands: 2.83
-- Types: Creature 38, Land 34, Enchantment 9, Instant 8, Artifact 8, Sorcery 2, Planeswalker 1
-- Colored pips: B 64, W 17, R 4
+- Average mana value of non-lands: 2.85
+- Types: Creature 38, Land 34, Artifact 9, Enchantment 9, Instant 7, Sorcery 2, Planeswalker 1
+- Colored pips: B 63, W 17, R 4
 - Game Changers: Necropotence, Teferi's Protection
 
 ## Spells and permanents
@@ -64,7 +64,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   {1}{B}, Sacrifice another creature or artifact: Draw a card.
 - P/T: 3/4
 
-- Color identity: BW | EDHREC rank: 4473 | ~$0.32 | Related: Vampire Rogue
+- Color identity: BW | EDHREC rank: 4476 | ~$0.33 | Related: Vampire Rogue
 
 ### Bastion of Remembrance
 
@@ -84,7 +84,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   • Buy Information — Draw a card. You lose 2 life.
   • Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)
 
-- Color identity: B | Keywords: Hire a Mercenary, Treasure, Sell Contraband, Buy Information | EDHREC rank: 131 | ~$8.36 | Related: Treasure, Shapeshifter
+- Color identity: B | Keywords: Hire a Mercenary, Treasure, Sell Contraband, Buy Information | EDHREC rank: 128 | ~$13.43 | Related: Treasure, Shapeshifter
 
 ### Blade of the Bloodchief
 
@@ -212,7 +212,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Sacrifice a creature: Put a +1/+1 counter on this creature.
 - P/T: 1/1
 
-- Color identity: B | EDHREC rank: 608 | ~$3.39
+- Color identity: B | EDHREC rank: 607 | ~$2.89
 
 ### Charismatic Conqueror
 
@@ -268,7 +268,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever Edgar attacks, put a +1/+1 counter on each Vampire you control.
 - P/T: 4/4
 
-- Color identity: BRW | Keywords: First strike, Haste, Eminence | EDHREC rank: 3167 | ~$44.58 | Related: Vampire
+- Color identity: BRW | Keywords: First strike, Haste, Eminence | EDHREC rank: 3171 | ~$44.32 | Related: Vampire
 
 ### Edgar, Ancient Bloodlord
 
@@ -317,7 +317,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever another Vampire you control enters, target creature gets +1/+1 until end of turn.
 - P/T: 2/2
 
-- Color identity: W | EDHREC rank: 6125 | ~$1.31
+- Color identity: W | EDHREC rank: 6129 | ~$1.30
 
 ### Ghostly Prison
 
@@ -378,6 +378,15 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 5/3
 
 - Color identity: B | Keywords: Flying | EDHREC rank: 4359 | ~$0.37
+
+### Idol of Oblivion
+
+- Cost: {2}  |  Mana value: 2.0
+- Type: Artifact
+- Text: {T}: Draw a card. Activate only if you created a token this turn.
+  {8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token.
+
+- Color identity: C | EDHREC rank: 191 | ~$3.17 | Related: Eldrazi
 
 ### Impact Tremors
 
@@ -645,15 +654,6 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: B | Keywords: Flying, Ward | EDHREC rank: 2694 | ~$6.95
 
-### Village Rites
-
-- Cost: {B}  |  Mana value: 1.0
-- Type: Instant
-- Text: As an additional cost to cast this spell, sacrifice a creature.
-  Draw two cards.
-
-- Color identity: B | EDHREC rank: 202 | ~$0.59
-
 ### Viscera Seer
 
 - Cost: {B}  |  Mana value: 1.0
@@ -661,7 +661,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - Text: Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - P/T: 1/1
 
-- Color identity: B | Keywords: Scry | EDHREC rank: 257 | ~$0.57
+- Color identity: B | Keywords: Scry | EDHREC rank: 257 | ~$0.60
 
 ### Vito, Thorn of the Dusk Rose
 
@@ -681,7 +681,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn.
 - P/T: 2/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 430 | ~$2.63
+- Color identity: W | Keywords: Flying | EDHREC rank: 430 | ~$2.68
 
 ## Lands
 

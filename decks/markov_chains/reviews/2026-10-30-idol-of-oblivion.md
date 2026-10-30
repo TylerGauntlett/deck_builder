@@ -1,6 +1,6 @@
 # markov_chains — Idol of Oblivion (2026-10-30)
 
-**Verdict: NO.** The engine works the way you describe. But the deck already has
+**Verdict: ADD, cutting Village Rites** (revised; see the follow-up at the end). The original verdict was **NO**: the engine works the way you describe. But the deck already has
 the same engine in Welcoming Vampire. Card advantage is the category the
 2026-10-09 review said to stop growing, and every cut is one I've already spared
 for a stated reason.
@@ -124,3 +124,65 @@ price; it holds if the card were free.
 - `combos.py markov_chains --add "Idol of Oblivion" --near`: 0 new, 0 near.
 
 `base.txt` was not modified by this review.
+
+---
+
+## Follow-up: cut Village Rites for it? (2026-10-30)
+
+**This changes the verdict.** I didn't consider a cut from inside the draw
+category. Village Rites is a draw card, so swapping it for Idol is a same-role
+cut. That removes two of my three objections. The category count stays the same,
+so the 10-09 cap isn't breached. And there's now a cut I can name.
+
+**Village Rites** `{B}` Instant (Scryfall, fetched 2026-10-30 13:59 UTC): "As an
+additional cost to cast this spell, sacrifice a creature. Draw two cards."
+
+**The rate (your argument), checked:**
+
+| | Village Rites | Idol of Oblivion |
+|---|---|---|
+| Net cards | +1 (it spends itself and a token, and draws 2) | −1 on cast, then +1 each turn you make a token |
+| Break-even | immediately | the 2nd turn after you cast it |
+| Over 4 of your turns | +1 | about +2 to +3 |
+| Mana | `{B}` once | `{2}` once |
+
+Idol pulls ahead if it survives two turns. As an artifact, it's outside the reach
+of creature removal and wipes, including your own Olivia's Wrath.
+
+**The reason I spared Village Rites before, re-read.** On 09-06 (twice) I spared
+it as *"the deck's only instant-speed draw that doubles as a sacrifice outlet in
+response to removal."* That was wrong even then. Baron Bertram Graywater was
+already in the deck: "{1}{B}, Sacrifice another creature or artifact: Draw a
+card." Baron does the same thing, at instant speed and repeatably.
+
+What Village Rites still does uniquely is narrower: it works **from your hand**,
+with nothing needed on the battlefield. So if Baron is gone, it still lets you
+turn a creature that's about to be exiled or stolen into two cards. For free
+sacrifices in response (Grave Pact, Blood Artist, Cruel Celebrant), the deck has
+Viscera Seer, Carrion Feeder, Bloodthrone Vampire and Phyrexian Tower. Village
+Rites isn't needed for those.
+
+**What you give up:**
+- That from-hand, instant-speed answer.
+- A 1-mana spell that fits around anything. That matters most on Necropotence
+  turns.
+- One of the deck's "death-for-value enablers" for Bloodline Recollector (10-09
+  table). Recollector still has the free sacrifice outlets, Skullclamp and
+  Gourmand to reach its count.
+
+**What's left of objection 1 (overlap with Welcoming Vampire).** The two now
+stack rather than compete. A turn with a token is 2 cards with both on the
+battlefield. And each is still an engine on its own if the other is removed.
+Overlap was a reason not to *add* a card to a full category. It isn't a reason to
+refuse a card-for-card upgrade inside that category.
+
+**Verdict, revised: ADD Idol of Oblivion, cut Village Rites.**
+
+Aggregate (−Village Rites, +Idol):
+- 1-drops 12→11, 2-drops 13→14.
+- B pips 64→63, with one more colourless spell.
+- Artifacts 8→9, instants 8→7.
+- Vampire count unchanged (neither is a Vampire).
+- Draw sources unchanged in number. They shift from one-shot to repeatable.
+- Game Changers 2/3 unchanged. Combos: 0 new.
+- Price: Idol $3.17 (13:57 UTC). Village Rites $0.50 (13:59 UTC).

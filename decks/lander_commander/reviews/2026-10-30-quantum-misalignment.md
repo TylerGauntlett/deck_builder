@@ -123,3 +123,48 @@ Since the September audit you cut Call Damage Control and added Oboro, Turntimbe
 Symbiosis and Verdant Kraken, but none of the audit's seven interaction swaps went
 in. If you've decided against Aetherize, QM replaces Ghalta. If Aetherize is still
 planned, it gets the slot and QM waits.
+
+---
+
+## Update (same day): current list differs from `base.txt`
+
+The user pasted their current list (100 cards). Against `base.txt` it has two swaps,
+both from the 2026-10-23 review:
+
+- **Ghalta, Primal Hunger → Nissa, Worldsoul Speaker**
+- **Botanical Sanctum → Willowrush Verge**
+
+That answers the open question: Nissa was conditional on passing on Aetherize, so
+Aetherize is off. It also removes the cut I named, because Ghalta is already gone.
+Re-ranking the cuts (texts re-fetched 2026-10-30 02:37 UTC):
+
+### New verdict: **ADD, cut Goldvein Hydra**, unless you still plan to use that slot for Reality Shift.
+
+1. **Goldvein Hydra** ({X}{G}: vigilance, trample, haste; dies → tapped Treasures
+   equal to its power). The only reason I spared it above was that the audit had
+   claimed its slot for Reality Shift. That's the same claim pattern as Aetherize on
+   Ghalta, and none of the audit's seven swaps have gone in over two months. Taken on
+   its own merits it's the cut: no landfall, no ETB, no land text (audit), and
+   Craterhoof, Overwhelming Stampede and Avenger already cover winning games. The
+   10-23 review already ranked it with Ghalta as cuttable.
+2. **Zendikar's Roil** (runner-up): the 7th token-landfall payoff, with the smallest
+   bodies (audit). Spared because it fits the deck's landfall tiebreaker, which QM
+   doesn't, and because the audit claimed its slot for Scavenging Ooze.
+3. **Nissa, Worldsoul Speaker** (spared): above I said QM would take the Ghalta slot
+   ahead of her, and that still holds if only one of them can stay. But Goldvein is
+   worse than both. Nissa is also the deck's only way to cast spells from landfall,
+   and one of only 3 cards at MV4 (Arixmethes, Oracle of Mul Daya, Nissa). Cutting her
+   would undo the curve fix you just made.
+4. Herd Heirloom and Jin-Gitaxias stay spared for the reasons above. Both still hold.
+
+### Aggregate vs the pasted list
+
+| | Before | After |
+|---|---|---|
+| Lands | 43 | 43 |
+| MV1 / MV5 | 5 / 6 | 4 / 7 |
+| Pips | G60 U21 | G59 U22 |
+| Creatures / Sorceries | 30 / 8 | 29 / 9 |
+| Game Changers | 2 | 2 |
+
+`base.txt` is still the pre-swap list. Sync it before the next review.

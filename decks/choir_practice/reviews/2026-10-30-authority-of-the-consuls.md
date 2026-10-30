@@ -78,3 +78,14 @@ How often Wojek actually makes Clues. This deck empties its hand, so it may fire
 ## Price (separate factor)
 
 **$5.54** (foil $6.32), fetched 2026-10-30 04:42 UTC. Under the cap. The running total was already likely over ~$300 after Battle Angels. **The verdict would be the same if the card were free.**
+
+## Addendum (same day): the user cuts Seraph of the Sword instead
+
+Applied to `base.txt` at the user's request: **+Authority of the Consuls, −Seraph of the Sword**. Wojek Investigator stays.
+
+- **What this keeps:** Wojek's upkeep Clues and its 2/4 flying, vigilant body. Card draw is unchanged.
+- **What this gives up:** the one creature that blocks a non-trampling attacker of any size every turn and survives (prevention also beats deathtouch). Authority only stops attackers with haste. The rest of the anti-attack package stays: Ghostly Prison, Archangel of Tithes and Magus of the Moat (taxes and a symmetric ground lock), with Wojek and other vigilant fliers as blockers.
+- **Same role, so it's a cleaner swap by the rubric:** defence for defence, and a 4-drop out where the 4-drop slot was the deck's widest.
+- **Watch for:** big non-trampling ground attackers getting through to you when Magus isn't out. That was the exact job Seraph was added for on 2026-10-28.
+
+After the swap: 32 creatures, 25 Angels, 8 enchantments, average nonland MV 3.59 (`cards.md` regenerated).

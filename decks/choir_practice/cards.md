@@ -5,8 +5,8 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 ## Deck at a glance
 
 - 100 cards (74 distinct), 37 lands
-- Average mana value of non-lands: 3.63
-- Types: Land 37, Creature 33, Instant 9, Artifact 9, Enchantment 7, Sorcery 3, Planeswalker 2
+- Average mana value of non-lands: 3.59
+- Types: Land 37, Creature 32, Instant 9, Artifact 9, Enchantment 8, Sorcery 3, Planeswalker 2
 - Colored pips: W 86
 - Game Changers: Drannith Magistrate, Farewell
 
@@ -71,7 +71,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever you gain life, put a +1/+1 counter on each creature you control.
 - P/T: 3/4
 
-- Color identity: W | Keywords: Flying, Lifelink | EDHREC rank: 1273 | ~$51.26
+- Color identity: W | Keywords: Flying, Lifelink | EDHREC rank: 1270 | ~$51.26
 
 ### Archangel of Tithes
 
@@ -83,6 +83,15 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 - P/T: 3/5
 
 - Color identity: W | Keywords: Flying | EDHREC rank: 2087 | ~$4.13
+
+### Authority of the Consuls
+
+- Cost: {W}  |  Mana value: 1.0
+- Type: Enchantment
+- Text: Creatures your opponents control enter tapped.
+  Whenever a creature an opponent controls enters, you gain 1 life.
+
+- Color identity: W | EDHREC rank: 306 | ~$5.54
 
 ### Avacyn, Angel of Hope
 
@@ -205,7 +214,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.
 - P/T: 3/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 1110 | ~$0.92
+- Color identity: W | Keywords: Flying | EDHREC rank: 1108 | ~$0.92
 
 ### Farewell
 
@@ -392,7 +401,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   Whenever you gain life, put a +1/+1 counter on each Angel you control.
 - P/T: 3/3
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 12644 | ~$1.40
+- Color identity: W | Keywords: Flying | EDHREC rank: 12500 | ~$1.34
 
 ### Magus of the Moat
 
@@ -431,7 +440,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   At the beginning of each end step, if you gained life this turn, create a 4/4 white Angel creature token with flying.
 - P/T: 4/4
 
-- Color identity: W | Keywords: Flying | EDHREC rank: 8138 | ~$1.40 | Related: Angel
+- Color identity: W | Keywords: Flying | EDHREC rank: 8055 | ~$1.32 | Related: Angel
 
 ### Patchwork Banner
 
@@ -492,16 +501,6 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
 
 - Color identity: W | Keywords: Flying, Lifelink | EDHREC rank: 1357 | ~$3.29
 
-### Seraph of the Sword
-
-- Cost: {3}{W}  |  Mana value: 4.0
-- Type: Creature — Angel
-- Text: Flying
-  Prevent all combat damage that would be dealt to this creature.
-- P/T: 3/3
-
-- Color identity: W | Keywords: Flying | EDHREC rank: 16194 | ~$0.35
-
 ### Serra the Benevolent
 
 - Cost: {2}{W}{W}  |  Mana value: 4.0
@@ -558,7 +557,7 @@ Generated 2026-10-30 from Scryfall by `scripts/build_card_details.py`. Regenerat
   −2: Exile target tapped creature. You gain 2 life.
 - Loyalty: 3
 
-- Color identity: W | Keywords: Flash | EDHREC rank: 5516 | ~$4.72 | Related: Samurai
+- Color identity: W | Keywords: Flash | EDHREC rank: 5512 | ~$4.80 | Related: Samurai
 
 ### Thraben Watcher
 

@@ -5,13 +5,13 @@
     "cards": 100,
     "distinct": 74,
     "lands": 37,
-    "avg_mana_value_nonland": 3.63,
+    "avg_mana_value_nonland": 3.59,
     "type_counts": {
       "Land": 37,
-      "Creature": 33,
+      "Creature": 32,
       "Instant": 9,
       "Artifact": 9,
-      "Enchantment": 7,
+      "Enchantment": 8,
       "Sorcery": 3,
       "Planeswalker": 2
     },
@@ -320,7 +320,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1273,
+      "edhrec_rank": 1270,
       "price_usd": "51.26",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/2xm/5/archangel-of-thune?utm_source=api",
@@ -374,6 +374,53 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/otj/2/archangel-of-tithes?utm_source=api",
       "oracle_id": "ff5caed4-0276-476d-8fae-edae2536df7f"
+    },
+    {
+      "name": "Authority of the Consuls",
+      "asked_as": "Authority of the Consuls",
+      "qty": 1,
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Authority of the Consuls",
+          "mana_cost": "{W}",
+          "type_line": "Enchantment",
+          "oracle_text": "Creatures your opponents control enter tapped.\nWhenever a creature an opponent controls enters, you gain 1 life.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "W"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 306,
+      "price_usd": "5.54",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/137/authority-of-the-consuls?utm_source=api",
+      "oracle_id": "55f3c721-e13a-406e-bc8e-d6cdc91ac477"
     },
     {
       "name": "Avacyn, Angel of Hope",
@@ -1191,7 +1238,7 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1110,
+      "edhrec_rank": 1108,
       "price_usd": "0.92",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/733/exemplar-of-light?utm_source=api",
@@ -2190,8 +2237,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 12644,
-      "price_usd": "1.40",
+      "edhrec_rank": 12500,
+      "price_usd": "1.34",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fra/201/lyra-archangel-of-dawn?utm_source=api",
       "oracle_id": "0fca3328-484f-4050-925e-91840710b5d6"
@@ -2431,8 +2478,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 8138,
-      "price_usd": "1.40",
+      "edhrec_rank": 8055,
+      "price_usd": "1.32",
       "all_parts": [
         {
           "name": "Angel",
@@ -2868,55 +2915,6 @@
       "oracle_id": "ac8952c9-bd30-48cd-b964-7e6271f9cbc8"
     },
     {
-      "name": "Seraph of the Sword",
-      "asked_as": "Seraph of the Sword",
-      "qty": 1,
-      "mana_cost": "{3}{W}",
-      "cmc": 4.0,
-      "type_line": "Creature — Angel",
-      "layout": "normal",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Flying"
-      ],
-      "power": "3",
-      "toughness": "3",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Seraph of the Sword",
-          "mana_cost": "{3}{W}",
-          "type_line": "Creature — Angel",
-          "oracle_text": "Flying\nPrevent all combat damage that would be dealt to this creature.",
-          "power": "3",
-          "toughness": "3",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "W"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "m14",
-      "set_name": "Magic 2014",
-      "released_at": "2013-07-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 16194,
-      "price_usd": "0.35",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/m14/31/seraph-of-the-sword?utm_source=api",
-      "oracle_id": "84ee74e9-b3e3-4f47-8b3c-5c1a70f5cad6"
-    },
-    {
       "name": "Seraph Sanctuary",
       "asked_as": "Seraph Sanctuary",
       "qty": 1,
@@ -3240,8 +3238,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 5516,
-      "price_usd": "4.72",
+      "edhrec_rank": 5512,
+      "price_usd": "4.80",
       "all_parts": [
         {
           "name": "Samurai",

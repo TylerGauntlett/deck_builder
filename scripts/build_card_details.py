@@ -1,21 +1,22 @@
-"""Expand a deck list into a full card reference an agent can read.
+"""Pull a deck's current list from Moxfield and expand it into a card reference.
 
     python scripts/build_card_details.py                  # every deck
     python scripts/build_card_details.py markov_chains    # one deck
     python scripts/build_card_details.py --refresh        # re-pull from Scryfall
 
-A deck is a directory under ``decks/`` holding ``base.txt`` (a plain
-``<qty> <name>`` list).  A loose ``decks/<name>.txt`` works too.
+A deck is a directory under ``decks/`` whose ``meta.json`` names its Moxfield URL
+under ``source``.  Two files are written beside it:
 
-Two files are written next to the list:
-
-``cards.md``
-    Every card in the deck with its full Scryfall detail -- mana cost, type
-    line, oracle text, power/toughness, keywords, colour identity, the lot.
-    This is the file to hand an agent asking about swaps and synergies.
 ``cards.json``
-    The same set, machine-readable, for anything that wants to filter rather
-    than read.
+    The last synced list, with every card's full Scryfall detail -- mana cost,
+    type line, oracle text, power/toughness, keywords, colour identity, the lot.
+    Committed, and the only copy of the list the other scripts read.
+``cards.md``
+    The same set rendered for reading.  This is the file to hand an agent asking
+    about swaps and synergies.  Gitignored, since it is derived from cards.json.
+
+If Moxfield can't be reached, ``cards.md`` is rendered from the last ``cards.json``
+with a staleness warning, and the exit code is 3.
 
 Stdlib only.
 """
@@ -31,17 +32,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from moxfield import MoxfieldUnavailable, pull  # noqa: E402
 from scryfall import LookupFailed, fetch, normalize_name  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DECKS = ROOT / "decks"
 
-#: `2 Swamp`, `2x Swamp`, `2 Swamp (CLB) 123`, `2 Swamp *F*` -- all one card.
-LINE = re.compile(r"^(?P<qty>\d+)\s*[xX]?\s+(?P<name>.+?)$")
-TRAILING = re.compile(r"\s*(\([A-Za-z0-9]{3,6}\)\s*[\w-]*|\*[^*]*\*|\[[^\]]*\])\s*$")
-
-#: Deck exports label their sections; none of these are cards.
-SECTIONS = {"deck", "commander", "companion", "sideboard", "maybeboard", "tokens", "about"}
+#: Exit code when the list on disk could not be checked against Moxfield.
+STALE = 3
 
 
 # ----------------------------------------------------------------------
@@ -49,51 +47,27 @@ SECTIONS = {"deck", "commander", "companion", "sideboard", "maybeboard", "tokens
 # ----------------------------------------------------------------------
 
 
-def parse_deck(path: Path) -> list[tuple[int, str]]:
-    """``[(qty, name)]`` in the order the file lists them."""
-    entries: list[tuple[int, str]] = []
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line.startswith(("#", "//")):
-            continue
-        if line.rstrip(":").lower() in SECTIONS:
-            continue
-        match = LINE.match(line)
-        if match is None:
-            continue
-        name = match.group("name").strip()
-        while True:
-            stripped = TRAILING.sub("", name)
-            if stripped == name:
-                break
-            name = stripped
-        if name:
-            entries.append((int(match.group("qty")), name))
-    return entries
+def deck_names() -> list[str]:
+    """Every deck under ``decks/``."""
+    return sorted(path.parent.name for path in DECKS.glob("*/meta.json"))
 
 
-def deck_lists() -> list[Path]:
-    """Every deck list under ``decks/``, folder-style or loose."""
-    found = sorted(DECKS.glob("*/base.txt"))
-    found += sorted(DECKS.glob("*.txt"))
-    return found
+def deck_source(deck: str) -> str:
+    """The Moxfield URL in the deck's ``meta.json``."""
+    path = DECKS / deck / "meta.json"
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if not data.get("source"):
+        raise SystemExit(f"{path} has no Moxfield `source` -- ask the user for the deck's URL")
+    return data["source"]
 
 
-def resolve_decks(names: list[str]) -> list[Path]:
-    if not names:
-        return deck_lists()
-    chosen: list[Path] = []
-    for name in names:
-        stem = Path(name).stem if name.endswith(".txt") else name
-        folder = DECKS / stem / "base.txt"
-        loose = DECKS / f"{stem}.txt"
-        if folder.exists():
-            chosen.append(folder)
-        elif loose.exists():
-            chosen.append(loose)
-        else:
-            raise SystemExit(f"no deck list for {name!r} (looked for {folder} and {loose})")
-    return chosen
+def read_list(deck: str) -> list[tuple[int, str]]:
+    """``[(qty, name)]`` from the deck's last sync."""
+    path = DECKS / deck / "cards.json"
+    if not path.exists():
+        raise SystemExit(f"no {path} -- run: python scripts/build_card_details.py {deck}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return [(d["qty"], d["name"]) for d in data["cards"]]
 
 
 # ----------------------------------------------------------------------
@@ -122,11 +96,10 @@ def face_detail(face: dict, card: dict) -> dict:
     }
 
 
-def detail(card: dict, qty: int, asked: str) -> dict:
+def detail(card: dict, qty: int) -> dict:
     """Everything about one card worth reasoning over."""
     return {
         "name": card.get("name"),
-        "asked_as": asked,
         "qty": qty,
         "mana_cost": card.get("mana_cost", ""),
         "cmc": card.get("cmc"),
@@ -246,13 +219,18 @@ def render_card(d: dict) -> str:
     return "\n".join(lines)
 
 
-def render(deck: str, details: list[dict], missing: list[str]) -> str:
+def render(deck: str, details: list[dict], missing: list[str], updated: str, *, stale: str = "") -> str:
     summary = stats(details)
     out = [
         f"# {deck} - card details",
         "",
-        f"Generated {datetime.now(UTC).strftime('%Y-%m-%d')} from Scryfall by "
-        "`scripts/build_card_details.py`. Regenerate rather than editing by hand.",
+    ]
+    if stale:
+        out += [f"**STALE LIST: {stale}. This is the last synced list and may not match the deck.**", ""]
+    out += [
+        f"List from Moxfield, last updated {updated}. Generated "
+        f"{datetime.now(UTC).strftime('%Y-%m-%d')} by `scripts/build_card_details.py`. "
+        "Regenerate rather than editing by hand.",
         "",
         "## Deck at a glance",
         "",
@@ -282,28 +260,48 @@ def render(deck: str, details: list[dict], missing: list[str]) -> str:
 # ----------------------------------------------------------------------
 
 
-def build(path: Path, *, refresh: bool) -> int:
-    deck = path.parent.name if path.name == "base.txt" else path.stem
-    target = path.parent if path.name == "base.txt" else path.parent / deck
-    entries = parse_deck(path)
-    if not entries:
-        print(f"{deck}: no cards found in {path.name}")
+def render_stale(deck: str, reason: str) -> int:
+    """Moxfield is out of reach: show the last sync, and say that it is the last sync."""
+    target = DECKS / deck
+    if not (target / "cards.json").exists():
+        print(f"{deck}: {reason}, and there is no earlier sync to fall back on")
         return 1
+    data = json.loads((target / "cards.json").read_text(encoding="utf-8"))
+    updated = data.get("moxfield_updated", "unknown")
+    sheet = render(deck, data["cards"], data.get("unresolved", []), updated, stale=reason)
+    (target / "cards.md").write_text(sheet, encoding="utf-8")
+    print(f"{deck}: STALE -- {reason}. Using the last sync (Moxfield updated {updated}).")
+    return STALE
 
-    print(f"{deck}: {sum(q for q, _ in entries)} cards, {len(entries)} distinct")
+
+def build(deck: str, *, refresh: bool) -> int:
+    source = deck_source(deck)
+    try:
+        entries, updated = pull(source)
+    except MoxfieldUnavailable as error:
+        return render_stale(deck, str(error))
+
+    print(f"{deck}: {sum(q for q, _ in entries)} cards, {len(entries)} distinct (Moxfield updated {updated})")
     cards, missing = fetch([name for _, name in entries], refresh=refresh)
 
     details = []
     for qty, name in entries:
         card = cards.get(normalize_name(name))
         if card is not None:
-            details.append(detail(card, qty, name))
+            details.append(detail(card, qty))
 
-    target.mkdir(parents=True, exist_ok=True)
-    (target / "cards.md").write_text(render(deck, details, missing), encoding="utf-8")
+    target = DECKS / deck
+    (target / "cards.md").write_text(render(deck, details, missing, updated), encoding="utf-8")
     (target / "cards.json").write_text(
         json.dumps(
-            {"deck": deck, "source": path.name, "stats": stats(details), "cards": details},
+            {
+                "deck": deck,
+                "source": source,
+                "moxfield_updated": updated,
+                "stats": stats(details),
+                "unresolved": missing,
+                "cards": details,
+            },
             indent=2,
             ensure_ascii=False,
         ),
@@ -322,19 +320,15 @@ def main() -> int:
     parser.add_argument("--refresh", action="store_true", help="ignore the cache and re-pull from Scryfall")
     args = parser.parse_args()
 
-    try:
-        paths = resolve_decks(args.decks)
-    except SystemExit as error:
-        print(error)
-        return 1
-    if not paths:
-        print(f"no deck lists under {DECKS}")
+    decks = args.decks or deck_names()
+    if not decks:
+        print(f"no decks under {DECKS}")
         return 1
 
     status = 0
-    for path in paths:
+    for deck in decks:
         try:
-            status = max(status, build(path, refresh=args.refresh))
+            status = max(status, build(deck, refresh=args.refresh))
         except LookupFailed as error:
             print(f"  {error}")
             status = 1

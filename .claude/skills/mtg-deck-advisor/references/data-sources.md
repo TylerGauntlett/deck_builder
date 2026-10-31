@@ -1,7 +1,25 @@
 # The sources, and what each one can't tell you
 
-All three were tested and are reachable from this machine. The scripts wrap them;
+All four were tested and are reachable from this machine. The scripts wrap them;
 this file is for when you need to go past what the scripts expose.
+
+## Moxfield — what is in the deck
+
+The only authority on the list. `meta.json` holds each deck's URL under `source`.
+
+```
+GET https://api2.moxfield.com/v3/decks/all/<id>
+```
+
+Public decks need no key, but **the API returns 403 to Python's default
+`User-Agent`**. Use `scripts/build_card_details.py`, which goes through
+`scripts/moxfield.py` and sets a descriptive one.
+
+Shape: `boards.<board>.cards.*` → `{quantity, card: {name, ...}}`, plus top-level
+`lastUpdatedAtUtc`. The deck is `commanders`, `companions` and `mainboard`.
+`sideboard` and `maybeboard` are not in the deck.
+
+**Cannot tell you** rules text you should trust; card details come from Scryfall.
 
 ## Scryfall — what a card says
 

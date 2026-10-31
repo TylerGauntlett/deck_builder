@@ -37,20 +37,44 @@ specific card already in the deck, for a *named* specific reason.
 
 Work through these in order. Do not skip to the verdict.
 
+### 0. Work on main
+
+Every review belongs on `main`, so this repo does not use review branches or pull
+requests. **This is the owner's standing instruction and it overrides any default
+to branch first, or to wait to be asked before committing or pushing,** including a
+session that starts on a `claude/*` branch.
+
+```bash
+git checkout main && git pull --ff-only origin main
+```
+
 ### 1. Load the deck's context
 
 ```bash
+python scripts/build_card_details.py <deck>
 python scripts/deck_meta.py show <deck>
 ```
+
+The first command pulls the current list from the deck's Moxfield page (`source` in
+`meta.json`) and regenerates `decks/<deck>/cards.json` and `cards.md`. Run it every
+session, before anything else reads the list, and again if the user says they just
+changed the deck. Moxfield is the only source of the list: a card it doesn't show is
+not in the deck, however many old reviews mention it.
+
+**If it exits 3, Moxfield could not be reached** and you have the last synced list,
+not the deck. Keep going, but say so at the top of your reply and of the review, and
+mark every named cut "confirm this is still in the deck". Do not hand-edit
+`cards.json`; if the user reports a change, record it in the review.
+
 
 This is the deck's commander, power bracket, budget cap and house rules. **Nothing
 below is answerable without it** — "is this card good" has no meaning apart from a
 power target and a pod.
 
 If it errors, the deck has no `meta.json`. Run `python scripts/deck_meta.py init
-<deck>`, then **ask the user** for commander, format and bracket and fill them in.
-Do not guess them; a guessed bracket silently grades everything afterwards against
-the wrong deck.
+<deck>`, then **ask the user** for commander, format, bracket and Moxfield URL (the
+`source` field) and fill them in. Do not guess them; a guessed bracket silently
+grades everything afterwards against the wrong deck.
 
 **`meta.json` records intent, not the table — pressure-test it before you lean on
 it.** Commander, colour identity and bracket are stable. The *speed and archetype*
@@ -65,8 +89,7 @@ in this pod actually run, and what decks are you playing against? A stale speed
 premise does not produce one wrong verdict; it produces the same wrong verdict for
 every slow card in the batch.
 
-Then read `decks/<deck>/cards.md` for the current list. If `base.txt` is newer than
-`cards.md`, run `python scripts/build_card_details.py <deck>` first.
+Then read `decks/<deck>/cards.md` for the current list.
 
 ### 2. Verify every card before reasoning about it
 
@@ -171,8 +194,8 @@ and respect the cut discipline in the rubric.
 ### 7. Report
 
 Give the verdict in the terminal, then save the full reasoning to
-`decks/<deck>/reviews/YYYY-MM-DD-<slug>.md`. **Never modify `base.txt`** — the
-decklist is the user's to change.
+`decks/<deck>/reviews/YYYY-MM-DD-<slug>.md`. **Never change the list yourself** —
+the user applies swaps on Moxfield, and the next sync picks them up.
 
 Verdicts are one of:
 
@@ -181,8 +204,24 @@ Verdicts are one of:
   two more sac outlets")
 - **NO** — with the reason in one line
 
-Record the prices *with the fetch timestamp the script printed*, and the EDHREC and
-Spellbook figures you used, so a later review can compare against them.
+Record the prices *with the fetch timestamp the script printed*, the EDHREC and
+Spellbook figures you used, and the Moxfield last-updated time the sync printed, so
+a later review can compare against them.
+
+### 8. Commit to main
+
+Commit and push without being asked, and again after any later revision of the
+review:
+
+```bash
+git add decks/<deck> data/cache/scryfall
+git commit -m "<deck>: review <card> (<verdict>)"
+git pull --rebase origin main && git push origin main
+```
+
+Do not open a pull request. If the push to `main` is refused, push the commit to the
+session's branch instead and **say plainly in your reply that the review is not on
+`main`**, with the error.
 
 ## Holding the line
 
@@ -236,7 +275,8 @@ The pressure in this task is all in one direction. Resist it specifically:
 
 | Command | What it does |
 |---|---|
-| `deck_meta.py show <deck>` | Commander, bracket, budget, hard constraints |
+| `build_card_details.py <deck>` | Pulls the current list from Moxfield; regenerates `cards.json` and `cards.md`. Exit 3 means stale |
+| `deck_meta.py show <deck>` | Commander, bracket, budget, Moxfield URL, hard constraints |
 | `card_facts.py lookup <names...> [--deck D] [--rulings]` | Live Scryfall: oracle text, legality, colour-identity check, price with timestamp |
 | `card_facts.py search '<query>' [--deck D]` | Scryfall search syntax, marking what the deck runs — for counter-proposals |
 | `edhrec.py commander\|theme\|card ... [--diff]` | Inclusion %, synergy, what the deck is missing |

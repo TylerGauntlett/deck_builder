@@ -4,6 +4,7 @@
   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
   "multiverse_ids": [],
   "tcgplayer_id": 726040,
+  "cardmarket_id": 919617,
   "name": "Sol Ring",
   "lang": "en",
   "released_at": "2026-11-13",
@@ -104,6 +105,7 @@
   "booster": false,
   "story_spotlight": false,
   "promo_types": [
+    "surgefoil",
     "universesbeyond"
   ],
   "edhrec_rank": 1,
@@ -122,7 +124,7 @@
   },
   "purchase_uris": {
     "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F726040%3Fpage%3D1",
-    "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sol+Ring&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=919617&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
     "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Sol+Ring&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
   }
 }

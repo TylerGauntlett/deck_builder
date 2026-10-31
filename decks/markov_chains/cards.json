@@ -5,18 +5,18 @@
     "cards": 100,
     "distinct": 90,
     "lands": 34,
-    "avg_mana_value_nonland": 2.83,
+    "avg_mana_value_nonland": 2.85,
     "type_counts": {
       "Creature": 38,
       "Land": 34,
+      "Artifact": 9,
       "Enchantment": 9,
-      "Instant": 8,
-      "Artifact": 8,
+      "Instant": 7,
       "Sorcery": 2,
       "Planeswalker": 1
     },
     "color_pips": {
-      "B": 64,
+      "B": 63,
       "W": 17,
       "R": 4
     },
@@ -308,8 +308,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 4473,
-      "price_usd": "0.32",
+      "edhrec_rank": 4476,
+      "price_usd": "0.33",
       "all_parts": [
         {
           "name": "Vampire Rogue",
@@ -467,8 +467,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 131,
-      "price_usd": "8.36",
+      "edhrec_rank": 128,
+      "price_usd": "13.43",
       "all_parts": [
         {
           "name": "Treasure",
@@ -1141,8 +1141,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 608,
-      "price_usd": "3.39",
+      "edhrec_rank": 607,
+      "price_usd": "2.89",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/mh1/81/carrion-feeder?utm_source=api",
       "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425"
@@ -1603,8 +1603,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3167,
-      "price_usd": "44.58",
+      "edhrec_rank": 3171,
+      "price_usd": "44.32",
       "all_parts": [
         {
           "name": "Vampire",
@@ -1928,8 +1928,8 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 6125,
-      "price_usd": "1.31",
+      "edhrec_rank": 6129,
+      "price_usd": "1.30",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/rix/9/forerunner-of-the-legion?utm_source=api",
       "oracle_id": "439537ca-53c1-47cb-9174-5872c3c46288"
@@ -2274,6 +2274,53 @@
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/fdn/61/high-society-hunter?utm_source=api",
       "oracle_id": "0dc158ba-7ec8-4558-91f5-0a87ef8380d4"
+    },
+    {
+      "name": "Idol of Oblivion",
+      "asked_as": "Idol of Oblivion",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Idol of Oblivion",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Draw a card. Activate only if you created a token this turn.\n{8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 191,
+      "price_usd": "3.17",
+      "all_parts": [
+        {
+          "name": "Eldrazi",
+          "component": "token",
+          "type_line": "Token Creature — Eldrazi"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/tdc/319/idol-of-oblivion?utm_source=api",
+      "oracle_id": "c232d974-9c65-4bce-b045-e5a7cc0c62e0"
     },
     {
       "name": "Impact Tremors",
@@ -4195,53 +4242,6 @@
       "oracle_id": "f83a768c-162d-46f0-8ebd-d9c6b2c69322"
     },
     {
-      "name": "Village Rites",
-      "asked_as": "Village Rites",
-      "qty": 1,
-      "mana_cost": "{B}",
-      "cmc": 1.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "B"
-      ],
-      "color_identity": [
-        "B"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Village Rites",
-          "mana_cost": "{B}",
-          "type_line": "Instant",
-          "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "B"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "inr",
-      "set_name": "Innistrad Remastered",
-      "released_at": "2025-01-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 202,
-      "price_usd": "0.59",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
-      "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f"
-    },
-    {
       "name": "Viscera Seer",
       "asked_as": "Viscera Seer",
       "qty": 1,
@@ -4285,7 +4285,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 257,
-      "price_usd": "0.57",
+      "price_usd": "0.60",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/soc/229/viscera-seer?utm_source=api",
       "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be"
@@ -4478,7 +4478,7 @@
       "game_changer": false,
       "commander_legal": "legal",
       "edhrec_rank": 430,
-      "price_usd": "2.63",
+      "price_usd": "2.68",
       "all_parts": [],
       "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
       "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822"

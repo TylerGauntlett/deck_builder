@@ -42,6 +42,7 @@
 1 Henrika Domnathi / Henrika, Infernal Seer
 1 Herald's Horn
 1 High-Society Hunter
+1 Idol of Oblivion
 1 Impact Tremors
 1 Indulgent Aristocrat
 1 Isolated Chapel
@@ -82,7 +83,6 @@
 1 Vampire of the Dire Moon
 1 Vault of the Archangel
 1 Vein Ripper
-1 Village Rites
 1 Viscera Seer
 1 Vito, Thorn of the Dusk Rose
 1 Voldaren Estate

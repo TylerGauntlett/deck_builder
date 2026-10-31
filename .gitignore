@@ -8,3 +8,6 @@ Thumbs.db
 
 # Deck list backups written by the tooling
 *.bak-*
+
+# Rendered from cards.json on every sync
+decks/*/cards.md

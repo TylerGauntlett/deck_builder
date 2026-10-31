@@ -35,7 +35,7 @@ if hasattr(sys.stdout, "reconfigure"):
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import deck_meta
-from build_card_details import parse_deck, resolve_decks
+from build_card_details import read_list
 from scryfall import API, DELAY, HEADERS, LookupFailed, fetch, normalize_name
 
 MAX_SEARCH_ROWS = 60
@@ -203,7 +203,7 @@ def cmd_lookup(args: argparse.Namespace) -> int:
 def deck_names(deck: str) -> set[str]:
     """Lowercased names the deck already runs, front face included."""
     names = set()
-    for _, name in parse_deck(resolve_decks([deck])[0]):
+    for _, name in read_list(deck):
         full = normalize_name(name).lower()
         names.add(full)
         names.add(full.split("//")[0].strip())

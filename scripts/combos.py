@@ -34,7 +34,7 @@ if hasattr(sys.stdout, "reconfigure"):
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import deck_meta
-from build_card_details import parse_deck, resolve_decks
+from build_card_details import read_list
 from scryfall import HEADERS, LookupFailed, normalize_name
 
 ENDPOINT = "https://backend.commanderspellbook.com/find-my-combos/"
@@ -68,7 +68,7 @@ def deck_payload(deck: str, extra: list[str]) -> dict:
     lowered = {c.lower() for c in commanders}
 
     main = []
-    for _, name in parse_deck(resolve_decks([deck])[0]):
+    for _, name in read_list(deck):
         full = normalize_name(name)
         if full.lower() in lowered:
             continue

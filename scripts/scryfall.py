@@ -24,7 +24,7 @@ CACHE_DIR = ROOT / "data" / "cache" / "scryfall"
 
 API = "https://api.scryfall.com"
 HEADERS = {
-    "User-Agent": "deck-builder/0.1 (card detail sheets)",
+    "User-Agent": "mtg-deck-builder/0.1 (card detail sheets)",
     "Accept": "application/json",
     "Content-Type": "application/json",
 }

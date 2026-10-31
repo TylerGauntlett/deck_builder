@@ -1,11 +1,12 @@
 {
   "deck": "lander_commander",
-  "source": "base.txt",
+  "source": "https://moxfield.com/decks/brDuu9c6_0yuaoHLijLFHw",
+  "moxfield_updated": "2026-10-29T01:37:06.787Z",
   "stats": {
     "cards": 100,
     "distinct": 78,
     "lands": 43,
-    "avg_mana_value_nonland": 3.84,
+    "avg_mana_value_nonland": 3.7,
     "type_counts": {
       "Land": 43,
       "Creature": 30,
@@ -15,7 +16,7 @@
       "Artifact": 5
     },
     "color_pips": {
-      "G": 61,
+      "G": 60,
       "U": 21
     },
     "game_changers": [
@@ -23,59 +24,10 @@
       "Rhystic Study"
     ]
   },
+  "unresolved": [],
   "cards": [
     {
-      "name": "Acidic Slime",
-      "asked_as": "Acidic Slime",
-      "qty": 1,
-      "mana_cost": "{3}{G}{G}",
-      "cmc": 5.0,
-      "type_line": "Creature — Ooze",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Deathtouch"
-      ],
-      "power": "2",
-      "toughness": "2",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Acidic Slime",
-          "mana_cost": "{3}{G}{G}",
-          "type_line": "Creature — Ooze",
-          "oracle_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, destroy target artifact, enchantment, or land.",
-          "power": "2",
-          "toughness": "2",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1484,
-      "price_usd": "0.35",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/270/acidic-slime?utm_source=api",
-      "oracle_id": "21f45043-5419-4019-8b6c-e5294bd5f549"
-    },
-    {
       "name": "Aesi, Tyrant of Gyre Strait",
-      "asked_as": "Aesi, Tyrant of Gyre Strait",
       "qty": 1,
       "mana_cost": "{4}{G}{U}",
       "cmc": 6.0,
@@ -126,216 +78,105 @@
       "oracle_id": "6511f317-bd38-46d0-b800-7125a3f420da"
     },
     {
-      "name": "Ancient Greenwarden",
-      "asked_as": "Ancient Greenwarden",
-      "qty": 1,
-      "mana_cost": "{4}{G}{G}",
-      "cmc": 6.0,
-      "type_line": "Creature — Elemental",
+      "name": "Island",
+      "qty": 11,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Island",
       "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Reach"
-      ],
-      "power": "5",
-      "toughness": "7",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Ancient Greenwarden",
-          "mana_cost": "{4}{G}{G}",
-          "type_line": "Creature — Elemental",
-          "oracle_text": "Reach (This creature can block creatures with flying.)\nYou may play lands from your graveyard.\nIf a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
-          "power": "5",
-          "toughness": "7",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "otc",
-      "set_name": "Outlaws of Thunder Junction Commander",
-      "released_at": "2024-04-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 701,
-      "price_usd": "13.04",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/otc/186/ancient-greenwarden?utm_source=api",
-      "oracle_id": "3bcf090c-e890-4a9f-a8aa-6079e4ec9947"
-    },
-    {
-      "name": "Arcane Denial",
-      "asked_as": "Arcane Denial",
-      "qty": 1,
-      "mana_cost": "{1}{U}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
+      "colors": [],
       "color_identity": [
         "U"
       ],
-      "produced_mana": [],
+      "produced_mana": [
+        "U"
+      ],
       "keywords": [],
       "power": null,
       "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Arcane Denial",
-          "mana_cost": "{1}{U}",
-          "type_line": "Instant",
-          "oracle_text": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
+          "name": "Island",
+          "mana_cost": "",
+          "type_line": "Basic Land — Island",
+          "oracle_text": "({T}: Add {U}.)",
           "power": null,
           "toughness": null,
           "loyalty": null,
           "defense": null,
-          "colors": [
-            "U"
-          ]
+          "colors": []
         }
       ],
       "rarity": "common",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 53,
-      "price_usd": "1.80",
+      "edhrec_rank": null,
+      "price_usd": null,
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/147/arcane-denial?utm_source=api",
-      "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37"
+      "scryfall_uri": "https://scryfall.com/card/trk/319/island?utm_source=api",
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373"
     },
     {
-      "name": "Arixmethes, Slumbering Isle",
-      "asked_as": "Arixmethes, Slumbering Isle",
-      "qty": 1,
-      "mana_cost": "{2}{G}{U}",
-      "cmc": 4.0,
-      "type_line": "Legendary Creature — Kraken",
+      "name": "Forest",
+      "qty": 13,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Basic Land — Forest",
       "layout": "normal",
-      "colors": [
-        "G",
-        "U"
-      ],
+      "colors": [],
       "color_identity": [
-        "G",
-        "U"
+        "G"
       ],
       "produced_mana": [
-        "G",
-        "U"
+        "G"
       ],
       "keywords": [],
-      "power": "12",
-      "toughness": "12",
+      "power": null,
+      "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Arixmethes, Slumbering Isle",
-          "mana_cost": "{2}{G}{U}",
-          "type_line": "Legendary Creature — Kraken",
-          "oracle_text": "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}.",
-          "power": "12",
-          "toughness": "12",
+          "name": "Forest",
+          "mana_cost": "",
+          "type_line": "Basic Land — Forest",
+          "oracle_text": "({T}: Add {G}.)",
+          "power": null,
+          "toughness": null,
           "loyalty": null,
           "defense": null,
-          "colors": [
-            "G",
-            "U"
-          ]
+          "colors": []
         }
       ],
-      "rarity": "rare",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
+      "rarity": "common",
+      "set": "trk",
+      "set_name": "Star Trek",
+      "released_at": "2026-11-13",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2001,
-      "price_usd": "0.64",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/211/arixmethes-slumbering-isle?utm_source=api",
-      "oracle_id": "caeb39ee-f0bb-4305-9e8b-b30ba0a74c78"
-    },
-    {
-      "name": "Avenger of Zendikar",
-      "asked_as": "Avenger of Zendikar",
-      "qty": 1,
-      "mana_cost": "{5}{G}{G}",
-      "cmc": 7.0,
-      "type_line": "Creature — Elemental",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Landfall"
-      ],
-      "power": "5",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Avenger of Zendikar",
-          "mana_cost": "{5}{G}{G}",
-          "type_line": "Creature — Elemental",
-          "oracle_text": "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
-          "power": "5",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "ecc",
-      "set_name": "Lorwyn Eclipsed Commander",
-      "released_at": "2026-01-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 289,
-      "price_usd": "0.43",
+      "edhrec_rank": null,
+      "price_usd": null,
       "all_parts": [
         {
-          "name": "Plant",
-          "component": "token",
-          "type_line": "Token Creature — Plant"
+          "name": "Gilt-Leaf Alchemist",
+          "component": "combo_piece",
+          "type_line": "Creature — Elf Druid"
         }
       ],
-      "scryfall_uri": "https://scryfall.com/card/ecc/98/avenger-of-zendikar?utm_source=api",
-      "oracle_id": "4ba5b3f6-503b-43e6-b66e-4f8c55cffed7"
+      "scryfall_uri": "https://scryfall.com/card/trk/325/forest?utm_source=api",
+      "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6"
     },
     {
-      "name": "Azusa, Lost but Seeking",
-      "asked_as": "Azusa, Lost but Seeking",
+      "name": "Dryad of the Ilysian Grove",
       "qty": 1,
       "mana_cost": "{2}{G}",
       "cmc": 3.0,
-      "type_line": "Legendary Creature — Human Monk",
+      "type_line": "Enchantment Creature — Nymph Dryad",
       "layout": "normal",
       "colors": [
         "G"
@@ -345,17 +186,17 @@
       ],
       "produced_mana": [],
       "keywords": [],
-      "power": "1",
-      "toughness": "2",
+      "power": "2",
+      "toughness": "4",
       "loyalty": null,
       "faces": [
         {
-          "name": "Azusa, Lost but Seeking",
+          "name": "Dryad of the Ilysian Grove",
           "mana_cost": "{2}{G}",
-          "type_line": "Legendary Creature — Human Monk",
-          "oracle_text": "You may play two additional lands on each of your turns.",
-          "power": "1",
-          "toughness": "2",
+          "type_line": "Enchantment Creature — Nymph Dryad",
+          "oracle_text": "You may play an additional land on each of your turns.\nLands you control are every basic land type in addition to their other types.",
+          "power": "2",
+          "toughness": "4",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -370,257 +211,14 @@
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 325,
-      "price_usd": "13.23",
+      "edhrec_rank": 302,
+      "price_usd": "10.80",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/274/azusa-lost-but-seeking?utm_source=api",
-      "oracle_id": "6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51"
-    },
-    {
-      "name": "Beast Within",
-      "asked_as": "Beast Within",
-      "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Beast Within",
-          "mana_cost": "{2}{G}",
-          "type_line": "Instant",
-          "oracle_text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 25,
-      "price_usd": "0.61",
-      "all_parts": [
-        {
-          "name": "Beast",
-          "component": "token",
-          "type_line": "Token Creature — Beast"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/msc/169/beast-within?utm_source=api",
-      "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016"
-    },
-    {
-      "name": "Blighted Woodland",
-      "asked_as": "Blighted Woodland",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Blighted Woodland",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "clb",
-      "set_name": "Commander Legends: Battle for Baldur's Gate",
-      "released_at": "2022-06-10",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 906,
-      "price_usd": "0.40",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/clb/881/blighted-woodland?utm_source=api",
-      "oracle_id": "02679a2e-303d-412f-87d8-0a37a8ca259c"
-    },
-    {
-      "name": "Botanical Sanctum",
-      "asked_as": "Botanical Sanctum",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Botanical Sanctum",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "otj",
-      "set_name": "Outlaws of Thunder Junction",
-      "released_at": "2024-04-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1662,
-      "price_usd": "1.81",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/otj/267/botanical-sanctum?utm_source=api",
-      "oracle_id": "88f8f683-738e-48f3-afff-c8f73f1033a2"
-    },
-    {
-      "name": "Burgeoning",
-      "asked_as": "Burgeoning",
-      "qty": 1,
-      "mana_cost": "{G}",
-      "cmc": 1.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Burgeoning",
-          "mana_cost": "{G}",
-          "type_line": "Enchantment",
-          "oracle_text": "Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "c16",
-      "set_name": "Commander 2016",
-      "released_at": "2016-11-11",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 900,
-      "price_usd": "32.52",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/c16/143/burgeoning?utm_source=api",
-      "oracle_id": "88cf4c1a-5863-45fc-b76d-7ad33b175b2b"
-    },
-    {
-      "name": "Coiling Oracle",
-      "asked_as": "Coiling Oracle",
-      "qty": 1,
-      "mana_cost": "{G}{U}",
-      "cmc": 2.0,
-      "type_line": "Creature — Snake Elf Druid",
-      "layout": "normal",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "1",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Coiling Oracle",
-          "mana_cost": "{G}{U}",
-          "type_line": "Creature — Snake Elf Druid",
-          "oracle_text": "When this creature enters, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
-          "power": "1",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G",
-            "U"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "rvr",
-      "set_name": "Ravnica Remastered",
-      "released_at": "2024-01-12",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1345,
-      "price_usd": "0.23",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/rvr/172/coiling-oracle?utm_source=api",
-      "oracle_id": "69fd4ddf-9ed8-4c56-bef3-9944daf05e4f"
+      "scryfall_uri": "https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove?utm_source=api",
+      "oracle_id": "bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9"
     },
     {
       "name": "Command Tower",
-      "asked_as": "Command Tower",
       "qty": 1,
       "mana_cost": "",
       "cmc": 0.0,
@@ -672,20 +270,56 @@
       "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25"
     },
     {
-      "name": "Coral Atoll",
-      "asked_as": "Coral Atoll",
+      "name": "Fabled Passage",
       "qty": 1,
       "mana_cost": "",
       "cmc": 0.0,
       "type_line": "Land",
       "layout": "normal",
       "colors": [],
-      "color_identity": [
-        "U"
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Fabled Passage",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
       ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 46,
+      "price_usd": "1.05",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/242/fabled-passage?utm_source=api",
+      "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54"
+    },
+    {
+      "name": "Ghost Quarter",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
       "produced_mana": [
-        "C",
-        "U"
+        "C"
       ],
       "keywords": [],
       "power": null,
@@ -693,10 +327,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Coral Atoll",
+          "name": "Ghost Quarter",
           "mana_cost": "",
           "type_line": "Land",
-          "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you return an untapped Island you control to its owner's hand.\n{T}: Add {C}{U}.",
+          "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice this land: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -705,21 +339,215 @@
         }
       ],
       "rarity": "uncommon",
-      "set": "cmr",
-      "set_name": "Commander Legends",
-      "released_at": "2020-11-20",
+      "set": "cm2",
+      "set_name": "Commander Anthology Volume II",
+      "released_at": "2018-06-08",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 5795,
-      "price_usd": "0.63",
+      "edhrec_rank": 818,
+      "price_usd": "0.96",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmr/480/coral-atoll?utm_source=api",
-      "oracle_id": "3f347ebf-e0d2-4ae0-ad84-df7a460404e0"
+      "scryfall_uri": "https://scryfall.com/card/cm2/253/ghost-quarter?utm_source=api",
+      "oracle_id": "2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc"
+    },
+    {
+      "name": "Acidic Slime",
+      "qty": 1,
+      "mana_cost": "{3}{G}{G}",
+      "cmc": 5.0,
+      "type_line": "Creature — Ooze",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Deathtouch"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Acidic Slime",
+          "mana_cost": "{3}{G}{G}",
+          "type_line": "Creature — Ooze",
+          "oracle_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, destroy target artifact, enchantment, or land.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1484,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/270/acidic-slime?utm_source=api",
+      "oracle_id": "21f45043-5419-4019-8b6c-e5294bd5f549"
+    },
+    {
+      "name": "Arcane Denial",
+      "qty": 1,
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Arcane Denial",
+          "mana_cost": "{1}{U}",
+          "type_line": "Instant",
+          "oracle_text": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 53,
+      "price_usd": "1.80",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/147/arcane-denial?utm_source=api",
+      "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37"
+    },
+    {
+      "name": "Beast Within",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Beast Within",
+          "mana_cost": "{2}{G}",
+          "type_line": "Instant",
+          "oracle_text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 25,
+      "price_usd": "0.61",
+      "all_parts": [
+        {
+          "name": "Beast",
+          "component": "token",
+          "type_line": "Token Creature — Beast"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/msc/169/beast-within?utm_source=api",
+      "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016"
+    },
+    {
+      "name": "Coiling Oracle",
+      "qty": 1,
+      "mana_cost": "{G}{U}",
+      "cmc": 2.0,
+      "type_line": "Creature — Snake Elf Druid",
+      "layout": "normal",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Coiling Oracle",
+          "mana_cost": "{G}{U}",
+          "type_line": "Creature — Snake Elf Druid",
+          "oracle_text": "When this creature enters, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "rvr",
+      "set_name": "Ravnica Remastered",
+      "released_at": "2024-01-12",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1345,
+      "price_usd": "0.23",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/rvr/172/coiling-oracle?utm_source=api",
+      "oracle_id": "69fd4ddf-9ed8-4c56-bef3-9944daf05e4f"
     },
     {
       "name": "Counterspell",
-      "asked_as": "Counterspell",
       "qty": 1,
       "mana_cost": "{U}{U}",
       "cmc": 2.0,
@@ -765,57 +593,7 @@
       "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5"
     },
     {
-      "name": "Craterhoof Behemoth",
-      "asked_as": "Craterhoof Behemoth",
-      "qty": 1,
-      "mana_cost": "{5}{G}{G}{G}",
-      "cmc": 8.0,
-      "type_line": "Creature — Beast",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Haste"
-      ],
-      "power": "5",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Craterhoof Behemoth",
-          "mana_cost": "{5}{G}{G}{G}",
-          "type_line": "Creature — Beast",
-          "oracle_text": "Haste\nWhen this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.",
-          "power": "5",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "tdm",
-      "set_name": "Tarkir: Dragonstorm",
-      "released_at": "2025-04-11",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 306,
-      "price_usd": "24.38",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/tdm/138/craterhoof-behemoth?utm_source=api",
-      "oracle_id": "8c52bd39-0586-48ca-b263-17210cf9feb6"
-    },
-    {
       "name": "Cultivate",
-      "asked_as": "Cultivate",
       "qty": 1,
       "mana_cost": "{2}{G}",
       "cmc": 3.0,
@@ -861,200 +639,7 @@
       "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a"
     },
     {
-      "name": "Cultivator Colossus",
-      "asked_as": "Cultivator Colossus",
-      "qty": 1,
-      "mana_cost": "{4}{G}{G}{G}",
-      "cmc": 7.0,
-      "type_line": "Creature — Plant Beast",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Trample"
-      ],
-      "power": "*",
-      "toughness": "*",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Cultivator Colossus",
-          "mana_cost": "{4}{G}{G}{G}",
-          "type_line": "Creature — Plant Beast",
-          "oracle_text": "Trample\nCultivator Colossus's power and toughness are each equal to the number of lands you control.\nWhen this creature enters, you may put a land card from your hand onto the battlefield tapped. If you do, draw a card and repeat this process.",
-          "power": "*",
-          "toughness": "*",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "inr",
-      "set_name": "Innistrad Remastered",
-      "released_at": "2025-01-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1592,
-      "price_usd": "5.98",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/inr/190/cultivator-colossus?utm_source=api",
-      "oracle_id": "4d8505d3-c8a1-4850-95d4-5ddb8ad49770"
-    },
-    {
-      "name": "Cyclonic Rift",
-      "asked_as": "Cyclonic Rift",
-      "qty": 1,
-      "mana_cost": "{1}{U}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Overload"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Cyclonic Rift",
-          "mana_cost": "{1}{U}",
-          "type_line": "Instant",
-          "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "U"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "rvr",
-      "set_name": "Ravnica Remastered",
-      "released_at": "2024-01-12",
-      "reserved": false,
-      "game_changer": true,
-      "commander_legal": "legal",
-      "edhrec_rank": 54,
-      "price_usd": "39.09",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api",
-      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b"
-    },
-    {
-      "name": "Dreamroot Cascade",
-      "asked_as": "Dreamroot Cascade",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Dreamroot Cascade",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {G} or {U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "sos",
-      "set_name": "Secrets of Strixhaven",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 174,
-      "price_usd": "1.13",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/sos/254/dreamroot-cascade?utm_source=api",
-      "oracle_id": "dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb"
-    },
-    {
-      "name": "Dryad of the Ilysian Grove",
-      "asked_as": "Dryad of the Ilysian Grove",
-      "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Enchantment Creature — Nymph Dryad",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "2",
-      "toughness": "4",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Dryad of the Ilysian Grove",
-          "mana_cost": "{2}{G}",
-          "type_line": "Enchantment Creature — Nymph Dryad",
-          "oracle_text": "You may play an additional land on each of your turns.\nLands you control are every basic land type in addition to their other types.",
-          "power": "2",
-          "toughness": "4",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 302,
-      "price_usd": "10.80",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove?utm_source=api",
-      "oracle_id": "bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9"
-    },
-    {
       "name": "Evolving Wilds",
-      "asked_as": "Evolving Wilds",
       "qty": 1,
       "mana_cost": "",
       "cmc": 0.0,
@@ -1094,96 +679,7 @@
       "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48"
     },
     {
-      "name": "Exploration",
-      "asked_as": "Exploration",
-      "qty": 1,
-      "mana_cost": "{G}",
-      "cmc": 1.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Exploration",
-          "mana_cost": "{G}",
-          "type_line": "Enchantment",
-          "oracle_text": "You may play an additional land on each of your turns.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "dmr",
-      "set_name": "Dominaria Remastered",
-      "released_at": "2023-01-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 300,
-      "price_usd": "33.20",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dmr/159/exploration?utm_source=api",
-      "oracle_id": "0c2841bb-038c-4fbf-8360-bc0a1522b58d"
-    },
-    {
-      "name": "Fabled Passage",
-      "asked_as": "Fabled Passage",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Fabled Passage",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 46,
-      "price_usd": "1.05",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/242/fabled-passage?utm_source=api",
-      "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54"
-    },
-    {
       "name": "Field of Ruin",
-      "asked_as": "Field of Ruin",
       "qty": 1,
       "mana_cost": "",
       "cmc": 0.0,
@@ -1225,1054 +721,7 @@
       "oracle_id": "f825c98f-a327-440b-8c0d-ebe02e23bfb7"
     },
     {
-      "name": "Finale of Devastation",
-      "asked_as": "Finale of Devastation",
-      "qty": 1,
-      "mana_cost": "{X}{G}{G}",
-      "cmc": 2.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Finale of Devastation",
-          "mana_cost": "{X}{G}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Search your library and/or graveyard for a creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle. If X is 10 or more, creatures you control get +X/+X and gain haste until end of turn.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 313,
-      "price_usd": "41.94",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/289/finale-of-devastation?utm_source=api",
-      "oracle_id": "69872a9a-fe54-4e58-940c-89395af71acd"
-    },
-    {
-      "name": "Flooded Grove",
-      "asked_as": "Flooded Grove",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "C",
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Flooded Grove",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 304,
-      "price_usd": "0.27",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/373/flooded-grove?utm_source=api",
-      "oracle_id": "dc974eb4-72b9-4213-887b-8ee684b93420"
-    },
-    {
-      "name": "Forest",
-      "asked_as": "Forest",
-      "qty": 13,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Basic Land — Forest",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [
-        "G"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Forest",
-          "mana_cost": "",
-          "type_line": "Basic Land — Forest",
-          "oracle_text": "({T}: Add {G}.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "trk",
-      "set_name": "Star Trek",
-      "released_at": "2026-11-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": null,
-      "price_usd": null,
-      "all_parts": [
-        {
-          "name": "Gilt-Leaf Alchemist",
-          "component": "combo_piece",
-          "type_line": "Creature — Elf Druid"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/trk/325/forest?utm_source=api",
-      "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6"
-    },
-    {
-      "name": "Ghalta, Primal Hunger",
-      "asked_as": "Ghalta, Primal Hunger",
-      "qty": 1,
-      "mana_cost": "{10}{G}{G}",
-      "cmc": 12.0,
-      "type_line": "Legendary Creature — Elder Dinosaur",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Trample"
-      ],
-      "power": "12",
-      "toughness": "12",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Ghalta, Primal Hunger",
-          "mana_cost": "{10}{G}{G}",
-          "type_line": "Legendary Creature — Elder Dinosaur",
-          "oracle_text": "This spell costs {X} less to cast, where X is the total power of creatures you control.\nTrample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
-          "power": "12",
-          "toughness": "12",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 455,
-      "price_usd": "1.28",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/222/ghalta-primal-hunger?utm_source=api",
-      "oracle_id": "b0b6be0c-41cf-4757-9f0e-87227b6ba6b3"
-    },
-    {
-      "name": "Ghost Quarter",
-      "asked_as": "Ghost Quarter",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Ghost Quarter",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice this land: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "cm2",
-      "set_name": "Commander Anthology Volume II",
-      "released_at": "2018-06-08",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 818,
-      "price_usd": "0.96",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cm2/253/ghost-quarter?utm_source=api",
-      "oracle_id": "2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc"
-    },
-    {
-      "name": "Goldvein Hydra",
-      "asked_as": "Goldvein Hydra",
-      "qty": 1,
-      "mana_cost": "{X}{G}",
-      "cmc": 1.0,
-      "type_line": "Creature — Hydra",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Vigilance",
-        "Treasure",
-        "Haste",
-        "Trample"
-      ],
-      "power": "0",
-      "toughness": "0",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Goldvein Hydra",
-          "mana_cost": "{X}{G}",
-          "type_line": "Creature — Hydra",
-          "oracle_text": "Vigilance, trample, haste\nThis creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a number of tapped Treasure tokens equal to its power.",
-          "power": "0",
-          "toughness": "0",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1429,
-      "price_usd": "3.46",
-      "all_parts": [
-        {
-          "name": "Treasure",
-          "component": "token",
-          "type_line": "Token Artifact — Treasure"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/soc/270/goldvein-hydra?utm_source=api",
-      "oracle_id": "2b62543f-a475-457a-a96b-b5d070383d3c"
-    },
-    {
-      "name": "Greensleeves, Maro-Sorcerer",
-      "asked_as": "Greensleeves, Maro-Sorcerer",
-      "qty": 1,
-      "mana_cost": "{3}{G}{G}",
-      "cmc": 5.0,
-      "type_line": "Legendary Creature — Elemental Sorcerer",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Protection",
-        "Landfall"
-      ],
-      "power": "*",
-      "toughness": "*",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Greensleeves, Maro-Sorcerer",
-          "mana_cost": "{3}{G}{G}",
-          "type_line": "Legendary Creature — Elemental Sorcerer",
-          "oracle_text": "Protection from planeswalkers and from Wizards\nGreensleeves's power and toughness are each equal to the number of lands you control.\nLandfall — Whenever a land you control enters, create a 3/3 green Badger creature token.",
-          "power": "*",
-          "toughness": "*",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "dmc",
-      "set_name": "Dominaria United Commander",
-      "released_at": "2022-09-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 2727,
-      "price_usd": "15.00",
-      "all_parts": [
-        {
-          "name": "Badger",
-          "component": "token",
-          "type_line": "Token Creature — Badger"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/dmc/27/greensleeves-maro-sorcerer?utm_source=api",
-      "oracle_id": "2ac2d483-2d2a-4912-8db4-04a5a2080831"
-    },
-    {
-      "name": "Growth Spiral",
-      "asked_as": "Growth Spiral",
-      "qty": 1,
-      "mana_cost": "{G}{U}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Growth Spiral",
-          "mana_cost": "{G}{U}",
-          "type_line": "Instant",
-          "oracle_text": "Draw a card. You may put a land card from your hand onto the battlefield.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G",
-            "U"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 231,
-      "price_usd": "0.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/88/growth-spiral?utm_source=api",
-      "oracle_id": "34bcc217-dd91-45a0-90d7-a94d02f1f317"
-    },
-    {
-      "name": "Herd Heirloom",
-      "asked_as": "Herd Heirloom",
-      "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Herd Heirloom",
-          "mana_cost": "{1}{G}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell.\n{T}: Until end of turn, target creature you control with power 4 or greater gains trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "tdm",
-      "set_name": "Tarkir: Dragonstorm",
-      "released_at": "2025-04-11",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1150,
-      "price_usd": "4.39",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/tdm/144/herd-heirloom?utm_source=api",
-      "oracle_id": "78b6dd40-c182-4037-a4d3-9fd012b2c584"
-    },
-    {
-      "name": "Heroic Intervention",
-      "asked_as": "Heroic Intervention",
-      "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Heroic Intervention",
-          "mana_cost": "{1}{G}",
-          "type_line": "Instant",
-          "oracle_text": "Permanents you control gain hexproof and indestructible until end of turn.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmm",
-      "set_name": "Commander Masters",
-      "released_at": "2023-08-04",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 28,
-      "price_usd": "15.99",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmm/295/heroic-intervention?utm_source=api",
-      "oracle_id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27"
-    },
-    {
-      "name": "Hinterland Harbor",
-      "asked_as": "Hinterland Harbor",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Hinterland Harbor",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 98,
-      "price_usd": "0.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/250/hinterland-harbor?utm_source=api",
-      "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6"
-    },
-    {
-      "name": "Imprisoned in the Moon",
-      "asked_as": "Imprisoned in the Moon",
-      "qty": 1,
-      "mana_cost": "{2}{U}",
-      "cmc": 3.0,
-      "type_line": "Enchantment — Aura",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [
-        "Enchant"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Imprisoned in the Moon",
-          "mana_cost": "{2}{U}",
-          "type_line": "Enchantment — Aura",
-          "oracle_text": "Enchant creature, land, or planeswalker\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "U"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "inr",
-      "set_name": "Innistrad Remastered",
-      "released_at": "2025-01-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 764,
-      "price_usd": "0.33",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/inr/69/imprisoned-in-the-moon?utm_source=api",
-      "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936"
-    },
-    {
-      "name": "Island",
-      "asked_as": "Island",
-      "qty": 11,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Basic Land — Island",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Island",
-          "mana_cost": "",
-          "type_line": "Basic Land — Island",
-          "oracle_text": "({T}: Add {U}.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "trk",
-      "set_name": "Star Trek",
-      "released_at": "2026-11-13",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": null,
-      "price_usd": null,
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/trk/319/island?utm_source=api",
-      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373"
-    },
-    {
-      "name": "Jin-Gitaxias, Progress Tyrant",
-      "asked_as": "Jin-Gitaxias, Progress Tyrant",
-      "qty": 1,
-      "mana_cost": "{5}{U}{U}",
-      "cmc": 7.0,
-      "type_line": "Legendary Creature — Phyrexian Praetor",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "5",
-      "toughness": "5",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Jin-Gitaxias, Progress Tyrant",
-          "mana_cost": "{5}{U}{U}",
-          "type_line": "Legendary Creature — Phyrexian Praetor",
-          "oracle_text": "Whenever you cast an artifact, instant, or sorcery spell, copy that spell. You may choose new targets for the copy. This ability triggers only once each turn. (A copy of a permanent spell becomes a token.)\nWhenever an opponent casts an artifact, instant, or sorcery spell, counter that spell. This ability triggers only once each turn.",
-          "power": "5",
-          "toughness": "5",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "U"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "neo",
-      "set_name": "Kamigawa: Neon Dynasty",
-      "released_at": "2022-02-18",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1734,
-      "price_usd": "10.58",
-      "all_parts": [
-        {
-          "name": "Copy",
-          "component": "token",
-          "type_line": "Token"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant?utm_source=api",
-      "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e"
-    },
-    {
-      "name": "Jungle Basin",
-      "asked_as": "Jungle Basin",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [
-        "C",
-        "G"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Jungle Basin",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you return an untapped Forest you control to its owner's hand.\n{T}: Add {C}{G}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "cmr",
-      "set_name": "Commander Legends",
-      "released_at": "2020-11-20",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 5934,
-      "price_usd": "1.48",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmr/484/jungle-basin?utm_source=api",
-      "oracle_id": "f922f90a-b1a2-4630-9266-40726ca89f74"
-    },
-    {
-      "name": "Kodama of the East Tree",
-      "asked_as": "Kodama of the East Tree",
-      "qty": 1,
-      "mana_cost": "{4}{G}{G}",
-      "cmc": 6.0,
-      "type_line": "Legendary Creature — Spirit",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Reach",
-        "Partner"
-      ],
-      "power": "6",
-      "toughness": "6",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Kodama of the East Tree",
-          "mana_cost": "{4}{G}{G}",
-          "type_line": "Legendary Creature — Spirit",
-          "oracle_text": "Reach\nWhenever another permanent you control enters, if it wasn't put onto the battlefield with this ability, you may put a permanent card with equal or lesser mana value from your hand onto the battlefield.\nPartner (You can have two commanders if both have partner.)",
-          "power": "6",
-          "toughness": "6",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmr",
-      "set_name": "Commander Legends",
-      "released_at": "2020-11-20",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 974,
-      "price_usd": "3.85",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmr/239/kodama-of-the-east-tree?utm_source=api",
-      "oracle_id": "cb1afab6-b9c8-4b9c-840b-24106523a783"
-    },
-    {
-      "name": "Kodama's Reach",
-      "asked_as": "Kodama's Reach",
-      "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Sorcery — Arcane",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Kodama's Reach",
-          "mana_cost": "{2}{G}",
-          "type_line": "Sorcery — Arcane",
-          "oracle_text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "common",
-      "set": "ecc",
-      "set_name": "Lorwyn Eclipsed Commander",
-      "released_at": "2026-01-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 37,
-      "price_usd": "1.73",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/ecc/113/kodamas-reach?utm_source=api",
-      "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90"
-    },
-    {
-      "name": "Koma, Cosmos Serpent",
-      "asked_as": "Koma, Cosmos Serpent",
-      "qty": 1,
-      "mana_cost": "{3}{G}{G}{U}{U}",
-      "cmc": 7.0,
-      "type_line": "Legendary Creature — Serpent",
-      "layout": "normal",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "6",
-      "toughness": "6",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Koma, Cosmos Serpent",
-          "mana_cost": "{3}{G}{G}{U}{U}",
-          "type_line": "Legendary Creature — Serpent",
-          "oracle_text": "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma gains indestructible until end of turn.",
-          "power": "6",
-          "toughness": "6",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G",
-            "U"
-          ]
-        }
-      ],
-      "rarity": "mythic",
-      "set": "mkc",
-      "set_name": "Murders at Karlov Manor Commander",
-      "released_at": "2024-02-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1426,
-      "price_usd": "6.25",
-      "all_parts": [
-        {
-          "name": "Koma's Coil",
-          "component": "token",
-          "type_line": "Token Creature — Serpent"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/mkc/213/koma-cosmos-serpent?utm_source=api",
-      "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23"
-    },
-    {
-      "name": "Lotus Cobra",
-      "asked_as": "Lotus Cobra",
-      "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Creature — Snake",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "keywords": [
-        "Landfall"
-      ],
-      "power": "2",
-      "toughness": "1",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Lotus Cobra",
-          "mana_cost": "{1}{G}",
-          "type_line": "Creature — Snake",
-          "oracle_text": "Landfall — Whenever a land you control enters, add one mana of any color.",
-          "power": "2",
-          "toughness": "1",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "znr",
-      "set_name": "Zendikar Rising",
-      "released_at": "2020-09-25",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 329,
-      "price_usd": "5.89",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/znr/193/lotus-cobra?utm_source=api",
-      "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614"
-    },
-    {
-      "name": "Mossborn Hydra",
-      "asked_as": "Mossborn Hydra",
-      "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Creature — Elemental Hydra",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [
-        "Trample",
-        "Double",
-        "Landfall"
-      ],
-      "power": "0",
-      "toughness": "0",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Mossborn Hydra",
-          "mana_cost": "{2}{G}",
-          "type_line": "Creature — Elemental Hydra",
-          "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nThis creature enters with a +1/+1 counter on it.\nLandfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature.",
-          "power": "0",
-          "toughness": "0",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 780,
-      "price_usd": "12.53",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/107/mossborn-hydra?utm_source=api",
-      "oracle_id": "84122d81-9634-4d3f-85a5-f6cf4303691a"
-    },
-    {
-      "name": "Myriad Landscape",
-      "asked_as": "Myriad Landscape",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Myriad Landscape",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "eoc",
-      "set_name": "Edge of Eternities Commander",
-      "released_at": "2025-08-01",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 31,
-      "price_usd": "0.28",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/eoc/169/myriad-landscape?utm_source=api",
-      "oracle_id": "2549bc57-9ffb-4053-9f10-f2a5f792b845"
-    },
-    {
       "name": "Negate",
-      "asked_as": "Negate",
       "qty": 1,
       "mana_cost": "{1}{U}",
       "cmc": 2.0,
@@ -2318,247 +767,7 @@
       "oracle_id": "3407fe41-fdd3-4119-8f70-4bc4590a379f"
     },
     {
-      "name": "Nezahal, Primal Tide",
-      "asked_as": "Nezahal, Primal Tide",
-      "qty": 1,
-      "mana_cost": "{5}{U}{U}",
-      "cmc": 7.0,
-      "type_line": "Legendary Creature — Elder Dinosaur",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "7",
-      "toughness": "7",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Nezahal, Primal Tide",
-          "mana_cost": "{5}{U}{U}",
-          "type_line": "Legendary Creature — Elder Dinosaur",
-          "oracle_text": "This spell can't be countered.\nYou have no maximum hand size.\nWhenever an opponent casts a noncreature spell, draw a card.\nDiscard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.",
-          "power": "7",
-          "toughness": "7",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "U"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "cmr",
-      "set_name": "Commander Legends",
-      "released_at": "2020-11-20",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1095,
-      "price_usd": "8.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/cmr/401/nezahal-primal-tide?utm_source=api",
-      "oracle_id": "c45e96cb-2539-4e00-9fff-782a182c2f4b"
-    },
-    {
-      "name": "Oboro, Palace in the Clouds",
-      "asked_as": "Oboro, Palace in the Clouds",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Legendary Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Oboro, Palace in the Clouds",
-          "mana_cost": "",
-          "type_line": "Legendary Land",
-          "oracle_text": "{T}: Add {U}.\n{1}: Return Oboro to its owner's hand.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "sok",
-      "set_name": "Saviors of Kamigawa",
-      "released_at": "2005-06-03",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 4971,
-      "price_usd": "21.92",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/sok/164/oboro-palace-in-the-clouds?utm_source=api",
-      "oracle_id": "645fb11b-d684-4bec-8532-8fa97e8f7b28"
-    },
-    {
-      "name": "Oracle of Mul Daya",
-      "asked_as": "Oracle of Mul Daya",
-      "qty": 1,
-      "mana_cost": "{3}{G}",
-      "cmc": 4.0,
-      "type_line": "Creature — Elf Shaman",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "2",
-      "toughness": "2",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Oracle of Mul Daya",
-          "mana_cost": "{3}{G}",
-          "type_line": "Creature — Elf Shaman",
-          "oracle_text": "You may play an additional land on each of your turns.\nPlay with the top card of your library revealed.\nYou may play lands from the top of your library.",
-          "power": "2",
-          "toughness": "2",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "eoc",
-      "set_name": "Edge of Eternities Commander",
-      "released_at": "2025-08-01",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 503,
-      "price_usd": "2.30",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/eoc/102/oracle-of-mul-daya?utm_source=api",
-      "oracle_id": "6c5b02eb-7829-436a-8555-fea200e4b67f"
-    },
-    {
-      "name": "Overwhelming Stampede",
-      "asked_as": "Overwhelming Stampede",
-      "qty": 1,
-      "mana_cost": "{3}{G}{G}",
-      "cmc": 5.0,
-      "type_line": "Sorcery",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Overwhelming Stampede",
-          "mana_cost": "{3}{G}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 534,
-      "price_usd": "1.09",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/178/overwhelming-stampede?utm_source=api",
-      "oracle_id": "e1e96802-fd0c-41f1-aa21-3287d75a0e88"
-    },
-    {
-      "name": "Pongify",
-      "asked_as": "Pongify",
-      "qty": 1,
-      "mana_cost": "{U}",
-      "cmc": 1.0,
-      "type_line": "Instant",
-      "layout": "normal",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Pongify",
-          "mana_cost": "{U}",
-          "type_line": "Instant",
-          "oracle_text": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "U"
-          ]
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "tdc",
-      "set_name": "Tarkir: Dragonstorm Commander",
-      "released_at": "2025-04-11",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 155,
-      "price_usd": "2.07",
-      "all_parts": [
-        {
-          "name": "Ape",
-          "component": "token",
-          "type_line": "Token Creature — Ape"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/tdc/160/pongify?utm_source=api",
-      "oracle_id": "05849bd6-8f38-4031-be2b-e2aa03beb8cc"
-    },
-    {
       "name": "Propaganda",
-      "asked_as": "Propaganda",
       "qty": 1,
       "mana_cost": "{2}{U}",
       "cmc": 3.0,
@@ -2604,8 +813,839 @@
       "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd"
     },
     {
+      "name": "Rampant Growth",
+      "qty": 1,
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Rampant Growth",
+          "mana_cost": "{1}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 26,
+      "price_usd": "0.66",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdc/265/rampant-growth?utm_source=api",
+      "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795"
+    },
+    {
+      "name": "Reliquary Tower",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Reliquary Tower",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 10,
+      "price_usd": "3.54",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
+      "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f"
+    },
+    {
+      "name": "Rhystic Study",
+      "qty": 1,
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Rhystic Study",
+          "mana_cost": "{2}{U}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "j22",
+      "set_name": "Jumpstart 2022",
+      "released_at": "2022-12-02",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 44,
+      "price_usd": "70.58",
+      "all_parts": [
+        {
+          "name": "Archival Whorl",
+          "component": "combo_piece",
+          "type_line": "Sorcery"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api",
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f"
+    },
+    {
+      "name": "Search for Tomorrow",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Suspend"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Search for Tomorrow",
+          "mana_cost": "{2}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Search your library for a basic land card, put it onto the battlefield, then shuffle.\nSuspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "dmc",
+      "set_name": "Dominaria United Commander",
+      "released_at": "2022-09-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1793,
+      "price_usd": "0.37",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dmc/137/search-for-tomorrow?utm_source=api",
+      "oracle_id": "9cdc9f99-c6fa-40cd-90b0-e47d43a8cc3c"
+    },
+    {
+      "name": "Sol Ring",
+      "qty": 1,
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Sol Ring",
+          "mana_cost": "{1}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add {C}{C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
+    },
+    {
+      "name": "Tatyova, Benthic Druid",
+      "qty": 1,
+      "mana_cost": "{3}{G}{U}",
+      "cmc": 5.0,
+      "type_line": "Legendary Creature — Merfolk Druid",
+      "layout": "normal",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Landfall"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Tatyova, Benthic Druid",
+          "mana_cost": "{3}{G}{U}",
+          "type_line": "Legendary Creature — Merfolk Druid",
+          "oracle_text": "Landfall — Whenever a land you control enters, you gain 1 life and draw a card.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 483,
+      "price_usd": "0.29",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/247/tatyova-benthic-druid?utm_source=api",
+      "oracle_id": "0715e860-3b3b-4331-9718-207973e94fee"
+    },
+    {
+      "name": "Thought Vessel",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Thought Vessel",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "mbc",
+      "set_name": "Mystery Booster Commander Edition",
+      "released_at": "2026-11-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 21,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mbc/78/thought-vessel?utm_source=api",
+      "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be"
+    },
+    {
+      "name": "Urban Evolution",
+      "qty": 1,
+      "mana_cost": "{3}{G}{U}",
+      "cmc": 5.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Urban Evolution",
+          "mana_cost": "{3}{G}{U}",
+          "type_line": "Sorcery",
+          "oracle_text": "Draw three cards. You may play an additional land this turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "ncc",
+      "set_name": "New Capenna Commander",
+      "released_at": "2022-04-29",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2338,
+      "price_usd": "0.37",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/ncc/355/urban-evolution?utm_source=api",
+      "oracle_id": "c715e525-fc3a-4cab-94a0-04e0a22a5013"
+    },
+    {
+      "name": "Yavimaya Elder",
+      "qty": 1,
+      "mana_cost": "{1}{G}{G}",
+      "cmc": 3.0,
+      "type_line": "Creature — Human Druid",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Yavimaya Elder",
+          "mana_cost": "{1}{G}{G}",
+          "type_line": "Creature — Human Druid",
+          "oracle_text": "When this creature dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.\n{2}, Sacrifice this creature: Draw a card.",
+          "power": "2",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 3528,
+      "price_usd": "0.21",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/208/yavimaya-elder?utm_source=api",
+      "oracle_id": "7fd4c452-07f2-492c-9c78-d1c6362d9eec"
+    },
+    {
+      "name": "Zendikar's Roil",
+      "qty": 1,
+      "mana_cost": "{3}{G}{G}",
+      "cmc": 5.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Landfall"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Zendikar's Roil",
+          "mana_cost": "{3}{G}{G}",
+          "type_line": "Enchantment",
+          "oracle_text": "Landfall — Whenever a land you control enters, create a 2/2 green Elemental creature token.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "znc",
+      "set_name": "Zendikar Rising Commander",
+      "released_at": "2020-09-25",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2098,
+      "price_usd": "1.23",
+      "all_parts": [
+        {
+          "name": "Elemental",
+          "component": "token",
+          "type_line": "Token Creature — Elemental"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/znc/88/zendikars-roil?utm_source=api",
+      "oracle_id": "a842cc2b-52eb-4dc5-86c6-6575c2ed913d"
+    },
+    {
+      "name": "Azusa, Lost but Seeking",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature — Human Monk",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "1",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Azusa, Lost but Seeking",
+          "mana_cost": "{2}{G}",
+          "type_line": "Legendary Creature — Human Monk",
+          "oracle_text": "You may play two additional lands on each of your turns.",
+          "power": "1",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 325,
+      "price_usd": "13.23",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/274/azusa-lost-but-seeking?utm_source=api",
+      "oracle_id": "6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51"
+    },
+    {
+      "name": "Simic Growth Chamber",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Simic Growth Chamber",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {G}{U}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 308,
+      "price_usd": "0.34",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/298/simic-growth-chamber?utm_source=api",
+      "oracle_id": "046f5783-cc7b-416a-8cf6-2bcef9c2cc1a"
+    },
+    {
+      "name": "Simic Signet",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Simic Signet",
+          "mana_cost": "{2}",
+          "type_line": "Artifact",
+          "oracle_text": "{1}, {T}: Add {G}{U}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 609,
+      "price_usd": "0.35",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/252/simic-signet?utm_source=api",
+      "oracle_id": "44503105-3e13-408d-a44f-37d503c61d72"
+    },
+    {
+      "name": "Swiftfoot Boots",
+      "qty": 1,
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "type_line": "Artifact — Equipment",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [
+        "Equip"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Swiftfoot Boots",
+          "mana_cost": "{2}",
+          "type_line": "Artifact — Equipment",
+          "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "trc",
+      "set_name": "Star Trek Commander",
+      "released_at": "2026-11-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 12,
+      "price_usd": null,
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/trc/501/swiftfoot-boots?utm_source=api",
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391"
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Terramorphic Expanse",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "common",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 28,
+      "price_usd": "0.25",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/273/terramorphic-expanse?utm_source=api",
+      "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a"
+    },
+    {
+      "name": "Arixmethes, Slumbering Isle",
+      "qty": 1,
+      "mana_cost": "{2}{G}{U}",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Kraken",
+      "layout": "normal",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": "12",
+      "toughness": "12",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Arixmethes, Slumbering Isle",
+          "mana_cost": "{2}{G}{U}",
+          "type_line": "Legendary Creature — Kraken",
+          "oracle_text": "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}.",
+          "power": "12",
+          "toughness": "12",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2001,
+      "price_usd": "0.64",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/211/arixmethes-slumbering-isle?utm_source=api",
+      "oracle_id": "caeb39ee-f0bb-4305-9e8b-b30ba0a74c78"
+    },
+    {
+      "name": "Myriad Landscape",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Myriad Landscape",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "eoc",
+      "set_name": "Edge of Eternities Commander",
+      "released_at": "2025-08-01",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 31,
+      "price_usd": "0.28",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/eoc/169/myriad-landscape?utm_source=api",
+      "oracle_id": "2549bc57-9ffb-4053-9f10-f2a5f792b845"
+    },
+    {
+      "name": "Overwhelming Stampede",
+      "qty": 1,
+      "mana_cost": "{3}{G}{G}",
+      "cmc": 5.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Overwhelming Stampede",
+          "mana_cost": "{3}{G}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 534,
+      "price_usd": "1.09",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/178/overwhelming-stampede?utm_source=api",
+      "oracle_id": "e1e96802-fd0c-41f1-aa21-3287d75a0e88"
+    },
+    {
       "name": "Rampaging Baloths",
-      "asked_as": "Rampaging Baloths",
       "qty": 1,
       "mana_cost": "{4}{G}{G}",
       "cmc": 6.0,
@@ -2660,12 +1700,58 @@
       "oracle_id": "2d3e6549-6cc6-434f-a189-ba3b55e64c34"
     },
     {
-      "name": "Rampant Growth",
-      "asked_as": "Rampant Growth",
+      "name": "Yavimaya Coast",
       "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Sorcery",
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "C",
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Yavimaya Coast",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{T}: Add {G} or {U}. This land deals 1 damage to you.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 136,
+      "price_usd": "0.32",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/soc/425/yavimaya-coast?utm_source=api",
+      "oracle_id": "40b36bc6-c185-4bda-99e7-0118953c2c97"
+    },
+    {
+      "name": "Kodama's Reach",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Sorcery — Arcane",
       "layout": "normal",
       "colors": [
         "G"
@@ -2680,10 +1766,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Rampant Growth",
-          "mana_cost": "{1}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+          "name": "Kodama's Reach",
+          "mana_cost": "{2}{G}",
+          "type_line": "Sorcery — Arcane",
+          "oracle_text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2694,25 +1780,24 @@
         }
       ],
       "rarity": "common",
-      "set": "tdc",
-      "set_name": "Tarkir: Dragonstorm Commander",
-      "released_at": "2025-04-11",
+      "set": "ecc",
+      "set_name": "Lorwyn Eclipsed Commander",
+      "released_at": "2026-01-23",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 26,
-      "price_usd": "0.66",
+      "edhrec_rank": 37,
+      "price_usd": "1.73",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/tdc/265/rampant-growth?utm_source=api",
-      "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795"
+      "scryfall_uri": "https://scryfall.com/card/ecc/113/kodamas-reach?utm_source=api",
+      "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90"
     },
     {
-      "name": "Ramunap Excavator",
-      "asked_as": "Ramunap Excavator",
+      "name": "Avenger of Zendikar",
       "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Creature — Snake Cleric",
+      "mana_cost": "{5}{G}{G}",
+      "cmc": 7.0,
+      "type_line": "Creature — Elemental",
       "layout": "normal",
       "colors": [
         "G"
@@ -2721,18 +1806,20 @@
         "G"
       ],
       "produced_mana": [],
-      "keywords": [],
-      "power": "2",
-      "toughness": "3",
+      "keywords": [
+        "Landfall"
+      ],
+      "power": "5",
+      "toughness": "5",
       "loyalty": null,
       "faces": [
         {
-          "name": "Ramunap Excavator",
-          "mana_cost": "{2}{G}",
-          "type_line": "Creature — Snake Cleric",
-          "oracle_text": "You may play lands from your graveyard.",
-          "power": "2",
-          "toughness": "3",
+          "name": "Avenger of Zendikar",
+          "mana_cost": "{5}{G}{G}",
+          "type_line": "Creature — Elemental",
+          "oracle_text": "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
+          "power": "5",
+          "toughness": "5",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -2740,22 +1827,122 @@
           ]
         }
       ],
-      "rarity": "rare",
-      "set": "otc",
-      "set_name": "Outlaws of Thunder Junction Commander",
-      "released_at": "2024-04-19",
+      "rarity": "mythic",
+      "set": "ecc",
+      "set_name": "Lorwyn Eclipsed Commander",
+      "released_at": "2026-01-23",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 476,
-      "price_usd": "5.84",
+      "edhrec_rank": 289,
+      "price_usd": "0.43",
+      "all_parts": [
+        {
+          "name": "Plant",
+          "component": "token",
+          "type_line": "Token Creature — Plant"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/ecc/98/avenger-of-zendikar?utm_source=api",
+      "oracle_id": "4ba5b3f6-503b-43e6-b66e-4f8c55cffed7"
+    },
+    {
+      "name": "Imprisoned in the Moon",
+      "qty": 1,
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "type_line": "Enchantment — Aura",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [
+        "C"
+      ],
+      "keywords": [
+        "Enchant"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Imprisoned in the Moon",
+          "mana_cost": "{2}{U}",
+          "type_line": "Enchantment — Aura",
+          "oracle_text": "Enchant creature, land, or planeswalker\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 764,
+      "price_usd": "0.33",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/otc/202/ramunap-excavator?utm_source=api",
-      "oracle_id": "4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5"
+      "scryfall_uri": "https://scryfall.com/card/inr/69/imprisoned-in-the-moon?utm_source=api",
+      "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936"
+    },
+    {
+      "name": "Jungle Basin",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [
+        "C",
+        "G"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Jungle Basin",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you return an untapped Forest you control to its owner's hand.\n{T}: Add {C}{G}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "cmr",
+      "set_name": "Commander Legends",
+      "released_at": "2020-11-20",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5934,
+      "price_usd": "1.48",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmr/484/jungle-basin?utm_source=api",
+      "oracle_id": "f922f90a-b1a2-4630-9266-40726ca89f74"
     },
     {
       "name": "Reclamation Sage",
-      "asked_as": "Reclamation Sage",
       "qty": 1,
       "mana_cost": "{2}{G}",
       "cmc": 3.0,
@@ -2801,15 +1988,259 @@
       "oracle_id": "032ec6e2-6cc3-4a97-9cc7-3233f5e11904"
     },
     {
-      "name": "Reliquary Tower",
-      "asked_as": "Reliquary Tower",
+      "name": "Terastodon",
+      "qty": 1,
+      "mana_cost": "{6}{G}{G}",
+      "cmc": 8.0,
+      "type_line": "Creature — Elephant",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "9",
+      "toughness": "9",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Terastodon",
+          "mana_cost": "{6}{G}{G}",
+          "type_line": "Creature — Elephant",
+          "oracle_text": "When this creature enters, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.",
+          "power": "9",
+          "toughness": "9",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "c21",
+      "set_name": "Commander 2021",
+      "released_at": "2021-04-23",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1394,
+      "price_usd": "0.37",
+      "all_parts": [
+        {
+          "name": "Elephant",
+          "component": "token",
+          "type_line": "Token Creature — Elephant"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/c21/207/terastodon?utm_source=api",
+      "oracle_id": "17975a20-2c13-4325-be1e-0bcda5063a2d"
+    },
+    {
+      "name": "Growth Spiral",
+      "qty": 1,
+      "mana_cost": "{G}{U}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Growth Spiral",
+          "mana_cost": "{G}{U}",
+          "type_line": "Instant",
+          "oracle_text": "Draw a card. You may put a land card from your hand onto the battlefield.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      ],
+      "rarity": "common",
+      "set": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 231,
+      "price_usd": "0.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dsc/88/growth-spiral?utm_source=api",
+      "oracle_id": "34bcc217-dd91-45a0-90d7-a94d02f1f317"
+    },
+    {
+      "name": "Ramunap Excavator",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Creature — Snake Cleric",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Ramunap Excavator",
+          "mana_cost": "{2}{G}",
+          "type_line": "Creature — Snake Cleric",
+          "oracle_text": "You may play lands from your graveyard.",
+          "power": "2",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "otc",
+      "set_name": "Outlaws of Thunder Junction Commander",
+      "released_at": "2024-04-19",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 476,
+      "price_usd": "5.84",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/otc/202/ramunap-excavator?utm_source=api",
+      "oracle_id": "4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5"
+    },
+    {
+      "name": "Craterhoof Behemoth",
+      "qty": 1,
+      "mana_cost": "{5}{G}{G}{G}",
+      "cmc": 8.0,
+      "type_line": "Creature — Beast",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Haste"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Craterhoof Behemoth",
+          "mana_cost": "{5}{G}{G}{G}",
+          "type_line": "Creature — Beast",
+          "oracle_text": "Haste\nWhen this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.",
+          "power": "5",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "tdm",
+      "set_name": "Tarkir: Dragonstorm",
+      "released_at": "2025-04-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 306,
+      "price_usd": "24.38",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/tdm/138/craterhoof-behemoth?utm_source=api",
+      "oracle_id": "8c52bd39-0586-48ca-b263-17210cf9feb6"
+    },
+    {
+      "name": "Cyclonic Rift",
+      "qty": 1,
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Overload"
+      ],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Cyclonic Rift",
+          "mana_cost": "{1}{U}",
+          "type_line": "Instant",
+          "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "rvr",
+      "set_name": "Ravnica Remastered",
+      "released_at": "2024-01-12",
+      "reserved": false,
+      "game_changer": true,
+      "commander_legal": "legal",
+      "edhrec_rank": 54,
+      "price_usd": "39.09",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b"
+    },
+    {
+      "name": "Blighted Woodland",
       "qty": 1,
       "mana_cost": "",
       "cmc": 0.0,
       "type_line": "Land",
       "layout": "normal",
       "colors": [],
-      "color_identity": [],
+      "color_identity": [
+        "G"
+      ],
       "produced_mana": [
         "C"
       ],
@@ -2819,10 +2250,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Reliquary Tower",
+          "name": "Blighted Woodland",
           "mana_cost": "",
           "type_line": "Land",
-          "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+          "oracle_text": "{T}: Add {C}.\n{3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2831,25 +2262,298 @@
         }
       ],
       "rarity": "uncommon",
+      "set": "clb",
+      "set_name": "Commander Legends: Battle for Baldur's Gate",
+      "released_at": "2022-06-10",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 906,
+      "price_usd": "0.40",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/clb/881/blighted-woodland?utm_source=api",
+      "oracle_id": "02679a2e-303d-412f-87d8-0a37a8ca259c"
+    },
+    {
+      "name": "Flooded Grove",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "C",
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Flooded Grove",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {C}.\n{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
       "set": "soc",
       "set_name": "Secrets of Strixhaven Commander",
       "released_at": "2026-04-24",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 10,
-      "price_usd": "3.54",
+      "edhrec_rank": 304,
+      "price_usd": "0.27",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
-      "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f"
+      "scryfall_uri": "https://scryfall.com/card/soc/373/flooded-grove?utm_source=api",
+      "oracle_id": "dc974eb4-72b9-4213-887b-8ee684b93420"
     },
     {
-      "name": "Rhystic Study",
-      "asked_as": "Rhystic Study",
+      "name": "Coral Atoll",
       "qty": 1,
-      "mana_cost": "{2}{U}",
-      "cmc": 3.0,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [
+        "C",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Coral Atoll",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you return an untapped Island you control to its owner's hand.\n{T}: Add {C}{U}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "uncommon",
+      "set": "cmr",
+      "set_name": "Commander Legends",
+      "released_at": "2020-11-20",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 5795,
+      "price_usd": "0.63",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmr/480/coral-atoll?utm_source=api",
+      "oracle_id": "3f347ebf-e0d2-4ae0-ad84-df7a460404e0"
+    },
+    {
+      "name": "Finale of Devastation",
+      "qty": 1,
+      "mana_cost": "{X}{G}{G}",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Finale of Devastation",
+          "mana_cost": "{X}{G}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Search your library and/or graveyard for a creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle. If X is 10 or more, creatures you control get +X/+X and gain haste until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 313,
+      "price_usd": "41.94",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/289/finale-of-devastation?utm_source=api",
+      "oracle_id": "69872a9a-fe54-4e58-940c-89395af71acd"
+    },
+    {
+      "name": "Waterlogged Grove",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Waterlogged Grove",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice this land: Draw a card.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "mh1",
+      "set_name": "Modern Horizons",
+      "released_at": "2019-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1134,
+      "price_usd": "1.48",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/mh1/249/waterlogged-grove?utm_source=api",
+      "oracle_id": "70fa2eba-565e-4fed-adc9-7f5d9fcbf1fa"
+    },
+    {
+      "name": "Exploration",
+      "qty": 1,
+      "mana_cost": "{G}",
+      "cmc": 1.0,
       "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Exploration",
+          "mana_cost": "{G}",
+          "type_line": "Enchantment",
+          "oracle_text": "You may play an additional land on each of your turns.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "dmr",
+      "set_name": "Dominaria Remastered",
+      "released_at": "2023-01-13",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 300,
+      "price_usd": "33.20",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dmr/159/exploration?utm_source=api",
+      "oracle_id": "0c2841bb-038c-4fbf-8360-bc0a1522b58d"
+    },
+    {
+      "name": "Oboro, Palace in the Clouds",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Oboro, Palace in the Clouds",
+          "mana_cost": "",
+          "type_line": "Legendary Land",
+          "oracle_text": "{T}: Add {U}.\n{1}: Return Oboro to its owner's hand.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "sok",
+      "set_name": "Saviors of Kamigawa",
+      "released_at": "2005-06-03",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 4971,
+      "price_usd": "21.92",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/sok/164/oboro-palace-in-the-clouds?utm_source=api",
+      "oracle_id": "645fb11b-d684-4bec-8532-8fa97e8f7b28"
+    },
+    {
+      "name": "Pongify",
+      "qty": 1,
+      "mana_cost": "{U}",
+      "cmc": 1.0,
+      "type_line": "Instant",
       "layout": "normal",
       "colors": [
         "U"
@@ -2864,10 +2568,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Rhystic Study",
-          "mana_cost": "{2}{U}",
-          "type_line": "Enchantment",
-          "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+          "name": "Pongify",
+          "mana_cost": "{U}",
+          "type_line": "Instant",
+          "oracle_text": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -2877,28 +2581,211 @@
           ]
         }
       ],
-      "rarity": "rare",
-      "set": "j22",
-      "set_name": "Jumpstart 2022",
-      "released_at": "2022-12-02",
+      "rarity": "uncommon",
+      "set": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
       "reserved": false,
-      "game_changer": true,
+      "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 44,
-      "price_usd": "70.58",
+      "edhrec_rank": 155,
+      "price_usd": "2.07",
       "all_parts": [
         {
-          "name": "Archival Whorl",
-          "component": "combo_piece",
-          "type_line": "Sorcery"
+          "name": "Ape",
+          "component": "token",
+          "type_line": "Token Creature — Ape"
         }
       ],
-      "scryfall_uri": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api",
-      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f"
+      "scryfall_uri": "https://scryfall.com/card/tdc/160/pongify?utm_source=api",
+      "oracle_id": "05849bd6-8f38-4031-be2b-e2aa03beb8cc"
+    },
+    {
+      "name": "Oracle of Mul Daya",
+      "qty": 1,
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "type_line": "Creature — Elf Shaman",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Oracle of Mul Daya",
+          "mana_cost": "{3}{G}",
+          "type_line": "Creature — Elf Shaman",
+          "oracle_text": "You may play an additional land on each of your turns.\nPlay with the top card of your library revealed.\nYou may play lands from the top of your library.",
+          "power": "2",
+          "toughness": "2",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "eoc",
+      "set_name": "Edge of Eternities Commander",
+      "released_at": "2025-08-01",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 503,
+      "price_usd": "2.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/eoc/102/oracle-of-mul-daya?utm_source=api",
+      "oracle_id": "6c5b02eb-7829-436a-8555-fea200e4b67f"
+    },
+    {
+      "name": "Burgeoning",
+      "qty": 1,
+      "mana_cost": "{G}",
+      "cmc": 1.0,
+      "type_line": "Enchantment",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Burgeoning",
+          "mana_cost": "{G}",
+          "type_line": "Enchantment",
+          "oracle_text": "Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "c16",
+      "set_name": "Commander 2016",
+      "released_at": "2016-11-11",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 900,
+      "price_usd": "32.52",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/c16/143/burgeoning?utm_source=api",
+      "oracle_id": "88cf4c1a-5863-45fc-b76d-7ad33b175b2b"
+    },
+    {
+      "name": "Nezahal, Primal Tide",
+      "qty": 1,
+      "mana_cost": "{5}{U}{U}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Elder Dinosaur",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "7",
+      "toughness": "7",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Nezahal, Primal Tide",
+          "mana_cost": "{5}{U}{U}",
+          "type_line": "Legendary Creature — Elder Dinosaur",
+          "oracle_text": "This spell can't be countered.\nYou have no maximum hand size.\nWhenever an opponent casts a noncreature spell, draw a card.\nDiscard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.",
+          "power": "7",
+          "toughness": "7",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmr",
+      "set_name": "Commander Legends",
+      "released_at": "2020-11-20",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1095,
+      "price_usd": "8.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmr/401/nezahal-primal-tide?utm_source=api",
+      "oracle_id": "c45e96cb-2539-4e00-9fff-782a182c2f4b"
+    },
+    {
+      "name": "Hinterland Harbor",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
+      "color_identity": [
+        "G",
+        "U"
+      ],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Hinterland Harbor",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "This land enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 98,
+      "price_usd": "0.30",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/msc/250/hinterland-harbor?utm_source=api",
+      "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6"
     },
     {
       "name": "Scute Swarm",
-      "asked_as": "Scute Swarm",
       "qty": 1,
       "mana_cost": "{2}{G}",
       "cmc": 3.0,
@@ -2957,12 +2844,11 @@
       "oracle_id": "aa854d50-444c-49d9-bfb1-5476b33c1c0b"
     },
     {
-      "name": "Search for Tomorrow",
-      "asked_as": "Search for Tomorrow",
+      "name": "Ancient Greenwarden",
       "qty": 1,
-      "mana_cost": "{2}{G}",
-      "cmc": 3.0,
-      "type_line": "Sorcery",
+      "mana_cost": "{4}{G}{G}",
+      "cmc": 6.0,
+      "type_line": "Creature — Elemental",
       "layout": "normal",
       "colors": [
         "G"
@@ -2972,19 +2858,19 @@
       ],
       "produced_mana": [],
       "keywords": [
-        "Suspend"
+        "Reach"
       ],
-      "power": null,
-      "toughness": null,
+      "power": "5",
+      "toughness": "7",
       "loyalty": null,
       "faces": [
         {
-          "name": "Search for Tomorrow",
-          "mana_cost": "{2}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Search your library for a basic land card, put it onto the battlefield, then shuffle.\nSuspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
-          "power": null,
-          "toughness": null,
+          "name": "Ancient Greenwarden",
+          "mana_cost": "{4}{G}{G}",
+          "type_line": "Creature — Elemental",
+          "oracle_text": "Reach (This creature can block creatures with flying.)\nYou may play lands from your graveyard.\nIf a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+          "power": "5",
+          "toughness": "7",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -2992,163 +2878,25 @@
           ]
         }
       ],
-      "rarity": "common",
-      "set": "dmc",
-      "set_name": "Dominaria United Commander",
-      "released_at": "2022-09-09",
+      "rarity": "mythic",
+      "set": "otc",
+      "set_name": "Outlaws of Thunder Junction Commander",
+      "released_at": "2024-04-19",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 1793,
-      "price_usd": "0.37",
+      "edhrec_rank": 701,
+      "price_usd": "13.04",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dmc/137/search-for-tomorrow?utm_source=api",
-      "oracle_id": "9cdc9f99-c6fa-40cd-90b0-e47d43a8cc3c"
+      "scryfall_uri": "https://scryfall.com/card/otc/186/ancient-greenwarden?utm_source=api",
+      "oracle_id": "3bcf090c-e890-4a9f-a8aa-6079e4ec9947"
     },
     {
-      "name": "Simic Growth Chamber",
-      "asked_as": "Simic Growth Chamber",
+      "name": "Kodama of the East Tree",
       "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Simic Growth Chamber",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {G}{U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 308,
-      "price_usd": "0.34",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/298/simic-growth-chamber?utm_source=api",
-      "oracle_id": "046f5783-cc7b-416a-8cf6-2bcef9c2cc1a"
-    },
-    {
-      "name": "Simic Signet",
-      "asked_as": "Simic Signet",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Simic Signet",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "{1}, {T}: Add {G}{U}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 609,
-      "price_usd": "0.35",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/252/simic-signet?utm_source=api",
-      "oracle_id": "44503105-3e13-408d-a44f-37d503c61d72"
-    },
-    {
-      "name": "Sol Ring",
-      "asked_as": "Sol Ring",
-      "qty": 1,
-      "mana_cost": "{1}",
-      "cmc": 1.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Sol Ring",
-          "mana_cost": "{1}",
-          "type_line": "Artifact",
-          "oracle_text": "{T}: Add {C}{C}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "frc",
-      "set_name": "Reality Fracture Commander",
-      "released_at": "2026-10-02",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1,
-      "price_usd": "0.99",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/frc/21/sol-ring?utm_source=api",
-      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
-    },
-    {
-      "name": "Springheart Nantuko",
-      "asked_as": "Springheart Nantuko",
-      "qty": 1,
-      "mana_cost": "{1}{G}",
-      "cmc": 2.0,
-      "type_line": "Enchantment Creature — Insect Monk",
+      "mana_cost": "{4}{G}{G}",
+      "cmc": 6.0,
+      "type_line": "Legendary Creature — Spirit",
       "layout": "normal",
       "colors": [
         "G"
@@ -3158,20 +2906,20 @@
       ],
       "produced_mana": [],
       "keywords": [
-        "Bestow",
-        "Landfall"
+        "Reach",
+        "Partner"
       ],
-      "power": "1",
-      "toughness": "1",
+      "power": "6",
+      "toughness": "6",
       "loyalty": null,
       "faces": [
         {
-          "name": "Springheart Nantuko",
-          "mana_cost": "{1}{G}",
-          "type_line": "Enchantment Creature — Insect Monk",
-          "oracle_text": "Bestow {1}{G}\nEnchanted creature gets +1/+1.\nLandfall — Whenever a land you control enters, you may pay {1}{G} if this permanent is attached to a creature you control. If you do, create a token that's a copy of that creature. If you didn't create a token this way, create a 1/1 green Insect creature token.",
-          "power": "1",
-          "toughness": "1",
+          "name": "Kodama of the East Tree",
+          "mana_cost": "{4}{G}{G}",
+          "type_line": "Legendary Creature — Spirit",
+          "oracle_text": "Reach\nWhenever another permanent you control enters, if it wasn't put onto the battlefield with this ability, you may put a permanent card with equal or lesser mana value from your hand onto the battlefield.\nPartner (You can have two commanders if both have partner.)",
+          "power": "6",
+          "toughness": "6",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -3180,79 +2928,24 @@
         }
       ],
       "rarity": "rare",
-      "set": "mh3",
-      "set_name": "Modern Horizons 3",
-      "released_at": "2024-06-14",
+      "set": "cmr",
+      "set_name": "Commander Legends",
+      "released_at": "2020-11-20",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 695,
-      "price_usd": "5.03",
-      "all_parts": [
-        {
-          "name": "Copy",
-          "component": "token",
-          "type_line": "Token"
-        },
-        {
-          "name": "Insect",
-          "component": "token",
-          "type_line": "Token Creature — Insect"
-        }
-      ],
-      "scryfall_uri": "https://scryfall.com/card/mh3/171/springheart-nantuko?utm_source=api",
-      "oracle_id": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644"
-    },
-    {
-      "name": "Swiftfoot Boots",
-      "asked_as": "Swiftfoot Boots",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact — Equipment",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [
-        "Equip"
-      ],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Swiftfoot Boots",
-          "mana_cost": "{2}",
-          "type_line": "Artifact — Equipment",
-          "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "mbc",
-      "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-10-19",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 12,
-      "price_usd": null,
+      "edhrec_rank": 974,
+      "price_usd": "3.85",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mbc/77/swiftfoot-boots?utm_source=api",
-      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391"
+      "scryfall_uri": "https://scryfall.com/card/cmr/239/kodama-of-the-east-tree?utm_source=api",
+      "oracle_id": "cb1afab6-b9c8-4b9c-840b-24106523a783"
     },
     {
-      "name": "Tatyova, Benthic Druid",
-      "asked_as": "Tatyova, Benthic Druid",
+      "name": "Koma, Cosmos Serpent",
       "qty": 1,
-      "mana_cost": "{3}{G}{U}",
-      "cmc": 5.0,
-      "type_line": "Legendary Creature — Merfolk Druid",
+      "mana_cost": "{3}{G}{G}{U}{U}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Serpent",
       "layout": "normal",
       "colors": [
         "G",
@@ -3263,20 +2956,18 @@
         "U"
       ],
       "produced_mana": [],
-      "keywords": [
-        "Landfall"
-      ],
-      "power": "3",
-      "toughness": "3",
+      "keywords": [],
+      "power": "6",
+      "toughness": "6",
       "loyalty": null,
       "faces": [
         {
-          "name": "Tatyova, Benthic Druid",
-          "mana_cost": "{3}{G}{U}",
-          "type_line": "Legendary Creature — Merfolk Druid",
-          "oracle_text": "Landfall — Whenever a land you control enters, you gain 1 life and draw a card.",
-          "power": "3",
-          "toughness": "3",
+          "name": "Koma, Cosmos Serpent",
+          "mana_cost": "{3}{G}{G}{U}{U}",
+          "type_line": "Legendary Creature — Serpent",
+          "oracle_text": "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma gains indestructible until end of turn.",
+          "power": "6",
+          "toughness": "6",
           "loyalty": null,
           "defense": null,
           "colors": [
@@ -3285,159 +2976,27 @@
           ]
         }
       ],
-      "rarity": "uncommon",
-      "set": "fdn",
-      "set_name": "Foundations",
-      "released_at": "2024-11-15",
+      "rarity": "mythic",
+      "set": "mkc",
+      "set_name": "Murders at Karlov Manor Commander",
+      "released_at": "2024-02-09",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 483,
-      "price_usd": "0.29",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/fdn/247/tatyova-benthic-druid?utm_source=api",
-      "oracle_id": "0715e860-3b3b-4331-9718-207973e94fee"
-    },
-    {
-      "name": "Terastodon",
-      "asked_as": "Terastodon",
-      "qty": 1,
-      "mana_cost": "{6}{G}{G}",
-      "cmc": 8.0,
-      "type_line": "Creature — Elephant",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ],
-      "produced_mana": [],
-      "keywords": [],
-      "power": "9",
-      "toughness": "9",
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Terastodon",
-          "mana_cost": "{6}{G}{G}",
-          "type_line": "Creature — Elephant",
-          "oracle_text": "When this creature enters, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.",
-          "power": "9",
-          "toughness": "9",
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        }
-      ],
-      "rarity": "rare",
-      "set": "c21",
-      "set_name": "Commander 2021",
-      "released_at": "2021-04-23",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1394,
-      "price_usd": "0.37",
+      "edhrec_rank": 1426,
+      "price_usd": "6.25",
       "all_parts": [
         {
-          "name": "Elephant",
+          "name": "Koma's Coil",
           "component": "token",
-          "type_line": "Token Creature — Elephant"
+          "type_line": "Token Creature — Serpent"
         }
       ],
-      "scryfall_uri": "https://scryfall.com/card/c21/207/terastodon?utm_source=api",
-      "oracle_id": "17975a20-2c13-4325-be1e-0bcda5063a2d"
-    },
-    {
-      "name": "Terramorphic Expanse",
-      "asked_as": "Terramorphic Expanse",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Terramorphic Expanse",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "common",
-      "set": "msc",
-      "set_name": "Marvel Super Heroes Commander",
-      "released_at": "2026-06-26",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 28,
-      "price_usd": "0.25",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/msc/273/terramorphic-expanse?utm_source=api",
-      "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a"
-    },
-    {
-      "name": "Thought Vessel",
-      "asked_as": "Thought Vessel",
-      "qty": 1,
-      "mana_cost": "{2}",
-      "cmc": 2.0,
-      "type_line": "Artifact",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [],
-      "produced_mana": [
-        "C"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Thought Vessel",
-          "mana_cost": "{2}",
-          "type_line": "Artifact",
-          "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "uncommon",
-      "set": "mbc",
-      "set_name": "Mystery Booster Commander Edition",
-      "released_at": "2026-11-09",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 21,
-      "price_usd": null,
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mbc/78/thought-vessel?utm_source=api",
-      "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be"
+      "scryfall_uri": "https://scryfall.com/card/mkc/213/koma-cosmos-serpent?utm_source=api",
+      "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23"
     },
     {
       "name": "Tireless Provisioner",
-      "asked_as": "Tireless Provisioner",
       "qty": 1,
       "mana_cost": "{2}{G}",
       "cmc": 3.0,
@@ -3504,19 +3063,20 @@
       "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741"
     },
     {
-      "name": "Turntimber Symbiosis // Turntimber, Serpentine Wood",
-      "asked_as": "Turntimber Symbiosis",
+      "name": "Dreamroot Cascade",
       "qty": 1,
       "mana_cost": "",
-      "cmc": 7.0,
-      "type_line": "Sorcery // Land",
-      "layout": "modal_dfc",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
       "colors": [],
       "color_identity": [
-        "G"
+        "G",
+        "U"
       ],
       "produced_mana": [
-        "G"
+        "G",
+        "U"
       ],
       "keywords": [],
       "power": null,
@@ -3524,23 +3084,10 @@
       "loyalty": null,
       "faces": [
         {
-          "name": "Turntimber Symbiosis",
-          "mana_cost": "{4}{G}{G}{G}",
-          "type_line": "Sorcery",
-          "oracle_text": "Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. If that card has mana value 3 or less, it enters with three additional +1/+1 counters on it. Put the rest on the bottom of your library in a random order.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": [
-            "G"
-          ]
-        },
-        {
-          "name": "Turntimber, Serpentine Wood",
+          "name": "Dreamroot Cascade",
           "mana_cost": "",
           "type_line": "Land",
-          "oracle_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {G}.",
+          "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {G} or {U}.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -3548,72 +3095,443 @@
           "colors": []
         }
       ],
-      "rarity": "mythic",
-      "set": "znr",
-      "set_name": "Zendikar Rising",
-      "released_at": "2020-09-25",
+      "rarity": "rare",
+      "set": "sos",
+      "set_name": "Secrets of Strixhaven",
+      "released_at": "2026-04-24",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2335,
-      "price_usd": "4.50",
+      "edhrec_rank": 174,
+      "price_usd": "1.13",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood?utm_source=api",
-      "oracle_id": "403b59f3-7ade-4bc2-a3e6-de0c3c700f18"
+      "scryfall_uri": "https://scryfall.com/card/sos/254/dreamroot-cascade?utm_source=api",
+      "oracle_id": "dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb"
     },
     {
-      "name": "Urban Evolution",
-      "asked_as": "Urban Evolution",
+      "name": "Cultivator Colossus",
       "qty": 1,
-      "mana_cost": "{3}{G}{U}",
-      "cmc": 5.0,
-      "type_line": "Sorcery",
+      "mana_cost": "{4}{G}{G}{G}",
+      "cmc": 7.0,
+      "type_line": "Creature — Plant Beast",
       "layout": "normal",
       "colors": [
-        "G",
-        "U"
+        "G"
       ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Trample"
+      ],
+      "power": "*",
+      "toughness": "*",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Cultivator Colossus",
+          "mana_cost": "{4}{G}{G}{G}",
+          "type_line": "Creature — Plant Beast",
+          "oracle_text": "Trample\nCultivator Colossus's power and toughness are each equal to the number of lands you control.\nWhen this creature enters, you may put a land card from your hand onto the battlefield tapped. If you do, draw a card and repeat this process.",
+          "power": "*",
+          "toughness": "*",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "inr",
+      "set_name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1592,
+      "price_usd": "5.98",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/inr/190/cultivator-colossus?utm_source=api",
+      "oracle_id": "4d8505d3-c8a1-4850-95d4-5ddb8ad49770"
+    },
+    {
+      "name": "Greensleeves, Maro-Sorcerer",
+      "qty": 1,
+      "mana_cost": "{3}{G}{G}",
+      "cmc": 5.0,
+      "type_line": "Legendary Creature — Elemental Sorcerer",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Protection",
+        "Landfall"
+      ],
+      "power": "*",
+      "toughness": "*",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Greensleeves, Maro-Sorcerer",
+          "mana_cost": "{3}{G}{G}",
+          "type_line": "Legendary Creature — Elemental Sorcerer",
+          "oracle_text": "Protection from planeswalkers and from Wizards\nGreensleeves's power and toughness are each equal to the number of lands you control.\nLandfall — Whenever a land you control enters, create a 3/3 green Badger creature token.",
+          "power": "*",
+          "toughness": "*",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "dmc",
+      "set_name": "Dominaria United Commander",
+      "released_at": "2022-09-09",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 2727,
+      "price_usd": "15.00",
+      "all_parts": [
+        {
+          "name": "Badger",
+          "component": "token",
+          "type_line": "Token Creature — Badger"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/dmc/27/greensleeves-maro-sorcerer?utm_source=api",
+      "oracle_id": "2ac2d483-2d2a-4912-8db4-04a5a2080831"
+    },
+    {
+      "name": "Goldvein Hydra",
+      "qty": 1,
+      "mana_cost": "{X}{G}",
+      "cmc": 1.0,
+      "type_line": "Creature — Hydra",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Vigilance",
+        "Treasure",
+        "Haste",
+        "Trample"
+      ],
+      "power": "0",
+      "toughness": "0",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Goldvein Hydra",
+          "mana_cost": "{X}{G}",
+          "type_line": "Creature — Hydra",
+          "oracle_text": "Vigilance, trample, haste\nThis creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a number of tapped Treasure tokens equal to its power.",
+          "power": "0",
+          "toughness": "0",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "mythic",
+      "set": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1429,
+      "price_usd": "3.46",
+      "all_parts": [
+        {
+          "name": "Treasure",
+          "component": "token",
+          "type_line": "Token Artifact — Treasure"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/soc/270/goldvein-hydra?utm_source=api",
+      "oracle_id": "2b62543f-a475-457a-a96b-b5d070383d3c"
+    },
+    {
+      "name": "Springheart Nantuko",
+      "qty": 1,
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "type_line": "Enchantment Creature — Insect Monk",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Bestow",
+        "Landfall"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Springheart Nantuko",
+          "mana_cost": "{1}{G}",
+          "type_line": "Enchantment Creature — Insect Monk",
+          "oracle_text": "Bestow {1}{G}\nEnchanted creature gets +1/+1.\nLandfall — Whenever a land you control enters, you may pay {1}{G} if this permanent is attached to a creature you control. If you do, create a token that's a copy of that creature. If you didn't create a token this way, create a 1/1 green Insect creature token.",
+          "power": "1",
+          "toughness": "1",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "mh3",
+      "set_name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 695,
+      "price_usd": "5.03",
+      "all_parts": [
+        {
+          "name": "Copy",
+          "component": "token",
+          "type_line": "Token"
+        },
+        {
+          "name": "Insect",
+          "component": "token",
+          "type_line": "Token Creature — Insect"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/mh3/171/springheart-nantuko?utm_source=api",
+      "oracle_id": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644"
+    },
+    {
+      "name": "Mossborn Hydra",
+      "qty": 1,
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "type_line": "Creature — Elemental Hydra",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Trample",
+        "Double",
+        "Landfall"
+      ],
+      "power": "0",
+      "toughness": "0",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Mossborn Hydra",
+          "mana_cost": "{2}{G}",
+          "type_line": "Creature — Elemental Hydra",
+          "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nThis creature enters with a +1/+1 counter on it.\nLandfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature.",
+          "power": "0",
+          "toughness": "0",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "fdn",
+      "set_name": "Foundations",
+      "released_at": "2024-11-15",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 780,
+      "price_usd": "12.53",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/fdn/107/mossborn-hydra?utm_source=api",
+      "oracle_id": "84122d81-9634-4d3f-85a5-f6cf4303691a"
+    },
+    {
+      "name": "Willowrush Verge",
+      "qty": 1,
+      "mana_cost": "",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "layout": "normal",
+      "colors": [],
       "color_identity": [
         "G",
         "U"
       ],
-      "produced_mana": [],
+      "produced_mana": [
+        "G",
+        "U"
+      ],
       "keywords": [],
       "power": null,
       "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Urban Evolution",
-          "mana_cost": "{3}{G}{U}",
-          "type_line": "Sorcery",
-          "oracle_text": "Draw three cards. You may play an additional land this turn.",
+          "name": "Willowrush Verge",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "{T}: Add {U}.\n{T}: Add {G}. Activate only if you control a Forest or an Island.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
+        }
+      ],
+      "rarity": "rare",
+      "set": "dft",
+      "set_name": "Aetherdrift",
+      "released_at": "2025-02-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1017,
+      "price_usd": "4.95",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/dft/270/willowrush-verge?utm_source=api",
+      "oracle_id": "c52eaa87-9251-4a47-83fd-04e582ade612"
+    },
+    {
+      "name": "Nissa, Worldsoul Speaker",
+      "qty": 1,
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "type_line": "Legendary Creature — Elf Druid",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [],
+      "keywords": [
+        "Landfall"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Nissa, Worldsoul Speaker",
+          "mana_cost": "{3}{G}",
+          "type_line": "Legendary Creature — Elf Druid",
+          "oracle_text": "Landfall — Whenever a land you control enters, you get {E}{E} (two energy counters).\nYou may pay eight {E} rather than pay the mana cost for permanent spells you cast.",
+          "power": "3",
+          "toughness": "3",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "drc",
+      "set_name": "Aetherdrift Commander",
+      "released_at": "2025-02-14",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 7497,
+      "price_usd": "0.20",
+      "all_parts": [
+        {
+          "name": "Energy Reserve",
+          "component": "combo_piece",
+          "type_line": "Card"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/drc/13/nissa-worldsoul-speaker?utm_source=api",
+      "oracle_id": "00037840-6089-42ec-8c5c-281f9f474504"
+    },
+    {
+      "name": "Herd Heirloom",
+      "qty": 1,
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Herd Heirloom",
+          "mana_cost": "{1}{G}",
+          "type_line": "Artifact",
+          "oracle_text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell.\n{T}: Until end of turn, target creature you control with power 4 or greater gains trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
           "power": null,
           "toughness": null,
           "loyalty": null,
           "defense": null,
           "colors": [
-            "G",
-            "U"
+            "G"
           ]
         }
       ],
-      "rarity": "uncommon",
-      "set": "ncc",
-      "set_name": "New Capenna Commander",
-      "released_at": "2022-04-29",
+      "rarity": "rare",
+      "set": "tdm",
+      "set_name": "Tarkir: Dragonstorm",
+      "released_at": "2025-04-11",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2338,
-      "price_usd": "0.37",
+      "edhrec_rank": 1150,
+      "price_usd": "4.39",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/ncc/355/urban-evolution?utm_source=api",
-      "oracle_id": "c715e525-fc3a-4cab-94a0-04e0a22a5013"
+      "scryfall_uri": "https://scryfall.com/card/tdm/144/herd-heirloom?utm_source=api",
+      "oracle_id": "78b6dd40-c182-4037-a4d3-9fd012b2c584"
     },
     {
       "name": "Verdant Kraken",
-      "asked_as": "Verdant Kraken",
       "qty": 1,
       "mana_cost": "{4}{G}{G}{G}",
       "cmc": 7.0,
@@ -3667,107 +3585,11 @@
       "oracle_id": "83c61083-b357-4775-a855-5a9013cc2bdf"
     },
     {
-      "name": "Waterlogged Grove",
-      "asked_as": "Waterlogged Grove",
+      "name": "Heroic Intervention",
       "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Waterlogged Grove",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice this land: Draw a card.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "mh1",
-      "set_name": "Modern Horizons",
-      "released_at": "2019-06-14",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 1134,
-      "price_usd": "1.48",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/mh1/249/waterlogged-grove?utm_source=api",
-      "oracle_id": "70fa2eba-565e-4fed-adc9-7f5d9fcbf1fa"
-    },
-    {
-      "name": "Yavimaya Coast",
-      "asked_as": "Yavimaya Coast",
-      "qty": 1,
-      "mana_cost": "",
-      "cmc": 0.0,
-      "type_line": "Land",
-      "layout": "normal",
-      "colors": [],
-      "color_identity": [
-        "G",
-        "U"
-      ],
-      "produced_mana": [
-        "C",
-        "G",
-        "U"
-      ],
-      "keywords": [],
-      "power": null,
-      "toughness": null,
-      "loyalty": null,
-      "faces": [
-        {
-          "name": "Yavimaya Coast",
-          "mana_cost": "",
-          "type_line": "Land",
-          "oracle_text": "{T}: Add {C}.\n{T}: Add {G} or {U}. This land deals 1 damage to you.",
-          "power": null,
-          "toughness": null,
-          "loyalty": null,
-          "defense": null,
-          "colors": []
-        }
-      ],
-      "rarity": "rare",
-      "set": "soc",
-      "set_name": "Secrets of Strixhaven Commander",
-      "released_at": "2026-04-24",
-      "reserved": false,
-      "game_changer": false,
-      "commander_legal": "legal",
-      "edhrec_rank": 136,
-      "price_usd": "0.32",
-      "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/soc/425/yavimaya-coast?utm_source=api",
-      "oracle_id": "40b36bc6-c185-4bda-99e7-0118953c2c97"
-    },
-    {
-      "name": "Yavimaya Elder",
-      "asked_as": "Yavimaya Elder",
-      "qty": 1,
-      "mana_cost": "{1}{G}{G}",
-      "cmc": 3.0,
-      "type_line": "Creature — Human Druid",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "type_line": "Instant",
       "layout": "normal",
       "colors": [
         "G"
@@ -3777,15 +3599,69 @@
       ],
       "produced_mana": [],
       "keywords": [],
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "faces": [
+        {
+          "name": "Heroic Intervention",
+          "mana_cost": "{1}{G}",
+          "type_line": "Instant",
+          "oracle_text": "Permanents you control gain hexproof and indestructible until end of turn.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "G"
+          ]
+        }
+      ],
+      "rarity": "rare",
+      "set": "cmm",
+      "set_name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 28,
+      "price_usd": "15.99",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/cmm/295/heroic-intervention?utm_source=api",
+      "oracle_id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27"
+    },
+    {
+      "name": "Lotus Cobra",
+      "qty": 1,
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "type_line": "Creature — Snake",
+      "layout": "normal",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "produced_mana": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [
+        "Landfall"
+      ],
       "power": "2",
       "toughness": "1",
       "loyalty": null,
       "faces": [
         {
-          "name": "Yavimaya Elder",
-          "mana_cost": "{1}{G}{G}",
-          "type_line": "Creature — Human Druid",
-          "oracle_text": "When this creature dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.\n{2}, Sacrifice this creature: Draw a card.",
+          "name": "Lotus Cobra",
+          "mana_cost": "{1}{G}",
+          "type_line": "Creature — Snake",
+          "oracle_text": "Landfall — Whenever a land you control enters, add one mana of any color.",
           "power": "2",
           "toughness": "1",
           "loyalty": null,
@@ -3795,46 +3671,43 @@
           ]
         }
       ],
-      "rarity": "common",
-      "set": "dsc",
-      "set_name": "Duskmourn: House of Horror Commander",
-      "released_at": "2024-09-27",
+      "rarity": "rare",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "released_at": "2020-09-25",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 3528,
-      "price_usd": "0.21",
+      "edhrec_rank": 329,
+      "price_usd": "5.89",
       "all_parts": [],
-      "scryfall_uri": "https://scryfall.com/card/dsc/208/yavimaya-elder?utm_source=api",
-      "oracle_id": "7fd4c452-07f2-492c-9c78-d1c6362d9eec"
+      "scryfall_uri": "https://scryfall.com/card/znr/193/lotus-cobra?utm_source=api",
+      "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614"
     },
     {
-      "name": "Zendikar's Roil",
-      "asked_as": "Zendikar's Roil",
+      "name": "Turntimber Symbiosis // Turntimber, Serpentine Wood",
       "qty": 1,
-      "mana_cost": "{3}{G}{G}",
-      "cmc": 5.0,
-      "type_line": "Enchantment",
-      "layout": "normal",
-      "colors": [
-        "G"
-      ],
+      "mana_cost": "",
+      "cmc": 7.0,
+      "type_line": "Sorcery // Land",
+      "layout": "modal_dfc",
+      "colors": [],
       "color_identity": [
         "G"
       ],
-      "produced_mana": [],
-      "keywords": [
-        "Landfall"
+      "produced_mana": [
+        "G"
       ],
+      "keywords": [],
       "power": null,
       "toughness": null,
       "loyalty": null,
       "faces": [
         {
-          "name": "Zendikar's Roil",
-          "mana_cost": "{3}{G}{G}",
-          "type_line": "Enchantment",
-          "oracle_text": "Landfall — Whenever a land you control enters, create a 2/2 green Elemental creature token.",
+          "name": "Turntimber Symbiosis",
+          "mana_cost": "{4}{G}{G}{G}",
+          "type_line": "Sorcery",
+          "oracle_text": "Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. If that card has mana value 3 or less, it enters with three additional +1/+1 counters on it. Put the rest on the bottom of your library in a random order.",
           "power": null,
           "toughness": null,
           "loyalty": null,
@@ -3842,26 +3715,83 @@
           "colors": [
             "G"
           ]
+        },
+        {
+          "name": "Turntimber, Serpentine Wood",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {G}.",
+          "power": null,
+          "toughness": null,
+          "loyalty": null,
+          "defense": null,
+          "colors": []
         }
       ],
-      "rarity": "uncommon",
-      "set": "znc",
-      "set_name": "Zendikar Rising Commander",
+      "rarity": "mythic",
+      "set": "znr",
+      "set_name": "Zendikar Rising",
       "released_at": "2020-09-25",
       "reserved": false,
       "game_changer": false,
       "commander_legal": "legal",
-      "edhrec_rank": 2098,
-      "price_usd": "1.23",
-      "all_parts": [
+      "edhrec_rank": 2337,
+      "price_usd": "4.51",
+      "all_parts": [],
+      "scryfall_uri": "https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood?utm_source=api",
+      "oracle_id": "403b59f3-7ade-4bc2-a3e6-de0c3c700f18"
+    },
+    {
+      "name": "Jin-Gitaxias, Progress Tyrant",
+      "qty": 1,
+      "mana_cost": "{5}{U}{U}",
+      "cmc": 7.0,
+      "type_line": "Legendary Creature — Phyrexian Praetor",
+      "layout": "normal",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "produced_mana": [],
+      "keywords": [],
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "faces": [
         {
-          "name": "Elemental",
-          "component": "token",
-          "type_line": "Token Creature — Elemental"
+          "name": "Jin-Gitaxias, Progress Tyrant",
+          "mana_cost": "{5}{U}{U}",
+          "type_line": "Legendary Creature — Phyrexian Praetor",
+          "oracle_text": "Whenever you cast an artifact, instant, or sorcery spell, copy that spell. You may choose new targets for the copy. This ability triggers only once each turn. (A copy of a permanent spell becomes a token.)\nWhenever an opponent casts an artifact, instant, or sorcery spell, counter that spell. This ability triggers only once each turn.",
+          "power": "5",
+          "toughness": "5",
+          "loyalty": null,
+          "defense": null,
+          "colors": [
+            "U"
+          ]
         }
       ],
-      "scryfall_uri": "https://scryfall.com/card/znc/88/zendikars-roil?utm_source=api",
-      "oracle_id": "a842cc2b-52eb-4dc5-86c6-6575c2ed913d"
+      "rarity": "mythic",
+      "set": "neo",
+      "set_name": "Kamigawa: Neon Dynasty",
+      "released_at": "2022-02-18",
+      "reserved": false,
+      "game_changer": false,
+      "commander_legal": "legal",
+      "edhrec_rank": 1734,
+      "price_usd": "10.58",
+      "all_parts": [
+        {
+          "name": "Copy",
+          "component": "token",
+          "type_line": "Token"
+        }
+      ],
+      "scryfall_uri": "https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant?utm_source=api",
+      "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e"
     }
   ]
 }

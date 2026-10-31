@@ -14,8 +14,9 @@ than buying stronger cards.
 
 This skill diagnoses a deck's shape and proposes a reshape. It works on the
 **whole list at once**. For a verdict on one specific card, hand off to the
-`mtg-deck-advisor` skill, whose rules (verify every card via Scryfall, default-NO,
-name the cut, never edit `base.txt`) apply here too.
+`mtg-deck-advisor` skill, whose rules (work on `main`, sync from Moxfield first,
+verify every card via Scryfall, default-NO, name the cut, never change the list)
+apply here too.
 
 > There are no hard rules in deck building. Everything below is a lens, not a law.
 > Odd commanders, blurry roles and multi-layered plans are normal. The final word
@@ -23,15 +24,18 @@ name the cut, never edit `base.txt`) apply here too.
 
 ## Ground rules
 
-- **Classify cards from verified text, not memory.** Read `decks/<deck>/cards.md`
-  (regenerate with `python scripts/build_card_details.py <deck>` if `base.txt` is
-  newer). For any card not in the deck, run `python scripts/card_facts.py lookup
-  "<name>" --deck <deck>` before citing it.
+- **Start from the current list.** Follow `mtg-deck-advisor` steps 0 and 1: get onto
+  `main`, then run `python scripts/build_card_details.py <deck>` to pull from Moxfield
+  and regenerate `decks/<deck>/cards.md`. Exit 3 means the list is stale; handle it
+  as that skill says.
+- **Classify cards from verified text, not memory.** Read `decks/<deck>/cards.md`.
+  For any card not in the deck, run `python scripts/card_facts.py lookup "<name>"
+  --deck <deck>` before citing it.
 - **Load the deck's context first:** `python scripts/deck_meta.py show <deck>`.
   Bracket, budget, constraints and the pod description all change the right shape.
 - **Every count gets card names behind it.** "14 generators" is worthless without
   the list; a reader must be able to dispute any single classification.
-- **Never modify `base.txt`.** Propose; the user decides.
+- **Never change the list.** Propose; the user decides and applies it on Moxfield.
 
 ## Procedure
 
@@ -137,7 +141,7 @@ Cut in this order:
 4. **Known trap cards** — effects that read powerfully but cost a whole turn of
    tempo and under-deliver in practice.
 5. Duplicates and illegal or accidental inclusions (check quantities in
-   `base.txt`).
+   `cards.md`).
 
 Note when a cut removes a card from an under-filled category; it must be
 replaced in kind.
@@ -253,6 +257,8 @@ Counts before → after, lands, curve, bracket check.
 
 ## Goldfish checklist
 ```
+
+Then commit and push to `main` as in `mtg-deck-advisor` step 8.
 
 Every proposed add is a candidate, not a verdict: if the user wants a card-level
 ruling on any of them, run it through `mtg-deck-advisor`.

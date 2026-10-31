@@ -1,19 +1,20 @@
-# deck_builder
+# mtg-deck-builder
 
-Turns a plain Commander deck list into a full card reference an agent can reason
-over — every card's mana cost, type line, oracle text, power/toughness, keywords,
-colour identity, EDHREC rank and price.
+Pulls a Commander deck's current list from Moxfield and turns it into a full card
+reference an agent can reason over — every card's mana cost, type line, oracle text,
+power/toughness, keywords, colour identity, EDHREC rank and price.
 
 ## Layout
 
 ```
-decks/<deck>/base.txt     the deck list you maintain  (`<qty> <name>` per line)
-decks/<deck>/meta.json    what the deck is FOR -- commander, bracket, budget, house rules
-decks/<deck>/cards.md     generated -- the reference sheet an agent reads
-decks/<deck>/cards.json   generated -- the same data, machine-readable
+decks/<deck>/meta.json    what the deck is FOR -- commander, bracket, budget, house
+                          rules -- and its Moxfield URL (`source`)
+decks/<deck>/cards.json   generated -- the last synced list with full card data
+decks/<deck>/cards.md     generated, gitignored -- the same data, for reading
 decks/<deck>/reviews/     saved card reviews, one per date
 data/cache/scryfall/      one raw Scryfall payload per card; a re-run is free
 scripts/build_card_details.py
+scripts/moxfield.py       the current list from Moxfield
 scripts/scryfall.py
 scripts/deck_meta.py      read/write meta.json
 scripts/card_facts.py     live Scryfall lookup and search
@@ -22,8 +23,8 @@ scripts/combos.py         combos the deck assembles, via Commander Spellbook
 .claude/skills/mtg-deck-advisor/
 ```
 
-`decks/<deck>.txt` (a loose file, no folder) also works — the generated files go
-into `decks/<deck>/`.
+The decklist lives on Moxfield and is edited there; nothing in this repo is a second
+copy to maintain.
 
 ## Building
 
@@ -33,12 +34,13 @@ python scripts/build_card_details.py markov_chains    # one deck
 python scripts/build_card_details.py --refresh        # ignore the cache, re-pull
 ```
 
-Stdlib only, no venv needed. The first run makes two requests to Scryfall's
-`/cards/collection` endpoint per 150 cards, plus one lookup per double-faced card
-the deck list spells with a single slash (`Front / Back`). Every card is cached
-under `data/cache/scryfall/`, so later runs hit the network only for cards you
-added. Exit code is `2` if any name failed to resolve; the unresolved names are
-listed at the top of `cards.md` as well.
+Stdlib only, no venv needed. Each run makes one request to Moxfield for the list.
+The first run also makes two requests to Scryfall's `/cards/collection` endpoint per
+150 cards. Every card is cached under `data/cache/scryfall/`, so later runs hit
+Scryfall only for cards you added. Exit code is `2` if any name failed to resolve;
+the unresolved names are listed at the top of `cards.md` as well. Exit code is `3`
+if Moxfield couldn't be reached, in which case `cards.md` is rendered from the last
+`cards.json` with a staleness warning at the top.
 
 ## Using the sheet
 
@@ -58,9 +60,10 @@ filter rather than read.
 you're considering and tells you whether they're actually worth a slot. It defaults
 to **no** and makes the card earn it: every fact is refetched from Scryfall rather
 than recalled, community numbers come from EDHREC, combo claims are checked against
-Commander Spellbook, and every price is fetched live in that session. It never
-edits `base.txt` — it writes a dated review to `decks/<deck>/reviews/` and leaves
-the decklist to you.
+Commander Spellbook, and every price is fetched live in that session. It works on
+`main`: it syncs the list from Moxfield first, writes a dated review to
+`decks/<deck>/reviews/`, and commits and pushes straight to `main` with no branch or
+pull request. It never changes the decklist; you apply swaps on Moxfield.
 
 It needs `decks/<deck>/meta.json`, because "is this card good" has no answer
 without a power target and a pod:
@@ -70,6 +73,7 @@ without a power target and a pod:
   "commander": ["Edgar Markov"],
   "format": "commander",
   "bracket": 3,
+  "source": "https://moxfield.com/decks/<id>",
   "budget": { "per_card_max_usd": 40 },
   "constraints": ["No early infinite combos."],
   "preferences": ["Prefer on-theme Vampire cards."]

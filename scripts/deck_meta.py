@@ -19,10 +19,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build_card_details import DECKS, resolve_decks
+from build_card_details import DECKS
 
 #: Everything a review needs before it can judge anything.
-REQUIRED = ("commander", "format", "bracket")
+REQUIRED = ("commander", "format", "bracket", "source")
 OPTIONAL = ("budget", "goals", "meta", "constraints", "preferences", "updated")
 
 BRACKETS = {
@@ -37,6 +37,7 @@ TEMPLATE = {
     "commander": [],
     "format": "commander",
     "bracket": None,
+    "source": "",
     "budget": {"per_card_max_usd": None},
     "goals": "",
     "meta": "",
@@ -51,11 +52,7 @@ class MetaMissing(Exception):
 
 
 def meta_path(deck: str) -> Path:
-    """Beside the decklist, whether the deck is a folder or a loose file."""
-    list_path = resolve_decks([deck])[0]
-    if list_path.parent == DECKS:  # decks/<deck>.txt
-        return DECKS / list_path.stem / "meta.json"
-    return list_path.parent / "meta.json"
+    return DECKS / deck / "meta.json"
 
 
 def load(deck: str, *, strict: bool = True) -> dict:
@@ -63,7 +60,7 @@ def load(deck: str, *, strict: bool = True) -> dict:
     path = meta_path(deck)
     if not path.exists():
         raise MetaMissing(
-            f"no {path} -- ask the user for commander, format and bracket, "
+            f"no {path} -- ask the user for commander, format, bracket and Moxfield URL, "
             f"then run: python scripts/deck_meta.py init {deck}"
         )
     try:
@@ -98,6 +95,7 @@ def render(deck: str, data: dict) -> str:
     lines.append(f"- Format: {data['format']}")
     bracket = data["bracket"]
     lines.append(f"- Bracket: {bracket} ({BRACKETS.get(bracket, 'unknown')})")
+    lines.append(f"- Source: {data['source']}")
 
     cap = per_card_cap(data)
     lines.append(f"- Budget: {'no cap' if cap is None else f'${cap:g} per card'}")
@@ -145,7 +143,7 @@ def main(argv: list[str] | None = None) -> int:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(TEMPLATE, indent=2) + "\n", encoding="utf-8")
         print(f"wrote {path}")
-        print("Fill in commander, format and bracket from the user -- do not guess them.")
+        print("Fill in commander, format, bracket and source from the user -- do not guess them.")
         print("Brackets: " + "; ".join(f"{k} {v}" for k, v in BRACKETS.items()))
         return 0
 
